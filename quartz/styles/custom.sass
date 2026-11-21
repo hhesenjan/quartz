@@ -2,6 +2,7 @@
 @use "./variables.scss" as *
 
 $landscape-phone: "(pointer: coarse) and (orientation: landscape) and (800px < width <= 1000px) and (height <= 500px)"
+$meta-gap: .375rem
 
 // Font URLs are relative to Quartz's emitted index stylesheet.
 @each $family in (Serif, Sans)
@@ -191,37 +192,54 @@ body
       margin-block: 0
 
     > .flex-component
+      display: grid
+      grid-template-columns: minmax(0, 1fr)
       align-items: baseline
+      column-gap: $meta-gap !important // Quartz sets the group's gap inline.
 
       > div
-        min-inline-size: 0
-
-        &:empty
-          display: none
+        display: contents
 
       &:not(:has(.content-meta, .tags))
         display: none
 
-      .tags
-        margin: 0
-        gap: .2rem .6rem
-        font: 450 var(--caption-size)/1.5 var(--bodyFont)
+      @container (min-width: 22rem)
+        &:has(> div > .content-meta > *):has(> div > .tags > li)
+          grid-template-columns: max-content minmax(0, 1fr)
 
-        li
+          > div > .content-meta > :last-child::after
+            display: inline
+
+      > div > .tags
+        margin: 0
+        gap: .25rem .75rem
+        font: 500 var(--caption-size)/1.5 var(--bodyFont)
+
+        > li
+          display: flex
           max-inline-size: 100%
           line-height: inherit
           white-space: normal
 
-        a.internal.tag-link
+        > li > a.internal.tag-link
+          display: inline-flex
+          align-items: center
+          box-sizing: border-box
+          min-block-size: 1.5rem
+          max-inline-size: 100%
           padding: 0
           margin: 0
-          color: var(--gray)
+          border-radius: 0
+          color: var(--secondary)
           background: transparent
-          font-weight: inherit
+          font: inherit
           overflow-wrap: anywhere
 
+          &::before
+            color: var(--gray)
+
           &:is(:hover, :focus-visible)
-            color: var(--dark)
+            color: var(--tertiary)
             text-decoration: underline
             text-underline-offset: .18em
 
@@ -308,11 +326,10 @@ body[data-slug="index"] .page-header
         padding-block: .6875rem
 
 .content-meta
-  --meta-gap: clamp(.625rem, 1.75cqi, .75rem)
   display: flex
   align-items: baseline
   flex-wrap: wrap
-  gap: .3rem var(--meta-gap)
+  gap: .3rem $meta-gap
   color: var(--gray)
   font-family: var(--bodyFont)
   font-size: var(--caption-size)
@@ -324,12 +341,20 @@ body[data-slug="index"] .page-header
   > *
     white-space: nowrap
 
-  &[show-comma="true"] > :not(:last-child)
+  > time
+    color: var(--secondary)
+    font-weight: 500
+
+  &[show-comma="true"] > *
     margin: 0
 
     &::after
-      content: "·"
-      margin-inline-start: var(--meta-gap)
+      content: "·" / ""
+      color: var(--gray)
+      margin-inline-start: $meta-gap
+
+    &:last-child::after
+      display: none
 
 @media all and ($tablet)
   .page[data-frame="default"] > #quartz-body
