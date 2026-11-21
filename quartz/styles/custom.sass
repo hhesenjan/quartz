@@ -65,6 +65,7 @@ $landscape-phone: "(pointer: coarse) and (orientation: landscape) and (800px < w
   --contour-ink: #d8d1c4
   --scroll-thumb: #87847a
   --reading-width: 43rem
+  --graph-preview-size: 240px
   --reading-size: 1rem
   --navigation-size: .9375rem
   --caption-size: .8125rem
@@ -349,7 +350,7 @@ body[data-slug="index"] .page-header
     // Quartz includes 1200px in both breakpoints. Use the complete desktop grid there.
     grid-template-areas: #{map.get($desktopGrid, templateAreas)}
     grid-template-rows: #{map.get($desktopGrid, templateRows)}
-    grid-template-columns: clamp(12rem, 35vw - 14.25rem, 17.5rem) minmax(0, var(--reading-width)) clamp(10.5rem, 30vw - 11.25rem, 16rem)
+    grid-template-columns: clamp(12rem, 35vw - 14.25rem, 17.5rem) minmax(0, var(--reading-width)) clamp(calc(var(--graph-preview-size) + .25rem + var(--rail-scrollbar-space, 0px)), 30vw - 11.25rem, 16rem)
     justify-content: center
     gap: .75rem clamp(1.25rem, 2.4%, 3rem)
     padding-inline: clamp(1rem, 1.5%, 2.25rem)
@@ -434,20 +435,15 @@ body[data-slug="index"] .page-header
     padding: min(var(--page-top), 7dvh) .25rem min(1rem, 3dvh) 0
     gap: clamp(.5rem, 2.7dvh, 1.5rem)
 
-    &:has(> .backlinks) .graph-outer
-      height: clamp(7rem, 18dvh, 10rem)
-
-    &:has(> .toc) .graph-outer
-      height: clamp(7rem, 21dvh, 11.5rem)
-
     > .backlinks:not(:first-child)
       border-block-start: 1px solid var(--lightgray)
       padding-block-start: clamp(.5rem, 1.5dvh, .875rem)
 
-    // Share the remaining height. A short list leaves its unused space to the other.
-    &:has(> .toc > .toc-header:not(.collapsed)):has(> .backlinks) > :is(.toc, .backlinks)
-      flex: 1 1 0
-      max-block-size: max-content
+    @media (height > 32rem)
+      // Share the remaining height. A short list leaves its unused space to the other.
+      &:has(> .toc > .toc-header:not(.collapsed)):has(> .backlinks) > :is(.toc, .backlinks)
+        flex: 1 1 0
+        max-block-size: max-content
 
     > .toc
       min-block-size: 0
@@ -469,6 +465,19 @@ body[data-slug="index"] .page-header
       > .toc-header.collapsed + .toc-content
         display: none
 
+  @media (max-height: 32rem)
+    .page[data-frame="default"] > #quartz-body
+      --rail-scrollbar-space: .75rem
+
+    // In a short desktop window scroll the whole rail so each list remains readable.
+    .page > #quartz-body .sidebar.right
+      overflow-y: auto
+      overscroll-behavior-y: contain
+      scrollbar-width: thin
+
+      > :is(.toc, .backlinks)
+        flex: none
+
 @media all and not ($desktop)
   .page > #quartz-body .sidebar.right
     &:not(:has(> :not(.graph, .toc)))
@@ -479,7 +488,7 @@ body[data-slug="index"] .page-header
       position: fixed
       inset: 0 auto auto 0
       visibility: hidden
-      inline-size: 16rem
+      inline-size: var(--graph-preview-size)
 
     > .backlinks
       margin-block-start: 1.125rem
@@ -875,6 +884,8 @@ body[data-slug="index"] .page-header
     outline-offset: -2px
 
 .graph
+  inline-size: min(100%, var(--graph-preview-size))
+  flex: none
   display: grid
   grid-template-areas: "preview"
 
@@ -882,7 +893,7 @@ body[data-slug="index"] .page-header
     grid-area: preview
     align-self: start
     z-index: 1
-    margin: .65rem 2.75rem 0 .75rem
+    margin: .8rem 3rem 0 .875rem
     pointer-events: none
 
   :is(.graph-outer, .global-graph-container)
@@ -891,22 +902,66 @@ body[data-slug="index"] .page-header
     outline-offset: -1px
     border-radius: 3px
 
-  // Quartz draws and hit-tests in canvas pixels. Keep that scale when the window resizes.
+  > .global-graph-outer
+    inset: 0
+    width: auto
+    height: auto
+    padding: 10dvh 10vw
+    grid: minmax(0, 1fr) / minmax(0, 1fr)
+    background: rgb(0 0 0 / 25%)
+
+    &.active
+      display: grid
+
+    @media screen and ($mobile), screen and #{$landscape-phone}
+      padding: max(.75rem, env(safe-area-inset-top)) max(.75rem, env(safe-area-inset-right)) max(.75rem, env(safe-area-inset-bottom)) max(.75rem, env(safe-area-inset-left))
+
+  // Quartz draws and hit-tests in canvas pixels. Center that surface inside the resized dialog.
   .global-graph-container
+    position: relative
+    inset: auto
+    transform: none
+    width: auto
+    height: auto
+    min-width: 0
+    min-height: 0
+    grid-area: 1 / 1
     display: grid
     grid: minmax(0, 1fr) / minmax(0, 1fr)
     place-items: center
     overflow: hidden
 
+  .graph-dialog-close
+    grid-area: 1 / 1
+    z-index: 1
+    place-self: start end
+    min-height: 2.75rem
+    margin: .5rem
+    padding: .375rem .875rem
+    border: 1px solid var(--lightgray)
+    border-radius: 4px
+    background: var(--light)
+    color: var(--dark)
+    font: 500 .875rem/1.4 var(--bodyFont)
+    cursor: pointer
+
+    &:is(:hover, :focus-visible)
+      background: var(--highlight)
+
   .graph-outer
     grid-area: preview
-    height: clamp(8.5rem, 14vw, 11rem)
+    box-sizing: border-box
+    inline-size: 100%
+    height: auto
+    aspect-ratio: 1
+    display: grid
+    grid: minmax(0, 1fr) / minmax(0, 1fr)
+    place-items: center
     background: var(--panel)
     margin: 0
-    padding-block-start: 2rem
+    padding-block: 2.75rem .75rem
 
-    // The renderer uses a 250px drawing height even in a compact rail.
-    // Crop outer whitespace while preserving node proportions and the full-size graph control.
+    // Keep local node hit targets in the renderer's own coordinate system.
     > .graph-container
       display: flex
       justify-content: center
@@ -914,59 +969,87 @@ body[data-slug="index"] .page-header
       overflow: hidden
 
       > canvas
-        width: auto !important
-        height: auto !important
-        max-width: 100%
-        max-height: min(12rem, 170%)
+        flex: none
 
   > .graph-outer > .global-graph-icon
-    width: 2rem
-    height: 2rem
-    margin: .125rem .25rem
-    padding: .5rem
+    z-index: 1
+    display: grid
+    place-items: center
+    width: 2.75rem
+    height: 2.75rem
+    margin: 0
+    padding: 0
     color: var(--gray)
     opacity: 1
+
+    > svg
+      width: 1rem
+      height: 1rem
 
     &:is(:hover, :focus-visible)
       background: var(--highlight)
       color: var(--dark)
 
-// Home has no connected notes. Give the global graph its own control in the rail.
-@media screen and ($desktop)
-  body[data-slug="index"] .sidebar.right > .graph
-    > h3, > .graph-outer > .graph-container
-      display: none
+    &:focus-visible
+      outline-offset: -3px
 
-    > .graph-outer
-      height: auto
-      padding: 0
-      background: transparent
+html:has(.global-graph-outer.active[aria-modal="true"])
+  overflow: hidden
 
-      > .global-graph-icon
-        position: static
-        display: flex
-        align-items: center
-        justify-content: space-between
-        gap: .75rem
-        width: 100%
-        height: auto
-        min-height: 2.75rem
-        margin: 0
-        padding: .625rem .75rem
-        font: 500 var(--navigation-size)/1.4 var(--bodyFont)
-        color: var(--darkgray)
+@media (forced-colors: none)
+  :root[saved-theme="dark"] .graph
+    --panel: #000
+    --lightgray: #343434
+    --gray: #aaa
+    --dark: #ececec
+    --highlight: #1c1c1c
 
-        &::before
-          content: attr(aria-label)
+    // The renderer paints the root theme colors into a transparent canvas.
+    :is(.graph-container, .global-graph-container) > canvas
+      filter: grayscale(1) contrast(.75) brightness(1.25)
 
-        > svg
-          flex: none
-          width: 1rem
-          height: 1rem
-          color: var(--gray)
+    > .global-graph-outer
+      background: rgb(0 0 0 / 65%)
 
-        &:focus-visible
-          outline-offset: -3px
+body[data-slug="index"] .graph > .graph-outer
+  // The overview always draws a 250px square and scales to fit the card.
+  > .graph-container
+    width: 250px
+    max-height: 250px
+
+    > canvas
+      width: auto !important
+      height: auto !important
+      max-width: 100%
+      max-height: 100%
+      touch-action: pan-y pinch-zoom !important // Pixi sets touch-action inline.
+
+  // On touch screens the overview is one target. Swiping it still scrolls Home.
+  @media (pointer: coarse)
+    > .global-graph-icon
+      inset: 0
+      width: 100%
+      height: 100%
+      place-items: start end
+      padding: .875rem
+      touch-action: pan-y pinch-zoom
+
+      &:is(:hover, :focus-visible)
+        background: transparent
+
+@media screen and not ($desktop)
+  :root:not([reader-mode="on"]) body[data-slug="index"] .page > #quartz-body > .sidebar.right
+    display: flex
+    flex-direction: column
+    position: static
+    margin-block-start: 1rem
+
+    > .graph
+      position: static
+      visibility: visible
+      align-self: center
+      inline-size: min(100%, var(--graph-preview-size))
+      max-height: none
 
 .center > .page-header + :is(article, .popover-hint)
   margin-block-start: clamp(1.25rem, 2vw, 1.75rem)

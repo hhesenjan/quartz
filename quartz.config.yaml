@@ -139,6 +139,8 @@ plugins:
         scale: 1
         fontSize: 1.1
         linkDistance: 40
+      globalGraph:
+        repelForce: 0.08
     layout:
       position: right
       priority: 20

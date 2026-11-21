@@ -1,9 +1,11 @@
 import fs from "node:fs/promises"
 import path from "node:path"
+import type { GraphOptions } from "@quartz-community/graph/components"
 import type { QuartzEmitterPluginInstance } from "./quartz/plugins/types"
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import type { ExplorerOptions } from "./.quartz/plugins"
 import { componentRegistry } from "./quartz/components/registry"
+import type { QuartzComponent, QuartzComponentConstructor } from "./quartz/components/types"
 
 componentRegistry.setOptionOverrides("explorer", {
   sortFn: (a, b) => {
@@ -30,6 +32,34 @@ componentRegistry.setOptionOverrides("explorer", {
     return alphabetical
   },
 } satisfies Partial<ExplorerOptions>)
+
+// The layout uses the package name; the enabled plugin supplies the "Graph" constructor.
+componentRegistry.register(
+  "@quartz-community/graph",
+  (options: GraphOptions = {}) => {
+    const plugin = componentRegistry.get("Graph")
+    if (!plugin) return () => null
+
+    const Graph = plugin.component as QuartzComponentConstructor<GraphOptions>
+    const article = Graph(options)
+    const home = Graph({
+      ...options,
+      localGraph: {
+        ...options.localGraph,
+        depth: -1,
+        drag: false,
+        zoom: false,
+        enableRadial: true,
+        repelForce: 0.025,
+        linkDistance: 14,
+      },
+    })
+    const render: QuartzComponent = (props) =>
+      props.fileData.slug === "index" ? home(props) : article(props)
+    return Object.assign(render, article)
+  },
+  "site",
+)
 
 const config = await loadQuartzConfig()
 // Keep the standard content index, RSS, and sitemap, and expose creation dates

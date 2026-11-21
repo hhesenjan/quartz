@@ -7,6 +7,8 @@ import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
 import navigationHighlightsScript from "../../components/scripts/navigationHighlights.inline"
 // @ts-ignore
+import graphDialogScript from "../../components/scripts/graphDialog.inline"
+// @ts-ignore
 import scrollableTablesScript from "../../components/scripts/scrollableTables.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
@@ -263,6 +265,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
   }
 
   componentResources.afterDOMLoaded.push(navigationHighlightsScript)
+  componentResources.afterDOMLoaded.push(graphDialogScript)
   componentResources.afterDOMLoaded.push(scrollableTablesScript)
   if (cfg.enableSPA) {
     componentResources.afterDOMLoaded.push(spaRouterScript)
