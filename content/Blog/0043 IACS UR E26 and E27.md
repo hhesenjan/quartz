@@ -50,22 +50,22 @@ Following these five pillars can contribute to increase the cyber resilience and
 Implementing strict network segmentation is incredibly important since OT systems should have minimal connection to IT systems and external environment. If an system or an endpoint is compromised that could allow the threat actor to compromise a OT system which could lead to fatal concequences. Therefore to be compliant with IACS E26 a strict network segmentation is a requirement.
 
 <image style="display:flex; width: 60%; margin: auto;" src="0043 IACS UR E26 and E27 (Part 1) 02.png"/>
-<p style="text-align:center; margin-top:0px; opacity: 0.5;font-size:14px;">Network Segmentation 1</p>
+<p class="image-caption">Network Segmentation 1</p>
 
 **Network Segmentation 1** - Implementing a network segmentation where there are no connection between the IT systems and OT systems. This option reduces the risk significantly as there are no connection with OT systems and IT systems.
 
 <image style="display:flex; width: 60%; margin: auto;" src="0043 IACS UR E26 and E27 (Part 1) 03.png"/>
-<p style="text-align:center; margin-top:0px; opacity: 0.5;font-size:14px;">Network Segmentation 2</p>
+<p class="image-caption">Network Segmentation 2</p>
 
 **Network Segmentation 2** - Implementing different LANs for OT Systems, Business, and Crews with two firewalls. The purpose of the following configurations is to ensure that the critical systems such as alarm and monitoring system, engine machinery control, and generator engine control are secure.
 
 <image style="display:flex; width: 60%; margin: auto;" src="0043 IACS UR E26 and E27 (Part 1) 04.png"/>
-<p style="text-align:center; margin-top:0px; opacity: 0.5;font-size:14px;">Network Segmentation 3</p>
+<p class="image-caption">Network Segmentation 3</p>
 
 **Network Segmentation 3** -  Implementing different LANs for OT Systems, Business, and Crews with two firewalls. Additionally, implementing DMZ (Demilitarized Zone) for data servers which belongs to ECDIS and VDR where the DMZ is threated as a untrusted network.
 
 <image style="display:flex; width: 60%; margin: auto;" src="0043 IACS UR E26 and E27 (Part 1) 05.png"/>
-<p style="text-align:center; margin-top:0px; opacity: 0.5;font-size:14px;">Network Segmentation 4</p>
+<p class="image-caption">Network Segmentation 4</p>
 
 **Network Segmentation 4** -  Implementing different LANs for OT Systems, Business, and Crews with two firewalls. Additionally, implementing DMZ (Demilitarized Zone) for data servers which belongs to ECDIS and VDR. The DMZ is threated as a trusted network. 
 

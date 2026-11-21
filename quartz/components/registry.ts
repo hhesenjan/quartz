@@ -21,7 +21,7 @@ export interface RegisteredComponent {
 /** @internal Exported for testing only. */
 export class ComponentRegistry {
   private components = new Map<string, RegisteredComponent>()
-  private instanceCache = new Map<string, QuartzComponent>()
+  private instanceCache = new Map<QuartzComponentConstructor<any>, Map<string, QuartzComponent>>()
   private optionOverrides = new Map<string, Record<string, unknown>>()
 
   register(
@@ -67,19 +67,16 @@ export class ComponentRegistry {
     options?: Record<string, unknown>,
   ): QuartzComponent {
     const optsKey = options !== undefined ? JSON.stringify(options) : ""
-    // Use constructor identity + serialized options as cache key
-    // We store constructor name as a hint but rely on a unique id for identity
-    const ctorId =
-      (constructor as unknown as { __cacheId?: string }).__cacheId ??
-      ((constructor as unknown as { __cacheId: string }).__cacheId =
-        `ctor_${this.instanceCache.size}`)
-    const cacheKey = `${ctorId}:${optsKey}`
-
-    const cached = this.instanceCache.get(cacheKey)
+    let instances = this.instanceCache.get(constructor)
+    if (!instances) {
+      instances = new Map()
+      this.instanceCache.set(constructor, instances)
+    }
+    const cached = instances.get(optsKey)
     if (cached) return cached
 
     const instance = constructor(options)
-    this.instanceCache.set(cacheKey, instance)
+    instances.set(optsKey, instance)
     return instance
   }
 
@@ -96,7 +93,8 @@ export class ComponentRegistry {
           // Check if this constructor was already instantiated (with any options).
           // Re-instantiating with `undefined` when options were provided would create
           // a duplicate instance with separate afterDOMLoaded scripts.
-          const existing = this.findCachedInstance(r.component as QuartzComponentConstructor)
+          const instances = this.instanceCache.get(r.component as QuartzComponentConstructor)
+          const existing = instances?.values().next().value
           instance =
             existing ?? this.instantiate(r.component as QuartzComponentConstructor, undefined)
         } else {
@@ -117,17 +115,6 @@ export class ComponentRegistry {
     this.components.clear()
     this.instanceCache.clear()
     this.optionOverrides.clear()
-  }
-
-  private findCachedInstance(
-    constructor: QuartzComponentConstructor<any>,
-  ): QuartzComponent | undefined {
-    const ctorId = (constructor as unknown as { __cacheId?: string }).__cacheId
-    if (!ctorId) return undefined
-    for (const [key, instance] of this.instanceCache) {
-      if (key.startsWith(`${ctorId}:`)) return instance
-    }
-    return undefined
   }
 }
 

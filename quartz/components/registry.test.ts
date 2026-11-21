@@ -130,6 +130,16 @@ describe("setOptionOverrides and cache invalidation", () => {
     assert.notStrictEqual(first, second)
   })
 
+  test("preserves component identity when layout order changes after invalidation", () => {
+    registry = new ComponentRegistry()
+    const pageTitle = () => StubA
+    const tagList = () => StubB
+    registry.instantiate(pageTitle)
+    registry.setOptionOverrides("explorer", { order: "created" })
+    assert.strictEqual(registry.instantiate(tagList), StubB)
+    assert.strictEqual(registry.instantiate(pageTitle), StubA)
+  })
+
   test("ignores empty or undefined overrides", () => {
     registry = new ComponentRegistry()
     registry.setOptionOverrides("plugin", {})

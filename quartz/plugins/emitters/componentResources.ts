@@ -5,6 +5,10 @@ import { QuartzEmitterPlugin } from "../types"
 // @ts-ignore
 import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
+import navigationHighlightsScript from "../../components/scripts/navigationHighlights.inline"
+// @ts-ignore
+import scrollableTablesScript from "../../components/scripts/scrollableTables.inline"
+// @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
 import baseStyles from "../../styles/base.scss"
 import customStyles from "../../styles/custom.scss"
@@ -258,6 +262,28 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     `)
   }
 
+  componentResources.afterDOMLoaded.push(navigationHighlightsScript)
+  componentResources.afterDOMLoaded.push(scrollableTablesScript)
+  // Archive plugins print dates in the build's time zone. Keep that calendar day on phones.
+  const archiveDateOptions: Intl.DateTimeFormatOptions = {
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+    year: "2-digit",
+    month: "numeric",
+    day: "numeric",
+  }
+  componentResources.afterDOMLoaded.push(`
+    {
+      const formatter = new Intl.DateTimeFormat(${JSON.stringify(cfg.locale)}, ${JSON.stringify(archiveDateOptions)})
+      function prepareArchiveDates() {
+        for (const time of document.querySelectorAll(".page-listing .meta time[datetime]:not([data-short-date])")) {
+          const date = new Date(time.dateTime)
+          if (Number.isFinite(date.getTime())) time.dataset.shortDate = formatter.format(date)
+        }
+      }
+      document.addEventListener("nav", prepareArchiveDates)
+      document.addEventListener("render", prepareArchiveDates)
+    }
+  `)
   if (cfg.enableSPA) {
     componentResources.afterDOMLoaded.push(spaRouterScript)
   } else {

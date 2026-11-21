@@ -1,5 +1,6 @@
 import { PageFrame, PageFrameProps } from "./types"
 import HeaderConstructor from "../Header"
+import { ArticleContents } from "../ArticleContents"
 
 const Header = HeaderConstructor()
 
@@ -40,6 +41,7 @@ export const DefaultFrame: PageFrame = {
                 <BodyComponent {...componentData} />
               ))}
             </div>
+            <ArticleContents {...componentData} />
           </div>
           <Content {...componentData} />
           <hr />

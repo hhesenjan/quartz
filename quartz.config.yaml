@@ -13,7 +13,7 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
+    fontOrigin: local
     cdnCaching: true
     typography:
       header: SN Pro
@@ -98,7 +98,7 @@ plugins:
     enabled: false
     order: 92
   - source: "@quartz-community/quartz-fonts"
-    enabled: true
+    enabled: false
   - source: "@quartz-themes/core"
     enabled: false
     options:
@@ -134,9 +134,14 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      localGraph:
+        scale: 1
+        fontSize: 1.1
+        linkDistance: 40
     layout:
       position: right
-      priority: 10
+      priority: 20
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -160,11 +165,13 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
+      group: article-meta
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
+      group: article-meta
   - source: "@quartz-community/page-title"
     enabled: true
     layout:
@@ -184,6 +191,9 @@ plugins:
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
     enabled: true
+    options:
+      showCurrentPage: false
+      spacerSymbol: "›"
     layout:
       position: beforeBody
       priority: 5
@@ -224,7 +234,6 @@ plugins:
       includeAll: false
       includedProperties:
         - description
-        - tags
         - aliases
       excludedProperties: []
       hidePropertiesView: false
@@ -233,7 +242,7 @@ plugins:
     order: 5
     layout:
       position: beforeBody
-      priority: 15
+      priority: 35
       display: all
   - source: "@quartz-community/unlisted-pages"
     enabled: true
@@ -273,6 +282,11 @@ plugins:
       priority: 50
 layout:
   groups:
+    article-meta:
+      priority: 20
+      direction: row
+      wrap: wrap
+      gap: .3rem .9rem
     toolbar:
       priority: 35
       direction: row
