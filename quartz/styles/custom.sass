@@ -399,6 +399,13 @@ body[data-slug="index"] .page-header
       &:is(:hover, :focus-visible)
         background-color: var(--panel)
 
+  // Keep the full toggle visible when the desktop file tree is collapsed.
+  .explorer.collapsed
+    flex: none
+
+    > .explorer-content
+      display: none
+
   .explorer .desktop-explorer
     width: 100%
     padding-block: .75rem .125rem
@@ -884,6 +891,13 @@ body[data-slug="index"] .page-header
     outline-offset: -1px
     border-radius: 3px
 
+  // Quartz draws and hit-tests in canvas pixels. Keep that scale when the window resizes.
+  .global-graph-container
+    display: grid
+    grid: minmax(0, 1fr) / minmax(0, 1fr)
+    place-items: center
+    overflow: hidden
+
   .graph-outer
     grid-area: preview
     height: clamp(8.5rem, 14vw, 11rem)
@@ -917,6 +931,43 @@ body[data-slug="index"] .page-header
       background: var(--highlight)
       color: var(--dark)
 
+// Home has no connected notes. Give the global graph its own control in the rail.
+@media screen and ($desktop)
+  body[data-slug="index"] .sidebar.right > .graph
+    > h3, > .graph-outer > .graph-container
+      display: none
+
+    > .graph-outer
+      height: auto
+      padding: 0
+      background: transparent
+
+      > .global-graph-icon
+        position: static
+        display: flex
+        align-items: center
+        justify-content: space-between
+        gap: .75rem
+        width: 100%
+        height: auto
+        min-height: 2.75rem
+        margin: 0
+        padding: .625rem .75rem
+        font: 500 var(--navigation-size)/1.4 var(--bodyFont)
+        color: var(--darkgray)
+
+        &::before
+          content: attr(aria-label)
+
+        > svg
+          flex: none
+          width: 1rem
+          height: 1rem
+          color: var(--gray)
+
+        &:focus-visible
+          outline-offset: -3px
+
 .center > .page-header + :is(article, .popover-hint)
   margin-block-start: clamp(1.25rem, 2vw, 1.75rem)
 
@@ -939,7 +990,8 @@ body[data-slug="index"] .page-header
 
 .markdown-rendered :is(p, li):not(:where(#signature, nav *, table *, .callout-title *))
   hyphens: auto
-  hyphenate-limit-chars: 7 3 3
+  // Keep everyday words intact while allowing long terms to fit a narrow column.
+  hyphenate-limit-chars: 10 4 4
 
 .markdown-rendered :is(a, code, kbd, samp, pre, table, nav, .callout-title, h1, h2, h3, h4, h5, h6)
   hyphens: manual
@@ -1422,46 +1474,57 @@ pre code[data-theme] span[data-token-type="comment"]
 
 @media screen and ($mobile)
   @container page-list (13rem <= width <= 28rem)
-    .page-listing .section-ul:has(.meta time[data-short-date])
-      --archive-date-width: 4rem
-
     .page-listing .desc h3
       font-size: 1rem
       line-height: 1.35
 
     .page-listing .section > .tags .tag-link
       padding-block: .17rem
+      min-inline-size: 1.5rem
 
-    .page-listing .meta
-      padding-inline-start: .125rem
+    // Keep a common title edge and group the date with its tags in each row.
+    .page-listing:not(.popover *) .section
+      grid-template-columns: minmax(0, 1fr) clamp(5.5rem, 27cqi, 7.25rem)
+      grid-template-rows: auto 1fr
+      align-items: start
+      column-gap: .625rem
+      padding-block: .65rem
 
-    @supports (content: "date" / "")
-      .page-listing time[data-short-date]
-        font-size: 0
-        white-space: nowrap
+      > .desc
+        grid-row: 1 / 3
 
-        &::after
-          // The time element keeps the full date for assistive technology and copying.
-          content: attr(data-short-date) / ""
-          font-size: var(--caption-size)
+      > .meta, > .tags
+        grid-column: 2
+        padding-inline-start: 0
 
-// When text is enlarged, let each title use a whole line above the tags and date.
+      > .tags
+        grid-row: 2
+        justify-content: flex-end
+        row-gap: 0
+        text-align: end
+
+      > .meta:empty ~ .tags
+        grid-row: 1 / 3
+
+      &:not(:has(time, .tags > li)) > .desc
+        grid-column: 1 / -1
+
+// At enlarged text sizes, give the full width to the title, date and tag links in turn.
 @container page-list (width < 13rem)
-  .page-listing .section
-    grid-template-columns: minmax(0, 1fr) auto
-    row-gap: .25rem
+  .page-listing:not(.popover *) .section
+    grid-template-columns: minmax(0, 1fr)
+    row-gap: .125rem
 
     > .desc
-      grid-column: 1 / -1
+      order: -1
 
-    > .tags
+    > .desc, > .meta, > .tags
       grid-column: 1
-      grid-row: 2
+      grid-row: auto
       padding-inline-start: 0
 
     > .meta
-      grid-column: 2
-      grid-row: 2
+      text-align: start
 
 @media (prefers-reduced-motion: no-preference)
   .explorer :is(.nav-file-title, .folder-container), .toc .toc-content a, .page-listing .section
