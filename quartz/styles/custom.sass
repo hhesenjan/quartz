@@ -139,6 +139,9 @@ body
   .page > #quartz-body
     position: relative
 
+  .page[data-frame="default"] > #quartz-body
+    padding-inline: max(.625rem, env(safe-area-inset-left)) max(.625rem, env(safe-area-inset-right))
+
 @media screen and (width > 800px) and (forced-colors: none)
   $outer: "M-16 20 C35 42 52 9 98 27 S136 81 190 96 S274 120 258 147 S181 172 148 212 S63 247 29 280 Q1 305 -16 300"
   $middle: "M-16 37 C32 55 52 26 92 42 S132 93 181 108 S252 129 236 147 S170 170 135 202 S54 239 20 265 Q0 284 -16 282"
@@ -353,7 +356,6 @@ body[data-slug="index"] .page-header
     grid-template-columns: clamp(12rem, 35vw - 14.25rem, 17.5rem) minmax(0, var(--reading-width)) clamp(calc(var(--graph-preview-size) + .25rem + var(--rail-scrollbar-space, 0px)), 30vw - 11.25rem, 16rem)
     justify-content: center
     gap: .75rem clamp(1.25rem, 2.4%, 3rem)
-    padding-inline: clamp(1rem, 1.5%, 2.25rem)
 
     > .sidebar.right:empty
       display: none
@@ -542,11 +544,18 @@ body[data-slug="index"] .page-header
   font-family: var(--bodyFont)
   font-size: .875rem
   line-height: 1.4
-  gap: .25rem .45rem
+  gap: .25rem .4rem
 
   .breadcrumb-element
     max-inline-size: 100%
     min-inline-size: 0
+    column-gap: .4rem
+
+    > p
+      flex: none
+      margin: 0
+      color: var(--gray)
+      font: .875rem/1 var(--bodyFont)
 
   a
     color: var(--gray)
@@ -560,11 +569,6 @@ body[data-slug="index"] .page-header
 
   .breadcrumb-element:last-child a
     color: var(--darkgray)
-
-  .breadcrumb-element p
-    color: var(--gray)
-    font: inherit
-    margin-inline-start: .45rem
 
 .page-title
   font-family: var(--headerFont)
@@ -1072,9 +1076,14 @@ body[data-slug="index"] .graph > .graph-outer
   line-height: round(1.6em, .0625rem)
 
 .markdown-rendered :is(p, li):not(:where(#signature, nav *, table *, .callout-title *))
+  text-wrap: wrap
   hyphens: auto
   // Keep everyday words intact while allowing long terms to fit a narrow column.
   hyphenate-limit-chars: 10 4 4
+
+  // Paths and identifiers can use the rest of the line without inserting hyphens.
+  code:not(:where(pre *, table *, nav *))
+    word-break: break-all
 
 .markdown-rendered :is(a, code, kbd, samp, pre, table, nav, .callout-title, h1, h2, h3, h4, h5, h6)
   hyphens: manual
@@ -1938,7 +1947,7 @@ pre code[data-theme] span[data-token-type="comment"]
     grid-template-rows: auto 1fr
 
   :root
-    --reading-size: .96875rem
+    --reading-size: clamp(.9375rem, .875rem + .3125vw, .96875rem)
     --toolbar-control-size: clamp(44px, 2.75rem, 48px)
     scroll-padding-block-start: calc(var(--mobile-toolbar-height, 4rem) + .5rem)
 

@@ -195,7 +195,7 @@ plugins:
     enabled: true
     options:
       showCurrentPage: false
-      spacerSymbol: "›"
+      spacerSymbol: "→"
     layout:
       position: beforeBody
       priority: 5
