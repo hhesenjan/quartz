@@ -16,7 +16,7 @@ The constrained article measure and underlined prose links draw on [Anthropic’
 | Navigation, TOC and backlinks | SN Pro, 450–600 | 15px navigation text. Use weight, a background and a visible focus outline to distinguish the current item. |
 | Metadata, captions and tables | SN Pro for UI and tables | 14px dates, tags, table text and captions. Article image captions inherit the article family. |
 | Search | SN Pro | 16px input and result heading. Preview typography follows the type of content being previewed. |
-| Inline code, commands, terminal output and code blocks | TX-02 (Berkeley Mono) | Inline 0.91em. Blocks 14px with 22px line height. Use the actual regular, medium, bold and oblique faces for their corresponding styles. |
+| Inline code, commands, terminal output and code blocks | TX-02 (Berkeley Mono) | Inline and fenced code share the 0.90625rem size token (14.5px with a 16px browser default). Sticky line numbers inherit that size. Inline code uses regular weight. A direct `strong` or `b` parent selects the bold face. Italic style is inherited. Blocks use a 1.375rem line height (22px at the default setting). |
 | Signature | Mr De Haviland | Reserved for the author’s signature on Home. |
 
 The sizing study used the same Azure article, archive and search query at 390, 900 and 1440 CSS pixels in both themes. Source Serif 4 produced median full lines of **42, 75 and 75 characters** at those widths. The former family produced 41, 73 and 75. The browser’s system serif fallback reached 90 on desktop. Increasing archive titles to 20px wrapped four of the first five phone titles and showed fewer whole entries. The chosen scale preserves the distinction between browsing and reading. Featured cards, excerpts and subtitles have no dedicated slot in this site’s current templates.
@@ -26,6 +26,8 @@ The sizing study used the same Azure article, archive and search query at 390, 9
 - The site serves local Latin variable WOFF2 files from `@fontsource-variable/source-serif-4@5.3.1` and `@fontsource-variable/sn-pro@5.3.0`. The family licenses ship beside the files. Text outside the included character set uses the system serif or sans-serif fallback. See [Adobe Source Serif](https://github.com/adobe-fonts/source-serif) and [SN Pro](https://github.com/supernotes/sn-pro).
 - The CSS family name `TX-02` points to the six original WOFF2 editions in the supplied Berkeley Mono webfont package. The site owner confirmed the website grant covers husenjan.com. The OTF desktop editions are excluded by the Static emitter. Keep grants site-specific when reusing this repository. [Foundry typeface](https://usgraphics.com/products/berkeley-mono) · [Website grant](https://usgraphics.com/catalog/MX-012)
 - The previously supplied Anthropic binaries have no accompanying web license in the project. The stylesheet does not reference them and the static build excludes them.
+
+The current shared code scale was compared at 14, 14.5 and 15px using the same Azure identifiers in prose and fenced examples. The middle size kept the tested 900px command rows and code-block scrolling thresholds, and removed an extra numbered-line height when the gutter inherited its size. A 32px browser default yields 29px for both inline and fenced code. Chrome, Brave and Edge identified Berkeley Mono as the glyph provider. Native Firefox zoom and the Linux WebKit port were also checked. [Font comparison](design-evidence/publication/type-code-900-light.webp) · [Five-browser font measurements](design-evidence/publication/font-checks.json)
 
 ## Color
 
@@ -41,11 +43,22 @@ The sizing study used the same Azure article, archive and search query at 390, 9
 
 Use near-black only for secondary surfaces. Selected rows use a distinct fill and text color. Prose links are underlined even at rest. Code keeps its separate neutral surface and syntax colors. Respect operating-system high-contrast colors.
 
+### Opacity and interaction states
+
+| Element | Treatment | Evidence on rendered surfaces |
+| --- | --- | --- |
+| Prose, metadata and navigation | Use solid theme inks at full opacity. Prose underlines use 60% of the current ink. | Metadata on the page measures 6.26:1 in light mode and 9.14:1 in dark mode. Reducing the entire row also fades its links and dates. |
+| Archive rows and panels | Use opaque page and panel fills. Archive separators mix 65% rule with the page color. | Row alignment, text weight and spacing distinguish titles and dates even where the decorative rule is faint. |
+| Search | The overlay uses 75% page color with a 2px backdrop blur. Hover uses the selection fill. Arrow-key selection adds a 2px inset outline around the option controlled by the input. Tabbing into the results gives the focused link its own outline. | The outline has 7.06:1 contrast against the selected fill in light mode and 11.91:1 in dark. It remains visible in forced colors. |
+| Article code | Keep TX-02 text at full opacity. Use `--highlight` behind inline runs and `--panel` on blocks. | Inline text measures 14.73:1 in light mode and 13.88:1 in dark mode. |
+| Callouts | Title and icon use 55% of the callout hue mixed with theme text. The fold arrow uses the same ink at its existing 80% opacity. Masked icons use system text ink in forced colors. | On the tinted Azure “PowerShell Version” callout, the arrow measures 3.61:1 light and 7.60:1 dark. |
+| Graph | Edges and nodes have dedicated solid inks. The renderer dims unrelated elements to 20% on hover and brings the hovered label to full opacity. | The resting local edge measures 3.57:1 light and 4.24:1 dark. Zoom and hover reveal labels in the theme’s primary ink. |
+
 ## Layout and controls
 
 - Use the 43rem measure on wide pages. At the 800px and 1200px breakpoints, the default frame changes between one, two and three columns. The 800px boundary uses the mobile arrangement and 1200px uses desktop.
 - Phone gutters grow from 1rem to 1.5rem and respect safe-area insets. Toolbar controls can use part of the outer gutter at very narrow widths. The page scrolls vertically; wide tables and code scroll within their own boxes. A table’s right edge fades while more columns are offscreen and clears at the end.
-- The paragraph sets the vertical space around an article image. Headings own the gap to the content they introduce. Home certification links share one scrollable row with a pinned row label. In narrow archives the headline takes its own line, with metadata below.
+- Article images have 15px corners. For a standalone diagram immediately followed by its caption, reserve up to 24rem of reading width before honoring a smaller authored percentage. The diagram fits the column on phones and keeps a 0.375rem gap to its caption. The five IACS illustrations declare their native pixel dimensions in the article. Their shared style sets a fluid height so the browser reserves the correct proportions before download. Other images take their vertical space from the containing paragraph. Headings own the gap to the content they introduce. Home certification links share one scrollable row with a pinned row label. In narrow archives the headline takes its own line, with metadata below. In wider archives the date column reserves 7rem and can expand to fit dates when readers increase the browser’s minimum font size. Long archive tags can wrap within their column.
 - Keep native keyboard focus visible. The first tab stop in the default frame skips the toolbar and focuses main content. Search, Explorer, reader mode and the graph return the reader to a useful control when dismissed.
 
 ## Graph and motion
@@ -54,8 +67,13 @@ Quartz V5’s community graph plugin draws into a transparent Pixi canvas and re
 
 The index shows Graph View on tablet and desktop. The mobile layout, including short landscape phones, omits the graph on every page. Reduced motion also suppresses the graph and its force simulation. Where available, the global graph opens directly to the canvas. Select a node to visit its page, or use Close or Escape to dismiss the dialog and return focus. Explorer, search, tags and article backlinks provide navigation across layouts. [Quartz V5 graph documentation](<docs/features/graph view.md>)
 
-Home, archives and articles use a plain warm off-white page in light mode and a solid black page in dark mode. The open margins frame the reading column at every width. Control transitions are brief. Reduced motion disables those transitions and smooth scrolling.
+Home, archives and articles use a plain warm off-white page in light mode and a solid black page in dark mode. The open margins frame the reading column at every width. Control transitions are brief. Reduced motion disables those transitions and smooth scrolling. On hover-capable layouts, link previews appear immediately under reduced motion. Escape dismisses a preview with the pointer stationary, including when another link sits beneath it.
 
 ## Where to make changes
 
 Edit [quartz/styles/custom.scss](quartz/styles/custom.scss). Its sections contain the font faces, root theme and type tokens, responsive frame, controls, graph, prose, technical material, archives and reader mode. The V5 ComponentResources emitter compiles this entry after the lower-priority Quartz base layer. Use the frame breakpoints from `variables.scss` and container queries when available space depends on the component. Change an existing owner rule before adding an override. Keep canvas settings and interaction semantics in their V5 components. [Quartz layout documentation](docs/layout.md) · [Validation history](DESIGN_PROGRESS.md)
+
+
+### Diagram controls
+
+Reserve room above each embedded Mermaid drawing for its existing Copy and Expand controls. Copy remains available while the module loads. The enabled Quartz plugin assigns Expand an inline right offset when it binds the action. That marker exposes the initialized control. The stylesheet sizes the gap relative to the reader’s current font preference, including live changes. Touch shows the initialized control at rest. Keyboard focus reveals it immediately under reduced motion. [Matched phone views](design-evidence/publication/mermaid-390.webp) · [All ten drawings](design-evidence/publication/diagrams.json)

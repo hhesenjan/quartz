@@ -1,0 +1,3188 @@
+{
+  "packages": {
+    "chrome": "158.0.8127.36",
+    "brave": "1.100.58 (Chromium 158.0.8127.42)",
+    "edge": "158.0.4370.33",
+    "firefox": "159.0",
+    "webkit": "27.2, Playwright Linux"
+  },
+  "branded": {
+    "chrome": [
+      {
+        "w": 1440,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 30.08,
+            "greeting": 22.5,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.64,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "rootSize": 32,
+        "search": {
+          "size": "32px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 52.8,
+            "greeting": 42.5,
+            "nav": 30
+          },
+          "archive": {
+            "listing": 34,
+            "date": 28,
+            "tag": 28
+          },
+          "article": {
+            "title": 56,
+            "body": 34,
+            "h2": 46.16,
+            "h3": 37.92,
+            "meta": 28,
+            "regular": 29,
+            "bold": 29,
+            "syntax": 29,
+            "block": 29
+          },
+          "disk": {
+            "cell": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 30.08,
+            "greeting": 22.5,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.64,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 320,
+        "t": "light",
+        "rootSize": 24,
+        "search": {
+          "size": "24px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 34.8,
+            "greeting": 30,
+            "nav": 22.5
+          },
+          "archive": {
+            "listing": 25.5,
+            "date": 21,
+            "tag": 21
+          },
+          "article": {
+            "title": 42,
+            "body": 24,
+            "h2": 33,
+            "h3": 27,
+            "meta": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "syntax": 21.75,
+            "block": 21.75
+          },
+          "disk": {
+            "cell": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 25.05,
+            "greeting": 20.2188,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 16,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "rootSize": 32,
+        "search": {
+          "size": "32px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 46.4,
+            "greeting": 40,
+            "nav": 30
+          },
+          "archive": {
+            "listing": 34,
+            "date": 28,
+            "tag": 28
+          },
+          "article": {
+            "title": 56,
+            "body": 32,
+            "h2": 44,
+            "h3": 36,
+            "meta": 28,
+            "regular": 29,
+            "bold": 29,
+            "syntax": 29,
+            "block": 29
+          },
+          "disk": {
+            "cell": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 25.05,
+            "greeting": 20.2188,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 16,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 26.4,
+            "greeting": 21.8125,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.4825,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 26.4,
+            "greeting": 21.8125,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.4825,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "rootSize": 24,
+        "search": {
+          "size": "24px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Google Chrome",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 39.6,
+            "greeting": 31.3125,
+            "nav": 22.5
+          },
+          "archive": {
+            "listing": 25.59,
+            "date": 21,
+            "tag": 21
+          },
+          "article": {
+            "title": 46.32,
+            "body": 25.05,
+            "h2": 33.45,
+            "h3": 27.9,
+            "meta": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "syntax": 21.75,
+            "block": 21.75
+          },
+          "disk": {
+            "cell": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      }
+    ],
+    "brave": [
+      {
+        "w": 1440,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 30.08,
+            "greeting": 22.5,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.64,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "rootSize": 32,
+        "search": {
+          "size": "32px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 52.8,
+            "greeting": 42.5,
+            "nav": 30
+          },
+          "archive": {
+            "listing": 34,
+            "date": 28,
+            "tag": 28
+          },
+          "article": {
+            "title": 56,
+            "body": 34,
+            "h2": 46.16,
+            "h3": 37.92,
+            "meta": 28,
+            "regular": 29,
+            "bold": 29,
+            "syntax": 29,
+            "block": 29
+          },
+          "disk": {
+            "cell": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 30.08,
+            "greeting": 22.5,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.64,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 320,
+        "t": "light",
+        "rootSize": 24,
+        "search": {
+          "size": "24px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 34.8,
+            "greeting": 30,
+            "nav": 22.5
+          },
+          "archive": {
+            "listing": 25.5,
+            "date": 21,
+            "tag": 21
+          },
+          "article": {
+            "title": 42,
+            "body": 24,
+            "h2": 33,
+            "h3": 27,
+            "meta": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "syntax": 21.75,
+            "block": 21.75
+          },
+          "disk": {
+            "cell": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 25.05,
+            "greeting": 20.2188,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 16,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "rootSize": 32,
+        "search": {
+          "size": "32px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 46.4,
+            "greeting": 40,
+            "nav": 30
+          },
+          "archive": {
+            "listing": 34,
+            "date": 28,
+            "tag": 28
+          },
+          "article": {
+            "title": 56,
+            "body": 32,
+            "h2": 44,
+            "h3": 36,
+            "meta": 28,
+            "regular": 29,
+            "bold": 29,
+            "syntax": 29,
+            "block": 29
+          },
+          "disk": {
+            "cell": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 25.05,
+            "greeting": 20.2188,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 16,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 26.4,
+            "greeting": 21.8125,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.4825,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 26.4,
+            "greeting": 21.8125,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.4825,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "rootSize": 24,
+        "search": {
+          "size": "24px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Brave",
+              "version": "158"
+            }
+          ],
+          "brave": true
+        },
+        "roles": {
+          "home": {
+            "site": 39.6,
+            "greeting": 31.3125,
+            "nav": 22.5
+          },
+          "archive": {
+            "listing": 25.59,
+            "date": 21,
+            "tag": 21
+          },
+          "article": {
+            "title": 46.32,
+            "body": 25.05,
+            "h2": 33.45,
+            "h3": 27.9,
+            "meta": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "syntax": 21.75,
+            "block": 21.75
+          },
+          "disk": {
+            "cell": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      }
+    ],
+    "edge": [
+      {
+        "w": 1440,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 30.08,
+            "greeting": 22.5,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.64,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "rootSize": 32,
+        "search": {
+          "size": "32px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 52.8,
+            "greeting": 42.5,
+            "nav": 30
+          },
+          "archive": {
+            "listing": 34,
+            "date": 28,
+            "tag": 28
+          },
+          "article": {
+            "title": 56,
+            "body": 34,
+            "h2": 46.16,
+            "h3": 37.92,
+            "meta": 28,
+            "regular": 29,
+            "bold": 29,
+            "syntax": 29,
+            "block": 29
+          },
+          "disk": {
+            "cell": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 30.08,
+            "greeting": 22.5,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.64,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 320,
+        "t": "light",
+        "rootSize": 24,
+        "search": {
+          "size": "24px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 34.8,
+            "greeting": 30,
+            "nav": 22.5
+          },
+          "archive": {
+            "listing": 25.5,
+            "date": 21,
+            "tag": 21
+          },
+          "article": {
+            "title": 42,
+            "body": 24,
+            "h2": 33,
+            "h3": 27,
+            "meta": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "syntax": 21.75,
+            "block": 21.75
+          },
+          "disk": {
+            "cell": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 25.05,
+            "greeting": 20.2188,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 16,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "rootSize": 32,
+        "search": {
+          "size": "32px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 46.4,
+            "greeting": 40,
+            "nav": 30
+          },
+          "archive": {
+            "listing": 34,
+            "date": 28,
+            "tag": 28
+          },
+          "article": {
+            "title": 56,
+            "body": 32,
+            "h2": 44,
+            "h3": 36,
+            "meta": 28,
+            "regular": 29,
+            "bold": 29,
+            "syntax": 29,
+            "block": 29
+          },
+          "disk": {
+            "cell": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 25.05,
+            "greeting": 20.2188,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 16,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 26.4,
+            "greeting": 21.8125,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.4825,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "rootSize": 16,
+        "search": {
+          "size": "16px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 26.4,
+            "greeting": 21.8125,
+            "nav": 15
+          },
+          "archive": {
+            "listing": 18.4825,
+            "date": 14,
+            "tag": 14
+          },
+          "article": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "meta": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "syntax": 14.5,
+            "block": 14.5
+          },
+          "disk": {
+            "cell": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "rootSize": 24,
+        "search": {
+          "size": "24px",
+          "outline": "2px",
+          "contained": true
+        },
+        "identity": {
+          "brands": [
+            {
+              "brand": "Chromium",
+              "version": "158"
+            },
+            {
+              "brand": "Not.A/Brand",
+              "version": "24"
+            },
+            {
+              "brand": "Microsoft Edge",
+              "version": "158"
+            }
+          ],
+          "brave": false
+        },
+        "roles": {
+          "home": {
+            "site": 39.6,
+            "greeting": 31.3125,
+            "nav": 22.5
+          },
+          "archive": {
+            "listing": 25.59,
+            "date": 21,
+            "tag": 21
+          },
+          "article": {
+            "title": 46.32,
+            "body": 25.05,
+            "h2": 33.45,
+            "h3": 27.9,
+            "meta": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "syntax": 21.75,
+            "block": 21.75
+          },
+          "disk": {
+            "cell": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          }
+        },
+        "glyphProviders": {
+          "title": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "body": [
+            [
+              "SourceSerif4-Regular",
+              true
+            ]
+          ],
+          "regular": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ],
+          "bold": [
+            [
+              "BerkeleyMono-Bold",
+              true
+            ]
+          ],
+          "syntax": [
+            [
+              "BerkeleyMono-Regular",
+              true
+            ]
+          ]
+        },
+        "noPageOverflow": true
+      }
+    ]
+  },
+  "firefoxArticle": [
+    {
+      "w": 390,
+      "t": "light",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "sizes": {
+        "title": "29.7167px",
+        "intro": "16.1667px",
+        "h2": "22px",
+        "h3": "18px",
+        "dates": "14px",
+        "tree": "15px",
+        "search": "14px",
+        "code": "14.5px",
+        "syntax": "14.5px",
+        "site": "25.05px"
+      },
+      "overflow": -12
+    },
+    {
+      "w": 390,
+      "t": "dark",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "sizes": {
+        "title": "29.7167px",
+        "intro": "16.1667px",
+        "h2": "22px",
+        "h3": "18px",
+        "dates": "14px",
+        "tree": "15px",
+        "search": "14px",
+        "code": "14.5px",
+        "syntax": "14.5px",
+        "site": "25.05px"
+      },
+      "overflow": -12
+    },
+    {
+      "w": 900,
+      "t": "light",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "sizes": {
+        "title": "42.2667px",
+        "intro": "17.45px",
+        "h2": "24.2333px",
+        "h3": "19.5px",
+        "dates": "14px",
+        "tree": "15px",
+        "search": "14px",
+        "code": "14.5px",
+        "syntax": "14.5px",
+        "site": "26.4px"
+      },
+      "overflow": -12
+    },
+    {
+      "w": 900,
+      "t": "dark",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "sizes": {
+        "title": "42.2667px",
+        "intro": "17.45px",
+        "h2": "24.2333px",
+        "h3": "19.5px",
+        "dates": "14px",
+        "tree": "15px",
+        "search": "14px",
+        "code": "14.5px",
+        "syntax": "14.5px",
+        "site": "26.4px"
+      },
+      "overflow": -12
+    },
+    {
+      "w": 1440,
+      "t": "light",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "sizes": {
+        "title": "43.5167px",
+        "intro": "18px",
+        "h2": "27.75px",
+        "h3": "21px",
+        "dates": "14px",
+        "tree": "15px",
+        "search": "14px",
+        "code": "14.5px",
+        "syntax": "14.5px",
+        "site": "30.0667px"
+      },
+      "overflow": -12
+    },
+    {
+      "w": 1440,
+      "t": "dark",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "sizes": {
+        "title": "43.5167px",
+        "intro": "18px",
+        "h2": "27.75px",
+        "h3": "21px",
+        "dates": "14px",
+        "tree": "15px",
+        "search": "14px",
+        "code": "14.5px",
+        "syntax": "14.5px",
+        "site": "30.0667px"
+      },
+      "overflow": -12
+    }
+  ],
+  "firefoxNativeZoom": [
+    {
+      "t": "light",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "factor": 1,
+      "actual": 1,
+      "box": {
+        "dpr": 1,
+        "inner": 1440,
+        "width": 1428,
+        "client": 1428,
+        "inline": "14.5px",
+        "block": "14.5px",
+        "end": null,
+        "range": null
+      }
+    },
+    {
+      "t": "light",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "factor": 2,
+      "actual": 2,
+      "box": {
+        "dpr": 2,
+        "inner": 720,
+        "width": 714,
+        "client": 714,
+        "inline": "14.5px",
+        "block": "14.5px",
+        "end": null,
+        "range": null
+      }
+    },
+    {
+      "t": "light",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "factor": 4,
+      "actual": 4,
+      "box": {
+        "dpr": 4,
+        "inner": 360,
+        "width": 357,
+        "client": 357,
+        "inline": "14.5px",
+        "block": "14.5px",
+        "end": null,
+        "range": null
+      }
+    },
+    {
+      "t": "light",
+      "path": "/blog/0056-increasing-disk-space-on-linux-servers",
+      "factor": 1,
+      "actual": 1,
+      "box": {
+        "dpr": 1,
+        "inner": 1440,
+        "width": 1428,
+        "client": 1428,
+        "inline": "14.5px",
+        "block": null,
+        "end": 0,
+        "range": 0
+      }
+    },
+    {
+      "t": "light",
+      "path": "/blog/0056-increasing-disk-space-on-linux-servers",
+      "factor": 2,
+      "actual": 2,
+      "box": {
+        "dpr": 2,
+        "inner": 720,
+        "width": 714,
+        "client": 714,
+        "inline": "14.5px",
+        "block": null,
+        "end": 0,
+        "range": 0
+      }
+    },
+    {
+      "t": "light",
+      "path": "/blog/0056-increasing-disk-space-on-linux-servers",
+      "factor": 4,
+      "actual": 4,
+      "box": {
+        "dpr": 4,
+        "inner": 360,
+        "width": 357,
+        "client": 357,
+        "inline": "14.5px",
+        "block": null,
+        "end": 266.01666259765625,
+        "range": 266
+      }
+    },
+    {
+      "t": "dark",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "factor": 1,
+      "actual": 1,
+      "box": {
+        "dpr": 1,
+        "inner": 1440,
+        "width": 1428,
+        "client": 1428,
+        "inline": "14.5px",
+        "block": "14.5px",
+        "end": null,
+        "range": null
+      }
+    },
+    {
+      "t": "dark",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "factor": 2,
+      "actual": 2,
+      "box": {
+        "dpr": 2,
+        "inner": 720,
+        "width": 714,
+        "client": 714,
+        "inline": "14.5px",
+        "block": "14.5px",
+        "end": null,
+        "range": null
+      }
+    },
+    {
+      "t": "dark",
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "factor": 4,
+      "actual": 4,
+      "box": {
+        "dpr": 4,
+        "inner": 360,
+        "width": 357,
+        "client": 357,
+        "inline": "14.5px",
+        "block": "14.5px",
+        "end": null,
+        "range": null
+      }
+    },
+    {
+      "t": "dark",
+      "path": "/blog/0056-increasing-disk-space-on-linux-servers",
+      "factor": 1,
+      "actual": 1,
+      "box": {
+        "dpr": 1,
+        "inner": 1440,
+        "width": 1428,
+        "client": 1428,
+        "inline": "14.5px",
+        "block": null,
+        "end": 0,
+        "range": 0
+      }
+    },
+    {
+      "t": "dark",
+      "path": "/blog/0056-increasing-disk-space-on-linux-servers",
+      "factor": 2,
+      "actual": 2,
+      "box": {
+        "dpr": 2,
+        "inner": 720,
+        "width": 714,
+        "client": 714,
+        "inline": "14.5px",
+        "block": null,
+        "end": 0,
+        "range": 0
+      }
+    },
+    {
+      "t": "dark",
+      "path": "/blog/0056-increasing-disk-space-on-linux-servers",
+      "factor": 4,
+      "actual": 4,
+      "box": {
+        "dpr": 4,
+        "inner": 360,
+        "width": 357,
+        "client": 357,
+        "inline": "14.5px",
+        "block": null,
+        "end": 266.01666259765625,
+        "range": 266
+      }
+    }
+  ],
+  "webkitSearch": {
+    "1440-dark.json": {
+      "w": 1440,
+      "t": "dark",
+      "results": 8,
+      "active": "blog/0006-the-microsoft-azure-documentation",
+      "#az": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "ure",
+        "options": 1
+      },
+      "#azure": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "",
+        "options": 1
+      },
+      "#azure ": {
+        "tags": "#azure",
+        "display": "none",
+        "ghost": "",
+        "options": 1
+      },
+      "closed": true,
+      "returnFocus": true,
+      "preview": 1,
+      "dismissed": 0
+    },
+    "1440-light.json": {
+      "w": 1440,
+      "t": "light",
+      "results": 8,
+      "active": "blog/0006-the-microsoft-azure-documentation",
+      "#az": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "ure",
+        "options": 1
+      },
+      "#azure": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "",
+        "options": 1
+      },
+      "#azure ": {
+        "tags": "#azure",
+        "display": "none",
+        "ghost": "",
+        "options": 1
+      },
+      "closed": true,
+      "returnFocus": true,
+      "preview": 1,
+      "dismissed": 0
+    },
+    "390-dark.json": {
+      "w": 390,
+      "t": "dark",
+      "results": 8,
+      "active": "blog/0006-the-microsoft-azure-documentation",
+      "#az": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "ure",
+        "options": 1
+      },
+      "#azure": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "",
+        "options": 1
+      },
+      "#azure ": {
+        "tags": "#azure",
+        "display": "none",
+        "ghost": "",
+        "options": 1
+      },
+      "closed": true,
+      "returnFocus": true
+    },
+    "390-light.json": {
+      "w": 390,
+      "t": "light",
+      "results": 8,
+      "active": "blog/0006-the-microsoft-azure-documentation",
+      "#az": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "ure",
+        "options": 1
+      },
+      "#azure": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "",
+        "options": 1
+      },
+      "#azure ": {
+        "tags": "#azure",
+        "display": "none",
+        "ghost": "",
+        "options": 1
+      },
+      "closed": true,
+      "returnFocus": true
+    },
+    "900-dark.json": {
+      "w": 900,
+      "t": "dark",
+      "results": 8,
+      "active": "blog/0006-the-microsoft-azure-documentation",
+      "#az": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "ure",
+        "options": 1
+      },
+      "#azure": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "",
+        "options": 1
+      },
+      "#azure ": {
+        "tags": "#azure",
+        "display": "none",
+        "ghost": "",
+        "options": 1
+      },
+      "closed": true,
+      "returnFocus": true,
+      "preview": 1,
+      "dismissed": 0
+    },
+    "900-light.json": {
+      "w": 900,
+      "t": "light",
+      "results": 8,
+      "active": "blog/0006-the-microsoft-azure-documentation",
+      "#az": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "ure",
+        "options": 1
+      },
+      "#azure": {
+        "tags": "#azure",
+        "display": "block",
+        "ghost": "",
+        "options": 1
+      },
+      "#azure ": {
+        "tags": "#azure",
+        "display": "none",
+        "ghost": "",
+        "options": 1
+      },
+      "closed": true,
+      "returnFocus": true,
+      "preview": 1,
+      "dismissed": 0
+    }
+  },
+  "firefoxMinFontZoomReview": "See Responsive and Accessibility assessment in DESIGN_PROGRESS.md."
+}

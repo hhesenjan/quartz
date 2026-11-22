@@ -88,7 +88,7 @@ $toolbar-gutter-fill:
   --heading-3-size: clamp(1.125rem, 1.05rem + 0.3vw, 1.3125rem);
   --archive-title-size: clamp(1.0625rem, 0.95rem + 0.5cqi, 1.1875rem);
   --control-text-size: 1rem;
-  --code-size: 0.875rem;
+  --code-size: 0.90625rem;
   --code-leading: 1.375rem;
   --paragraph-space: 1.2em;
   --page-gutter: 0.625rem;
@@ -174,6 +174,13 @@ html {
   *::after {
     animation: none;
     transition: none;
+  }
+
+  // Quartz normally reveals the preview in the last frame of its entrance animation.
+  .active-popover,
+  .popover:hover {
+    visibility: visible;
+    opacity: 1;
   }
 }
 
@@ -750,11 +757,13 @@ footer,
     }
     .search-layout > .results-container .result-card {
       padding: 0.8rem 0.95rem;
-
-      &:focus-visible {
-        outline: 2px solid var(--selection-ink);
-        outline-offset: -2px;
-      }
+    }
+    // Arrow keys move the active option while the search field keeps DOM focus.
+    .result-card:focus-visible,
+    > .search-bar:focus[aria-controls$="-results"] ~ .search-layout [aria-selected="true"],
+    > .search-bar:focus[aria-controls$="-tags"] ~ .tag-suggestions [aria-selected="true"] {
+      outline: 2px solid var(--selection-ink);
+      outline-offset: -2px;
     }
   }
 }
@@ -1022,7 +1031,7 @@ footer,
   padding-inline-start: 0.25rem;
 }
 
-.explorer-content .tree-item + .tree-item {
+.explorer-content li:not(.overflow-end) + li:not(.overflow-end) {
   margin-block-start: 0.25rem;
 }
 
@@ -1352,14 +1361,28 @@ body[data-slug="index"] .center > article > .markdown-rendered > p:first-child {
   }
 }
 
+.markdown-rendered :is(img, object[type="image/svg+xml"]) {
+  border-radius: 15px;
+}
+
 article .markdown-rendered :is(figure img, img[src*="/images/"]):not([src$=".svg" i]) {
-  border-radius: 3px;
   outline: 1px solid color-mix(in srgb, var(--lightgray) 80%, var(--light));
   outline-offset: 0;
 }
 
+.markdown-rendered > .article-diagram {
+  display: block;
+  inline-size: 60%;
+  block-size: auto;
+  margin: auto;
+}
+
+.markdown-rendered > img:has(+ .image-caption) {
+  min-inline-size: min(100%, 24rem);
+}
+
 .markdown-rendered > .image-caption {
-  margin-block-start: 0;
+  margin-block-start: 0.375rem;
   text-align: center;
   font-size: var(--caption-size);
   color: var(--gray);
@@ -1436,8 +1459,21 @@ article .markdown-rendered :is(figure img, img[src*="/images/"]):not([src$=".svg
   text-decoration-style: dotted;
 }
 
-.callout-title > .callout-title-inner > p {
+.callout-title {
   color: color-mix(in srgb, var(--color) 55%, var(--dark));
+
+  > .callout-title-inner > p {
+    color: inherit;
+  }
+  > :is(.callout-icon, .fold-callout-icon) {
+    background-color: currentColor;
+
+    @media (forced-colors: active) {
+      // These two icons use a CSS mask. Paint their shapes with system text ink.
+      forced-color-adjust: none;
+      background-color: CanvasText;
+    }
+  }
 }
 
 .markdown-rendered blockquote:not(.callout) {
@@ -1530,15 +1566,20 @@ pre code[data-theme] span[data-token-type="comment"] {
   }
   :not(pre) > code {
     font-family: var(--codeFont);
-    font-size: 0.91em;
-    font-size: round(0.91em, 0.0625rem);
-    font-weight: 500;
-    line-height: inherit;
-    padding: 0.075em 0.28em;
+    font-size: var(--code-size);
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 0.18em;
     border-radius: 0.23em;
     background: var(--highlight);
     box-decoration-break: clone;
     overflow-wrap: anywhere;
+
+    code {
+      font: inherit;
+      padding: 0;
+      background: transparent;
+    }
 
     @media screen and ($mobile) {
       // Repeating the horizontal padding on every fragment clips long identifiers.
@@ -1601,7 +1642,12 @@ pre code[data-theme] span[data-token-type="comment"] {
       outline: 2px solid var(--gray);
       outline-offset: 2px;
     }
-    > .clipboard-button {
+    &:has(> code.mermaid) {
+      // Both diagram controls sit above the drawing, including its topmost labels.
+      padding-block-start: calc(var(--code-copy-size) + 0.5rem);
+    }
+    > .clipboard-button,
+    > .expand-button {
       top: calc(0.25rem + 1px);
       right: 0.375rem;
       margin: 0;
@@ -1615,7 +1661,6 @@ pre code[data-theme] span[data-token-type="comment"] {
       border-radius: 4px;
       color: var(--gray);
       background: var(--copy-background, var(--light));
-      opacity: 1;
 
       > svg {
         fill: currentColor;
@@ -1628,6 +1673,26 @@ pre code[data-theme] span[data-token-type="comment"] {
       &:focus-visible {
         outline: 2px solid var(--tertiary);
         outline-offset: -2px;
+      }
+    }
+    > .clipboard-button {
+      opacity: 1;
+    }
+    &:has(> code.mermaid) > .expand-button {
+      // Quartz writes a pixel offset once. Keep the gap when the reader resizes text.
+      right: calc(var(--code-copy-size) + 0.675rem) !important;
+      // The plugin sets its right offset when it binds the Expand action.
+      &:not([style*="right:"]) {
+        visibility: hidden;
+      }
+      &:focus-visible {
+        opacity: 1;
+      }
+      @media (hover: none), (pointer: coarse) {
+        opacity: 1;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        transition: none;
       }
     }
     > code:not(.mermaid) {
@@ -1671,7 +1736,6 @@ pre code[data-theme] span[data-token-type="comment"] {
           background-color: var(--panel);
           color: var(--gray);
           font-family: var(--codeFont);
-          font-size: var(--caption-size);
           font-weight: 400;
         }
       }
@@ -1767,7 +1831,10 @@ pre code[data-theme] span[data-token-type="comment"] {
     border-block-end: 1px solid color-mix(in srgb, var(--lightgray) 65%, var(--light));
   }
   .section {
-    grid-template-columns: minmax(0, 1fr) var(--archive-tags-width) var(--archive-date-width);
+    grid-template-columns: minmax(0, 1fr) var(--archive-tags-width) minmax(
+        var(--archive-date-width),
+        max-content
+      );
     align-items: first baseline;
     gap: 0;
     padding-block: clamp(0.8rem, 1.6cqi, 1.1rem);
@@ -1860,6 +1927,7 @@ pre code[data-theme] span[data-token-type="comment"] {
       color: var(--gray);
       background: transparent;
       padding: 0.1rem 0;
+      white-space: normal;
       overflow-wrap: anywhere;
 
       &:is(:hover, :focus-visible) {
@@ -1873,8 +1941,6 @@ pre code[data-theme] span[data-token-type="comment"] {
 
 @container page-list (max-width: 28rem) {
   .page-listing .section-ul {
-    --archive-tags-width: min(29cqi, 5.5rem);
-    --archive-date-width: min(21cqi, 4rem);
     --archive-gap: 0.25rem;
   }
   .page-listing .meta {
@@ -1916,9 +1982,6 @@ pre code[data-theme] span[data-token-type="comment"] {
     > .tags {
       padding-inline-start: 0;
       text-align: start;
-    }
-    > .tags {
-      justify-content: flex-start;
     }
   }
 }

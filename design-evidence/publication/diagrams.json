@@ -1,0 +1,1068 @@
+{
+  "ready": {
+    "1440-dark": [
+      {
+        "page": "/certifications/0004-md-102-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0003-az-305-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0002-az-500-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0008-building-a-kubernetes-cluster",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 1,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 2,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 3,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 4,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 5,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      }
+    ],
+    "1440-light": [
+      {
+        "page": "/certifications/0004-md-102-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0003-az-305-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0002-az-500-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0008-building-a-kubernetes-cluster",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 1,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 2,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 3,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 4,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 5,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      }
+    ],
+    "390-dark": [
+      {
+        "page": "/certifications/0004-md-102-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0003-az-305-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0002-az-500-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0008-building-a-kubernetes-cluster",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 1,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 2,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 3,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 4,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 5,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      }
+    ],
+    "390-light": [
+      {
+        "page": "/certifications/0004-md-102-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0003-az-305-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0002-az-500-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0008-building-a-kubernetes-cluster",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 1,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 2,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 3,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 4,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 5,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 44,
+        "atRestOpacity": "1",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      }
+    ],
+    "900-dark": [
+      {
+        "page": "/certifications/0004-md-102-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0003-az-305-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0002-az-500-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0008-building-a-kubernetes-cluster",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 1,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 2,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 3,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 4,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 5,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      }
+    ],
+    "900-light": [
+      {
+        "page": "/certifications/0004-md-102-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0003-az-305-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/certifications/0002-az-500-certification-review",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0008-building-a-kubernetes-cluster",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 0,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 1,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 2,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 3,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 4,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      },
+      {
+        "page": "/blog/0006-the-microsoft-azure-documentation",
+        "index": 5,
+        "drawingClearance": 11.0,
+        "betweenControls": 4.8,
+        "target": 32,
+        "atRestOpacity": "0",
+        "keyboard": [
+          "1",
+          "2px",
+          true
+        ],
+        "zoomControls": 3
+      }
+    ]
+  },
+  "startup": {
+    "1440-dark": {
+      "before": {
+        "overlap": false,
+        "copyX": 1032,
+        "xpX": 995.203125,
+        "margin": 4.796875,
+        "svg": false,
+        "script": "",
+        "transition": "0s",
+        "opacity": "0",
+        "copyHit": true
+      },
+      "after": {
+        "overlap": false,
+        "copyX": 1032,
+        "xpX": 995.203125,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(32px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "0",
+        "copyHit": true
+      },
+      "focus": {
+        "overlap": false,
+        "copyX": 1032,
+        "xpX": 995.203125,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(32px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      }
+    },
+    "1440-light": {
+      "before": {
+        "overlap": false,
+        "copyX": 1032,
+        "xpX": 995.203125,
+        "margin": 4.796875,
+        "svg": false,
+        "script": "",
+        "transition": "0s",
+        "opacity": "0",
+        "copyHit": true
+      },
+      "after": {
+        "overlap": false,
+        "copyX": 1032,
+        "xpX": 995.203125,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(32px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "0",
+        "copyHit": true
+      },
+      "focus": {
+        "overlap": false,
+        "copyX": 1032,
+        "xpX": 995.203125,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(32px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      }
+    },
+    "900-dark": {
+      "before": {
+        "overlap": false,
+        "copyX": 840,
+        "xpX": 803.203125,
+        "margin": 4.796875,
+        "svg": false,
+        "script": "",
+        "transition": "0s",
+        "opacity": "0",
+        "copyHit": true
+      },
+      "after": {
+        "overlap": false,
+        "copyX": 840,
+        "xpX": 803.203125,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(32px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "0",
+        "copyHit": true
+      },
+      "focus": {
+        "overlap": false,
+        "copyX": 840,
+        "xpX": 803.203125,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(32px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      }
+    },
+    "900-light": {
+      "before": {
+        "overlap": false,
+        "copyX": 840,
+        "xpX": 803.203125,
+        "margin": 4.796875,
+        "svg": false,
+        "script": "",
+        "transition": "0s",
+        "opacity": "0",
+        "copyHit": true
+      },
+      "after": {
+        "overlap": false,
+        "copyX": 840,
+        "xpX": 803.203125,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(32px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "0",
+        "copyHit": true
+      },
+      "focus": {
+        "overlap": false,
+        "copyX": 840,
+        "xpX": 803.203125,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(32px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      }
+    },
+    "390-light": {
+      "before": {
+        "overlap": false,
+        "copyX": 322.453125,
+        "xpX": 273.65625,
+        "margin": 4.796875,
+        "svg": false,
+        "script": "",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      },
+      "after": {
+        "overlap": false,
+        "copyX": 322.453125,
+        "xpX": 273.65625,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(44px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      },
+      "focus": {
+        "overlap": false,
+        "copyX": 322.453125,
+        "xpX": 273.65625,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(44px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      }
+    },
+    "390-dark": {
+      "before": {
+        "overlap": false,
+        "copyX": 322.453125,
+        "xpX": 273.65625,
+        "margin": 4.796875,
+        "svg": false,
+        "script": "",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      },
+      "after": {
+        "overlap": false,
+        "copyX": 322.453125,
+        "xpX": 273.65625,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(44px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      },
+      "focus": {
+        "overlap": false,
+        "copyX": 322.453125,
+        "xpX": 273.65625,
+        "margin": 4.796875,
+        "svg": true,
+        "script": "calc(44px + 0.3rem)",
+        "transition": "0s",
+        "opacity": "1",
+        "copyHit": true
+      }
+    }
+  }
+}

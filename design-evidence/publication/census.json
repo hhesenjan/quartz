@@ -1,0 +1,1135 @@
+{
+  "html": 252,
+  "redirects": 91,
+  "pages": 161,
+  "selectors": {
+    "footer": {
+      "pages": 161,
+      "total": 161,
+      "sample": [
+        "404",
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly"
+      ],
+      "max": 1,
+      "dense": "404"
+    },
+    ".popover-hint": {
+      "pages": 161,
+      "total": 321,
+      "sample": [
+        "404",
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly"
+      ],
+      "max": 2,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article": {
+      "pages": 161,
+      "total": 161,
+      "sample": [
+        "404",
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly"
+      ],
+      "max": 1,
+      "dense": "404"
+    },
+    "article :is(h1,h2,h3,h4,h5,h6)": {
+      "pages": 84,
+      "total": 557,
+      "sample": [
+        "404",
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly"
+      ],
+      "max": 62,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article h1": {
+      "pages": 1,
+      "total": 1,
+      "sample": [
+        "404"
+      ],
+      "max": 1,
+      "dense": "404"
+    },
+    "[data-slug]": {
+      "pages": 161,
+      "total": 197,
+      "sample": [
+        "404",
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly"
+      ],
+      "max": 5,
+      "dense": "blog/0050-disabling-autorun-and-autoplay-for-windows-devices"
+    },
+    ".skip-to-content": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".page-header": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".page-title": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".breadcrumb-container": {
+      "pages": 90,
+      "total": 90,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".article-title": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".content-meta": {
+      "pages": 84,
+      "total": 84,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".tags": {
+      "pages": 158,
+      "total": 491,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 155,
+      "dense": "tags/index"
+    },
+    ".desktop-explorer": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".mobile-explorer": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".explorer-content": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".search": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".darkmode": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".readermode": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".graph": {
+      "pages": 84,
+      "total": 84,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".graph-outer": {
+      "pages": 84,
+      "total": 84,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".global-graph-outer": {
+      "pages": 84,
+      "total": 84,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".toc": {
+      "pages": 83,
+      "total": 83,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".article-contents": {
+      "pages": 83,
+      "total": 83,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".tag-link": {
+      "pages": 157,
+      "total": 1128,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 417,
+      "dense": "tags/index"
+    },
+    ".markdown-rendered": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article h2": {
+      "pages": 83,
+      "total": 440,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 27,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    "article h3": {
+      "pages": 8,
+      "total": 116,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0013-understanding-microsoft-sentinel-part-1",
+        "blog/0024-investigating-security-incidents-with-microsoft-defender-xdr"
+      ],
+      "max": 47,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article :is(ul,ol)": {
+      "pages": 58,
+      "total": 178,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0003-mysql-connector-cpp"
+      ],
+      "max": 31,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article ul": {
+      "pages": 40,
+      "total": 117,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0005-terraform-for-microsoft-azure",
+        "blog/0006-the-microsoft-azure-documentation"
+      ],
+      "max": 31,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article li > :is(ul,ol)": {
+      "pages": 8,
+      "total": 19,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices",
+        "blog/0033-deploying-notepad-to-intune"
+      ],
+      "max": 4,
+      "dense": "blog/0057-setting-up-azure-machine-configuration"
+    },
+    "article code:not(pre code)": {
+      "pages": 64,
+      "total": 924,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 70,
+      "dense": "projects/exploit-development/0007-cloudme-1.11.2---defeating-dep-with-rop-chain"
+    },
+    "article .internal": {
+      "pages": 83,
+      "total": 600,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 62,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article .external": {
+      "pages": 53,
+      "total": 169,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0003-mysql-connector-cpp"
+      ],
+      "max": 17,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article pre": {
+      "pages": 57,
+      "total": 437,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 88,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "article pre code": {
+      "pages": 57,
+      "total": 437,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 88,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "[data-token-type=\"comment\"]": {
+      "pages": 32,
+      "total": 1427,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 231,
+      "dense": "projects/exploit-development/0007-cloudme-1.11.2---defeating-dep-with-rop-chain"
+    },
+    ".spacer": {
+      "pages": 160,
+      "total": 160,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 1,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    ".external-icon": {
+      "pages": 53,
+      "total": 169,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0003-mysql-connector-cpp"
+      ],
+      "max": 17,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "[style]": {
+      "pages": 160,
+      "total": 25297,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 2138,
+      "dense": "projects/exploit-development/0007-cloudme-1.11.2---defeating-dep-with-rop-chain"
+    },
+    "article ol": {
+      "pages": 37,
+      "total": 61,
+      "sample": [
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0003-mysql-connector-cpp",
+        "blog/0012-cortex-xdr-monitoring-active-directory"
+      ],
+      "max": 3,
+      "dense": "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+    },
+    "[data-rehype-pretty-code-title]": {
+      "pages": 39,
+      "total": 225,
+      "sample": [
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods",
+        "blog/0004-the-basics-of-mysql"
+      ],
+      "max": 34,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "[data-line-numbers]": {
+      "pages": 2,
+      "total": 8,
+      "sample": [
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0007-understanding-json-web-token"
+      ],
+      "max": 7,
+      "dense": "blog/0007-understanding-json-web-token"
+    },
+    ".callout": {
+      "pages": 6,
+      "total": 11,
+      "sample": [
+        "blog/0006-the-microsoft-azure-documentation",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0021-implementing-microsoft-defender-smartscreen"
+      ],
+      "max": 4,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    ".callout-title": {
+      "pages": 6,
+      "total": 11,
+      "sample": [
+        "blog/0006-the-microsoft-azure-documentation",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0021-implementing-microsoft-defender-smartscreen"
+      ],
+      "max": 4,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    "article .mermaid": {
+      "pages": 5,
+      "total": 10,
+      "sample": [
+        "blog/0006-the-microsoft-azure-documentation",
+        "blog/0008-building-a-kubernetes-cluster",
+        "certifications/0002-az-500-certification-review"
+      ],
+      "max": 6,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    "[role=dialog]": {
+      "pages": 5,
+      "total": 10,
+      "sample": [
+        "blog/0006-the-microsoft-azure-documentation",
+        "blog/0008-building-a-kubernetes-cluster",
+        "certifications/0002-az-500-certification-review"
+      ],
+      "max": 6,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    ".table-container": {
+      "pages": 14,
+      "total": 23,
+      "sample": [
+        "blog/0008-building-a-kubernetes-cluster",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 5,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "article table": {
+      "pages": 14,
+      "total": 23,
+      "sample": [
+        "blog/0008-building-a-kubernetes-cluster",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 5,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "article img": {
+      "pages": 57,
+      "total": 383,
+      "sample": [
+        "blog/0009-create-a-phishing-campaign",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0012-cortex-xdr-monitoring-active-directory"
+      ],
+      "max": 18,
+      "dense": "blog/0049-using-device-control-to-block-usb-devices-in-mde"
+    },
+    ".alias": {
+      "pages": 23,
+      "total": 44,
+      "sample": [
+        "blog/0009-create-a-phishing-campaign",
+        "blog/0015-enrolling-devices-into-intune",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 4,
+      "dense": "blog/0050-disabling-autorun-and-autoplay-for-windows-devices"
+    },
+    ".callout.is-collapsible": {
+      "pages": 4,
+      "total": 5,
+      "sample": [
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0021-implementing-microsoft-defender-smartscreen",
+        "blog/0047-automatically-update-apps-through-intune-(winget)"
+      ],
+      "max": 2,
+      "dense": "blog/0057-setting-up-azure-machine-configuration"
+    },
+    "article .callout-fold": {
+      "pages": 4,
+      "total": 5,
+      "sample": [
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0021-implementing-microsoft-defender-smartscreen",
+        "blog/0047-automatically-update-apps-through-intune-(winget)"
+      ],
+      "max": 2,
+      "dense": "blog/0057-setting-up-azure-machine-configuration"
+    },
+    "article strong code,article b code": {
+      "pages": 4,
+      "total": 14,
+      "sample": [
+        "blog/0014-deploying-cortex-xdr-through-intune",
+        "blog/0020-using-watchlist-in-microsoft-sentinel",
+        "blog/0027-troubleshooting-microsoft-defender-high-cpu-usage-during--scheduled-scans"
+      ],
+      "max": 6,
+      "dense": "blog/0057-setting-up-azure-machine-configuration"
+    },
+    ".backlinks": {
+      "pages": 18,
+      "total": 18,
+      "sample": [
+        "blog/0015-enrolling-devices-into-intune",
+        "blog/0018-onboarding-microsoft-defender-for-identity-v2.x-sensor",
+        "blog/0034-detecting-malwares-with-yara-rules-(part-1)"
+      ],
+      "max": 1,
+      "dense": "blog/0015-enrolling-devices-into-intune"
+    },
+    ".backlinks li": {
+      "pages": 18,
+      "total": 45,
+      "sample": [
+        "blog/0015-enrolling-devices-into-intune",
+        "blog/0018-onboarding-microsoft-defender-for-identity-v2.x-sensor",
+        "blog/0034-detecting-malwares-with-yara-rules-(part-1)"
+      ],
+      "max": 4,
+      "dense": "blog/0047-automatically-update-apps-through-intune-(winget)"
+    },
+    "[data-highlighted-chars]": {
+      "pages": 3,
+      "total": 7,
+      "sample": [
+        "blog/0028-enabling-auto-expanding-archiving-for-exchange-online-mailbox",
+        "projects/exploit-development/0004-sync-breeze-enterprise-v10.14.18-seh-overflow-exploit-development",
+        "projects/exploit-development/0008-ropemproum---ret2win-challenge"
+      ],
+      "max": 3,
+      "dense": "projects/exploit-development/0008-ropemproum---ret2win-challenge"
+    },
+    "article mark": {
+      "pages": 3,
+      "total": 7,
+      "sample": [
+        "blog/0028-enabling-auto-expanding-archiving-for-exchange-online-mailbox",
+        "projects/exploit-development/0004-sync-breeze-enterprise-v10.14.18-seh-overflow-exploit-development",
+        "projects/exploit-development/0008-ropemproum---ret2win-challenge"
+      ],
+      "max": 3,
+      "dense": "projects/exploit-development/0008-ropemproum---ret2win-challenge"
+    },
+    "[data-highlighted-line]": {
+      "pages": 5,
+      "total": 76,
+      "sample": [
+        "blog/0030-troubleshooting-dscmdreg",
+        "blog/0053-build-your-own-socket-and-exploit-it",
+        "projects/exploit-development/0001-sync-breeze-enterprise-v10.0.28-buffer-overflow-exploit-development"
+      ],
+      "max": 62,
+      "dense": "projects/exploit-development/0001-sync-breeze-enterprise-v10.0.28-buffer-overflow-exploit-development"
+    },
+    "article .image-caption": {
+      "pages": 1,
+      "total": 4,
+      "sample": [
+        "blog/0043-iacs-ur-e26-and-e27"
+      ],
+      "max": 4,
+      "dense": "blog/0043-iacs-ur-e26-and-e27"
+    },
+    ".image-caption": {
+      "pages": 1,
+      "total": 4,
+      "sample": [
+        "blog/0043-iacs-ur-e26-and-e27"
+      ],
+      "max": 4,
+      "dense": "blog/0043-iacs-ur-e26-and-e27"
+    },
+    "article .article-diagram": {
+      "pages": 1,
+      "total": 5,
+      "sample": [
+        "blog/0043-iacs-ur-e26-and-e27"
+      ],
+      "max": 5,
+      "dense": "blog/0043-iacs-ur-e26-and-e27"
+    },
+    ".page-listing": {
+      "pages": 76,
+      "total": 143,
+      "sample": [
+        "blog/index",
+        "certifications/index",
+        "projects/binary-analysis/index"
+      ],
+      "max": 68,
+      "dense": "tags/index"
+    },
+    ".section-ul": {
+      "pages": 76,
+      "total": 143,
+      "sample": [
+        "blog/index",
+        "certifications/index",
+        "projects/binary-analysis/index"
+      ],
+      "max": 68,
+      "dense": "tags/index"
+    },
+    ".section-li": {
+      "pages": 76,
+      "total": 409,
+      "sample": [
+        "blog/index",
+        "certifications/index",
+        "projects/binary-analysis/index"
+      ],
+      "max": 155,
+      "dense": "tags/index"
+    },
+    "#signature": {
+      "pages": 1,
+      "total": 1,
+      "sample": [
+        "index"
+      ],
+      "max": 1,
+      "dense": "index"
+    },
+    "article object": {
+      "pages": 2,
+      "total": 2,
+      "sample": [
+        "projects/exploit-development/0000-what-is-buffer-overflow",
+        "projects/penetration-testing/0000-introduction"
+      ],
+      "max": 1,
+      "dense": "projects/exploit-development/0000-what-is-buffer-overflow"
+    },
+    "article video": {
+      "pages": 1,
+      "total": 1,
+      "sample": [
+        "projects/exploit-development/0001-sync-breeze-enterprise-v10.0.28-buffer-overflow-exploit-development"
+      ],
+      "max": 1,
+      "dense": "projects/exploit-development/0001-sync-breeze-enterprise-v10.0.28-buffer-overflow-exploit-development"
+    }
+  },
+  "articleTags": {
+    "h1": {
+      "pages": 1,
+      "total": 1,
+      "sample": [
+        "404"
+      ],
+      "max": 1,
+      "dense": "404"
+    },
+    "p": {
+      "pages": 86,
+      "total": 1579,
+      "sample": [
+        "404",
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly"
+      ],
+      "max": 84,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "a": {
+      "pages": 85,
+      "total": 770,
+      "sample": [
+        "404",
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly"
+      ],
+      "max": 79,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "script": {
+      "pages": 1,
+      "total": 1,
+      "sample": [
+        "404"
+      ],
+      "max": 1,
+      "dense": "404"
+    },
+    "div": {
+      "pages": 160,
+      "total": 262,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 35,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    "h2": {
+      "pages": 83,
+      "total": 440,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 27,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    "svg": {
+      "pages": 84,
+      "total": 735,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 79,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "path": {
+      "pages": 84,
+      "total": 1291,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 141,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "figure": {
+      "pages": 53,
+      "total": 421,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 88,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "pre": {
+      "pages": 57,
+      "total": 437,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 88,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "code": {
+      "pages": 72,
+      "total": 1361,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 127,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "span": {
+      "pages": 53,
+      "total": 30751,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods"
+      ],
+      "max": 2992,
+      "dense": "blog/0002-c++-hooking-methods"
+    },
+    "ul": {
+      "pages": 40,
+      "total": 117,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0005-terraform-for-microsoft-azure",
+        "blog/0006-the-microsoft-azure-documentation"
+      ],
+      "max": 31,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "li": {
+      "pages": 59,
+      "total": 751,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0003-mysql-connector-cpp"
+      ],
+      "max": 82,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "strong": {
+      "pages": 52,
+      "total": 517,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0003-mysql-connector-cpp",
+        "blog/0005-terraform-for-microsoft-azure"
+      ],
+      "max": 51,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    "h3": {
+      "pages": 8,
+      "total": 116,
+      "sample": [
+        "blog/0000-red-team-cheat-sheet",
+        "blog/0013-understanding-microsoft-sentinel-part-1",
+        "blog/0024-investigating-security-incidents-with-microsoft-defender-xdr"
+      ],
+      "max": 47,
+      "dense": "blog/0000-red-team-cheat-sheet"
+    },
+    "ol": {
+      "pages": 37,
+      "total": 61,
+      "sample": [
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0003-mysql-connector-cpp",
+        "blog/0012-cortex-xdr-monitoring-active-directory"
+      ],
+      "max": 3,
+      "dense": "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+    },
+    "figcaption": {
+      "pages": 39,
+      "total": 225,
+      "sample": [
+        "blog/0001-the-basics-of-x86-assembly",
+        "blog/0002-c++-hooking-methods",
+        "blog/0004-the-basics-of-mysql"
+      ],
+      "max": 34,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "em": {
+      "pages": 14,
+      "total": 17,
+      "sample": [
+        "blog/0002-c++-hooking-methods",
+        "blog/0004-the-basics-of-mysql",
+        "blog/0011-dynamic-group-for-shared-mailboxes"
+      ],
+      "max": 2,
+      "dense": "blog/0045-macos-antivirus-policy-grayed-out-in-mde"
+    },
+    "blockquote": {
+      "pages": 6,
+      "total": 11,
+      "sample": [
+        "blog/0006-the-microsoft-azure-documentation",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0021-implementing-microsoft-defender-smartscreen"
+      ],
+      "max": 4,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    "button": {
+      "pages": 5,
+      "total": 10,
+      "sample": [
+        "blog/0006-the-microsoft-azure-documentation",
+        "blog/0008-building-a-kubernetes-cluster",
+        "certifications/0002-az-500-certification-review"
+      ],
+      "max": 6,
+      "dense": "blog/0006-the-microsoft-azure-documentation"
+    },
+    "table": {
+      "pages": 14,
+      "total": 23,
+      "sample": [
+        "blog/0008-building-a-kubernetes-cluster",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 5,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "thead": {
+      "pages": 13,
+      "total": 22,
+      "sample": [
+        "blog/0008-building-a-kubernetes-cluster",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 5,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "tr": {
+      "pages": 14,
+      "total": 162,
+      "sample": [
+        "blog/0008-building-a-kubernetes-cluster",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 37,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "th": {
+      "pages": 14,
+      "total": 63,
+      "sample": [
+        "blog/0008-building-a-kubernetes-cluster",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 12,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "tbody": {
+      "pages": 14,
+      "total": 23,
+      "sample": [
+        "blog/0008-building-a-kubernetes-cluster",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 5,
+      "dense": "projects/penetration-testing/0001-information-gathering"
+    },
+    "td": {
+      "pages": 14,
+      "total": 409,
+      "sample": [
+        "blog/0008-building-a-kubernetes-cluster",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices"
+      ],
+      "max": 128,
+      "dense": "blog/0045-macos-antivirus-policy-grayed-out-in-mde"
+    },
+    "img": {
+      "pages": 57,
+      "total": 383,
+      "sample": [
+        "blog/0009-create-a-phishing-campaign",
+        "blog/0011-dynamic-group-for-shared-mailboxes",
+        "blog/0012-cortex-xdr-monitoring-active-directory"
+      ],
+      "max": 18,
+      "dense": "blog/0049-using-device-control-to-block-usb-devices-in-mde"
+    },
+    "br": {
+      "pages": 5,
+      "total": 9,
+      "sample": [
+        "blog/0012-cortex-xdr-monitoring-active-directory",
+        "blog/0016-onboarding-microsoft-defender-to-1500-devices",
+        "blog/0049-using-device-control-to-block-usb-devices-in-mde"
+      ],
+      "max": 4,
+      "dense": "blog/0056-increasing-disk-space-on-linux-servers"
+    },
+    "mark": {
+      "pages": 3,
+      "total": 7,
+      "sample": [
+        "blog/0028-enabling-auto-expanding-archiving-for-exchange-online-mailbox",
+        "projects/exploit-development/0004-sync-breeze-enterprise-v10.14.18-seh-overflow-exploit-development",
+        "projects/exploit-development/0008-ropemproum---ret2win-challenge"
+      ],
+      "max": 3,
+      "dense": "projects/exploit-development/0008-ropemproum---ret2win-challenge"
+    },
+    "style": {
+      "pages": 1,
+      "total": 1,
+      "sample": [
+        "index"
+      ],
+      "max": 1,
+      "dense": "index"
+    },
+    "object": {
+      "pages": 2,
+      "total": 2,
+      "sample": [
+        "projects/exploit-development/0000-what-is-buffer-overflow",
+        "projects/penetration-testing/0000-introduction"
+      ],
+      "max": 1,
+      "dense": "projects/exploit-development/0000-what-is-buffer-overflow"
+    },
+    "video": {
+      "pages": 1,
+      "total": 1,
+      "sample": [
+        "projects/exploit-development/0001-sync-breeze-enterprise-v10.0.28-buffer-overflow-exploit-development"
+      ],
+      "max": 1,
+      "dense": "projects/exploit-development/0001-sync-breeze-enterprise-v10.0.28-buffer-overflow-exploit-development"
+    }
+  },
+  "enabledPlugins": [
+    "@quartz-community/created-modified-date",
+    "@quartz-community/syntax-highlighting",
+    "@quartz-community/obsidian-flavored-markdown",
+    "@quartz-community/github-flavored-markdown",
+    "@quartz-community/table-of-contents",
+    "@quartz-community/crawl-links",
+    "@quartz-community/description",
+    "@quartz-community/latex",
+    "@quartz-community/remove-draft",
+    "@quartz-community/alias-redirects",
+    "@quartz-community/content-index",
+    "@quartz-community/favicon",
+    "@quartz-community/og-image",
+    "@quartz-community/cname",
+    "@quartz-community/canvas-page",
+    "@quartz-community/content-page",
+    "@quartz-community/folder-page",
+    "@quartz-community/tag-page",
+    "@quartz-community/graph",
+    "@quartz-community/search",
+    "@quartz-community/backlinks",
+    "@quartz-community/article-title",
+    "@quartz-community/content-meta",
+    "@quartz-community/tag-list",
+    "@quartz-community/page-title",
+    "@quartz-community/darkmode",
+    "@quartz-community/reader-mode",
+    "@quartz-community/breadcrumbs",
+    "@quartz-community/footer",
+    "@quartz-community/spacer",
+    "@quartz-community/bases-page",
+    "@quartz-community/note-properties",
+    "@quartz-community/unlisted-pages",
+    "@quartz-community/encrypted-pages",
+    "github:quartz-community/encrypted-pages",
+    "github:quartz-community/explorer"
+  ]
+}

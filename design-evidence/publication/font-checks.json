@@ -1,0 +1,2051 @@
+{
+  "chrome": {
+    "version": "158.0.8127.36",
+    "cases": [
+      {
+        "w": 390,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.4825,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.4825,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.64,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.64,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 32,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 56,
+            "body": 32,
+            "h2": 44,
+            "h3": 36,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "search": {
+            "input": 32,
+            "result": 32
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 24,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 46.32,
+            "body": 25.05,
+            "h2": 33.45,
+            "h3": 27.9,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "archive": {
+            "archive": 25.59,
+            "date": 21
+          },
+          "search": {
+            "input": 24,
+            "result": 24
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 32,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 56,
+            "body": 34,
+            "h2": 46.16,
+            "h3": 37.92,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "search": {
+            "input": 32,
+            "result": 32
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      },
+      {
+        "w": 320,
+        "t": "light",
+        "root": 24,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42,
+            "body": 24,
+            "h2": 33,
+            "h3": 27,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "archive": {
+            "archive": 25.5,
+            "date": 21
+          },
+          "search": {
+            "input": 24,
+            "result": 24
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      }
+    ]
+  },
+  "brave": {
+    "version": "158.0.8127.42",
+    "cases": [
+      {
+        "w": 390,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.4825,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.4825,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.64,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.64,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 32,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 56,
+            "body": 32,
+            "h2": 44,
+            "h3": 36,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "search": {
+            "input": 32,
+            "result": 32
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 24,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 46.32,
+            "body": 25.05,
+            "h2": 33.45,
+            "h3": 27.9,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "archive": {
+            "archive": 25.59,
+            "date": 21
+          },
+          "search": {
+            "input": 24,
+            "result": 24
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 32,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 56,
+            "body": 34,
+            "h2": 46.16,
+            "h3": 37.92,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "search": {
+            "input": 32,
+            "result": 32
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      },
+      {
+        "w": 320,
+        "t": "light",
+        "root": 24,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42,
+            "body": 24,
+            "h2": 33,
+            "h3": 27,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "archive": {
+            "archive": 25.5,
+            "date": 21
+          },
+          "search": {
+            "input": 24,
+            "result": 24
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      }
+    ]
+  },
+  "edge": {
+    "version": "158.0.4370.33",
+    "cases": [
+      {
+        "w": 390,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 30.1963,
+            "body": 16.175,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.4825,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42.26,
+            "body": 17.45,
+            "h2": 24.25,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.4825,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.64,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 16,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.64,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 32,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 56,
+            "body": 32,
+            "h2": 44,
+            "h3": 36,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "search": {
+            "input": 32,
+            "result": 32
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 24,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 46.32,
+            "body": 25.05,
+            "h2": 33.45,
+            "h3": 27.9,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "archive": {
+            "archive": 25.59,
+            "date": 21
+          },
+          "search": {
+            "input": 24,
+            "result": 24
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 32,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 56,
+            "body": 34,
+            "h2": 46.16,
+            "h3": 37.92,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "search": {
+            "input": 32,
+            "result": 32
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      },
+      {
+        "w": 320,
+        "t": "light",
+        "root": 24,
+        "method": "native CDP font preference",
+        "sizes": {
+          "azure": {
+            "title": 42,
+            "body": 24,
+            "h2": 33,
+            "h3": 27,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "archive": {
+            "archive": 25.5,
+            "date": 21
+          },
+          "search": {
+            "input": 24,
+            "result": 24
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      }
+    ]
+  },
+  "firefox": {
+    "version": "159.0",
+    "cases": [
+      {
+        "w": 390,
+        "t": "light",
+        "root": 16,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 29.7167,
+            "body": 16.1667,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 16,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 29.7167,
+            "body": 16.1667,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 16,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 42.2667,
+            "body": 17.45,
+            "h2": 24.2333,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.4833,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "root": 16,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 42.2667,
+            "body": 17.45,
+            "h2": 24.2333,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.4833,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "root": 16,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 43.5167,
+            "body": 18,
+            "h2": 27.75,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.6333,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 16,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 43.5167,
+            "body": 18,
+            "h2": 27.75,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "archive": {
+            "archive": 18.6333,
+            "date": 14
+          },
+          "search": {
+            "input": 16,
+            "result": 16
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 24,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 46.5667,
+            "body": 25.05,
+            "h2": 33.4333,
+            "h3": 27.9,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "archive": {
+            "archive": 25.6167,
+            "date": 21
+          },
+          "search": {
+            "input": 24,
+            "result": 24
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      },
+      {
+        "w": 320,
+        "t": "light",
+        "root": 24,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 42,
+            "body": 24,
+            "h2": 33,
+            "h3": 27,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "archive": {
+            "archive": 25.5,
+            "date": 21
+          },
+          "search": {
+            "input": 24,
+            "result": 24
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 32,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 56,
+            "body": 32,
+            "h2": 44,
+            "h3": 36,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "search": {
+            "input": 32,
+            "result": 32
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 43.99951171875
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 32,
+        "method": "native Firefox font preference",
+        "sizes": {
+          "azure": {
+            "title": 56,
+            "body": 34,
+            "h2": 46.15,
+            "h3": 37.9167,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "search": {
+            "input": 32,
+            "result": 32
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      }
+    ]
+  },
+  "webkit-native": {
+    "version": "27.2",
+    "cases": [
+      {
+        "w": 320,
+        "t": "light",
+        "root": 24,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 24,
+            "result": 24
+          },
+          "archive": {
+            "archive": 25.5,
+            "date": 21
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "azure": {
+            "title": 42,
+            "body": 24,
+            "h2": 33,
+            "h3": 27,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 32,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 32,
+            "result": 32
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "azure": {
+            "title": 56,
+            "body": 34,
+            "h2": 46.16,
+            "h3": 37.919998,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 24,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 24,
+            "result": 24
+          },
+          "archive": {
+            "archive": 25.59,
+            "date": 21
+          },
+          "iacs": {
+            "caption": 21
+          },
+          "disk": {
+            "table": 21,
+            "tableCode": 21.75
+          },
+          "azure": {
+            "title": 46.32,
+            "body": 25.049999,
+            "h2": 33.450001,
+            "h3": 27.9,
+            "nav": 22.5,
+            "metadata": 21,
+            "regular": 21.75,
+            "bold": 21.75,
+            "block": 21.75,
+            "syntax": 21.75,
+            "gutter": 21.75
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 33
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 32,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 32,
+            "result": 32
+          },
+          "archive": {
+            "archive": 34,
+            "date": 28
+          },
+          "iacs": {
+            "caption": 28
+          },
+          "disk": {
+            "table": 28,
+            "tableCode": 29
+          },
+          "azure": {
+            "title": 56,
+            "body": 32,
+            "h2": 44,
+            "h3": 36,
+            "nav": 30,
+            "metadata": 28,
+            "regular": 29,
+            "bold": 29,
+            "block": 29,
+            "syntax": 29,
+            "gutter": 29
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 44
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "root": 16,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 16,
+            "result": 16
+          },
+          "archive": {
+            "archive": 18.639999,
+            "date": 14
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "azure": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "root": 16,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 16,
+            "result": 16
+          },
+          "archive": {
+            "archive": 18.639999,
+            "date": 14
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "azure": {
+            "title": 43.52,
+            "body": 18,
+            "h2": 27.76,
+            "h3": 21,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "root": 16,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 16,
+            "result": 16
+          },
+          "archive": {
+            "archive": 18.4825,
+            "date": 14
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "azure": {
+            "title": 42.259998,
+            "body": 17.450001,
+            "h2": 24.25,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "root": 16,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 16,
+            "result": 16
+          },
+          "archive": {
+            "archive": 18.4825,
+            "date": 14
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "azure": {
+            "title": 42.259998,
+            "body": 17.450001,
+            "h2": 24.25,
+            "h3": 19.5,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "root": 16,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 16,
+            "result": 16
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "azure": {
+            "title": 29.716249,
+            "body": 16.174999,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "root": 16,
+        "method": "native WebKit MiniBrowser preference",
+        "sizes": {
+          "search": {
+            "input": 16,
+            "result": 16
+          },
+          "archive": {
+            "archive": 16,
+            "date": 14
+          },
+          "iacs": {
+            "caption": 14
+          },
+          "disk": {
+            "table": 14,
+            "tableCode": 14.5
+          },
+          "azure": {
+            "title": 29.716249,
+            "body": 16.174999,
+            "h2": 22,
+            "h3": 18,
+            "nav": 15,
+            "metadata": 14,
+            "regular": 14.5,
+            "bold": 14.5,
+            "block": 14.5,
+            "syntax": 14.5,
+            "gutter": 14.5
+          }
+        },
+        "contained": true,
+        "stylesheet": "/index-530afd62.css",
+        "lineStep": 22
+      }
+    ]
+  },
+  "fractionalDensity": [
+    {
+      "view": 1440,
+      "width": 1425,
+      "dpr": 1.25,
+      "theme": "light",
+      "root": "20px",
+      "inline": "18.125px",
+      "block": "18.125px",
+      "gutter": "18.125px",
+      "pitch": 27.5,
+      "leading": "27.5px"
+    },
+    {
+      "view": 1440,
+      "width": 1425,
+      "dpr": 1.25,
+      "theme": "dark",
+      "root": "20px",
+      "inline": "18.125px",
+      "block": "18.125px",
+      "gutter": "18.125px",
+      "pitch": 27.5,
+      "leading": "27.5px"
+    },
+    {
+      "view": 900,
+      "width": 885,
+      "dpr": 2,
+      "theme": "light",
+      "root": "20px",
+      "inline": "18.125px",
+      "block": "18.125px",
+      "gutter": "18.125px",
+      "pitch": 27.5,
+      "leading": "27.5px"
+    },
+    {
+      "view": 900,
+      "width": 885,
+      "dpr": 2,
+      "theme": "dark",
+      "root": "20px",
+      "inline": "18.125px",
+      "block": "18.125px",
+      "gutter": "18.125px",
+      "pitch": 27.5,
+      "leading": "27.5px"
+    },
+    {
+      "view": 390,
+      "width": 390,
+      "dpr": 3,
+      "theme": "light",
+      "root": "20px",
+      "inline": "18.125px",
+      "block": "18.125px",
+      "gutter": "18.125px",
+      "pitch": 27.5,
+      "leading": "27.5px"
+    },
+    {
+      "view": 390,
+      "width": 390,
+      "dpr": 3,
+      "theme": "dark",
+      "root": "20px",
+      "inline": "18.125px",
+      "block": "18.125px",
+      "gutter": "18.125px",
+      "pitch": 27.5,
+      "leading": "27.5px"
+    }
+  ]
+}

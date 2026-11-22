@@ -1,0 +1,191 @@
+{
+  "settled": {
+    "baseline": {
+      "ms": 1105,
+      "callbacks": {
+        "[anon] (time) => {\n          this._requestId = null;\n          if (this.started) {\n            this.update(time);\n   ": 134,
+        "se function se(){if(!le){for(var i=0;i<P.length;i++){var l=P[i],F=l.simulationData.x,v=l.simulationData.y;F!=null": 67
+      },
+      "canvases": 1,
+      "hidden": true,
+      "mounts": 0,
+      "active": false,
+      "inert": false
+    },
+    "displayNone": {
+      "ms": 1103,
+      "callbacks": {
+        "[anon] (time) => {\n          this._requestId = null;\n          if (this.started) {\n            this.update(time);\n   ": 134,
+        "se function se(){if(!le){for(var i=0;i<P.length;i++){var l=P[i],F=l.simulationData.x,v=l.simulationData.y;F!=null": 67
+      },
+      "canvases": 1,
+      "hidden": true,
+      "mounts": 0,
+      "active": false,
+      "inert": false
+    },
+    "reduced": {
+      "ms": 1105,
+      "callbacks": {
+        "d function d(){i=0;let s=e.clientHeight;if(!s||a&&!a.open)return;let b=parseFloat(getComputedStyle(document.docu": 2
+      },
+      "canvases": 0,
+      "hidden": true,
+      "mounts": 2,
+      "active": false,
+      "inert": false
+    },
+    "settledDialogCleanupMs": 1278,
+    "afterOpenReduce": {
+      "ms": 1101,
+      "callbacks": {
+        "d function d(){i=0;let s=e.clientHeight;if(!s||a&&!a.open)return;let b=parseFloat(getComputedStyle(document.docu": 2
+      },
+      "canvases": 0,
+      "hidden": true,
+      "mounts": 2,
+      "active": false,
+      "inert": false
+    }
+  },
+  "lifecycle": [
+    {
+      "path": "/blog/0057-setting-up-azure-machine-configuration",
+      "tablet": {
+        "ms": 1003,
+        "callbacks": 180,
+        "canvas": 1,
+        "visible": 0,
+        "graphVisibility": "hidden",
+        "graphDisplay": "grid",
+        "triggerVisible": false,
+        "detachedMounts": 0,
+        "reader": "off"
+      },
+      "desktop": {
+        "ms": 1003,
+        "callbacks": 48,
+        "canvas": 1,
+        "visible": 1,
+        "graphVisibility": "visible",
+        "graphDisplay": "grid",
+        "triggerVisible": true,
+        "detachedMounts": 0,
+        "reader": "off"
+      },
+      "reader": {
+        "ms": 1002,
+        "callbacks": 180,
+        "canvas": 1,
+        "visible": 0,
+        "graphVisibility": "visible",
+        "graphDisplay": "grid",
+        "triggerVisible": false,
+        "detachedMounts": 0,
+        "reader": "on"
+      },
+      "phone": {
+        "ms": 1002,
+        "callbacks": 0,
+        "canvas": 0,
+        "visible": 0,
+        "graphVisibility": "hidden",
+        "graphDisplay": "none",
+        "triggerVisible": false,
+        "detachedMounts": 2,
+        "reader": "off"
+      },
+      "tabletAgain": {
+        "ms": 1003,
+        "callbacks": 240,
+        "canvas": 1,
+        "visible": 0,
+        "graphVisibility": "hidden",
+        "graphDisplay": "grid",
+        "triggerVisible": false,
+        "detachedMounts": 0,
+        "reader": "off"
+      },
+      "reduced": {
+        "ms": 1003,
+        "callbacks": 0,
+        "canvas": 0,
+        "visible": 0,
+        "graphVisibility": "hidden",
+        "graphDisplay": "none",
+        "triggerVisible": false,
+        "detachedMounts": 2,
+        "reader": "off"
+      }
+    },
+    {
+      "path": "/",
+      "tablet": {
+        "ms": 1004,
+        "callbacks": 183,
+        "canvas": 1,
+        "visible": 1,
+        "graphVisibility": "visible",
+        "graphDisplay": "grid",
+        "triggerVisible": true,
+        "detachedMounts": 0,
+        "reader": "off"
+      },
+      "desktop": {
+        "ms": 1005,
+        "callbacks": 138,
+        "canvas": 1,
+        "visible": 1,
+        "graphVisibility": "visible",
+        "graphDisplay": "grid",
+        "triggerVisible": true,
+        "detachedMounts": 0,
+        "reader": "off"
+      },
+      "reader": {
+        "ms": 1003,
+        "callbacks": 180,
+        "canvas": 1,
+        "visible": 0,
+        "graphVisibility": "visible",
+        "graphDisplay": "grid",
+        "triggerVisible": false,
+        "detachedMounts": 0,
+        "reader": "on"
+      },
+      "phone": {
+        "ms": 1003,
+        "callbacks": 1,
+        "canvas": 0,
+        "visible": 0,
+        "graphVisibility": "hidden",
+        "graphDisplay": "none",
+        "triggerVisible": false,
+        "detachedMounts": 2,
+        "reader": "off"
+      },
+      "tabletAgain": {
+        "ms": 1015,
+        "callbacks": 240,
+        "canvas": 1,
+        "visible": 1,
+        "graphVisibility": "visible",
+        "graphDisplay": "grid",
+        "triggerVisible": true,
+        "detachedMounts": 0,
+        "reader": "off"
+      },
+      "reduced": {
+        "ms": 1003,
+        "callbacks": 0,
+        "canvas": 0,
+        "visible": 0,
+        "graphVisibility": "hidden",
+        "graphDisplay": "none",
+        "triggerVisible": false,
+        "detachedMounts": 2,
+        "reader": "off"
+      }
+    }
+  ]
+}

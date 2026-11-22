@@ -4,11 +4,13 @@ import { fetchCanonical } from "./util"
 
 const p = new DOMParser()
 let activeAnchor: HTMLAnchorElement | null = null
+let awaitingPointerMove = false
 
 async function mouseEnterHandler(
   this: HTMLAnchorElement,
   { clientX, clientY }: { clientX: number; clientY: number },
 ) {
+  if (awaitingPointerMove) return
   const link = (activeAnchor = this)
   if (link.dataset.noPopover === "true") {
     return
@@ -26,6 +28,7 @@ async function mouseEnterHandler(
 
   function showPopover(popoverElement: HTMLElement) {
     clearActivePopover()
+    popoverElement.hidden = false
     popoverElement.classList.add("active-popover")
     setPosition(popoverElement as HTMLElement)
 
@@ -124,6 +127,30 @@ function clearActivePopover() {
   const allPopoverElements = document.querySelectorAll(".popover")
   allPopoverElements.forEach((popoverElement) => popoverElement.classList.remove("active-popover"))
 }
+
+function resumeHover(event: MouseEvent) {
+  if (event.movementX === 0 && event.movementY === 0) return
+  document.removeEventListener("mousemove", resumeHover)
+  awaitingPointerMove = false
+  // A physical move can enter a link before this mousemove is delivered.
+  const link =
+    event.target instanceof Element && event.target.closest<HTMLAnchorElement>("a.internal")
+  if (link && !link.closest(".popover")) void mouseEnterHandler.call(link, event)
+}
+
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape") return
+  const previews = document.querySelectorAll<HTMLElement>(".active-popover, .popover:hover")
+  if (!activeAnchor && !previews.length) return
+  // Hiding a card can send mouseenter to the link it covered, with the mouse still stationary.
+  awaitingPointerMove = true
+  document.addEventListener("mousemove", resumeHover)
+  // A preview under the pointer stays visible through :hover after its link loses hover.
+  for (const preview of previews) {
+    preview.hidden = true
+  }
+  clearActivePopover()
+})
 
 function setupPopovers() {
   const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]

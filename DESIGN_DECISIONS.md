@@ -1,5 +1,20 @@
 # Design decisions
 
+## Publication audit and cross-browser font sizing
+
+| Decision | Reason |
+| --- | --- |
+| Adopt a shared 14.5px default TX-02 token and inherit it in sticky line numbers. | At 14px the owner found inline text too small. At 15px two tablet command rows wrapped, an additional Azure fence needed scrolling and the first phone variable definition gained a line. The 14.5px trial preserved those examples. One other 900px project table now scrolls 5px within its wrapper. |
+| Retain Source Serif 4 for articles and the current title scale. | SN Pro produced longer lines at the same measure. The larger title trial pushed the long Defender heading from four phone lines to five. |
+| Retain the current archive row padding. | At 1.14rem of padding per edge, whole rows visible fell from seven to six on mobile and from ten to nine on larger widths. |
+| Decline the pretty paragraph wrapping trial. | Chromium removed 26 isolated last words without increasing height. WebKit added a line to ten paragraphs and Firefox kept its original line endings. |
+| Keep the plain light and pure-black surfaces. | The grid crossed type and section rules, stipple altered the reading surface, and drifting particles added continuous motion. |
+| Retain right-only table fading. | A matching left fade dimmed the pinned Home row label at an intermediate position. Keyboard focus and forced colors use the established clear-mask behavior. |
+| Reject the first Mermaid toolbar revision. | An uninitialized Expand button intercepted Copy, focus faded in over 200ms under reduced motion, and a live font preference change made the plugin’s cached pixel offset stale. The corrected build hides the dormant action and uses the current control size. |
+
+[Typography trials](design-evidence/publication/type-code-900-light.webp) · [Archive comparison](design-evidence/publication/archive-search.webp) · [Table edge comparison](design-evidence/publication/table-fades.webp) · [Motion trials](design-evidence/publication/motion-compare-390.jpg)
+
+
 The independent design director reviewed measurements and matched browser captures before implementation. OpenAI served as a secondary reference for discovery. Anthropic’s editorial pages provided the primary reference for the relationship between titles, prose and metadata.
 
 | Decision | Evidence and rationale | Reconsider when |
@@ -21,3 +36,27 @@ The independent design director reviewed measurements and matched browser captur
 | Reject relying on string equality for disclosure IDs | Explorer and TOC had both emitted `list-0`. The button's attribute matched a string but resolved to the wrong element. Use the TOC instance ID on the actual controlled list and verify DOM identity. | The plugin emits a unique, correctly wired pair. |
 | Use the mobile Explorer’s existing readiness marker | Filmstrip and hit tests showed that a cold navigation could paint an empty full-screen drawer and make the reading surface inert until the content index arrived. V5 already distinguishes a loading toggle from a ready one. Honor that state in both the stylesheet and the disclosure logic. | Upstream supplies a complete mobile loading and disclosure state. |
 | Use a flat page background in both themes | In 24 comparisons across Home, article and archive, flat margins preserved the article measure. The old drawing clipped to a 4px strip at 900px and spread across both outer margins on a 1920px screen. Anthropic’s reading page uses the same warm off-white and plain margins. | A future page has an editorial purpose for its own illustration. |
+| Retire the 0.875em inline code size | The owner found it too prominent beside Source Serif 4. At 390px, regular TX-02 at 0.8em with a 13px floor and tighter padding kept short commands together. In tables the floor preserved letter size. [Paired article excerpts](design-evidence/cycle-10/inline-iteration.webp) | The code or prose face changes, or readers report difficulty at the tested sizes. |
+| Keep solid metadata and the existing graph-edge palette | At 82% ink, light archive dates fell from 6.26:1 to 4.13:1. The lighter graph-edge trial reduced the local graph to 2.04:1 light and 2.37:1 dark. [Rendered comparisons](design-evidence/polish-series/color-trials.webp) | The surfaces, face or graph renderer changes. |
+| Keep the archive title and date tracks | Widening the tag track shortened the 56-row list but wrapped another headline at each of the larger test widths. A 20px title wrapped seven of the first eight phone headlines. [Reading trials](design-evidence/polish-series/reading-trials.webp) | A new article mix materially changes title lengths or tag density. |
+| Reject link previews that cover the archive after Escape | Removing the fade restored the preview under reduced motion. Hiding only the first card could reveal a second preview when there was a link beneath the pointer. The accepted handler waits for real pointer movement before resuming hover. [Stationary-pointer comparison](design-evidence/polish-series/escape.webp) | Upstream supplies equivalent dismissal and pending-request handling. |
+
+### Allow long archive tags to wrap at the date column
+
+The date-column change alone left `penetration-testing` on one line in Firefox, overlapping the date at a 20px native minimum. The final archive tag rule allows the text to wrap at a natural opportunity. Reducing flex item minimum width alone left the collision in place. Preserve keyboard focus and the full text of both items. [Before and after](design-evidence/inline-readability/firefox-tags.webp)
+
+### Let archive dates expand at larger minimum font settings
+
+A fixed date column pushed the 900px Blog page past its viewport when the browser enforced a 20px minimum font. Keep 7rem as the reserved width and let the column grow to fit the date. This preserved the default layout in all 56 sampled rows and kept enlarged dates readable. [Tablet comparison](design-evidence/inline-readability/archive-900.webp)
+
+### Share the 14px token between inline and fenced code
+
+The owner found the 12.5–13px range too small. In the 13.5px phone trial, WebKit still drew capital H at the previous 9px ink height. The 14px trial produced a 10px capital matching the box. Keep the same rem-based size for regular and emphasized inline commands, table commands and block syntax. The 13.5–14px alternative reduced wrapping in a few narrow contexts, but retained the smaller phone capital height. Retest if the typeface or the shared code scale changes. [Cycle 2 comparisons](design-evidence/inline-readability/inline-390.webp)
+
+### Previous decision, superseded in cycle 2 · Smaller inline TX-02
+
+The previous 0.8em sizing could exceed the 14px code box on desktop. A fixed 13px trial kept the previous phone size. A fixed 12px trial reduced desktop commands further than necessary. Use the bounded 12.5–13px default-size range and preserve author-applied bold. Compared with the same variable in a real PowerShell block, the revised inline token occupies less horizontal space across all three tested engines. [Matched comparisons](design-evidence/cross-browser/inline-1440.webp)
+
+### Reserve the actual dimensions of the IACS illustrations
+
+Accept the five native width/height pairs with one shared fluid display rule. When the browser received the PNGs late, captions and adjacent prose previously shifted by up to 199px beneath the captioned illustrations. Reject the approximate 2:1 ratio. It left 1.55–7.02px of movement on the four captioned diagrams and would give the uncaptioned 716 × 451px illustration the wrong proportions. With exact dimensions, the five final boxes match their reserved boxes. [Phone](design-evidence/polish-series/reserve-390.webp) · [Tablet](design-evidence/polish-series/reserve-900.webp) · [Desktop](design-evidence/polish-series/reserve-1440.webp)

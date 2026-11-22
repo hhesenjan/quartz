@@ -1,0 +1,152 @@
+{
+  "light": {
+    "vars": {
+      "light": "#faf9f5",
+      "dark": "#141413",
+      "darkgray": "#141413",
+      "gray": "#5e5d59",
+      "secondary": "#302d29",
+      "tertiary": "#904832",
+      "highlight": "#e8e6dc",
+      "rule": "#d4d1c6",
+      "panel": "#f1efe6",
+      "nav-selection": "#eee3d8",
+      "selection-ink": "#693f30",
+      "graph-edge": "#817d72"
+    },
+    "tokens": [
+      {
+        "source": "#6A737D,#6A737D",
+        "color": "rgb(94, 93, 89)",
+        "normal": 5.721841064642884,
+        "highlight": 5.2150022817814605
+      },
+      {
+        "source": "#6F42C1,#B392F0",
+        "color": "color(srgb 0.328235 0.204706 0.552157)",
+        "normal": 8.091961271368733,
+        "highlight": 7.375178027058489
+      },
+      {
+        "source": "#005CC5,#79B8FF",
+        "color": "color(srgb 0.0235294 0.276078 0.563137)",
+        "normal": 7.972511096926416,
+        "highlight": 7.266308709431828
+      },
+      {
+        "source": "#032F62,#9ECBFF",
+        "color": "color(srgb 0.0317647 0.152549 0.291373)",
+        "normal": 13.026436975637742,
+        "highlight": 11.872559510821207
+      },
+      {
+        "source": "#D73A49,#F97583",
+        "color": "color(srgb 0.613725 0.182745 0.222745)",
+        "normal": 6.331250508242177,
+        "highlight": 5.770430439083455
+      },
+      {
+        "source": "#24292E,#E1E4E8",
+        "color": "color(srgb 0.122353 0.136078 0.148627)",
+        "normal": 13.740793219552241,
+        "highlight": 12.523638315690363
+      },
+      {
+        "source": "#E36209,#FFAB70",
+        "color": "color(srgb 0.646667 0.292549 0.0470588)",
+        "normal": 5.047446555837629,
+        "highlight": 4.6003454147858385
+      },
+      {
+        "source": "#22863A,#85E89D",
+        "color": "color(srgb 0.116863 0.391373 0.181569)",
+        "normal": 6.2482401775696195,
+        "highlight": 5.694773135957046
+      }
+    ],
+    "ratios": {
+      "dark/light": 17.497722780575504,
+      "gray/light": 6.256754263823609,
+      "tertiary/light": 6.310368907354908,
+      "graph-edge/light": 3.9010099071785067,
+      "dark/highlight": 14.732440790112804,
+      "gray/panel": 5.721841064642884,
+      "selection-ink/nav-selection": 7.057042048837508
+    }
+  },
+  "dark": {
+    "vars": {
+      "light": "#000",
+      "dark": "#f5f5f5",
+      "darkgray": "#f5f5f5",
+      "gray": "#ababab",
+      "secondary": "#dedede",
+      "tertiary": "#d9c3ad",
+      "highlight": "#262626",
+      "rule": "#383838",
+      "panel": "#161616",
+      "nav-selection": "#2c2926",
+      "selection-ink": "#f0e8dd",
+      "graph-edge": "#707070"
+    },
+    "tokens": [
+      {
+        "source": "#6A737D,#6A737D",
+        "color": "rgb(168, 168, 168)",
+        "normal": 7.610275392134098,
+        "highlight": 6.081185392747405
+      },
+      {
+        "source": "#6F42C1,#B392F0",
+        "color": "rgb(179, 146, 240)",
+        "normal": 7.140721309222202,
+        "highlight": 5.7059761811254335
+      },
+      {
+        "source": "#005CC5,#79B8FF",
+        "color": "rgb(121, 184, 255)",
+        "normal": 8.714778465083263,
+        "highlight": 6.963766851022277
+      },
+      {
+        "source": "#032F62,#9ECBFF",
+        "color": "rgb(158, 203, 255)",
+        "normal": 10.720018905716168,
+        "highlight": 8.566105563906047
+      },
+      {
+        "source": "#D73A49,#F97583",
+        "color": "rgb(249, 117, 131)",
+        "normal": 6.807796685506344,
+        "highlight": 5.439944236904416
+      },
+      {
+        "source": "#24292E,#E1E4E8",
+        "color": "rgb(225, 228, 232)",
+        "normal": 14.18752530627341,
+        "highlight": 11.336905329460087
+      },
+      {
+        "source": "#E36209,#FFAB70",
+        "color": "rgb(255, 171, 112)",
+        "normal": 9.747080285907732,
+        "highlight": 7.788654050267759
+      },
+      {
+        "source": "#22863A,#85E89D",
+        "color": "rgb(133, 232, 157)",
+        "normal": 12.087251414027198,
+        "highlight": 9.658627703988405
+      }
+    ],
+    "ratios": {
+      "dark/light": 19.261973035868383,
+      "gray/light": 9.144804238034732,
+      "tertiary/light": 12.359811466757401,
+      "graph-edge/light": 4.24058751278222,
+      "dark/highlight": 13.881030257693242,
+      "gray/panel": 7.880300762091932,
+      "selection-ink/nav-selection": 11.906831174964033
+    }
+  }
+}
