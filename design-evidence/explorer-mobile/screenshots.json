@@ -1,0 +1,166 @@
+{
+  "publishedComponent": "component-1ea6ad18.css",
+  "localComponent": "component-b43df3ac.css",
+  "previews": [
+    "http://127.0.0.1:48043",
+    "http://127.0.0.1:48044"
+  ],
+  "pairs": [
+    {
+      "file": "explorer-390-light.webp",
+      "viewport": 390,
+      "theme": "light",
+      "states": [
+        "blog-open",
+        "blog-folded",
+        "blog-folded",
+        "blog-opening",
+        "blog-closed"
+      ]
+    },
+    {
+      "file": "context-390-light.webp",
+      "viewport": 390,
+      "theme": "light",
+      "states": [
+        "home",
+        "blog-closed",
+        "archive",
+        "article",
+        "code",
+        "search",
+        "blog-folded"
+      ]
+    },
+    {
+      "file": "context-900-light.webp",
+      "viewport": 900,
+      "theme": "light",
+      "states": [
+        "home",
+        "blog-closed",
+        "archive",
+        "article",
+        "code",
+        "search",
+        "sidebar-toggled",
+        "graph"
+      ]
+    },
+    {
+      "file": "context-1440-light.webp",
+      "viewport": 1440,
+      "theme": "light",
+      "states": [
+        "home",
+        "blog-closed",
+        "archive",
+        "article",
+        "code",
+        "search",
+        "sidebar-toggled",
+        "graph"
+      ]
+    },
+    {
+      "file": "explorer-390-dark.webp",
+      "viewport": 390,
+      "theme": "dark",
+      "states": [
+        "blog-open",
+        "blog-folded",
+        "blog-folded",
+        "blog-opening",
+        "blog-closed"
+      ]
+    },
+    {
+      "file": "context-390-dark.webp",
+      "viewport": 390,
+      "theme": "dark",
+      "states": [
+        "home",
+        "blog-closed",
+        "archive",
+        "article",
+        "code",
+        "search",
+        "blog-folded"
+      ]
+    },
+    {
+      "file": "context-900-dark.webp",
+      "viewport": 900,
+      "theme": "dark",
+      "states": [
+        "home",
+        "blog-closed",
+        "archive",
+        "article",
+        "code",
+        "search",
+        "sidebar-toggled",
+        "graph"
+      ]
+    },
+    {
+      "file": "context-1440-dark.webp",
+      "viewport": 1440,
+      "theme": "dark",
+      "states": [
+        "home",
+        "blog-closed",
+        "archive",
+        "article",
+        "code",
+        "search",
+        "sidebar-toggled",
+        "graph"
+      ]
+    }
+  ],
+  "underlayPixels": {
+    "light": {
+      "published-before-blog-open": 190,
+      "published-before-blog-folded": 190,
+      "published-after-blog-open": 0,
+      "published-after-blog-folded": 0
+    },
+    "dark": {
+      "published-before-blog-open": 198,
+      "published-before-blog-folded": 198,
+      "published-after-blog-open": 0,
+      "published-after-blog-folded": 0
+    }
+  },
+  "drawerLeftCSSPixels": {
+    "light": {
+      "published-before": {
+        "blog-closed": -372.453125,
+        "blog-opening": -59.51580047607422,
+        "blog-open": 17.546875,
+        "blog-folded": 17.546875
+      },
+      "published-after": {
+        "blog-closed": -390,
+        "blog-opening": -77.06267547607422,
+        "blog-open": 0,
+        "blog-folded": 0
+      }
+    },
+    "dark": {
+      "published-before": {
+        "blog-closed": -372.453125,
+        "blog-opening": -59.51580047607422,
+        "blog-open": 17.546875,
+        "blog-folded": 17.546875
+      },
+      "published-after": {
+        "blog-closed": -390,
+        "blog-opening": -77.06267547607422,
+        "blog-open": 0,
+        "blog-folded": 0
+      }
+    }
+  }
+}

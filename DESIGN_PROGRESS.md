@@ -1,5 +1,22 @@
 # Quartz V5 design review
 
+## Cycle 48 · Mobile Explorer over the Blog listing
+
+The live Explorer left the underlying Blog row dividers visible along both edges of an open phone drawer. At 390px, the deployed Quartz Explorer component positioned its drawer relative to the inset toolbar, which left 17.55px exposed on each side. The locally installed component already used viewport positioning. I matched the deployed Explorer stylesheet and scripts in a second set of browser previews to reproduce the reported behavior before editing. [Phone comparison in light mode](design-evidence/explorer-mobile/explorer-390-light.webp) · [Dark comparison](design-evidence/explorer-mobile/explorer-390-dark.webp)
+
+One declaration in [custom.scss](quartz/styles/custom.scss) anchors the mobile drawer to the viewport. The 390px tree grew from 323px to 358px of usable width. The first two Blog titles now fit on one line. Longer titles wrap on aligned lines, and the tree scrolls independently beneath its close button. Desktop and tablet retain their in-page navigation rail. [Mobile Explorer in both themes](design-evidence/explorer-mobile/mobile.webp) · [All matched captures](design-evidence/explorer-mobile/screenshots.json)
+
+All 160 pages with an Explorer passed in both themes in Chrome and Brave. Headless Chrome compared every pixel of the settled open menu with and without the page underneath. All 320 pairs matched. Brave checked the menu bounds, both edges, background isolation and Escape focus return across the same routes. The 404 uses the minimal layout and the other 91 HTML files redirect. Chrome, Brave and WebKit also reproduced the original Blog defect at 390px and 800px. The corrected drawer exposed zero background pixels at the top and after a 520px page scroll. [Site-wide route measurements](design-evidence/explorer-mobile/route-checks.json) · [Before-and-after browser checks](design-evidence/explorer-mobile/checks.json)
+
+| Independent reviewer | Decision and observations |
+| --- | --- |
+| Visual Design | **APPROVE.** Folder indentation, long titles and the active row stayed legible down to 320px. The final nested Projects link was reachable. Opening and closing the menu preserved a 1,500px article scroll position. |
+| Responsive and Accessibility | **APPROVE.** The 44px targets, focus trap, Escape, reduced motion, forced colors and 400% Firefox zoom passed. Touch and safe-area checks used emulation. |
+| CSS and Quartz V5 | **APPROVE.** The emitted site CSS differs by one declaration. The current local package and the deployed package now use the same mobile geometry. The wider rails retain their previous positions. |
+| Design Director | **APPROVE** for local acceptance. Reproduced the original strips and verified opaque edges at 390px and 800px, independent tree scrolling, focus return and the surrounding layouts. |
+
+The production build emitted 913 files and all 167 unit tests passed. All 252 generated routes retained their rendered text, element IDs and link destinations. Browser scripts and WOFF2 assets matched. The baseline and candidate returned the same two dependency declaration errors for `micromorph` and `remark-parse/lib` in the full type check. [Independent assessments and final disposition](design-evidence/explorer-mobile/reviews.json)
+
 ## Cycle 47 · Graph and Home table refresh repair
 
 Overlapping startup events on the published Home page could draw the same 160 nodes twice. Chrome produced two canvases after a rapid double refresh. Brave produced two after an ordinary refresh. In both browsers the Home certification table returned to its first column on each refresh. Panning also hid CAISP and the Todo dash behind their row headers. [Live and repaired graphs after refresh](design-evidence/refresh-repair/graph-refresh.webp) · [Browser and build results](design-evidence/refresh-repair/validation.json)

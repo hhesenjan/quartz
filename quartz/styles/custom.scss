@@ -2536,6 +2536,7 @@ pre code[data-theme] span[data-token-type="comment"] {
       display: flex;
     }
     .explorer-content {
+      position: fixed;
       inset-inline: 0;
       width: auto;
       max-width: none;

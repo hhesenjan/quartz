@@ -1,0 +1,1615 @@
+{
+  "width": 390,
+  "height": 844,
+  "chrome": "Google Chrome 158.0.8127.36",
+  "brave": "Brave 158.0.8127.42",
+  "reducedMotion": true,
+  "htmlRoutes": 252,
+  "redirectAliases": 91,
+  "pagesWithoutExplorer": [
+    "404.html"
+  ],
+  "evidence": "The Chrome comparison hid the inactive page behind a settled, open drawer and compared every viewport pixel. Both browsers hit-tested the panel edges and checked background isolation, Escape and focus return. External resources were blocked in the full-corpus run.",
+  "routes": {
+    "/blog/0000-red-team-cheat-sheet": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0001-the-basics-of-x86-assembly": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0002-c++-hooking-methods": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0003-mysql-connector-cpp": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0004-the-basics-of-mysql": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0005-terraform-for-microsoft-azure": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0006-the-microsoft-azure-documentation": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0007-understanding-json-web-token": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0008-building-a-kubernetes-cluster": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0009-create-a-phishing-campaign": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0011-dynamic-group-for-shared-mailboxes": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0012-cortex-xdr-monitoring-active-directory": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0013-understanding-microsoft-sentinel-part-1": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0014-deploying-cortex-xdr-through-intune": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0015-enrolling-devices-into-intune": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0016-onboarding-microsoft-defender-to-1500-devices": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0017-microsoft-defender-xdr-implementing-monitoring-highly-privileged-accounts": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0018-onboarding-microsoft-defender-for-identity-v2.x-sensor": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0019-implementing-attack-surface-reduction-rules": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0020-using-watchlist-in-microsoft-sentinel": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0021-implementing-microsoft-defender-smartscreen": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0022-automating-email-sorting-with-power-automate": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0023-visualizing-log-data-with-microsoft-sentinel-workbooks": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0024-investigating-security-incidents-with-microsoft-defender-xdr": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0025-finding-users-with-no-password-expires-in-active-directory": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0026-how-to-investigate-and-restore-deleted-teams-channel": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0027-troubleshooting-microsoft-defender-high-cpu-usage-during--scheduled-scans": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0028-enabling-auto-expanding-archiving-for-exchange-online-mailbox": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0029-building-a-security-incident-document-template": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0030-troubleshooting-dscmdreg": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0031-detecting-vulnerable-kernel-drivers-with-mde": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0032-notepad-security-incident-threat-hunting-using-kql": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0033-deploying-notepad-to-intune": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0034-detecting-malwares-with-yara-rules-(part-1)": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0035-adding-iocs-to-microsoft-defender-xdr": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0036-detecting-malware-with-yara-rules-(part-2)": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0037-sorting-event-viewer-using-python-evtx-(part-1)": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0038-deploying-dynamic-365-to-intune-(android-and-ios)": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0039-implementing-microsoft-defender-antivirus-policy-for-linux-systems": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0041-issuing-internal-ssl-certificates-from-ad-cs": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0042-proofpoint-whitelisting-domains-from-dmarc": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0043-iacs-ur-e26-and-e27": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0044-securing-claude-code-via-client-side--and--server-side": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0045-macos-antivirus-policy-grayed-out-in-mde": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0046-troubleshoot-mde-onboarding-issues": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0047-automatically-update-apps-through-intune-(winget)": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0048-disabling-javascript-and-flash-engine-on-adobe-acrobat-reader": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0049-using-device-control-to-block-usb-devices-in-mde": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0050-disabling-autorun-and-autoplay-for-windows-devices": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0051-building-a-mcp-server-with-rust": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0052-microsoft-defender-for-identity-sensor-v3.x-rpc-audit-misconfigured": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0053-build-your-own-socket-and-exploit-it": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0054-block-mshta.exe-outbound-connections": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0055-setting-up-sentinelone-data-connector-for-microsoft-sentinel": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0056-increasing-disk-space-on-linux-servers": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/0057-setting-up-azure-machine-configuration": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/blog/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/certifications/0000-oscp-review": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/certifications/0001-az-104-certification-review": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/certifications/0002-az-500-certification-review": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/certifications/0003-az-305-certification-review": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/certifications/0004-md-102-certification-review": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/certifications/0005-ms-102-certification-review": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/certifications/0006-sc-200-certification-review": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/certifications/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/binary-analysis/0000-abusing-active-directory-certificate-services": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/binary-analysis/0001-django-file-based-cache-poisoning": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/binary-analysis/0002-puzzle-reverse-engineering-challenge": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/binary-analysis/0003-decode-me-reverse-engineering-challenge": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/binary-analysis/0004-what-is-xor-encryption": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/binary-analysis/0006-what-is-teb-and-peb": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/binary-analysis/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/0000-what-is-buffer-overflow": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/0001-sync-breeze-enterprise-v10.0.28-buffer-overflow-exploit-development": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/0003-what-is-seh-overflow": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/0004-sync-breeze-enterprise-v10.14.18-seh-overflow-exploit-development": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/0005-what-is-egghunter-in-exploit-development": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/0006-savant-3.1-egghunter-exploit-development": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/0007-cloudme-1.11.2---defeating-dep-with-rop-chain": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/0008-ropemproum---ret2win-challenge": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/exploit-development/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/penetration-testing/0000-introduction": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/penetration-testing/0001-information-gathering": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/penetration-testing/0002-command-injections": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/penetration-testing/0003-attacking-active-directory": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/penetration-testing/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/system-programming/0000-windows-kernel-programming-fundamentals": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/system-programming/0001-windows-kernel-programming-handling-inputs": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/projects/system-programming/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/adcs": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/ad": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/ai": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/antivirus": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/asr": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/assembly": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/azure": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/bof": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/c++": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/certification": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/claude-code": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/claude": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/cmd": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/compliance": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/cortex": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/cpp": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/crackmes": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/dep": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/django": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/docker": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/egghunter": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/evtx": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/exchange": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/expdev": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/hardening": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/hooking-methods": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/iac": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/ida": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/identity": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/info": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/intune": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/jwt": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/kql": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/kubernetes": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/latex": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/linux": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/m365": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/macos": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/mcp": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/mde": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/mysql": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/nodejs": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/ot-security": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/pa": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/penetration-testing": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/powershell": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/proofpoint": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/python": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/re": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/rust": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/seh": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/sentinelone": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/siem": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/smartscreen": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/soc": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/socket": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/sql": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/ssl": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/teams": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/terraform": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/usb": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/win": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/windows": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/winget": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/workbook": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/xor": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/xql": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    },
+    "/tags/yara": {
+      "dark": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      },
+      "light": {
+        "chromeBackgroundPixelsVisible": 0,
+        "braveViewportEdgesAndKeyboardPassed": true
+      }
+    }
+  }
+}

@@ -62,6 +62,7 @@ Use near-black only for secondary surfaces. Selected rows use a distinct fill an
 - Let article images with missing or automatic dimensions participate in layout even outside the viewport. This keeps focus scrolling stable once the browser knows their dimensions. The fixed black connectors in the external framework SVG need a light backing in dark mode.
 - Where the desktop rail contains an expanded Contents and Backlinks, each section initially requests 50% of the space, up to its content height. The lists scroll independently if needed. At heights of 32rem or less, the whole rail scrolls.
 - Foldable callouts use native HTML disclosures inside the original callout blockquote. The arrow sits at the trailing edge of the summary, and keyboard focus encloses the control. Closed content leaves the Tab order and accessibility tree. A Search title match leaves that disclosure in its authored state. A highlighted body match opens the enclosing disclosures and scrolls the match into view. [Phone disclosure and focus](design-evidence/callout-review/corrected/disclosures-390.webp)
+- The mobile Explorer drawer covers the viewport edge to edge. Its padding keeps labels clear of safe-area insets. Only the tree scrolls while the drawer is open.
 - Keep native keyboard focus visible. The first tab stop in the default frame skips the toolbar and focuses main content. Search, Explorer, reader mode and the graph return the reader to a useful control when dismissed.
 
 ## Graph and motion
