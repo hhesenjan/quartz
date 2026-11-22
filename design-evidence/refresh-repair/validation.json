@@ -1,0 +1,2603 @@
+{
+  "build": {
+    "routes": 252,
+    "pagesContainingCallouts": 6,
+    "authoredCallouts": 11,
+    "disclosures": 5,
+    "unchangedSubjects": [
+      "every heading ID and link destination",
+      "all callout body and title text, links, type, and authored open/closed state",
+      "all WOFF2 font assets and prescript"
+    ],
+    "beforeCss": [
+      "index-490ded13.css"
+    ],
+    "afterCss": [
+      "index-b597f345.css"
+    ],
+    "priorScripts": [
+      "postscript-3f89439b.js",
+      "prescript-2bfc6315.js"
+    ],
+    "scripts": [
+      "postscript-a4122608.js",
+      "prescript-2bfc6315.js"
+    ],
+    "emittedFiles": 913,
+    "testsPassed": 167,
+    "testsFailed": 0,
+    "targetedPrettier": "pass",
+    "gitDiffCheck": "pass",
+    "searchIndexByteIdentical": true,
+    "typeCheckMatchesBaseline": true,
+    "existingTypeErrors": [
+      "TS7016: micromorph package declaration is not exported",
+      "TS2307: remark-parse/lib declaration is unavailable"
+    ],
+    "all22BrowserScriptsByteIdenticalToCycle46": true,
+    "woff2FilesVerified": 13
+  },
+  "productionAtInspection": {
+    "chrome": {
+      "url": "https://husenjan.com/",
+      "browser": "chrome",
+      "version": "158.0.8127.36",
+      "loads": [
+        {
+          "step": "cold",
+          "pos": 0,
+          "max": 97,
+          "canvases": 1,
+          "rows": 3,
+          "links": 10,
+          "css": "https://husenjan.com/index-28d2150b.css"
+        },
+        {
+          "step": "refresh-1",
+          "pos": 0,
+          "max": 97,
+          "canvases": 1,
+          "rows": 3,
+          "links": 10,
+          "css": "https://husenjan.com/index-28d2150b.css"
+        },
+        {
+          "step": "refresh-2",
+          "pos": 0,
+          "max": 97,
+          "canvases": 1,
+          "rows": 3,
+          "links": 10,
+          "css": "https://husenjan.com/index-28d2150b.css"
+        },
+        {
+          "step": "double-refresh",
+          "pos": 0,
+          "max": 97,
+          "canvases": 2,
+          "rows": 3,
+          "links": 10,
+          "css": "https://husenjan.com/index-28d2150b.css"
+        }
+      ]
+    },
+    "brave": {
+      "url": "https://husenjan.com/",
+      "browser": "brave",
+      "version": "158.0.8127.42",
+      "loads": [
+        {
+          "step": "cold",
+          "pos": 0,
+          "max": 97,
+          "canvases": 1,
+          "rows": 3,
+          "links": 10,
+          "css": "https://husenjan.com/index-28d2150b.css"
+        },
+        {
+          "step": "refresh-1",
+          "pos": 0,
+          "max": 97,
+          "canvases": 2,
+          "rows": 3,
+          "links": 10,
+          "css": "https://husenjan.com/index-28d2150b.css"
+        },
+        {
+          "step": "refresh-2",
+          "pos": 0,
+          "max": 97,
+          "canvases": 2,
+          "rows": 3,
+          "links": 10,
+          "css": "https://husenjan.com/index-28d2150b.css"
+        },
+        {
+          "step": "double-refresh",
+          "pos": 0,
+          "max": 97,
+          "canvases": 1,
+          "rows": 3,
+          "links": 10,
+          "css": "https://husenjan.com/index-28d2150b.css"
+        }
+      ]
+    }
+  },
+  "reloads": {
+    "chrome": {
+      "version": "158.0.8127.36",
+      "results": [
+        {
+          "width": 1440,
+          "theme": "light",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 49,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 49,
+              "restored": 49,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "theme": "dark",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 0,
+              "afterScroll": 433,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 433,
+              "restored": 433,
+              "localCanvases": 0,
+              "afterScroll": 217,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 217,
+              "restored": 217,
+              "localCanvases": 0,
+              "afterScroll": 433,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 433,
+              "restored": 433,
+              "localCanvases": 0,
+              "afterScroll": 433,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 433,
+              "restored": 433,
+              "localCanvases": 0,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        },
+        {
+          "width": 900,
+          "theme": "dark",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 64,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 64,
+              "restored": 64,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        }
+      ]
+    },
+    "brave": {
+      "version": "158.0.8127.42",
+      "results": [
+        {
+          "width": 1440,
+          "theme": "light",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 49,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 49,
+              "restored": 49,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "theme": "dark",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 0,
+              "afterScroll": 433,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 433,
+              "restored": 433,
+              "localCanvases": 0,
+              "afterScroll": 217,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 217,
+              "restored": 217,
+              "localCanvases": 0,
+              "afterScroll": 433,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 433,
+              "restored": 433,
+              "localCanvases": 0,
+              "afterScroll": 433,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 433,
+              "restored": 433,
+              "localCanvases": 0,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        },
+        {
+          "width": 900,
+          "theme": "dark",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 64,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 64,
+              "restored": 64,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        }
+      ]
+    },
+    "webkit": {
+      "version": "27.2",
+      "results": [
+        {
+          "width": 1440,
+          "theme": "light",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 48,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 48,
+              "restored": 48,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 97,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 97,
+              "restored": 97,
+              "localCanvases": 1,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "theme": "dark",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 0,
+              "afterScroll": 418,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 418,
+              "restored": 418,
+              "localCanvases": 0,
+              "afterScroll": 209,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 209,
+              "restored": 209,
+              "localCanvases": 0,
+              "afterScroll": 418,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 418,
+              "restored": 418,
+              "localCanvases": 0,
+              "afterScroll": 418,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 418,
+              "restored": 418,
+              "localCanvases": 0,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        },
+        {
+          "width": 900,
+          "theme": "dark",
+          "loads": [
+            {
+              "step": "cold",
+              "expected": 0,
+              "restored": 0,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "ordinary 1",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 64,
+              "bothValuesVisible": true,
+              "rightFade": true
+            },
+            {
+              "step": "ordinary 2",
+              "expected": 64,
+              "restored": 64,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 70ms",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 128,
+              "bothValuesVisible": true,
+              "rightFade": false
+            },
+            {
+              "step": "rapid double 190ms",
+              "expected": 128,
+              "restored": 128,
+              "localCanvases": 1,
+              "afterScroll": 0,
+              "bothValuesVisible": true,
+              "rightFade": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "graphLifetimes": {
+    "chrome": {
+      "version": "158.0.8127.36",
+      "scenarios": {
+        "overlap": {
+          "after": {
+            "local": 1,
+            "global": 0,
+            "active": 1,
+            "ticking": 1,
+            "unstoppedSimulations": 1,
+            "nodes": [
+              {
+                "id": 4,
+                "kind": "local",
+                "nodes": 160,
+                "unique": 160
+              }
+            ],
+            "focus": "theme-light"
+          },
+          "pageErrors": []
+        },
+        "reduceWhilePending": {
+          "after": {
+            "local": 0,
+            "global": 0,
+            "active": 0,
+            "ticking": 0,
+            "unstoppedSimulations": 0,
+            "nodes": [],
+            "focus": "theme-light"
+          },
+          "restored": {
+            "local": 1,
+            "global": 0,
+            "active": 1,
+            "ticking": 1,
+            "unstoppedSimulations": 1,
+            "nodes": [
+              {
+                "id": 3,
+                "kind": "local",
+                "nodes": 160,
+                "unique": 160
+              }
+            ],
+            "focus": "theme-light"
+          },
+          "pageErrors": []
+        },
+        "mobileWhilePending": {
+          "after": {
+            "local": 0,
+            "global": 0,
+            "active": 0,
+            "ticking": 0,
+            "unstoppedSimulations": 0,
+            "nodes": [],
+            "focus": "theme-light"
+          },
+          "pageErrors": []
+        },
+        "globalCloseReopen": {
+          "after": {
+            "local": 1,
+            "global": 1,
+            "active": 2,
+            "ticking": 2,
+            "unstoppedSimulations": 2,
+            "nodes": [
+              {
+                "id": 1,
+                "kind": "local",
+                "nodes": 160,
+                "unique": 160
+              },
+              {
+                "id": 3,
+                "kind": "global",
+                "nodes": 160,
+                "unique": 160
+              }
+            ],
+            "focus": "graph-dialog-close"
+          },
+          "closed": {
+            "local": 1,
+            "global": 0,
+            "active": 1,
+            "ticking": 1,
+            "unstoppedSimulations": 1,
+            "nodes": [
+              {
+                "id": 1,
+                "kind": "local",
+                "nodes": 160,
+                "unique": 160
+              }
+            ],
+            "focus": "global-graph-icon"
+          },
+          "pageErrors": []
+        },
+        "navigateWhilePending": {
+          "after": {
+            "local": 1,
+            "global": 0,
+            "active": 1,
+            "ticking": 1,
+            "unstoppedSimulations": 1,
+            "nodes": [
+              {
+                "id": 3,
+                "kind": "local",
+                "nodes": 3,
+                "unique": 3
+              }
+            ],
+            "focus": "theme-light"
+          },
+          "pageErrors": []
+        },
+        "pointer": {
+          "after": {
+            "local": 0,
+            "global": 0,
+            "active": 0,
+            "ticking": 0,
+            "unstoppedSimulations": 0,
+            "nodes": [],
+            "focus": "BODY"
+          },
+          "interaction": {
+            "beforeScale": 1,
+            "afterScale": 1.2483305489016119,
+            "dimmedNodes": 159,
+            "labelsOnHover": 1,
+            "clickedPath": "/blog/0006-the-microsoft-azure-documentation"
+          },
+          "pageErrors": []
+        },
+        "offline": {
+          "message": "Graph could not load. Check your network connection.",
+          "canvases": 0,
+          "links": 10
+        }
+      }
+    },
+    "brave": {
+      "version": "158.0.8127.42",
+      "scenarios": {
+        "overlap": {
+          "after": {
+            "local": 1,
+            "global": 0,
+            "active": 1,
+            "ticking": 1,
+            "unstoppedSimulations": 1,
+            "nodes": [
+              {
+                "id": 4,
+                "kind": "local",
+                "nodes": 160,
+                "unique": 160
+              }
+            ],
+            "focus": "theme-light"
+          },
+          "pageErrors": []
+        },
+        "reduceWhilePending": {
+          "after": {
+            "local": 0,
+            "global": 0,
+            "active": 0,
+            "ticking": 0,
+            "unstoppedSimulations": 0,
+            "nodes": [],
+            "focus": "theme-light"
+          },
+          "restored": {
+            "local": 1,
+            "global": 0,
+            "active": 1,
+            "ticking": 1,
+            "unstoppedSimulations": 1,
+            "nodes": [
+              {
+                "id": 3,
+                "kind": "local",
+                "nodes": 160,
+                "unique": 160
+              }
+            ],
+            "focus": "theme-light"
+          },
+          "pageErrors": []
+        },
+        "mobileWhilePending": {
+          "after": {
+            "local": 0,
+            "global": 0,
+            "active": 0,
+            "ticking": 0,
+            "unstoppedSimulations": 0,
+            "nodes": [],
+            "focus": "theme-light"
+          },
+          "pageErrors": []
+        },
+        "globalCloseReopen": {
+          "after": {
+            "local": 1,
+            "global": 1,
+            "active": 2,
+            "ticking": 2,
+            "unstoppedSimulations": 2,
+            "nodes": [
+              {
+                "id": 1,
+                "kind": "local",
+                "nodes": 160,
+                "unique": 160
+              },
+              {
+                "id": 3,
+                "kind": "global",
+                "nodes": 160,
+                "unique": 160
+              }
+            ],
+            "focus": "graph-dialog-close"
+          },
+          "closed": {
+            "local": 1,
+            "global": 0,
+            "active": 1,
+            "ticking": 1,
+            "unstoppedSimulations": 1,
+            "nodes": [
+              {
+                "id": 1,
+                "kind": "local",
+                "nodes": 160,
+                "unique": 160
+              }
+            ],
+            "focus": "global-graph-icon"
+          },
+          "pageErrors": []
+        },
+        "navigateWhilePending": {
+          "after": {
+            "local": 1,
+            "global": 0,
+            "active": 1,
+            "ticking": 1,
+            "unstoppedSimulations": 1,
+            "nodes": [
+              {
+                "id": 3,
+                "kind": "local",
+                "nodes": 3,
+                "unique": 3
+              }
+            ],
+            "focus": "theme-light"
+          },
+          "pageErrors": []
+        },
+        "pointer": {
+          "after": {
+            "local": 0,
+            "global": 0,
+            "active": 0,
+            "ticking": 0,
+            "unstoppedSimulations": 0,
+            "nodes": [],
+            "focus": "theme-light"
+          },
+          "interaction": {
+            "beforeScale": 1,
+            "afterScale": 1.2483305489016119,
+            "dimmedNodes": 159,
+            "labelsOnHover": 1,
+            "clickedPath": "/blog/0006-the-microsoft-azure-documentation"
+          },
+          "pageErrors": []
+        },
+        "offline": {
+          "message": "Graph could not load. Check your network connection.",
+          "canvases": 0,
+          "links": 10
+        }
+      }
+    }
+  },
+  "firefoxTable": {
+    "cases": [
+      {
+        "mobile": false,
+        "cases": [
+          {
+            "f": 1,
+            "before": {
+              "pos": 97,
+              "max": 97,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": false,
+              "rows": 3,
+              "links": 10
+            },
+            "after": {
+              "pos": 97.25,
+              "max": 97,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": false,
+              "rows": 3,
+              "links": 10
+            }
+          },
+          {
+            "f": 0.5,
+            "before": {
+              "pos": 48.5,
+              "max": 97,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": true,
+              "rows": 3,
+              "links": 10
+            },
+            "after": {
+              "pos": 48.5,
+              "max": 97,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": true,
+              "rows": 3,
+              "links": 10
+            }
+          },
+          {
+            "f": 0,
+            "before": {
+              "pos": 0,
+              "max": 97,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": true,
+              "rows": 3,
+              "links": 10
+            },
+            "after": {
+              "pos": 0,
+              "max": 97,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": true,
+              "rows": 3,
+              "links": 10
+            }
+          }
+        ]
+      },
+      {
+        "mobile": true,
+        "cases": [
+          {
+            "f": 1,
+            "before": {
+              "pos": 430,
+              "max": 430,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": false,
+              "rows": 3,
+              "links": 10
+            },
+            "after": {
+              "pos": 430.3500061035156,
+              "max": 430,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": false,
+              "rows": 3,
+              "links": 10
+            }
+          },
+          {
+            "f": 0.5,
+            "before": {
+              "pos": 215,
+              "max": 430,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": true,
+              "rows": 3,
+              "links": 10
+            },
+            "after": {
+              "pos": 215,
+              "max": 430,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": true,
+              "rows": 3,
+              "links": 10
+            }
+          },
+          {
+            "f": 0,
+            "before": {
+              "pos": 0,
+              "max": 430,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": true,
+              "rows": 3,
+              "links": 10
+            },
+            "after": {
+              "pos": 0,
+              "max": 430,
+              "short": [
+                {
+                  "value": "CAISP",
+                  "inside": true,
+                  "hit": true
+                },
+                {
+                  "value": "-",
+                  "inside": true,
+                  "hit": true
+                }
+              ],
+              "fade": true,
+              "rows": 3,
+              "links": 10
+            }
+          }
+        ]
+      }
+    ],
+    "version": "159.0"
+  },
+  "tableZoom": [
+    {
+      "direction": "ltr",
+      "zoom": 1,
+      "pos": "end",
+      "previous": {
+        "left": 430,
+        "range": 430,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 430,
+        "range": 430,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 1,
+      "pos": "middle",
+      "previous": {
+        "left": 215,
+        "range": 430,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 215,
+        "range": 430,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 1,
+      "pos": "start",
+      "previous": {
+        "left": 0,
+        "range": 430,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 0,
+        "range": 430,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 1.25,
+      "pos": "end",
+      "previous": {
+        "left": 508.79998779296875,
+        "range": 508,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 508.79998779296875,
+        "range": 508,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 1.25,
+      "pos": "middle",
+      "previous": {
+        "left": 254.39999389648438,
+        "range": 508,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 254.39999389648438,
+        "range": 508,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 1.25,
+      "pos": "start",
+      "previous": {
+        "left": 0,
+        "range": 508,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 0,
+        "range": 508,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 1.5,
+      "pos": "end",
+      "previous": {
+        "left": 560.6666870117188,
+        "range": 560,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 560.6666870117188,
+        "range": 560,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 1.5,
+      "pos": "middle",
+      "previous": {
+        "left": 280,
+        "range": 560,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 280,
+        "range": 560,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 1.5,
+      "pos": "start",
+      "previous": {
+        "left": 0,
+        "range": 560,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 0,
+        "range": 560,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 2,
+      "pos": "end",
+      "previous": {
+        "left": 625,
+        "range": 625,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 625,
+        "range": 625,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 2,
+      "pos": "middle",
+      "previous": {
+        "left": 312.5,
+        "range": 625,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 312.5,
+        "range": 625,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "ltr",
+      "zoom": 2,
+      "pos": "start",
+      "previous": {
+        "left": 0,
+        "range": 625,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 0,
+        "range": 625,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1,
+      "pos": "end",
+      "previous": {
+        "left": -430,
+        "range": 430,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": -430,
+        "range": 430,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1,
+      "pos": "middle",
+      "previous": {
+        "left": -215,
+        "range": 430,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": -215,
+        "range": 430,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1,
+      "pos": "start",
+      "previous": {
+        "left": 0,
+        "range": 430,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 0,
+        "range": 430,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1.25,
+      "pos": "end",
+      "previous": {
+        "left": -508,
+        "range": 508,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": -508,
+        "range": 508,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1.25,
+      "pos": "middle",
+      "previous": {
+        "left": -253.60000610351562,
+        "range": 508,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": -253.60000610351562,
+        "range": 508,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1.25,
+      "pos": "start",
+      "previous": {
+        "left": 0,
+        "range": 508,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 0,
+        "range": 508,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1.5,
+      "pos": "end",
+      "previous": {
+        "left": -560,
+        "range": 560,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": -560,
+        "range": 560,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1.5,
+      "pos": "middle",
+      "previous": {
+        "left": -280,
+        "range": 560,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": -280,
+        "range": 560,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 1.5,
+      "pos": "start",
+      "previous": {
+        "left": 0,
+        "range": 560,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 0,
+        "range": 560,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 2,
+      "pos": "end",
+      "previous": {
+        "left": -625,
+        "range": 625,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": -625,
+        "range": 625,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 2,
+      "pos": "middle",
+      "previous": {
+        "left": -312.5,
+        "range": 625,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": -312.5,
+        "range": 625,
+        "fade": true,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    },
+    {
+      "direction": "rtl",
+      "zoom": 2,
+      "pos": "start",
+      "previous": {
+        "left": 0,
+        "range": 625,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      },
+      "current": {
+        "left": 0,
+        "range": 625,
+        "fade": false,
+        "hit": [
+          true,
+          true
+        ]
+      }
+    }
+  ],
+  "rtlTable": [
+    {
+      "width": 390,
+      "theme": "light",
+      "states": [
+        {
+          "pos": 0,
+          "range": 418,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "none",
+          "has": false
+        },
+        {
+          "pos": -209,
+          "range": 418,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 237px), rgba(0, 0, 0, 0) calc(100% - 209px))",
+          "has": true
+        },
+        {
+          "pos": -418,
+          "range": 418,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446px), rgba(0, 0, 0, 0) calc(100% - 418px))",
+          "has": true
+        }
+      ],
+      "visited": [
+        {
+          "text": "OSCP",
+          "inside": true,
+          "hit": true,
+          "x": 241,
+          "pos": 0
+        },
+        {
+          "text": "AZ-500",
+          "inside": true,
+          "hit": true,
+          "x": 170,
+          "pos": 0
+        },
+        {
+          "text": "AZ-305",
+          "inside": true,
+          "hit": true,
+          "x": 99,
+          "pos": 0
+        },
+        {
+          "text": "AZ-104",
+          "inside": true,
+          "hit": true,
+          "x": 32,
+          "pos": 0
+        },
+        {
+          "text": "SC-200",
+          "inside": true,
+          "hit": true,
+          "x": 22,
+          "pos": -61
+        },
+        {
+          "text": "MD-102",
+          "inside": true,
+          "hit": true,
+          "x": 165,
+          "pos": -275
+        },
+        {
+          "text": "MS-102",
+          "inside": true,
+          "hit": true,
+          "x": 95,
+          "pos": -275
+        },
+        {
+          "text": "MS-900",
+          "inside": true,
+          "hit": true,
+          "x": 22,
+          "pos": -276
+        },
+        {
+          "text": "SC-900",
+          "inside": true,
+          "hit": true,
+          "x": 93,
+          "pos": -418
+        },
+        {
+          "text": "AZ-900",
+          "inside": true,
+          "hit": true,
+          "x": 23,
+          "pos": -418
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "states": [
+        {
+          "pos": 0,
+          "range": 418,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "none",
+          "has": false
+        },
+        {
+          "pos": -209,
+          "range": 418,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 237px), rgba(0, 0, 0, 0) calc(100% - 209px))",
+          "has": true
+        },
+        {
+          "pos": -418,
+          "range": 418,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446px), rgba(0, 0, 0, 0) calc(100% - 418px))",
+          "has": true
+        }
+      ],
+      "visited": [
+        {
+          "text": "OSCP",
+          "inside": true,
+          "hit": true,
+          "x": 241,
+          "pos": 0
+        },
+        {
+          "text": "AZ-500",
+          "inside": true,
+          "hit": true,
+          "x": 170,
+          "pos": 0
+        },
+        {
+          "text": "AZ-305",
+          "inside": true,
+          "hit": true,
+          "x": 99,
+          "pos": 0
+        },
+        {
+          "text": "AZ-104",
+          "inside": true,
+          "hit": true,
+          "x": 32,
+          "pos": 0
+        },
+        {
+          "text": "SC-200",
+          "inside": true,
+          "hit": true,
+          "x": 22,
+          "pos": -61
+        },
+        {
+          "text": "MD-102",
+          "inside": true,
+          "hit": true,
+          "x": 165,
+          "pos": -275
+        },
+        {
+          "text": "MS-102",
+          "inside": true,
+          "hit": true,
+          "x": 95,
+          "pos": -275
+        },
+        {
+          "text": "MS-900",
+          "inside": true,
+          "hit": true,
+          "x": 22,
+          "pos": -276
+        },
+        {
+          "text": "SC-900",
+          "inside": true,
+          "hit": true,
+          "x": 93,
+          "pos": -418
+        },
+        {
+          "text": "AZ-900",
+          "inside": true,
+          "hit": true,
+          "x": 23,
+          "pos": -418
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "theme": "light",
+      "states": [
+        {
+          "pos": 0,
+          "range": 128,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "none",
+          "has": false
+        },
+        {
+          "pos": -64,
+          "range": 128,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 92px), rgba(0, 0, 0, 0) calc(100% - 64px))",
+          "has": true
+        },
+        {
+          "pos": -128,
+          "range": 128,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+          "has": true
+        }
+      ],
+      "visited": [
+        {
+          "text": "OSCP",
+          "inside": true,
+          "hit": true,
+          "x": 613,
+          "pos": -86
+        },
+        {
+          "text": "AZ-500",
+          "inside": true,
+          "hit": true,
+          "x": 542,
+          "pos": -86
+        },
+        {
+          "text": "AZ-305",
+          "inside": true,
+          "hit": true,
+          "x": 471,
+          "pos": -86
+        },
+        {
+          "text": "AZ-104",
+          "inside": true,
+          "hit": true,
+          "x": 404,
+          "pos": -86
+        },
+        {
+          "text": "SC-200",
+          "inside": true,
+          "hit": true,
+          "x": 333,
+          "pos": -86
+        },
+        {
+          "text": "MD-102",
+          "inside": true,
+          "hit": true,
+          "x": 262,
+          "pos": -86
+        },
+        {
+          "text": "MS-102",
+          "inside": true,
+          "hit": true,
+          "x": 192,
+          "pos": -86
+        },
+        {
+          "text": "MS-900",
+          "inside": true,
+          "hit": true,
+          "x": 118,
+          "pos": -86
+        },
+        {
+          "text": "SC-900",
+          "inside": true,
+          "hit": true,
+          "x": 48,
+          "pos": -86
+        },
+        {
+          "text": "AZ-900",
+          "inside": true,
+          "hit": true,
+          "x": 15,
+          "pos": -124
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "theme": "dark",
+      "states": [
+        {
+          "pos": 0,
+          "range": 128,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "none",
+          "has": false
+        },
+        {
+          "pos": -64,
+          "range": 128,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 92px), rgba(0, 0, 0, 0) calc(100% - 64px))",
+          "has": true
+        },
+        {
+          "pos": -128,
+          "range": 128,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+          "has": true
+        }
+      ],
+      "visited": [
+        {
+          "text": "OSCP",
+          "inside": true,
+          "hit": true,
+          "x": 613,
+          "pos": -86
+        },
+        {
+          "text": "AZ-500",
+          "inside": true,
+          "hit": true,
+          "x": 542,
+          "pos": -86
+        },
+        {
+          "text": "AZ-305",
+          "inside": true,
+          "hit": true,
+          "x": 471,
+          "pos": -86
+        },
+        {
+          "text": "AZ-104",
+          "inside": true,
+          "hit": true,
+          "x": 404,
+          "pos": -86
+        },
+        {
+          "text": "SC-200",
+          "inside": true,
+          "hit": true,
+          "x": 333,
+          "pos": -86
+        },
+        {
+          "text": "MD-102",
+          "inside": true,
+          "hit": true,
+          "x": 262,
+          "pos": -86
+        },
+        {
+          "text": "MS-102",
+          "inside": true,
+          "hit": true,
+          "x": 192,
+          "pos": -86
+        },
+        {
+          "text": "MS-900",
+          "inside": true,
+          "hit": true,
+          "x": 118,
+          "pos": -86
+        },
+        {
+          "text": "SC-900",
+          "inside": true,
+          "hit": true,
+          "x": 48,
+          "pos": -86
+        },
+        {
+          "text": "AZ-900",
+          "inside": true,
+          "hit": true,
+          "x": 15,
+          "pos": -124
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "states": [
+        {
+          "pos": 0,
+          "range": 97,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "none",
+          "has": false
+        },
+        {
+          "pos": -48,
+          "range": 97,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 76px), rgba(0, 0, 0, 0) calc(100% - 48px))",
+          "has": true
+        },
+        {
+          "pos": -97,
+          "range": 97,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125px), rgba(0, 0, 0, 0) calc(100% - 97px))",
+          "has": true
+        }
+      ],
+      "visited": [
+        {
+          "text": "OSCP",
+          "inside": true,
+          "hit": true,
+          "x": 992,
+          "pos": -86
+        },
+        {
+          "text": "AZ-500",
+          "inside": true,
+          "hit": true,
+          "x": 921,
+          "pos": -86
+        },
+        {
+          "text": "AZ-305",
+          "inside": true,
+          "hit": true,
+          "x": 851,
+          "pos": -86
+        },
+        {
+          "text": "AZ-104",
+          "inside": true,
+          "hit": true,
+          "x": 783,
+          "pos": -86
+        },
+        {
+          "text": "SC-200",
+          "inside": true,
+          "hit": true,
+          "x": 713,
+          "pos": -86
+        },
+        {
+          "text": "MD-102",
+          "inside": true,
+          "hit": true,
+          "x": 642,
+          "pos": -86
+        },
+        {
+          "text": "MS-102",
+          "inside": true,
+          "hit": true,
+          "x": 571,
+          "pos": -86
+        },
+        {
+          "text": "MS-900",
+          "inside": true,
+          "hit": true,
+          "x": 498,
+          "pos": -86
+        },
+        {
+          "text": "SC-900",
+          "inside": true,
+          "hit": true,
+          "x": 427,
+          "pos": -86
+        },
+        {
+          "text": "AZ-900",
+          "inside": true,
+          "hit": true,
+          "x": 363,
+          "pos": -93
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "states": [
+        {
+          "pos": 0,
+          "range": 97,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "none",
+          "has": false
+        },
+        {
+          "pos": -48,
+          "range": 97,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 76px), rgba(0, 0, 0, 0) calc(100% - 48px))",
+          "has": true
+        },
+        {
+          "pos": -97,
+          "range": 97,
+          "dir": "rtl",
+          "mask": "none",
+          "linkMask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125px), rgba(0, 0, 0, 0) calc(100% - 97px))",
+          "has": true
+        }
+      ],
+      "visited": [
+        {
+          "text": "OSCP",
+          "inside": true,
+          "hit": true,
+          "x": 992,
+          "pos": -86
+        },
+        {
+          "text": "AZ-500",
+          "inside": true,
+          "hit": true,
+          "x": 921,
+          "pos": -86
+        },
+        {
+          "text": "AZ-305",
+          "inside": true,
+          "hit": true,
+          "x": 851,
+          "pos": -86
+        },
+        {
+          "text": "AZ-104",
+          "inside": true,
+          "hit": true,
+          "x": 783,
+          "pos": -86
+        },
+        {
+          "text": "SC-200",
+          "inside": true,
+          "hit": true,
+          "x": 713,
+          "pos": -86
+        },
+        {
+          "text": "MD-102",
+          "inside": true,
+          "hit": true,
+          "x": 642,
+          "pos": -86
+        },
+        {
+          "text": "MS-102",
+          "inside": true,
+          "hit": true,
+          "x": 571,
+          "pos": -86
+        },
+        {
+          "text": "MS-900",
+          "inside": true,
+          "hit": true,
+          "x": 498,
+          "pos": -86
+        },
+        {
+          "text": "SC-900",
+          "inside": true,
+          "hit": true,
+          "x": 427,
+          "pos": -86
+        },
+        {
+          "text": "AZ-900",
+          "inside": true,
+          "hit": true,
+          "x": 363,
+          "pos": -93
+        }
+      ]
+    }
+  ],
+  "mermaidResizing": [
+    {
+      "port": "47851",
+      "states": [
+        {
+          "w": 900,
+          "items": 6,
+          "drawings": 6,
+          "errors": 0,
+          "renders": 0
+        },
+        {
+          "w": 390,
+          "items": 6,
+          "drawings": 6,
+          "errors": 6,
+          "renders": 1
+        },
+        {
+          "w": 900,
+          "items": 6,
+          "drawings": 6,
+          "errors": 6,
+          "renders": 2
+        },
+        {
+          "w": 390,
+          "items": 6,
+          "drawings": 6,
+          "errors": 6,
+          "renders": 3
+        },
+        {
+          "w": 1440,
+          "items": 6,
+          "drawings": 6,
+          "errors": 6,
+          "renders": 4
+        }
+      ]
+    },
+    {
+      "port": "47854",
+      "states": [
+        {
+          "w": 900,
+          "items": 6,
+          "drawings": 6,
+          "errors": 0,
+          "renders": 0
+        },
+        {
+          "w": 390,
+          "items": 6,
+          "drawings": 6,
+          "errors": 0,
+          "renders": 0
+        },
+        {
+          "w": 900,
+          "items": 6,
+          "drawings": 6,
+          "errors": 0,
+          "renders": 0
+        },
+        {
+          "w": 390,
+          "items": 6,
+          "drawings": 6,
+          "errors": 0,
+          "renders": 0
+        },
+        {
+          "w": 1440,
+          "items": 6,
+          "drawings": 6,
+          "errors": 0,
+          "renders": 0
+        }
+      ]
+    }
+  ],
+  "fontLoading": [
+    {
+      "w": 390,
+      "initial": 0.55,
+      "userMove": false,
+      "before": [
+        237,
+        430,
+        "loaded"
+      ],
+      "early": [
+        235,
+        426,
+        "loading"
+      ],
+      "final": [
+        237,
+        430,
+        "loaded"
+      ]
+    },
+    {
+      "w": 390,
+      "initial": 0.55,
+      "userMove": true,
+      "before": [
+        237,
+        430,
+        "loaded"
+      ],
+      "early": [
+        235,
+        426,
+        "loading"
+      ],
+      "final": [
+        12,
+        430,
+        "loaded"
+      ]
+    },
+    {
+      "w": 390,
+      "initial": 1,
+      "userMove": false,
+      "before": [
+        430,
+        430,
+        "loaded"
+      ],
+      "early": [
+        426,
+        426,
+        "loading"
+      ],
+      "final": [
+        430,
+        430,
+        "loaded"
+      ]
+    },
+    {
+      "w": 390,
+      "initial": 1,
+      "userMove": true,
+      "before": [
+        430,
+        430,
+        "loaded"
+      ],
+      "early": [
+        426,
+        426,
+        "loading"
+      ],
+      "final": [
+        12,
+        430,
+        "loaded"
+      ]
+    },
+    {
+      "w": 1440,
+      "initial": 0.55,
+      "userMove": false,
+      "before": [
+        53,
+        97,
+        "loaded"
+      ],
+      "early": [
+        51,
+        93,
+        "loading"
+      ],
+      "final": [
+        53,
+        97,
+        "loaded"
+      ]
+    },
+    {
+      "w": 1440,
+      "initial": 0.55,
+      "userMove": true,
+      "before": [
+        53,
+        97,
+        "loaded"
+      ],
+      "early": [
+        51,
+        93,
+        "loading"
+      ],
+      "final": [
+        12,
+        97,
+        "loaded"
+      ]
+    },
+    {
+      "w": 1440,
+      "initial": 1,
+      "userMove": false,
+      "before": [
+        97,
+        97,
+        "loaded"
+      ],
+      "early": [
+        93,
+        93,
+        "loading"
+      ],
+      "final": [
+        97,
+        97,
+        "loaded"
+      ]
+    },
+    {
+      "w": 1440,
+      "initial": 1,
+      "userMove": true,
+      "before": [
+        97,
+        97,
+        "loaded"
+      ],
+      "early": [
+        93,
+        93,
+        "loading"
+      ],
+      "final": [
+        12,
+        97,
+        "loaded"
+      ]
+    }
+  ],
+  "graphComparison": {
+    "screen": "graph-refresh.webp",
+    "theme": "dark",
+    "viewport": [
+      1440,
+      900
+    ],
+    "browser": "Google Chrome",
+    "sequence": "Two document reloads about 90ms apart",
+    "publishedCanvases": 2,
+    "workspaceCanvases": 1
+  },
+  "earlyPhoneReloadObservation": {
+    "viewport": 390,
+    "oneObservedEndpoint": 414,
+    "fullEndpoint": 418,
+    "lastCertificateVisible": true,
+    "eightTimedRepeatedEndpoints": [
+      418,
+      418,
+      418,
+      418,
+      418,
+      418,
+      418,
+      418
+    ]
+  }
+}

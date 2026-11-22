@@ -1,0 +1,5728 @@
+{
+  "previews": {
+    "before": "chrome-before",
+    "after": "chrome-third"
+  },
+  "table": [
+    {
+      "viewport": 390,
+      "theme": "light",
+      "sheet": "table-390-light.webp",
+      "previous": {
+        "label": "390-light",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47851",
+        "states": {
+          "left": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": 17.546875,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 0,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446.25px), rgba(0, 0, 0, 0) calc(100% - 418.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "middle": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -191.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 209,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 237.25px), rgba(0, 0, 0, 0) calc(100% - 209.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": -108.484375,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": -108.484375,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "right": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -400.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 418,
+            "range": 418,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": -317.484375,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": -317.484375,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "reload": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": 17.546875,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 0,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446.25px), rgba(0, 0, 0, 0) calc(100% - 418.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "double": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": 17.546875,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 0,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446.25px), rgba(0, 0, 0, 0) calc(100% - 418.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "label": "390-light",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47855",
+        "states": {
+          "left": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": 17.546875,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 0,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446px), rgba(0, 0, 0, 0) calc(100% - 418px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "middle": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -191.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 209,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 237px), rgba(0, 0, 0, 0) calc(100% - 209px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "right": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -400.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 418,
+            "range": 418,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "reload": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -400.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 418,
+            "range": 418,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "double": {
+            "theme": "light",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -400.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 418,
+            "range": 418,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "sheet": "table-390-dark.webp",
+      "previous": {
+        "label": "390-dark",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47851",
+        "states": {
+          "left": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": 17.546875,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 0,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446.25px), rgba(0, 0, 0, 0) calc(100% - 418.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "middle": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -191.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 209,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 237.25px), rgba(0, 0, 0, 0) calc(100% - 209.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": -108.484375,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": -108.484375,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "right": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -400.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 418,
+            "range": 418,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": -317.484375,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": -317.484375,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "reload": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": 17.546875,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 0,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446.25px), rgba(0, 0, 0, 0) calc(100% - 418.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "double": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": 17.546875,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 0,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446.25px), rgba(0, 0, 0, 0) calc(100% - 418.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "label": "390-dark",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47855",
+        "states": {
+          "left": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": 17.546875,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 0,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446px), rgba(0, 0, 0, 0) calc(100% - 418px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.515625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "middle": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -191.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 209,
+            "range": 418,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 237px), rgba(0, 0, 0, 0) calc(100% - 209px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "right": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -400.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 418,
+            "range": 418,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "reload": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -400.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 418,
+            "range": 418,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "double": {
+            "theme": "dark",
+            "pageWidth": 390,
+            "viewport": [
+              390,
+              844
+            ],
+            "scrollY": 435,
+            "table": {
+              "x": -400.453125,
+              "y": 407.046875,
+              "w": 773.25,
+              "h": 126.0625
+            },
+            "wrapper": {
+              "x": 17.546875,
+              "y": 381.453125,
+              "w": 354.90625,
+              "h": 151.65625
+            },
+            "scrollLeft": 418,
+            "range": 418,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 460.53125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 449.234375,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 100.140625,
+                  "y": 502.21875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 17.546875,
+                  "y": 490.921875,
+                  "w": 77.375,
+                  "h": 41.6875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 0,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "viewport": 900,
+      "theme": "light",
+      "sheet": "table-900-light.webp",
+      "previous": {
+        "label": "900-light",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47851",
+        "states": {
+          "left": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 221.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "middle": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 157.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 64,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 92.25px), rgba(0, 0, 0, 0) calc(100% - 64.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 248.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 248.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "right": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 93.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 128,
+            "range": 128,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 184.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 184.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "reload": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 221.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 2,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "double": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 221.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "label": "900-light",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47855",
+        "states": {
+          "left": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 221.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "middle": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 157.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 64,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 92px), rgba(0, 0, 0, 0) calc(100% - 64px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "right": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 93.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 128,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 92px), rgba(0, 0, 0, 0) calc(100% - 64px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "reload": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 93.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 128,
+            "range": 128,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "double": {
+            "theme": "light",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 93.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 128,
+            "range": 128,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "viewport": 900,
+      "theme": "dark",
+      "sheet": "table-900-dark.webp",
+      "previous": {
+        "label": "900-dark",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47851",
+        "states": {
+          "left": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 221.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "middle": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 157.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 64,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 92.25px), rgba(0, 0, 0, 0) calc(100% - 64.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 248.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 248.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "right": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 93.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 128,
+            "range": 128,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 184.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 184.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "reload": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 221.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 2,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "double": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 221.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "label": "900-dark",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47855",
+        "states": {
+          "left": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 221.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.46875,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "middle": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 157.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 64,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "right": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 93.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 128,
+            "range": 128,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 92px), rgba(0, 0, 0, 0) calc(100% - 64px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "reload": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 93.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 128,
+            "range": 128,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "double": {
+            "theme": "dark",
+            "pageWidth": 888,
+            "viewport": [
+              900,
+              900
+            ],
+            "scrollY": 295,
+            "table": {
+              "x": 93.5,
+              "y": 392.640625,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 221.5,
+              "y": 367.046875,
+              "w": 656.5,
+              "h": 166
+            },
+            "scrollLeft": 128,
+            "range": 128,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 453.296875,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 439.609375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 312.09375,
+                  "y": 499.765625,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 221.5,
+                  "y": 486.078125,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "sheet": "table-1440-light.webp",
+      "previous": {
+        "label": "1440-light",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47851",
+        "states": {
+          "left": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 382,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "middle": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 333,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 49,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 76.25px), rgba(0, 0, 0, 0) calc(100% - 48.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 423.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 423.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "right": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 285,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 97,
+            "range": 97,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 375.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 375.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "reload": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 382,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "double": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 382,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "label": "1440-light",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47855",
+        "states": {
+          "left": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 382,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125px), rgba(0, 0, 0, 0) calc(100% - 97px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "middle": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 333,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 49,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 76px), rgba(0, 0, 0, 0) calc(100% - 48px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "right": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 285,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 97,
+            "range": 97,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "reload": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 285,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 97,
+            "range": 97,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "double": {
+            "theme": "light",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 285,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 97,
+            "range": 97,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(20, 20, 19)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(250, 249, 245)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "sheet": "table-1440-dark.webp",
+      "previous": {
+        "label": "1440-dark",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47851",
+        "states": {
+          "left": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 382,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "middle": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 333,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 49,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 76.25px), rgba(0, 0, 0, 0) calc(100% - 48.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 423.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 423.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "right": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 285,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 97,
+            "range": 97,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 375.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 375.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": false,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "reload": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 382,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 2,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          },
+          "double": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 382,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-490ded13.css",
+            "postscript": [
+              "postscript-3f89439b.js"
+            ]
+          }
+        }
+      },
+      "candidate": {
+        "label": "1440-dark",
+        "browser": "158.0.8127.36",
+        "origin": "http://127.0.0.1:47855",
+        "states": {
+          "left": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 382,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 0,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125px), rgba(0, 0, 0, 0) calc(100% - 97px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.96875,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "middle": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 333,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 49,
+            "range": 97,
+            "mask": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 76px), rgba(0, 0, 0, 0) calc(100% - 48px))",
+            "hasFade": true,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "right": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 285,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 97,
+            "range": 97,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "reload": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 285,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 97,
+            "range": 97,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          },
+          "double": {
+            "theme": "dark",
+            "pageWidth": 1428,
+            "viewport": [
+              1440,
+              900
+            ],
+            "scrollY": 288,
+            "table": {
+              "x": 285,
+              "y": 392.921875,
+              "w": 785.25,
+              "h": 140.40625
+            },
+            "wrapper": {
+              "x": 382,
+              "y": 367.328125,
+              "w": 688,
+              "h": 166
+            },
+            "scrollLeft": 97,
+            "range": 97,
+            "mask": "none",
+            "hasFade": false,
+            "rowCount": 3,
+            "links": [
+              "OSCP",
+              "AZ-500",
+              "AZ-305",
+              "AZ-104",
+              "SC-200",
+              "MD-102",
+              "MS-102",
+              "MS-900",
+              "SC-900",
+              "AZ-900"
+            ],
+            "status": [
+              {
+                "text": "CAISP",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 453.578125,
+                  "w": 40.03125,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 439.890625,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              },
+              {
+                "text": "-",
+                "textRect": {
+                  "x": 472.59375,
+                  "y": 500.046875,
+                  "w": 6.140625,
+                  "h": 18
+                },
+                "headerRect": {
+                  "x": 382,
+                  "y": 486.359375,
+                  "w": 81.375,
+                  "h": 46.46875
+                },
+                "visible": true,
+                "ink": {
+                  "family": "\"SN Pro\", system-ui, sans-serif",
+                  "size": "14px",
+                  "line": "23.1px",
+                  "color": "rgb(245, 245, 245)",
+                  "weight": "425"
+                }
+              }
+            ],
+            "rootInk": "rgb(0, 0, 0)",
+            "localGraph": 1,
+            "css": "index-081a2b1c.css",
+            "postscript": [
+              "postscript-a4122608.js"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "surroundings": [
+    {
+      "viewport": 390,
+      "theme": "light",
+      "sheet": "context-390-light.webp",
+      "states": [
+        "Home after horizontal scroll",
+        "Home after refresh",
+        "Article table",
+        "Article code",
+        "Blog",
+        "Search",
+        "Explorer"
+      ]
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "sheet": "context-390-dark.webp",
+      "states": [
+        "Home after horizontal scroll",
+        "Home after refresh",
+        "Article table",
+        "Article code",
+        "Blog",
+        "Search",
+        "Explorer"
+      ]
+    },
+    {
+      "viewport": 900,
+      "theme": "light",
+      "sheet": "context-900-light.webp",
+      "states": [
+        "Home after horizontal scroll",
+        "Home after refresh",
+        "Article table",
+        "Article code",
+        "Blog",
+        "Search",
+        "Local graph"
+      ]
+    },
+    {
+      "viewport": 900,
+      "theme": "dark",
+      "sheet": "context-900-dark.webp",
+      "states": [
+        "Home after horizontal scroll",
+        "Home after refresh",
+        "Article table",
+        "Article code",
+        "Blog",
+        "Search",
+        "Local graph"
+      ]
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "sheet": "context-1440-light.webp",
+      "states": [
+        "Home after horizontal scroll",
+        "Home after refresh",
+        "Article table",
+        "Article code",
+        "Blog",
+        "Search",
+        "Local graph"
+      ]
+    },
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "sheet": "context-1440-dark.webp",
+      "states": [
+        "Home after horizontal scroll",
+        "Home after refresh",
+        "Article table",
+        "Article code",
+        "Blog",
+        "Search",
+        "Local graph"
+      ]
+    }
+  ]
+}

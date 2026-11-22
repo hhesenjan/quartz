@@ -1,0 +1,126 @@
+{
+  "baseline": [
+    {
+      "theme": "light",
+      "query": "Legacy Applications",
+      "actualTheme": "light",
+      "scrollY": 1348,
+      "headingY": 419.65625,
+      "matchY": 435.921875,
+      "matchText": "Legacy Applications",
+      "open": false
+    },
+    {
+      "theme": "light",
+      "query": "employee requires older version",
+      "actualTheme": "light",
+      "scrollY": 1378,
+      "headingY": 389.65625,
+      "matchY": 461.921875,
+      "matchText": "employee requires older version",
+      "open": false
+    },
+    {
+      "theme": "dark",
+      "query": "Legacy Applications",
+      "actualTheme": "dark",
+      "scrollY": 1348,
+      "headingY": 419.65625,
+      "matchY": 435.921875,
+      "matchText": "Legacy Applications",
+      "open": false
+    },
+    {
+      "theme": "dark",
+      "query": "employee requires older version",
+      "actualTheme": "dark",
+      "scrollY": 1378,
+      "headingY": 389.65625,
+      "matchY": 461.921875,
+      "matchText": "employee requires older version",
+      "open": false
+    }
+  ],
+  "firstCandidate": [
+    {
+      "theme": "light",
+      "query": "Legacy Applications",
+      "actualTheme": "light",
+      "scrollY": 0,
+      "headingY": 1767.65625,
+      "matchText": null,
+      "open": false
+    },
+    {
+      "theme": "light",
+      "query": "employee requires older version",
+      "actualTheme": "light",
+      "scrollY": 0,
+      "headingY": 1767.65625,
+      "matchY": 1855.921875,
+      "matchText": "employee requires older version",
+      "open": false
+    },
+    {
+      "theme": "dark",
+      "query": "Legacy Applications",
+      "actualTheme": "dark",
+      "scrollY": 0,
+      "headingY": 1767.65625,
+      "matchText": null,
+      "open": false
+    },
+    {
+      "theme": "dark",
+      "query": "employee requires older version",
+      "actualTheme": "dark",
+      "scrollY": 0,
+      "headingY": 1767.65625,
+      "matchY": 1855.921875,
+      "matchText": "employee requires older version",
+      "open": false
+    }
+  ],
+  "corrected": [
+    {
+      "theme": "light",
+      "query": "Legacy Applications",
+      "actualTheme": "light",
+      "scrollY": 1348,
+      "headingY": 419.65625,
+      "matchY": 435.921875,
+      "matchText": "Legacy Applications",
+      "open": false
+    },
+    {
+      "theme": "light",
+      "query": "employee requires older version",
+      "actualTheme": "light",
+      "scrollY": 1420,
+      "headingY": 347.65625,
+      "matchY": 435.921875,
+      "matchText": "employee requires older version",
+      "open": true
+    },
+    {
+      "theme": "dark",
+      "query": "Legacy Applications",
+      "actualTheme": "dark",
+      "scrollY": 1348,
+      "headingY": 419.65625,
+      "matchY": 435.921875,
+      "matchText": "Legacy Applications",
+      "open": false
+    },
+    {
+      "theme": "dark",
+      "query": "employee requires older version",
+      "actualTheme": "dark",
+      "scrollY": 1420,
+      "headingY": 347.65625,
+      "matchY": 435.921875,
+      "matchText": "employee requires older version",
+      "open": true
+    }
+  ]
+}

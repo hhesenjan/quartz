@@ -1334,6 +1334,42 @@ body[data-slug="index"] .graph > .graph-outer {
   margin-inline: 0;
 }
 
+.callout > details {
+  > summary.callout-title {
+    cursor: pointer;
+    list-style: none;
+    line-height: var(--reading-leading);
+    line-height: round(calc(var(--reading-leading) * 1em), 0.0625rem);
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+    &:focus-visible {
+      outline-offset: -2px;
+    }
+    > .callout-title-inner {
+      min-inline-size: 0;
+      overflow-wrap: anywhere;
+    }
+    > .fold-callout-icon {
+      margin-inline-start: auto;
+    }
+  }
+
+  &:not([open]) > summary > .fold-callout-icon {
+    transform: rotate(-90deg);
+  }
+
+  // Keep paragraph margins inside the panel and leave room for wrapped link focus rings.
+  > .callout-content {
+    display: flow-root;
+
+    > :first-child {
+      margin-block-start: 0;
+    }
+  }
+}
+
 @media screen and ($mobile) {
   .markdown-rendered {
     :is(ol, ul):not(nav *, .contains-task-list) {
@@ -1419,6 +1455,38 @@ article .markdown-rendered :is(figure img, img[src*="/images/"]):not([src$=".svg
   text-wrap: balance;
   overflow-wrap: anywhere;
   margin-block: 1.4em 0.45em;
+
+  &:has(> .section-cue) {
+    position: relative;
+  }
+
+  > .section-cue {
+    position: absolute;
+    inset-inline-end: calc(100% + 0.3125rem);
+    inset-block-start: 0.21em;
+    block-size: 0.8em;
+    border-inline-start: 2px solid var(--tertiary);
+    pointer-events: none;
+
+    @media (prefers-reduced-motion: no-preference) {
+      // Keep the destination visible through Quartz's smooth scroll before fading.
+      animation: section-cue-fade 400ms ease-out 1500ms forwards;
+    }
+
+    @media (forced-colors: active) {
+      border-color: CanvasText;
+    }
+  }
+}
+
+@keyframes section-cue-fade {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
 
 .markdown-rendered :is(h4, h5, h6) {
@@ -2222,12 +2290,16 @@ pre code[data-theme] span[data-token-type="comment"] {
       }
     }
   }
-  // Mask the table so the scrollbar, focus outline and pinned row labels stay legible.
+  // Only the certification links scroll past the pinned labels. Keep the fade
+  // inside their cell so it follows the available space in either direction.
   @media screen and (forced-colors: none) {
     &[data-scroll-right] > table:not(:has(:focus-visible)) {
-      $edge: calc(100% - var(--table-hidden-right));
-      $fade: min(1.75rem, var(--table-hidden-right));
-      mask-image: linear-gradient(to right, black calc($edge - $fade), transparent $edge);
+      &:not(.certs-table-quartz),
+      &.certs-table-quartz td:has(a) {
+        $edge: calc(100% - var(--table-hidden-right));
+        $fade: min(1.75rem, var(--table-hidden-right));
+        mask-image: linear-gradient(to right, black calc($edge - $fade), transparent $edge);
+      }
     }
   }
   > table {
@@ -2291,7 +2363,7 @@ pre code[data-theme] span[data-token-type="comment"] {
     min-width: 0;
     padding: 0.7rem 0.6rem;
     vertical-align: top;
-    text-align: left;
+    text-align: start;
     line-height: 1.65;
     border: 0;
     border-block-end: 1px solid var(--lightgray);
@@ -2299,6 +2371,11 @@ pre code[data-theme] span[data-token-type="comment"] {
   @media screen {
     td {
       white-space: nowrap;
+    }
+    .cert-status {
+      position: sticky;
+      // Leave room for the row label while the measured inset is unavailable.
+      inset-inline-start: var(--cert-status-inset, 6.5em);
     }
   }
   th {
@@ -2313,10 +2390,11 @@ pre code[data-theme] span[data-token-type="comment"] {
     padding-inline-start: 0;
   }
   // Reverse tabbing can place a focused link behind a pinned label.
-  &:has(td a:focus-visible) th {
+  tr:has(td a:focus-visible) th {
     position: static;
   }
   a {
+    unicode-bidi: isolate;
     font-weight: 500;
     white-space: nowrap;
   }

@@ -1,0 +1,3797 @@
+{
+  "scope": "The six published pages containing callouts, keyboard and pointer/touch operations on WinGet and Shared Mailboxes, heading destination and archive search. Local builds only.",
+  "sizes": [
+    "1440 × 900 light normal",
+    "390 × 844 dark reduced motion"
+  ],
+  "builds": {
+    "baseline": "index-81c6d6e2.css",
+    "candidate": "index-761e53de.css"
+  },
+  "browserMatrix": [
+    {
+      "brand": "chrome",
+      "version": "158.0.8127.36",
+      "width": 1440,
+      "actualTheme": "light",
+      "identicalTitlesBodiesLinksAndAuthoredStates": 11,
+      "results": {
+        "original": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "space": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "render": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": true,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            false
+          ]
+        },
+        "updated": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "space": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "render": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": false,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            true,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "brand": "chrome",
+      "version": "158.0.8127.36",
+      "width": 390,
+      "actualTheme": "dark",
+      "identicalTitlesBodiesLinksAndAuthoredStates": 11,
+      "results": {
+        "original": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "space": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "render": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": true,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            false
+          ]
+        },
+        "updated": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "space": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "render": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": false,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            true,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "brand": "brave",
+      "version": "158.0.8127.42",
+      "width": 1440,
+      "actualTheme": "light",
+      "identicalTitlesBodiesLinksAndAuthoredStates": 11,
+      "results": {
+        "original": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "space": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "render": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": true,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            false
+          ]
+        },
+        "updated": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "space": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "render": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": false,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "braveVerifiedViaNavigator": true
+    },
+    {
+      "brand": "brave",
+      "version": "158.0.8127.42",
+      "width": 390,
+      "actualTheme": "dark",
+      "identicalTitlesBodiesLinksAndAuthoredStates": 11,
+      "results": {
+        "original": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "space": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "render": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": true,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            false
+          ]
+        },
+        "updated": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "space": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "render": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": false,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            true,
+            false
+          ]
+        }
+      },
+      "braveVerifiedViaNavigator": true
+    },
+    {
+      "brand": "firefox",
+      "version": "159.0",
+      "width": 1440,
+      "actualTheme": "light",
+      "identicalTitlesBodiesLinksAndAuthoredStates": 11,
+      "results": {
+        "original": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "space": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "render": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": true,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            false
+          ]
+        },
+        "updated": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "space": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "render": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 134,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 105,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": false,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            true,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "brand": "firefox",
+      "version": "159.0",
+      "width": 390,
+      "actualTheme": "dark",
+      "identicalTitlesBodiesLinksAndAuthoredStates": 11,
+      "results": {
+        "original": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "space": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "render": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": false,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 0,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "BLOCKQUOTE",
+              "open": true,
+              "title": "DIV",
+              "tabIndex": -1,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": true,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            false
+          ]
+        },
+        "updated": {
+          "callouts": [
+            {
+              "route": "/blog/0006-the-microsoft-azure-documentation",
+              "callouts": [
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "ab4d004f0319173b"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1e21a9709f8cea6f"
+                },
+                {
+                  "title": "Note",
+                  "type": "note",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "0afbc9787735a837"
+                },
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "1dbc43b1d0c2448b"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0011-dynamic-group-for-shared-mailboxes",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [
+                    "https://www.ablebits.com/office-addins-blog/add-shared-mailbox-outlook/"
+                  ],
+                  "bodyHash": "84e0a270ca1a5f00"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0021-implementing-microsoft-defender-smartscreen",
+              "callouts": [
+                {
+                  "title": "IMPORTANT",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "3db7ddf768cbd2f2"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0047-automatically-update-apps-through-intune-(winget)",
+              "callouts": [
+                {
+                  "title": "Legacy Applications",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": false,
+                  "links": [],
+                  "bodyHash": "311dff25c0e4a4f4"
+                }
+              ]
+            },
+            {
+              "route": "/blog/0057-setting-up-azure-machine-configuration",
+              "callouts": [
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                },
+                {
+                  "title": "PowerShell Version",
+                  "type": "tip",
+                  "tag": "DETAILS",
+                  "summary": "SUMMARY",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "15e2902a18313df1"
+                }
+              ]
+            },
+            {
+              "route": "/projects/penetration-testing/0003-attacking-active-directory",
+              "callouts": [
+                {
+                  "title": "Important",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [],
+                  "bodyHash": "2be6915ebad70f3b"
+                },
+                {
+                  "title": "TIP",
+                  "type": "tip",
+                  "tag": "BLOCKQUOTE",
+                  "summary": "DIV",
+                  "open": true,
+                  "links": [
+                    "https://github.com/initstring/linkedin2username"
+                  ],
+                  "bodyHash": "cd8ba733bc562560"
+                }
+              ]
+            }
+          ],
+          "states": {
+            "authoredClosed": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "enter": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "space": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "pointerOrTouch": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "render": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "oneActivationAfterRender": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedSharedMailboxes": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": true,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "solid",
+              "overflow": false
+            },
+            "closedTab": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "closedFocusAttempt": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": false,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "openedTab": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": true,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": true,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "backDefault": {
+              "tag": "DETAILS",
+              "open": false,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 224,
+              "bodyExposed": false,
+              "focusBodyLink": false,
+              "linkVisible": null,
+              "focusOutline": "none",
+              "overflow": false
+            },
+            "forwardDefault": {
+              "tag": "DETAILS",
+              "open": true,
+              "title": "SUMMARY",
+              "tabIndex": 0,
+              "focusTitle": false,
+              "focusInner": false,
+              "bodyHeight": 146,
+              "bodyExposed": true,
+              "focusBodyLink": false,
+              "linkVisible": true,
+              "focusOutline": "none",
+              "overflow": false
+            }
+          },
+          "closedBodyLinkInAccessibilityTree": false,
+          "searchResultCount": 1,
+          "noJavaScriptStates": [
+            false,
+            true,
+            false
+          ]
+        }
+      }
+    }
+  ],
+  "archiveHoverChecks": [
+    {
+      "port": 47832,
+      "tag": "BLOCKQUOTE",
+      "title": "IMPORTANT",
+      "defaultOpen": true,
+      "hasLink": true,
+      "textCount": 216,
+      "dismissed": true
+    },
+    {
+      "port": 47833,
+      "tag": "DETAILS",
+      "title": "IMPORTANT",
+      "defaultOpen": true,
+      "hasLink": true,
+      "textCount": 216,
+      "closed": true,
+      "accessibleAfterClose": false,
+      "dismissed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "routes": 252,
+  "pagesContainingCallouts": 6,
+  "authoredCallouts": 11,
+  "disclosures": 5,
+  "unchangedSubjects": [
+    "every heading ID and link destination",
+    "all callout body and title text, links, type, and authored open/closed state",
+    "all WOFF2 font assets and both main browser scripts"
+  ],
+  "beforeCss": [
+    "index-81c6d6e2.css"
+  ],
+  "afterCss": [
+    "index-761e53de.css"
+  ],
+  "scripts": [
+    "postscript-29870e5a.js",
+    "prescript-2bfc6315.js"
+  ],
+  "emittedFiles": 913,
+  "unitTests": {
+    "passed": 166,
+    "failed": 0,
+    "newRegressionTests": 2
+  },
+  "format": "Prettier passed on all touched TypeScript and SCSS sources; git diff --check passed.",
+  "repositoryTypecheck": "Diagnostics match those collected before any implementation (TS7016 micromorph and TS2307 remark-parse/lib)."
+}

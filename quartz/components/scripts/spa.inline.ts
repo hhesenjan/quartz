@@ -24,6 +24,39 @@ const isSamePage = (url: URL): boolean => {
   return sameOrigin && samePath
 }
 
+function fragmentTarget(hash: string) {
+  try {
+    return document.getElementById(decodeURIComponent(hash.slice(1)))
+  } catch {
+    return null
+  }
+}
+
+function clearSectionCue() {
+  document.querySelector("main > article .section-cue")?.remove()
+}
+
+function markSection(target: HTMLElement | null) {
+  if (
+    !(target instanceof HTMLHeadingElement) ||
+    !target.matches("main > article > .markdown-rendered :not(.footnotes *, .popover *)")
+  ) {
+    return
+  }
+
+  const cue = document.createElement("span")
+  cue.className = "section-cue"
+  cue.setAttribute("aria-hidden", "true")
+  cue.addEventListener("animationend", () => cue.remove(), { once: true })
+  target.append(cue)
+}
+
+function scrollToFragment(hash: string) {
+  const target = fragmentTarget(hash)
+  target?.scrollIntoView()
+  markSection(target)
+}
+
 const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined => {
   if (!isElement(target)) return
   if (target.attributes.getNamedItem("target")?.value === "_blank") return
@@ -88,6 +121,7 @@ async function _navigate(url: URL, isBack: boolean = false) {
   document.dispatchEvent(event)
 
   // cleanup old
+  clearSectionCue()
   cleanupFns.forEach((fn) => fn())
   cleanupFns.clear()
 
@@ -113,8 +147,7 @@ async function _navigate(url: URL, isBack: boolean = false) {
   // scroll into place and add history
   if (!isBack) {
     if (url.hash) {
-      const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
-      el?.scrollIntoView()
+      scrollToFragment(url.hash)
     } else {
       window.scrollTo({ top: 0 })
     }
@@ -161,8 +194,8 @@ function createRouter() {
       event.preventDefault()
 
       if (isSamePage(url) && url.hash) {
-        const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
-        el?.scrollIntoView()
+        clearSectionCue()
+        scrollToFragment(url.hash)
         history.pushState({}, "", url)
         return
       }
@@ -195,6 +228,8 @@ function createRouter() {
 }
 
 createRouter()
+// A direct fragment load already scrolls natively. Only add its visual cue.
+if (location.hash) markSection(fragmentTarget(location.hash))
 notifyNav(getFullSlug(window))
 
 if (!customElements.get("route-announcer")) {

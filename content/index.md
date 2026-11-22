@@ -63,11 +63,11 @@ Cybersecurity is a field that moves fast, so continuous learning is a big part o
   </tr>
   <tr>
     <th>In Progress</th>
-    <td>CAISP</td>
+    <td><span class="cert-status">CAISP</span></td>
   </tr>
   <tr>
     <th>Todo</th>
-    <td>-</td>
+    <td><span class="cert-status">-</span></td>
   </tr>
 </table>
 

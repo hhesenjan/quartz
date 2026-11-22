@@ -1,5 +1,21 @@
 # Design decisions
 
+## Graph startup and Home certification table
+
+| Cycle | Rejected implementation and reason |
+| --- | --- |
+| 44 | A retiring Pixi application released shared resources and interrupted the surviving graph. Physical left alignment and a JavaScript-only inset hid short status values in RTL or with scripting disabled. A fractional native endpoint could also exceed the rounded scroll range. [Review](design-evidence/refresh-repair/cycle-44/reviews.json) |
+| 45 | Logical text alignment exposed pinned RTL row headings to the table-wide physical-right fade. Panning reduced the brightness of the final letters even though the headings were stationary. [Review](design-evidence/refresh-repair/cycle-45/reviews.json) |
+| 46 | The stylesheet optimizer translated `:dir(rtl)` into language selectors. On an English page using RTL direction, the production stylesheet still masked entire row headings. A selector based on the scrolling cell works independently of page language and direction. [RTL comparison](design-evidence/refresh-repair/cycle-46/rtl-phone.webp) · [Review](design-evidence/refresh-repair/cycle-46/reviews.json) |
+
+## Foldable callout markup
+
+Replacing the entire callout blockquote with `details` broke navigation to a callout title from a Search result. It also left body matches hidden when the callout was closed. The first implementation was rejected. Quartz’s Search plugin includes blockquotes in its match selection. [Search comparison](design-evidence/callout-review/corrected/search-dark.webp) · [Initial decisions](design-evidence/callout-review/reviews.json)
+
+## Section link destination
+
+A CSS-only `:target` rule failed on real Contents links in Chromium and WebKit. Quartz uses `history.pushState()`, which can leave the previous heading selected. The accepted treatment uses the heading resolved by the existing fragment router. [Browser checks](design-evidence/section-cue/browser-results.json) · [Review decisions](design-evidence/section-cue/reviews.json)
+
 ## Extended review of the accepted visual system
 
 | Decision | Reason |

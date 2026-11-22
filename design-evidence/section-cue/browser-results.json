@@ -1,0 +1,1592 @@
+{
+  "test": "Section-link behavior in real desktop browser binaries at desktop and mobile viewport widths",
+  "method": {
+    "resolutions": "1440 × 900 light with normal motion; 390 × 844 dark with reduced motion. Firefox uses a native desktop session with the equivalent viewport.",
+    "activation": "Activates a published Contents link by keyboard, repeats by pointer, then follows a different Contents target. Direct entry uses a fresh document. The cross-article link is the existing remediation script reference in the Autorun article.",
+    "otherFragment": "The published site has no authored HTML footnotes. An ordinary fixture link to its existing #main-content landmark tests exclusion of non-heading fragments.",
+    "graph": "Chrome and Brave received cached copies of the original D3 and Pixi assets on Home. Firefox used the normal browser resource path. Counts are snapshots of cold Home visits, not graph-refresh investigations."
+  },
+  "results": [
+    {
+      "browser": "chrome",
+      "version": "158.0.8127.36",
+      "brandIdentity": {
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "158"
+          },
+          {
+            "brand": "Not.A/Brand",
+            "version": "24"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "158"
+          }
+        ],
+        "brave": false
+      },
+      "matchedRuns": [
+        {
+          "viewport": "1440 × 900",
+          "theme": "light",
+          "reducedMotion": false,
+          "homeTableAndGraph": {
+            "baseline": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 97,
+                "max": 97
+              },
+              "graph": {
+                "width": 250,
+                "canvas": 1
+              }
+            },
+            "candidate": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 97,
+                "max": 97
+              },
+              "graph": {
+                "width": 250,
+                "canvas": 1
+              }
+            }
+          },
+          "states": {
+            "plain-page": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "ordinary-scroll": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "keyboard-contents": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 1354,
+                "candidate": 1400
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "settled": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 568,
+                "candidate": 568
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "repeat-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 568,
+                "candidate": 568
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "switch-destination": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -35,
+                "candidate": -22
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "manual-scroll-after-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -63,
+                "candidate": -63
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "history-back": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 568,
+                "candidate": 568
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "history-forward": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -63,
+                "candidate": -63
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "direct-article-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#increase-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 91,
+                "candidate": 56
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "increase-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "new-after-direct": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 1375,
+                "candidate": 1314
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "non-heading-main-landmark": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#main-content",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "missing-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#missing-heading",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "authored-cross-article-link": {
+              "url": "/blog/0048-disabling-javascript-and-flash-engine-on-adobe-acrobat-reader#remediation-script",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -105,
+                "candidate": -105
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "remediation-script",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            }
+          }
+        },
+        {
+          "viewport": "390 × 844",
+          "theme": "dark",
+          "reducedMotion": true,
+          "homeTableAndGraph": {
+            "baseline": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 430,
+                "max": 430
+              },
+              "graph": {
+                "width": 0,
+                "canvas": 0
+              }
+            },
+            "candidate": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 430,
+                "max": 430
+              },
+              "graph": {
+                "width": 0,
+                "canvas": 0
+              }
+            }
+          },
+          "states": {
+            "plain-page": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "ordinary-scroll": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "keyboard-contents": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "settled": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "repeat-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "switch-destination": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 70,
+                "candidate": 70
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "manual-scroll-after-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 20,
+                "candidate": 20
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "history-back": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "history-forward": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -164,
+                "candidate": -164
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "direct-article-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#increase-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 72,
+                "candidate": 72
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "increase-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "new-after-direct": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "non-heading-main-landmark": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#main-content",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "missing-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#missing-heading",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "authored-cross-article-link": {
+              "url": "/blog/0048-disabling-javascript-and-flash-engine-on-adobe-acrobat-reader#remediation-script",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 72,
+                "candidate": 72
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "remediation-script",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "browser": "brave",
+      "version": "158.0.8127.42",
+      "brandIdentity": {
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "158"
+          },
+          {
+            "brand": "Not.A/Brand",
+            "version": "24"
+          },
+          {
+            "brand": "Brave",
+            "version": "158"
+          }
+        ],
+        "brave": true
+      },
+      "matchedRuns": [
+        {
+          "viewport": "1440 × 900",
+          "theme": "light",
+          "reducedMotion": false,
+          "homeTableAndGraph": {
+            "baseline": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 97,
+                "max": 97
+              },
+              "graph": {
+                "width": 250,
+                "canvas": 1
+              }
+            },
+            "candidate": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 97,
+                "max": 97
+              },
+              "graph": {
+                "width": 250,
+                "canvas": 1
+              }
+            }
+          },
+          "states": {
+            "plain-page": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "ordinary-scroll": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "keyboard-contents": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 1400,
+                "candidate": 1383
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "settled": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 568,
+                "candidate": 568
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "repeat-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 568,
+                "candidate": 568
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "switch-destination": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -35,
+                "candidate": -35
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "manual-scroll-after-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -72,
+                "candidate": -72
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "history-back": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 568,
+                "candidate": 568
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "history-forward": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -72,
+                "candidate": -72
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "direct-article-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#increase-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 56,
+                "candidate": 43
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "increase-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "new-after-direct": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 1306,
+                "candidate": 1305
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "non-heading-main-landmark": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#main-content",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "missing-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#missing-heading",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "authored-cross-article-link": {
+              "url": "/blog/0048-disabling-javascript-and-flash-engine-on-adobe-acrobat-reader#remediation-script",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -105,
+                "candidate": -146
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "remediation-script",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            }
+          }
+        },
+        {
+          "viewport": "390 × 844",
+          "theme": "dark",
+          "reducedMotion": true,
+          "homeTableAndGraph": {
+            "baseline": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 430,
+                "max": 430
+              },
+              "graph": {
+                "width": 0,
+                "canvas": 0
+              }
+            },
+            "candidate": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 430,
+                "max": 430
+              },
+              "graph": {
+                "width": 0,
+                "canvas": 0
+              }
+            }
+          },
+          "states": {
+            "plain-page": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "ordinary-scroll": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "keyboard-contents": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "settled": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "repeat-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "switch-destination": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 70,
+                "candidate": 70
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "manual-scroll-after-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 20,
+                "candidate": 20
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "history-back": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "history-forward": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -164,
+                "candidate": -164
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "direct-article-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#increase-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 72,
+                "candidate": 72
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "increase-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "new-after-direct": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "non-heading-main-landmark": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#main-content",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "missing-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#missing-heading",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "authored-cross-article-link": {
+              "url": "/blog/0048-disabling-javascript-and-flash-engine-on-adobe-acrobat-reader#remediation-script",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 72,
+                "candidate": 72
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "remediation-script",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "159.0",
+      "brandIdentity": {},
+      "matchedRuns": [
+        {
+          "viewport": "1440 × 900",
+          "theme": "light",
+          "reducedMotion": false,
+          "homeTableAndGraph": {
+            "baseline": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 97.25,
+                "max": 97
+              },
+              "graph": {
+                "width": 250,
+                "canvas": 1
+              }
+            },
+            "candidate": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 97.25,
+                "max": 97
+              },
+              "graph": {
+                "width": 250,
+                "canvas": 1
+              }
+            }
+          },
+          "states": {
+            "plain-page": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "ordinary-scroll": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "keyboard-contents": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 1021,
+                "candidate": 721
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "settled": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 567,
+                "candidate": 567
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "repeat-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 567,
+                "candidate": 567
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "switch-destination": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -45,
+                "candidate": -54
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "manual-scroll-after-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -64,
+                "candidate": -68
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "history-back": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 567,
+                "candidate": 567
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "history-forward": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -50,
+                "candidate": -50
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "direct-article-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#increase-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 0,
+                "candidate": 0
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "increase-disk-space",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "new-after-direct": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 825,
+                "candidate": 808
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "non-heading-main-landmark": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#main-content",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "missing-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#missing-heading",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(20, 20, 19)"
+            },
+            "authored-cross-article-link": {
+              "url": "/blog/0048-disabling-javascript-and-flash-engine-on-adobe-acrobat-reader#remediation-script",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -121,
+                "candidate": -29
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "remediation-script",
+                  "opacity": 1,
+                  "animation": "section-cue-fade",
+                  "color": "rgb(144, 72, 50)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(20, 20, 19)"
+            }
+          }
+        },
+        {
+          "viewport": "390 × 844",
+          "theme": "dark",
+          "reducedMotion": true,
+          "homeTableAndGraph": {
+            "baseline": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 430.3500061035156,
+                "max": 430
+              },
+              "graph": {
+                "width": 0,
+                "canvas": 0
+              }
+            },
+            "candidate": {
+              "table": {
+                "n": 3,
+                "l": 10,
+                "left": 430.3500061035156,
+                "max": 430
+              },
+              "graph": {
+                "width": 0,
+                "canvas": 0
+              }
+            }
+          },
+          "states": {
+            "plain-page": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "ordinary-scroll": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "keyboard-contents": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "settled": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "repeat-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "switch-destination": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 70,
+                "candidate": 70
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "manual-scroll-after-activation": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 20,
+                "candidate": 20
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "decreasing-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "history-back": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 830,
+                "candidate": 594
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "history-forward": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#decreasing-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": -164,
+                "candidate": -164
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "direct-article-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#increase-disk-space",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 70,
+                "candidate": 70
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "increase-disk-space",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "new-after-direct": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#conclusion",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 488,
+                "candidate": 488
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "conclusion",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "non-heading-main-landmark": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#main-content",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "missing-fragment": {
+              "url": "/blog/0056-increasing-disk-space-on-linux-servers#missing-heading",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": null,
+                "candidate": null
+              },
+              "baselineCue": [],
+              "candidateCue": [],
+              "headingTextInk": "rgb(245, 245, 245)"
+            },
+            "authored-cross-article-link": {
+              "url": "/blog/0048-disabling-javascript-and-flash-engine-on-adobe-acrobat-reader#remediation-script",
+              "viewportOverflow": false,
+              "headingTopPx": {
+                "baseline": 72,
+                "candidate": 72
+              },
+              "baselineCue": [],
+              "candidateCue": [
+                {
+                  "id": "remediation-script",
+                  "opacity": 1,
+                  "animation": "none",
+                  "color": "rgb(217, 195, 173)",
+                  "display": "block",
+                  "ariaHidden": "true"
+                }
+              ],
+              "headingTextInk": "rgb(245, 245, 245)"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "result": "All automated assertions passed on both builds in all six browser and preference combinations."
+}

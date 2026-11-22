@@ -1,0 +1,32 @@
+{
+  "routes": 252,
+  "pagesContainingCallouts": 6,
+  "authoredCallouts": 11,
+  "disclosures": 5,
+  "unchangedSubjects": [
+    "every heading ID and link destination",
+    "all callout body and title text, links, type, and authored open/closed state",
+    "all WOFF2 font assets and prescript"
+  ],
+  "beforeCss": [
+    "index-81c6d6e2.css"
+  ],
+  "afterCss": [
+    "index-490ded13.css"
+  ],
+  "priorScripts": [
+    "postscript-29870e5a.js",
+    "prescript-2bfc6315.js"
+  ],
+  "scripts": [
+    "postscript-3f89439b.js",
+    "prescript-2bfc6315.js"
+  ],
+  "emittedFiles": 913,
+  "unitTests": {
+    "passed": 166,
+    "failed": 0
+  },
+  "format": "Prettier and git diff --check passed.",
+  "typeCheck": "Same two pre-existing dependency declaration diagnostics as the original baseline."
+}

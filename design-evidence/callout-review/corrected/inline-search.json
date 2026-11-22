@@ -1,0 +1,62 @@
+{
+  "revised-director-rich-search-47832---all%20parameter%20will.json": {
+    "title": "Legacy Applications",
+    "scrollY": 1243,
+    "viewport": 900,
+    "calloutTop": 523.65625,
+    "nearestCallout": false,
+    "inView": false,
+    "open": false
+  },
+  "revised-director-rich-search-47832-WinGet%20with%20--all%20parameter.json": {
+    "title": "Legacy Applications",
+    "scrollY": 1358,
+    "viewport": 900,
+    "calloutTop": 408.65625,
+    "target": "SPAN",
+    "targetText": "WinGet with --all parameter",
+    "nearestCallout": true,
+    "inView": true,
+    "targetVisible": true,
+    "open": false
+  },
+  "revised-director-rich-search-47832-WinGet%20with%20--all.json": {
+    "title": "Legacy Applications",
+    "scrollY": 1335,
+    "viewport": 900,
+    "calloutTop": 431.65625,
+    "nearestCallout": false,
+    "inView": false,
+    "open": false
+  },
+  "revised-director-rich-search-47834---all%20parameter%20will.json": {
+    "title": "Legacy Applications",
+    "scrollY": 1317,
+    "viewport": 900,
+    "calloutTop": 449.65625,
+    "nearestCallout": false,
+    "inView": false,
+    "open": false
+  },
+  "revised-director-rich-search-47834-WinGet%20with%20--all%20parameter.json": {
+    "title": "Legacy Applications",
+    "scrollY": 1392,
+    "viewport": 900,
+    "calloutTop": 374.65625,
+    "target": "SPAN",
+    "targetText": "WinGet with --all parameter",
+    "nearestCallout": true,
+    "inView": true,
+    "targetVisible": true,
+    "open": true
+  },
+  "revised-director-rich-search-47834-WinGet%20with%20--all.json": {
+    "title": "Legacy Applications",
+    "scrollY": 1335,
+    "viewport": 900,
+    "calloutTop": 431.65625,
+    "nearestCallout": false,
+    "inView": false,
+    "open": false
+  }
+}

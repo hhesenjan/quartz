@@ -2,9 +2,10 @@ import fs from "node:fs/promises"
 import path from "node:path"
 import type { GraphOptions } from "@quartz-community/graph/components"
 import type { QuartzEmitterPluginInstance } from "./quartz/plugins/types"
+import { calloutDisclosures } from "./quartz/plugins/transformers/calloutDisclosures"
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import type { ExplorerOptions } from "./.quartz/plugins"
-import { hiddenGraphQuery } from "./quartz/components/mediaQueries"
+import graphScript from "./quartz/components/scripts/graph.inline"
 import { componentRegistry } from "./quartz/components/registry"
 import type { QuartzComponent, QuartzComponentConstructor } from "./quartz/components/types"
 
@@ -56,26 +57,13 @@ const siteGraph: QuartzComponentConstructor<GraphOptions> = (options: GraphOptio
   const render: QuartzComponent = (props) =>
     props.fileData.slug === "index" ? home(props) : article(props)
   const component = Object.assign(render, article)
-  // The graph plugin loads D3/Pixi and starts a simulation as soon as its
-  // browser resource runs. Start it only when the graph can be shown.
-  const graphScript = [article.afterDOMLoaded ?? ""].flat().join("\n")
-  component.afterDOMLoaded = `
-      {
-        const hidden = matchMedia(${JSON.stringify(hiddenGraphQuery)})
-        function startGraph() {
-          if (hidden.matches) return
-          hidden.removeEventListener("change", startGraph);
-          ${graphScript}
-        }
-        if (hidden.matches) hidden.addEventListener("change", startGraph)
-        else startGraph()
-      }
-    `
+  component.afterDOMLoaded = graphScript
   return component
 }
 // loadQuartzConfig builds its page dispatcher with the layout as it loads.
 componentRegistry.register("@quartz-community/graph", siteGraph, "site")
 const config = await loadQuartzConfig()
+config.plugins.transformers.push(calloutDisclosures)
 // V5 also gathers resources from every registered alias, including the original
 // plugin constructor. Share the site constructor so its script is emitted once.
 for (const [name, entry] of componentRegistry.getAll()) {

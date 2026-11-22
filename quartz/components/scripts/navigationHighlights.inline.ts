@@ -316,6 +316,34 @@ function watchSearchChoices(
   signal.addEventListener("abort", () => observer.disconnect())
 }
 
+function watchCalloutSearchMatches(signal: AbortSignal) {
+  const bodies = document.querySelectorAll("main > article .callout > details > .callout-content")
+  if (!bodies.length) return
+  const observer = new MutationObserver((changes) => {
+    for (const change of changes) {
+      for (const mark of change.addedNodes) {
+        if (!(mark instanceof HTMLElement) || !mark.matches(".search-scroll-target")) continue
+
+        // Search has tried to scroll here while the matching text was still hidden.
+        // Ascend through bodies so a matching summary leaves its own disclosure closed.
+        let body = mark.closest(".callout > details > .callout-content")
+        let revealed = false
+        while (body?.parentElement instanceof HTMLDetailsElement) {
+          const details = body.parentElement
+          if (!details.open) {
+            details.open = true
+            revealed = true
+          }
+          body = details.closest(".callout > details > .callout-content")
+        }
+        if (revealed) mark.scrollIntoView({ block: "center" })
+      }
+    }
+  })
+  for (const body of bodies) observer.observe(body, { childList: true, subtree: true })
+  signal.addEventListener("abort", () => observer.disconnect())
+}
+
 function prepareSearch(container: HTMLElement, id: string, signal: AbortSignal) {
   const space = container.querySelector<HTMLElement>(".search-space")
   const input = space?.querySelector<HTMLInputElement>(".search-bar")
@@ -437,6 +465,7 @@ function refreshHighlights() {
   navigationHighlights?.abort()
   navigationHighlights = new AbortController()
   const { signal } = navigationHighlights
+  watchCalloutSearchMatches(signal)
   // Native hash navigation fires popstate in the SPA. Move focus without rerendering the page.
   document.querySelector<HTMLAnchorElement>(".skip-to-content")?.addEventListener(
     "click",

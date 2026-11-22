@@ -1,28 +1,5 @@
-import { hiddenGraphQuery } from "../mediaQueries"
-
 function visible(element: HTMLElement) {
   return element.getClientRects().length > 0 && getComputedStyle(element).visibility === "visible"
-}
-
-const hidden = matchMedia(hiddenGraphQuery)
-
-function syncGraphMounts() {
-  // Graph queries these class names when rendering. Keep its data/configuration
-  // in place, and let its own lifecycle release any canvas and simulation.
-  for (const el of document.querySelectorAll<HTMLElement>(
-    ".graph .graph-container, .graph .global-graph-container, .graph [data-graph-mount]",
-  )) {
-    if (hidden.matches) {
-      const mount =
-        el.dataset.graphMount ||
-        (el.classList.contains("graph-container") ? "graph-container" : "global-graph-container")
-      el.dataset.graphMount = mount
-      el.classList.remove(mount)
-    } else if (el.dataset.graphMount) {
-      el.classList.add(el.dataset.graphMount)
-      delete el.dataset.graphMount
-    }
-  }
 }
 
 function watchGraphDialog(graph: HTMLElement, signal: AbortSignal) {
@@ -145,13 +122,6 @@ function prepareGraphDialog() {
   watchGraphDialog(graph, controls.signal)
 }
 
-syncGraphMounts()
-document.addEventListener("nav", syncGraphMounts, true)
-document.addEventListener("render", syncGraphMounts, true)
-hidden.addEventListener("change", () => {
-  if (hidden.matches) document.querySelector<HTMLElement>(".global-graph-outer.active")?.click()
-  document.dispatchEvent(new CustomEvent("render", { detail: { url: document.body.dataset.slug } }))
-})
 document.addEventListener("nav", prepareGraphDialog)
 document.addEventListener("render", prepareGraphDialog)
 document.addEventListener("prenav", () => controls?.abort())

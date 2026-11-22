@@ -1,0 +1,66 @@
+{
+  "baseline": {
+    "routes": 252,
+    "headings": 1699,
+    "links": 4445,
+    "table_elements": 657,
+    "fonts": {
+      "SourceSerif4-Roman.woff2": "382475f38242c52d42a3e5ff8dc69b5d73f10d0d21e4550b5fe232984688779a",
+      "SourceSerif4-Italic.woff2": "b4f56ddc9873487f1c9a3ad5bbce31982fe89b951f57e4604f62b4c8a540fb19",
+      "SourceSans3VF-Upright.otf.woff2": "f9e4eac0e8f8ffdae91cf6eff3962b96e81417cba5c728bc1c89efe9510e7653",
+      "SourceSans3VF-Italic.otf.woff2": "2cac627e742dec5b6fa73a0ad243a97e189c362ea11ae85c22b2e52b214d00a3",
+      "SNPro-Regular.woff2": "3f81c6fafbc078c083fc606b17199d4383ae4343821e30dd48d670d1dc4d1614",
+      "SNPro-Italic.woff2": "a7397afe65e6182c2df9f25209e1d3dd1986e672422a0919be52df7aa8a6c8f8",
+      "MrDeHaviland-Regular.woff2": "a72335b7d7b256e00e4c12d6bb418e015613a1d15db02000c94cf319ae732e30",
+      "BerkeleyMono-Regular.woff2": "6aba4b6eb8bf330e5a668f2b8563049c5a2dd3ed3585d1d05033c873fae7cd9a",
+      "BerkeleyMono-Oblique.woff2": "be7d45adef4a8811a9ab9af7ddb600f7faf76a1bf91fc2d0de497e77d670e191",
+      "BerkeleyMono-MediumOblique.woff2": "1022d7c6fefdd51e470081396265747ab973df86c34f3c855ebd0d1e3376ee1a",
+      "BerkeleyMono-Medium.woff2": "b68a248ac61223aaa70e64578d16fa99045eef923d082c17320262875e7f3a67",
+      "BerkeleyMono-BoldOblique.woff2": "b38de0dedd802894ff6c4b5dc80e84cce20d9fa8c493b37b090b830bf5372efb",
+      "BerkeleyMono-Bold.woff2": "a4cab0d27fe64bb42b7873e76d9341df03fecd468c4c89d05537ba1ba0ba7108"
+    },
+    "css": [
+      "index-28d2150b.css"
+    ],
+    "postscript": [
+      "postscript-036be663.js"
+    ]
+  },
+  "candidate": {
+    "routes": 252,
+    "headings": 1699,
+    "links": 4445,
+    "table_elements": 657,
+    "fonts": {
+      "SourceSerif4-Roman.woff2": "382475f38242c52d42a3e5ff8dc69b5d73f10d0d21e4550b5fe232984688779a",
+      "SourceSerif4-Italic.woff2": "b4f56ddc9873487f1c9a3ad5bbce31982fe89b951f57e4604f62b4c8a540fb19",
+      "SourceSans3VF-Upright.otf.woff2": "f9e4eac0e8f8ffdae91cf6eff3962b96e81417cba5c728bc1c89efe9510e7653",
+      "SourceSans3VF-Italic.otf.woff2": "2cac627e742dec5b6fa73a0ad243a97e189c362ea11ae85c22b2e52b214d00a3",
+      "SNPro-Regular.woff2": "3f81c6fafbc078c083fc606b17199d4383ae4343821e30dd48d670d1dc4d1614",
+      "SNPro-Italic.woff2": "a7397afe65e6182c2df9f25209e1d3dd1986e672422a0919be52df7aa8a6c8f8",
+      "MrDeHaviland-Regular.woff2": "a72335b7d7b256e00e4c12d6bb418e015613a1d15db02000c94cf319ae732e30",
+      "BerkeleyMono-Regular.woff2": "6aba4b6eb8bf330e5a668f2b8563049c5a2dd3ed3585d1d05033c873fae7cd9a",
+      "BerkeleyMono-Oblique.woff2": "be7d45adef4a8811a9ab9af7ddb600f7faf76a1bf91fc2d0de497e77d670e191",
+      "BerkeleyMono-MediumOblique.woff2": "1022d7c6fefdd51e470081396265747ab973df86c34f3c855ebd0d1e3376ee1a",
+      "BerkeleyMono-Medium.woff2": "b68a248ac61223aaa70e64578d16fa99045eef923d082c17320262875e7f3a67",
+      "BerkeleyMono-BoldOblique.woff2": "b38de0dedd802894ff6c4b5dc80e84cce20d9fa8c493b37b090b830bf5372efb",
+      "BerkeleyMono-Bold.woff2": "a4cab0d27fe64bb42b7873e76d9341df03fecd468c4c89d05537ba1ba0ba7108"
+    },
+    "css": [
+      "index-81c6d6e2.css"
+    ],
+    "postscript": [
+      "postscript-29870e5a.js"
+    ]
+  },
+  "allRoutesAndHeadingAnchorsLinksAndTableStructuresIdentical": true,
+  "woff2FilesIdentical": true,
+  "buildArtifactsReportedByQuartz": 913,
+  "unitTests": {
+    "passed": 164,
+    "failed": 0
+  },
+  "formatting": "Both changed sources passed the repository Prettier check.",
+  "typeCheck": "The separately run repository check produced identical diagnostics on baseline and candidate (TS7016 micromorph, TS2307 remark-parse/lib).",
+  "baselineCommit": "1b30671"
+}

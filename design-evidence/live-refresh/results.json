@@ -1,0 +1,1630 @@
+{
+  "url": "https://husenjan.com/",
+  "date": "2026-11-22",
+  "scope": "Review of ordinary and rapid reloads on the public Home page. The graph guard was tested only as an isolated response override in a test browser.",
+  "observedSite": {
+    "css": "index-28d2150b.css",
+    "postscript": "postscript-a41b789d.js",
+    "graph": "script-4-edf2729e.js",
+    "tables": "script-14-d428704c.js"
+  },
+  "desktopChrome": {
+    "browser": "158.0.8127.36",
+    "width": 1440,
+    "samples": [
+      {
+        "sequence": "cold",
+        "localCanvases": 1,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1130.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      },
+      {
+        "sequence": "ordinary 1",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1038.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 1222.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      },
+      {
+        "sequence": "ordinary 2",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1038.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 1222.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      },
+      {
+        "sequence": "ordinary 3",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1038.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 1222.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      },
+      {
+        "sequence": "ordinary 4",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1038.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 1222.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      },
+      {
+        "sequence": "ordinary 5",
+        "localCanvases": 1,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1130.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      },
+      {
+        "sequence": "rapid 80ms",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1038.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 1222.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      },
+      {
+        "sequence": "rapid 250ms",
+        "localCanvases": 1,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1130.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      },
+      {
+        "sequence": "rapid 500ms",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 1038.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 1222.40625,
+            "y": 107,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [],
+        "uniqueIdCounts": [],
+        "nodeSets": []
+      }
+    ]
+  },
+  "instrumentedTabletChrome": {
+    "browser": "158.0.8127.36",
+    "width": 900,
+    "samples": [
+      {
+        "sequence": "cold",
+        "localCanvases": 1,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 457.75,
+            "y": 1161.921875,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [
+          160
+        ],
+        "uniqueIdCounts": [
+          160
+        ],
+        "nodeSets": [
+          "6ab5e88fc83856e4e7ee308e67bfb39b5d9c22b35185eb19e6e2f6569f951464"
+        ]
+      },
+      {
+        "sequence": "ordinary 1",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 365.75,
+            "y": 1161.921875,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 549.75,
+            "y": 1161.921875,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [
+          160,
+          160
+        ],
+        "uniqueIdCounts": [
+          160,
+          160
+        ],
+        "nodeSets": [
+          "6ab5e88fc83856e4e7ee308e67bfb39b5d9c22b35185eb19e6e2f6569f951464",
+          "6ab5e88fc83856e4e7ee308e67bfb39b5d9c22b35185eb19e6e2f6569f951464"
+        ]
+      },
+      {
+        "sequence": "ordinary 2",
+        "localCanvases": 1,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 457.75,
+            "y": 647.921875,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [
+          160
+        ],
+        "uniqueIdCounts": [
+          160
+        ],
+        "nodeSets": [
+          "6ab5e88fc83856e4e7ee308e67bfb39b5d9c22b35185eb19e6e2f6569f951464"
+        ]
+      },
+      {
+        "sequence": "ordinary 3",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 365.75,
+            "y": 647.921875,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 549.75,
+            "y": 647.921875,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [
+          160,
+          160
+        ],
+        "uniqueIdCounts": [
+          160,
+          160
+        ],
+        "nodeSets": [
+          "6ab5e88fc83856e4e7ee308e67bfb39b5d9c22b35185eb19e6e2f6569f951464",
+          "6ab5e88fc83856e4e7ee308e67bfb39b5d9c22b35185eb19e6e2f6569f951464"
+        ]
+      },
+      {
+        "sequence": "rapid 80ms",
+        "localCanvases": 2,
+        "globalCanvases": 0,
+        "localCanvasBounds": [
+          {
+            "x": 365.75,
+            "y": 647.921875,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          },
+          {
+            "x": 549.75,
+            "y": 647.921875,
+            "w": 184,
+            "h": 184,
+            "buffer": [
+              250,
+              250
+            ]
+          }
+        ],
+        "nodeCounts": [
+          160,
+          160
+        ],
+        "uniqueIdCounts": [
+          160,
+          160
+        ],
+        "nodeSets": [
+          "6ab5e88fc83856e4e7ee308e67bfb39b5d9c22b35185eb19e6e2f6569f951464",
+          "6ab5e88fc83856e4e7ee308e67bfb39b5d9c22b35185eb19e6e2f6569f951464"
+        ]
+      }
+    ]
+  },
+  "desktopColdWarmHardControls": {
+    "chrome": {
+      "version": "158.0.8127.36",
+      "visits": [
+        {
+          "mode": "cold",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Google Chrome"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "reload",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Google Chrome"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "reload",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Google Chrome"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "hard",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Google Chrome"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "hard",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Google Chrome"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "reload",
+          "graph": 2,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Google Chrome"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        }
+      ]
+    },
+    "brave": {
+      "version": "158.0.8127.42",
+      "visits": [
+        {
+          "mode": "cold",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Brave"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "reload",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Brave"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "reload",
+          "graph": 2,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Brave"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "hard",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Brave"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "hard",
+          "graph": 1,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Brave"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        },
+        {
+          "mode": "reload",
+          "graph": 2,
+          "wrappers": 1,
+          "x0": 0,
+          "range": 97,
+          "rows": 3,
+          "links": 10,
+          "docWidth": 1428,
+          "dpr": 1,
+          "assets": [
+            "/postscript-a41b789d.js"
+          ],
+          "browserBrands": [
+            "Chromium",
+            "Not.A/Brand",
+            "Brave"
+          ],
+          "end": {
+            "x": 97,
+            "fade": false,
+            "last": "AZ-900",
+            "lastHit": true
+          }
+        }
+      ]
+    }
+  },
+  "isolatedCausalTest": {
+    "mode": "Isolated browser response override, two deliberate overlapping render notifications per trial.",
+    "samples": [
+      {
+        "guarded": false,
+        "completions": [
+          {
+            "render": 2,
+            "current": 3
+          },
+          {
+            "render": 3,
+            "current": 3
+          }
+        ],
+        "canvases": 2,
+        "tableRows": 3
+      },
+      {
+        "guarded": true,
+        "completions": [
+          {
+            "render": 2,
+            "current": 3
+          },
+          {
+            "render": 3,
+            "current": 3
+          }
+        ],
+        "canvases": 1,
+        "tableRows": 3
+      }
+    ]
+  },
+  "liveBraveTable": [
+    {
+      "browser": "158.0.8127.42",
+      "viewport": 1440,
+      "theme": "dark",
+      "reducedMotion": false,
+      "options": {},
+      "visits": [
+        {
+          "visit": "visit",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": true,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 1
+        },
+        {
+          "visit": "reload1",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "reload2",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "double-70",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": true,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "double-190",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        }
+      ]
+    },
+    {
+      "browser": "158.0.8127.42",
+      "viewport": 1440,
+      "theme": "light",
+      "reducedMotion": false,
+      "options": {},
+      "visits": [
+        {
+          "visit": "visit",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 1
+        },
+        {
+          "visit": "reload1",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "reload2",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "double-70",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "double-190",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 97,
+          "scrolledTo": 97,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        }
+      ]
+    },
+    {
+      "browser": "158.0.8127.42",
+      "viewport": 390,
+      "theme": "dark",
+      "reducedMotion": false,
+      "options": {},
+      "visits": [
+        {
+          "visit": "visit",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "reload1",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "reload2",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "double-70",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "double-190",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        }
+      ]
+    },
+    {
+      "browser": "158.0.8127.42",
+      "viewport": 390,
+      "theme": "dark",
+      "reducedMotion": true,
+      "options": {
+        "slow": true
+      },
+      "visits": [
+        {
+          "visit": "visit",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "double-70",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        }
+      ]
+    },
+    {
+      "browser": "158.0.8127.42",
+      "viewport": 390,
+      "theme": "light",
+      "reducedMotion": false,
+      "options": {},
+      "visits": [
+        {
+          "visit": "visit",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "reload1",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "reload2",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "double-70",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "double-190",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 418,
+          "scrolledTo": 418,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        }
+      ]
+    },
+    {
+      "browser": "158.0.8127.42",
+      "viewport": 900,
+      "theme": "dark",
+      "reducedMotion": false,
+      "options": {},
+      "visits": [
+        {
+          "visit": "visit",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 1
+        },
+        {
+          "visit": "reload1",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "reload2",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "double-70",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "double-190",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        }
+      ]
+    },
+    {
+      "browser": "158.0.8127.42",
+      "viewport": 900,
+      "theme": "dark",
+      "reducedMotion": true,
+      "options": {},
+      "visits": [
+        {
+          "visit": "visit",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "reload2",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "double-70",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        }
+      ]
+    },
+    {
+      "browser": "158.0.8127.42",
+      "viewport": 900,
+      "theme": "light",
+      "reducedMotion": false,
+      "options": {},
+      "visits": [
+        {
+          "visit": "visit",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 0
+        },
+        {
+          "visit": "reload1",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "reload2",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "double-70",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        },
+        {
+          "visit": "double-190",
+          "scrollLeftAfterLoad": 0,
+          "maximum": 128,
+          "scrolledTo": 128,
+          "maskAtEnd": false,
+          "rowLabels": [
+            "Obtained",
+            "In Progress",
+            "Todo"
+          ],
+          "hittableLinks": 10,
+          "localGraphCanvases": 2
+        }
+      ]
+    }
+  ],
+  "tableTimingFollowup": {
+    "BraveVersion": "158.0.8127.42",
+    "braveIdentity": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+      "brave": true
+    },
+    "tableInitialization": [
+      {
+        "viewport": "390",
+        "delaySinceFirstGeometry": 92,
+        "heightBefore": 126,
+        "heightAfter": 152
+      },
+      {
+        "viewport": "390",
+        "delaySinceFirstGeometry": 35,
+        "heightBefore": 126,
+        "heightAfter": 152
+      },
+      {
+        "viewport": "390",
+        "delaySinceFirstGeometry": 32,
+        "heightBefore": 126,
+        "heightAfter": 152
+      },
+      {
+        "viewport": "390",
+        "delaySinceFirstGeometry": 32,
+        "heightBefore": 126,
+        "heightAfter": 152
+      },
+      {
+        "viewport": "900",
+        "delaySinceFirstGeometry": 121,
+        "heightBefore": 140,
+        "heightAfter": 166
+      },
+      {
+        "viewport": "900",
+        "delaySinceFirstGeometry": 200,
+        "heightBefore": 140,
+        "heightAfter": 166
+      },
+      {
+        "viewport": "900",
+        "delaySinceFirstGeometry": 91,
+        "heightBefore": 140,
+        "heightAfter": 166
+      },
+      {
+        "viewport": "900",
+        "delaySinceFirstGeometry": 144,
+        "heightBefore": 140,
+        "heightAfter": 166
+      }
+    ],
+    "observations": [
+      "Warm runs started at scrollLeft zero after retaining a previous right-edge scroll position.",
+      "At the right edge, the two short values CAISP and - move out of view behind the pinned row labels; at the left edge they reappear.",
+      "Normal and delayed font loads retained accessible table/links. Home had no inline article images in sampled states; the delayed-asset condition delayed fonts.",
+      "Measurements used public URL without a cache-busting query and normal browser cache for all standard samples. Graph animation can compete with event timing; these checks measured table reachability, not causal GPU impact."
+    ],
+    "fadeFollowup": [
+      {
+        "tr": [
+          [
+            0,
+            97,
+            true,
+            true
+          ],
+          [
+            81,
+            97,
+            false,
+            false
+          ],
+          [
+            250,
+            97,
+            false,
+            false
+          ],
+          [
+            501,
+            97,
+            false,
+            false
+          ],
+          [
+            905,
+            97,
+            false,
+            false
+          ],
+          [
+            1500,
+            97,
+            false,
+            false
+          ]
+        ],
+        "events": [
+          12
+        ],
+        "graph": 1
+      },
+      {
+        "tr": [
+          [
+            0,
+            97,
+            true,
+            true
+          ],
+          [
+            80,
+            97,
+            false,
+            false
+          ],
+          [
+            255,
+            97,
+            false,
+            false
+          ],
+          [
+            501,
+            97,
+            false,
+            false
+          ],
+          [
+            909,
+            97,
+            false,
+            false
+          ],
+          [
+            1503,
+            97,
+            false,
+            false
+          ]
+        ],
+        "events": [
+          12
+        ],
+        "graph": 2
+      },
+      {
+        "tr": [
+          [
+            0,
+            97,
+            true,
+            true
+          ],
+          [
+            80,
+            97,
+            false,
+            false
+          ],
+          [
+            256,
+            97,
+            false,
+            false
+          ],
+          [
+            500,
+            97,
+            false,
+            false
+          ],
+          [
+            900,
+            97,
+            false,
+            false
+          ],
+          [
+            1501,
+            97,
+            false,
+            false
+          ]
+        ],
+        "events": [
+          1
+        ],
+        "graph": 2
+      },
+      {
+        "tr": [
+          [
+            0,
+            97,
+            true,
+            true
+          ],
+          [
+            87,
+            97,
+            false,
+            false
+          ],
+          [
+            250,
+            97,
+            false,
+            false
+          ],
+          [
+            504,
+            97,
+            false,
+            false
+          ],
+          [
+            900,
+            97,
+            false,
+            false
+          ],
+          [
+            1500,
+            97,
+            false,
+            false
+          ]
+        ],
+        "events": [
+          17
+        ],
+        "graph": 2
+      },
+      {
+        "tr": [
+          [
+            0,
+            97,
+            true,
+            true
+          ],
+          [
+            82,
+            97,
+            false,
+            false
+          ],
+          [
+            250,
+            97,
+            false,
+            false
+          ],
+          [
+            501,
+            97,
+            false,
+            false
+          ],
+          [
+            905,
+            97,
+            false,
+            false
+          ],
+          [
+            1500,
+            97,
+            false,
+            false
+          ]
+        ],
+        "events": [
+          3
+        ],
+        "graph": 1
+      }
+    ]
+  }
+}
