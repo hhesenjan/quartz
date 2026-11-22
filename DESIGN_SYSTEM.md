@@ -13,7 +13,7 @@ The constrained article measure and underlined prose links draw on [Anthropic’
 | Article sections | Source Serif 4, 450 | H1 26–32px, H2 22–28px, H3 18–21px. H4–H6 use SN Pro semibold. |
 | Home introduction | Source Serif 4 | First greeting 1.25× body. The following paragraph shares its spacing. |
 | Archive titles | Source Serif 4, 500 | 16px on compact phone rows and approximately 17–19px on wider rows. Dates and tags use 14px SN Pro. |
-| Navigation, TOC and backlinks | SN Pro, 450–600 | 15px navigation text. Use weight, a background and a visible focus outline to distinguish the current item. |
+| Navigation, TOC and backlinks | SN Pro, 450–600 | 15px navigation text. The Explorer uses ink and a fill for the current page. In forced colors its current file or folder has an underline. The current contents link also uses weight. Keyboard focus has a separate outline. |
 | Metadata, captions and tables | SN Pro for UI and tables | 14px dates, tags, table text and captions. Article image captions inherit the article family. |
 | Search | SN Pro | 16px input and result heading. Preview typography follows the type of content being previewed. |
 | Inline code, commands, terminal output and code blocks | TX-02 (Berkeley Mono) | Inline and fenced code share the 0.90625rem size token (14.5px with a 16px browser default). Sticky line numbers inherit that size. Inline code uses regular weight. A direct `strong` or `b` parent selects the bold face. Italic style is inherited. Blocks use a 1.375rem line height (22px at the default setting). |
@@ -41,7 +41,7 @@ The current shared code scale was compared at 14, 14.5 and 15px using the same A
 | Graph edges / `--graph-edge` | `#817d72` | `#707070` |
 | Interactive accent / `--tertiary` | `#904832` | `#d9c3ad` |
 
-Use near-black only for secondary surfaces. Selected rows use a distinct fill and text color. Prose links are underlined even at rest. Code keeps its separate neutral surface and syntax colors. Respect operating-system high-contrast colors.
+Use near-black only for secondary surfaces. Selected rows use a distinct fill and text color. Prose links are underlined even at rest. Code keeps its separate neutral surface and syntax colors. Within fences, ordinary text selection uses the code surface ink and gray selection fill, including on highlighted lines. System selection colors take precedence in forced colors. Respect operating-system high-contrast colors.
 
 ### Opacity and interaction states
 
@@ -59,6 +59,8 @@ Use near-black only for secondary surfaces. Selected rows use a distinct fill an
 - Use the 43rem measure on wide pages. At the 800px and 1200px breakpoints, the default frame changes between one, two and three columns. The 800px boundary uses the mobile arrangement and 1200px uses desktop.
 - Phone gutters grow from 1rem to 1.5rem and respect safe-area insets. Toolbar controls can use part of the outer gutter at very narrow widths. The page scrolls vertically; wide tables and code scroll within their own boxes. A table’s right edge fades while more columns are offscreen and clears at the end.
 - Article images have 15px corners. For a standalone diagram immediately followed by its caption, reserve up to 24rem of reading width before honoring a smaller authored percentage. The diagram fits the column on phones and keeps a 0.375rem gap to its caption. The five IACS illustrations declare their native pixel dimensions in the article. Their shared style sets a fluid height so the browser reserves the correct proportions before download. Other images take their vertical space from the containing paragraph. Headings own the gap to the content they introduce. Home certification links share one scrollable row with a pinned row label. In narrow archives the headline takes its own line, with metadata below. In wider archives the date column reserves 7rem and can expand to fit dates when readers increase the browser’s minimum font size. Long archive tags can wrap within their column.
+- Let article images with missing or automatic dimensions participate in layout even outside the viewport. This keeps focus scrolling stable once the browser knows their dimensions. The fixed black connectors in the external framework SVG need a light backing in dark mode.
+- Where the desktop rail contains an expanded Contents and Backlinks, each section initially requests 50% of the space, up to its content height. The lists scroll independently if needed. At heights of 32rem or less, the whole rail scrolls.
 - Keep native keyboard focus visible. The first tab stop in the default frame skips the toolbar and focuses main content. Search, Explorer, reader mode and the graph return the reader to a useful control when dismissed.
 
 ## Graph and motion
@@ -76,4 +78,4 @@ Edit [quartz/styles/custom.scss](quartz/styles/custom.scss). Its sections contai
 
 ### Diagram controls
 
-Reserve room above each embedded Mermaid drawing for its existing Copy and Expand controls. Copy remains available while the module loads. The enabled Quartz plugin assigns Expand an inline right offset when it binds the action. That marker exposes the initialized control. The stylesheet sizes the gap relative to the reader’s current font preference, including live changes. Touch shows the initialized control at rest. Keyboard focus reveals it immediately under reduced motion. [Matched phone views](design-evidence/publication/mermaid-390.webp) · [All ten drawings](design-evidence/publication/diagrams.json)
+Reserve room above each embedded Mermaid drawing for its existing Copy and Expand controls. Copy remains available while the module loads. Raw diagram source preserves indentation and wraps long lines within the reading column until the SVG exists. The enabled Quartz plugin assigns Expand an inline right offset when it binds the action. That marker exposes the initialized control. The stylesheet sizes the gap relative to the reader’s current font preference, including live changes. Copy and Expand track the new geometry immediately when type grows or shrinks. Only the original Copy button stays visible and focusable if Quartz initializes the block again. Touch shows the initialized control at rest. Keyboard focus reveals it immediately under reduced motion. [Matched phone views](design-evidence/publication/mermaid-390.webp) · [All ten drawings](design-evidence/publication/diagrams.json)

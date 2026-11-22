@@ -1,0 +1,9294 @@
+{
+ "site": "https://husenjan.com/",
+ "liveCSS": "index-530afd62.css",
+ "websiteBuildForVisualReview": "index-0731cabb.css",
+ "viewport": "390, 900 and 1440, light and black. Separate graph timing and rapid navigation runs as labeled. Linux and software WebGL.",
+ "liveReloads": {
+  "brave-4252-1440-instrument": [
+   {
+    "reload": 0,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1130.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [
+     null,
+     {
+      "connected": true,
+      "nodes": 160,
+      "unique": 160,
+      "dupes": [],
+      "labels": [
+       "blog/0000-red-team-cheat-sheet",
+       "blog/0001-the-basics-of-x86-assembly",
+       "blog/0002-c++-hooking-methods",
+       "blog/0003-mysql-connector-cpp",
+       "blog/0004-the-basics-of-mysql",
+       "blog/0005-terraform-for-microsoft-azure",
+       "blog/0006-the-microsoft-azure-documentation",
+       "blog/0007-understanding-json-web-token",
+       "blog/0008-building-a-kubernetes-cluster",
+       "blog/0009-create-a-phishing-campaign",
+       "blog/0011-dynamic-group-for-shared-mailboxes",
+       "blog/0012-cortex-xdr-monitoring-active-directory",
+       "blog/0013-understanding-microsoft-sentinel-part-1",
+       "blog/0014-deploying-cortex-xdr-through-intune",
+       "blog/0015-enrolling-devices-into-intune"
+      ]
+     }
+    ],
+    "events": [
+     [
+      "DOMContentLoaded",
+      147
+     ],
+     [
+      "load",
+      283
+     ],
+     [
+      "pageshow",
+      284
+     ],
+     [
+      "nav",
+      1680
+     ]
+    ]
+   },
+   {
+    "reload": 1,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1038.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     },
+     {
+      "box": [
+       1222.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [
+     {
+      "connected": true,
+      "nodes": 160,
+      "unique": 160,
+      "dupes": [],
+      "labels": [
+       "blog/0000-red-team-cheat-sheet",
+       "blog/0001-the-basics-of-x86-assembly",
+       "blog/0002-c++-hooking-methods",
+       "blog/0003-mysql-connector-cpp",
+       "blog/0004-the-basics-of-mysql",
+       "blog/0005-terraform-for-microsoft-azure",
+       "blog/0006-the-microsoft-azure-documentation",
+       "blog/0007-understanding-json-web-token",
+       "blog/0008-building-a-kubernetes-cluster",
+       "blog/0009-create-a-phishing-campaign",
+       "blog/0011-dynamic-group-for-shared-mailboxes",
+       "blog/0012-cortex-xdr-monitoring-active-directory",
+       "blog/0013-understanding-microsoft-sentinel-part-1",
+       "blog/0014-deploying-cortex-xdr-through-intune",
+       "blog/0015-enrolling-devices-into-intune"
+      ]
+     },
+     {
+      "connected": true,
+      "nodes": 160,
+      "unique": 160,
+      "dupes": [],
+      "labels": [
+       "blog/0000-red-team-cheat-sheet",
+       "blog/0001-the-basics-of-x86-assembly",
+       "blog/0002-c++-hooking-methods",
+       "blog/0003-mysql-connector-cpp",
+       "blog/0004-the-basics-of-mysql",
+       "blog/0005-terraform-for-microsoft-azure",
+       "blog/0006-the-microsoft-azure-documentation",
+       "blog/0007-understanding-json-web-token",
+       "blog/0008-building-a-kubernetes-cluster",
+       "blog/0009-create-a-phishing-campaign",
+       "blog/0011-dynamic-group-for-shared-mailboxes",
+       "blog/0012-cortex-xdr-monitoring-active-directory",
+       "blog/0013-understanding-microsoft-sentinel-part-1",
+       "blog/0014-deploying-cortex-xdr-through-intune",
+       "blog/0015-enrolling-devices-into-intune"
+      ]
+     }
+    ],
+    "events": [
+     [
+      "DOMContentLoaded",
+      213
+     ],
+     [
+      "load",
+      241
+     ],
+     [
+      "pageshow",
+      242
+     ],
+     [
+      "nav",
+      312
+     ]
+    ]
+   },
+   {
+    "reload": 2,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1038.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     },
+     {
+      "box": [
+       1222.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [
+     {
+      "connected": true,
+      "nodes": 160,
+      "unique": 160,
+      "dupes": [],
+      "labels": [
+       "blog/0000-red-team-cheat-sheet",
+       "blog/0001-the-basics-of-x86-assembly",
+       "blog/0002-c++-hooking-methods",
+       "blog/0003-mysql-connector-cpp",
+       "blog/0004-the-basics-of-mysql",
+       "blog/0005-terraform-for-microsoft-azure",
+       "blog/0006-the-microsoft-azure-documentation",
+       "blog/0007-understanding-json-web-token",
+       "blog/0008-building-a-kubernetes-cluster",
+       "blog/0009-create-a-phishing-campaign",
+       "blog/0011-dynamic-group-for-shared-mailboxes",
+       "blog/0012-cortex-xdr-monitoring-active-directory",
+       "blog/0013-understanding-microsoft-sentinel-part-1",
+       "blog/0014-deploying-cortex-xdr-through-intune",
+       "blog/0015-enrolling-devices-into-intune"
+      ]
+     },
+     {
+      "connected": true,
+      "nodes": 160,
+      "unique": 160,
+      "dupes": [],
+      "labels": [
+       "blog/0000-red-team-cheat-sheet",
+       "blog/0001-the-basics-of-x86-assembly",
+       "blog/0002-c++-hooking-methods",
+       "blog/0003-mysql-connector-cpp",
+       "blog/0004-the-basics-of-mysql",
+       "blog/0005-terraform-for-microsoft-azure",
+       "blog/0006-the-microsoft-azure-documentation",
+       "blog/0007-understanding-json-web-token",
+       "blog/0008-building-a-kubernetes-cluster",
+       "blog/0009-create-a-phishing-campaign",
+       "blog/0011-dynamic-group-for-shared-mailboxes",
+       "blog/0012-cortex-xdr-monitoring-active-directory",
+       "blog/0013-understanding-microsoft-sentinel-part-1",
+       "blog/0014-deploying-cortex-xdr-through-intune",
+       "blog/0015-enrolling-devices-into-intune"
+      ]
+     }
+    ],
+    "events": [
+     [
+      "DOMContentLoaded",
+      374
+     ],
+     [
+      "load",
+      393
+     ],
+     [
+      "pageshow",
+      395
+     ],
+     [
+      "nav",
+      471
+     ]
+    ]
+   }
+  ],
+  "chrome-public-1440-ordinary": [
+   {
+    "reload": 0,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1130.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [],
+    "events": [
+     [
+      "DOMContentLoaded",
+      331
+     ],
+     [
+      "load",
+      351
+     ],
+     [
+      "pageshow",
+      351
+     ],
+     [
+      "nav",
+      397
+     ]
+    ]
+   },
+   {
+    "reload": 1,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1038.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     },
+     {
+      "box": [
+       1222.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [],
+    "events": [
+     [
+      "DOMContentLoaded",
+      313
+     ],
+     [
+      "load",
+      324
+     ],
+     [
+      "pageshow",
+      324
+     ],
+     [
+      "nav",
+      425
+     ]
+    ]
+   },
+   {
+    "reload": 2,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1130.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [],
+    "events": [
+     [
+      "DOMContentLoaded",
+      572
+     ],
+     [
+      "load",
+      573
+     ],
+     [
+      "pageshow",
+      573
+     ],
+     [
+      "nav",
+      1007
+     ]
+    ]
+   }
+  ],
+  "chrome-public-900-instrument": [
+   {
+    "reload": 0,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      221.5,
+      687.640625,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      221.5,
+      662.046875,
+      656.5,
+      166
+     ],
+     "range": 128,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 128,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       457.75,
+       1161.921875,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [
+     {
+      "connected": true,
+      "nodes": 160,
+      "unique": 160,
+      "dupes": [],
+      "labels": [
+       "blog/0000-red-team-cheat-sheet",
+       "blog/0001-the-basics-of-x86-assembly",
+       "blog/0002-c++-hooking-methods",
+       "blog/0003-mysql-connector-cpp",
+       "blog/0004-the-basics-of-mysql",
+       "blog/0005-terraform-for-microsoft-azure",
+       "blog/0006-the-microsoft-azure-documentation",
+       "blog/0007-understanding-json-web-token",
+       "blog/0008-building-a-kubernetes-cluster",
+       "blog/0009-create-a-phishing-campaign",
+       "blog/0011-dynamic-group-for-shared-mailboxes",
+       "blog/0012-cortex-xdr-monitoring-active-directory",
+       "blog/0013-understanding-microsoft-sentinel-part-1",
+       "blog/0014-deploying-cortex-xdr-through-intune",
+       "blog/0015-enrolling-devices-into-intune"
+      ]
+     }
+    ],
+    "events": [
+     [
+      "DOMContentLoaded",
+      318
+     ],
+     [
+      "nav",
+      402
+     ],
+     [
+      "load",
+      1504
+     ],
+     [
+      "pageshow",
+      1504
+     ]
+    ]
+   },
+   {
+    "reload": 1,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      221.5,
+      173.640625,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      221.5,
+      148.046875,
+      656.5,
+      166
+     ],
+     "range": 128,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 128,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       457.75,
+       647.921875,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [
+     null,
+     {
+      "connected": true,
+      "nodes": 160,
+      "unique": 160,
+      "dupes": [],
+      "labels": [
+       "blog/0000-red-team-cheat-sheet",
+       "blog/0001-the-basics-of-x86-assembly",
+       "blog/0002-c++-hooking-methods",
+       "blog/0003-mysql-connector-cpp",
+       "blog/0004-the-basics-of-mysql",
+       "blog/0005-terraform-for-microsoft-azure",
+       "blog/0006-the-microsoft-azure-documentation",
+       "blog/0007-understanding-json-web-token",
+       "blog/0008-building-a-kubernetes-cluster",
+       "blog/0009-create-a-phishing-campaign",
+       "blog/0011-dynamic-group-for-shared-mailboxes",
+       "blog/0012-cortex-xdr-monitoring-active-directory",
+       "blog/0013-understanding-microsoft-sentinel-part-1",
+       "blog/0014-deploying-cortex-xdr-through-intune",
+       "blog/0015-enrolling-devices-into-intune"
+      ]
+     }
+    ],
+    "events": [
+     [
+      "DOMContentLoaded",
+      313
+     ],
+     [
+      "load",
+      315
+     ],
+     [
+      "pageshow",
+      315
+     ],
+     [
+      "nav",
+      636
+     ]
+    ]
+   },
+   {
+    "reload": 2,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      221.5,
+      173.640625,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      221.5,
+      148.046875,
+      656.5,
+      166
+     ],
+     "range": 128,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156.25px), rgba(0, 0, 0, 0) calc(100% - 128.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 128,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       457.75,
+       647.921875,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [
+     null,
+     {
+      "connected": true,
+      "nodes": 160,
+      "unique": 160,
+      "dupes": [],
+      "labels": [
+       "blog/0000-red-team-cheat-sheet",
+       "blog/0001-the-basics-of-x86-assembly",
+       "blog/0002-c++-hooking-methods",
+       "blog/0003-mysql-connector-cpp",
+       "blog/0004-the-basics-of-mysql",
+       "blog/0005-terraform-for-microsoft-azure",
+       "blog/0006-the-microsoft-azure-documentation",
+       "blog/0007-understanding-json-web-token",
+       "blog/0008-building-a-kubernetes-cluster",
+       "blog/0009-create-a-phishing-campaign",
+       "blog/0011-dynamic-group-for-shared-mailboxes",
+       "blog/0012-cortex-xdr-monitoring-active-directory",
+       "blog/0013-understanding-microsoft-sentinel-part-1",
+       "blog/0014-deploying-cortex-xdr-through-intune",
+       "blog/0015-enrolling-devices-into-intune"
+      ]
+     }
+    ],
+    "events": [
+     [
+      "DOMContentLoaded",
+      334
+     ],
+     [
+      "load",
+      349
+     ],
+     [
+      "pageshow",
+      349
+     ],
+     [
+      "nav",
+      791
+     ]
+    ]
+   }
+  ],
+  "brave-public-1440-ordinary": [
+   {
+    "reload": 0,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1130.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [],
+    "events": [
+     [
+      "DOMContentLoaded",
+      428
+     ],
+     [
+      "load",
+      464
+     ],
+     [
+      "pageshow",
+      464
+     ],
+     [
+      "nav",
+      546
+     ]
+    ]
+   },
+   {
+    "reload": 1,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1130.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [],
+    "events": [
+     [
+      "DOMContentLoaded",
+      430
+     ],
+     [
+      "load",
+      431
+     ],
+     [
+      "pageshow",
+      431
+     ],
+     [
+      "nav",
+      920
+     ]
+    ]
+   },
+   {
+    "reload": 2,
+    "table": {
+     "classes": "table-container",
+     "wrappers": 1,
+     "rows": 3,
+     "links": 10,
+     "overflowX": "auto",
+     "tableBounds": [
+      382,
+      680.921875,
+      785.25,
+      140.40625
+     ],
+     "wrapperBounds": [
+      382,
+      655.328125,
+      688,
+      166
+     ],
+     "range": 97,
+     "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125.25px), rgba(0, 0, 0, 0) calc(100% - 97.25px))",
+     "label": "Scrollable table",
+     "overflow": -12
+    },
+    "end": {
+     "pos": 97,
+     "mask": "none",
+     "last": "AZ-900"
+    },
+    "canvases": [
+     {
+      "box": [
+       1130.40625,
+       107,
+       184,
+       184
+      ],
+      "parent": "graph-container",
+      "buffer": [
+       250,
+       250
+      ]
+     }
+    ],
+    "apps": [],
+    "events": [
+     [
+      "DOMContentLoaded",
+      527
+     ],
+     [
+      "load",
+      534
+     ],
+     [
+      "pageshow",
+      534
+     ],
+     [
+      "nav",
+      1023
+     ]
+    ]
+   }
+  ]
+ },
+ "tableMatrix": {
+  "chrome": [
+   {
+    "w": 390,
+    "t": "light",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "light",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "light",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "dark",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "dark",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "dark",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 900,
+    "t": "light",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 1
+   },
+   {
+    "w": 900,
+    "t": "light",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 1
+   },
+   {
+    "w": 900,
+    "t": "light",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 2
+   },
+   {
+    "w": 900,
+    "t": "dark",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 1
+   },
+   {
+    "w": 900,
+    "t": "dark",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 2
+   },
+   {
+    "w": 900,
+    "t": "dark",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 2
+   },
+   {
+    "w": 1440,
+    "t": "light",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 1
+   },
+   {
+    "w": 1440,
+    "t": "light",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 1
+   },
+   {
+    "w": 1440,
+    "t": "light",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 1
+   },
+   {
+    "w": 1440,
+    "t": "dark",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 1
+   },
+   {
+    "w": 1440,
+    "t": "dark",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 2
+   },
+   {
+    "w": 1440,
+    "t": "dark",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 2
+   }
+  ],
+  "brave": [
+   {
+    "w": 390,
+    "t": "light",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "light",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "light",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "dark",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "dark",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 390,
+    "t": "dark",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "middle": {
+     "x": 209,
+     "range": 418,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "end": {
+     "x": 418,
+     "range": 418,
+     "fade": false,
+     "visibleLinks": [
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 390,
+     "view": 390
+    },
+    "canvas": 0
+   },
+   {
+    "w": 900,
+    "t": "light",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 1
+   },
+   {
+    "w": 900,
+    "t": "light",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 2
+   },
+   {
+    "w": 900,
+    "t": "light",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 1
+   },
+   {
+    "w": 900,
+    "t": "dark",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 1
+   },
+   {
+    "w": 900,
+    "t": "dark",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 2
+   },
+   {
+    "w": 900,
+    "t": "dark",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "middle": {
+     "x": 64,
+     "range": 128,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "end": {
+     "x": 128,
+     "range": 128,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 888,
+     "view": 900
+    },
+    "canvas": 1
+   },
+   {
+    "w": 1440,
+    "t": "light",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 1
+   },
+   {
+    "w": 1440,
+    "t": "light",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 1
+   },
+   {
+    "w": 1440,
+    "t": "light",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 2
+   },
+   {
+    "w": 1440,
+    "t": "dark",
+    "step": 0,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 1
+   },
+   {
+    "w": 1440,
+    "t": "dark",
+    "step": 1,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 2
+   },
+   {
+    "w": 1440,
+    "t": "dark",
+    "step": 2,
+    "start": {
+     "x": 0,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "OSCP",
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "middle": {
+     "x": 49,
+     "range": 97,
+     "fade": true,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "end": {
+     "x": 97,
+     "range": 97,
+     "fade": false,
+     "visibleLinks": [
+      "AZ-500",
+      "AZ-305",
+      "AZ-104",
+      "SC-200",
+      "MD-102",
+      "MS-102",
+      "MS-900",
+      "SC-900",
+      "AZ-900"
+     ],
+     "sticky": 0,
+     "rows": 3,
+     "links": 10,
+     "wrappers": 1,
+     "body": 1428,
+     "view": 1440
+    },
+    "canvas": 2
+   }
+  ]
+ },
+ "tableTiming": {
+  "chrome": [
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 90,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 325,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 934,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1935,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     37
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 91,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 321,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 922,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1923,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     30
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 92,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 323,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 923,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1923,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     10
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 91,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 352,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 952,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1964,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     94
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 90,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 331,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 950,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1950,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     172
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 95,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 326,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 948,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1969,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     54
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 91,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 328,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 929,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1929,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     2
+    ]
+   }
+  ],
+  "brave": [
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 91,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 321,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 924,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1924,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 1,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     10
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 90,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 323,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 952,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1960,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     43
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 100,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 339,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 940,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1942,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     47
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 91,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 337,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 939,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1939,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     6
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 99,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 361,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 971,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1972,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     83
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 94,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 325,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 944,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1944,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     50
+    ]
+   },
+   {
+    "out": [
+     {
+      "ms": 0,
+      "left": 0,
+      "range": 128,
+      "hidden": 128.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 0,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "128.25px",
+      "mask": true,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 97,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 328,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 944,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     },
+     {
+      "ms": 1944,
+      "left": 128,
+      "range": 128,
+      "hidden": 0.25,
+      "var": "",
+      "mask": false,
+      "frame": 2,
+      "document": 888,
+      "vis": "visible"
+     }
+    ],
+    "events": [
+     48
+    ]
+   }
+  ]
+ },
+ "rapid": {
+  "chrome-public": [
+   {
+    "gap": 50,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 401,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 522,
+       "x": 128,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1434,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       522,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 150,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 400,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 524,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1427,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       414,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 500,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 408,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 528,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1436,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       417,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 50,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 402,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 523,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1425,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       420,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 150,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 402,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 537,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1495,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       453,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 500,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 401,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 522,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1422,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       409,
+       128
+      ]
+     ]
+    }
+   }
+  ],
+  "chrome-4251": [
+   {
+    "gap": 50,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 428,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 551,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1452,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       432,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 150,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 410,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 532,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1433,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       456,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 500,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 402,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 540,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1440,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       448,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 50,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 405,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 526,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1437,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       483,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 150,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 411,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 532,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1439,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       412,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 500,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 401,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 526,
+       "x": 128,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1426,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       1032,
+       128
+      ]
+     ]
+    }
+   }
+  ],
+  "brave-public": [
+   {
+    "gap": 50,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 435,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 559,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1460,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       436,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 150,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 401,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 522,
+       "x": 128,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1424,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       775,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 500,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 411,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 550,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1450,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       424,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 50,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 415,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 540,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1440,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       416,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 150,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 416,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 541,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1478,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       426,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 500,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 402,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 533,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1434,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       470,
+       128
+      ]
+     ]
+    }
+   }
+  ],
+  "brave-4251": [
+   {
+    "gap": 50,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 407,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 528,
+       "x": 128,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1429,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       575,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 150,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 409,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 530,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1431,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       434,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 500,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 401,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 521,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      },
+      {
+       "ms": 1422,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 1
+      }
+     ],
+     "scroll": [
+      [
+       429,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 50,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 435,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 556,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1456,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       436,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 150,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 439,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 560,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1490,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       453,
+       128
+      ]
+     ]
+    }
+   },
+   {
+    "gap": 500,
+    "trace": {
+     "samples": [
+      {
+       "ms": 0,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 438,
+       "x": 0,
+       "max": 128,
+       "mask": true,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 559,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      },
+      {
+       "ms": 1459,
+       "x": 128,
+       "max": 128,
+       "mask": false,
+       "doc": 888,
+       "win": 900,
+       "links": 10,
+       "rows": 3,
+       "hint": true,
+       "role": "region",
+       "active": "theme-dark",
+       "canvas": 2
+      }
+     ],
+     "scroll": [
+      [
+       508,
+       128
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "graphLifecycle": {
+  "chrome-4287": [
+   {
+    "label": "visit 0",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      830
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1103
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1103
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 1",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      829
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      837
+     ],
+     [
+      "ready",
+      1,
+      2,
+      null,
+      1068
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1068
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1090
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1090
+     ]
+    ],
+    "local": 2,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 2",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      2445
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      2733
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      2733
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      2840
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      2940
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      2941
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 3",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1212
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1455
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1455
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1656
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1822
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1822
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "two same-task document renders",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1212
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1455
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1455
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1656
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1822
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1822
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4175
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4178
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4261
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4261
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4290
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4290
+     ]
+    ],
+    "local": 2,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "global open",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1212
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1455
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1455
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1656
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1822
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1822
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4175
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4178
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4261
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4261
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4290
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4290
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      6153
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      6665
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      6666
+     ]
+    ],
+    "local": 2,
+    "global": 1,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "global closed",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1212
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1455
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1455
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1656
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1822
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1822
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4175
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4178
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4261
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4261
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4290
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4290
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      6153
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      6665
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      6666
+     ]
+    ],
+    "local": 2,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "reduced motion",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1212
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1455
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1455
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1656
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1822
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1822
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4175
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4178
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4261
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4261
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4290
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4290
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      6153
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      6665
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      6666
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "normal motion",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1212
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1455
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1455
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1656
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1822
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1822
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4175
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4178
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4261
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4261
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4290
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4290
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      6153
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      6665
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      6666
+     ],
+     [
+      "begin",
+      6,
+      6,
+      "render",
+      10582
+     ],
+     [
+      "ready",
+      6,
+      6,
+      null,
+      10660
+     ],
+     [
+      "appended",
+      6,
+      null,
+      null,
+      10660
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   }
+  ],
+  "chrome-4288": [
+   {
+    "label": "visit 0",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      837
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1056
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1056
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 1",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      859
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      965
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      965
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1043
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1127
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1127
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 2",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      663
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      922
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      922
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1175
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1306
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1306
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 3",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      901
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1176
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1176
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1267
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1356
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1357
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "two same-task document renders",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      901
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1176
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1176
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1267
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1356
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1357
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3106
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3116
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3361
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3365
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3365
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3365
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "global open",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      901
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1176
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1176
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1267
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1356
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1357
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3106
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3116
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3361
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3365
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3365
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3365
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      5229
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      5526
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      5526
+     ]
+    ],
+    "local": 1,
+    "global": 1,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "global closed",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      901
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1176
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1176
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1267
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1356
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1357
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3106
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3116
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3361
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3365
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3365
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3365
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      5229
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      5526
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      5526
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "reduced motion",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      901
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1176
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1176
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1267
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1356
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1357
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3106
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3116
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3361
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3365
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3365
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3365
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      5229
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      5526
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      5526
+     ]
+    ],
+    "local": 0,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "normal motion",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      901
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1176
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1176
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1267
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1356
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1357
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3106
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3116
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3361
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3365
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3365
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3365
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      5229
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      5526
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      5526
+     ],
+     [
+      "begin",
+      6,
+      6,
+      "render",
+      9352
+     ],
+     [
+      "ready",
+      6,
+      6,
+      null,
+      9515
+     ],
+     [
+      "appended",
+      6,
+      null,
+      null,
+      9515
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   }
+  ],
+  "brave-4287": [
+   {
+    "label": "visit 0",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      875
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1129
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1129
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 1",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      898
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      907
+     ],
+     [
+      "ready",
+      1,
+      2,
+      null,
+      1259
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1259
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1288
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1288
+     ]
+    ],
+    "local": 2,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 2",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      2280
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      2301
+     ],
+     [
+      "ready",
+      1,
+      2,
+      null,
+      2712
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      2712
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      2733
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      2733
+     ]
+    ],
+    "local": 2,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 3",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1116
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1579
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1579
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1706
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1866
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1866
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "two same-task document renders",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1116
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1579
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1579
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1706
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1866
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1866
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4722
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4727
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4813
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4813
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4836
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4836
+     ]
+    ],
+    "local": 2,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "global open",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1116
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1579
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1579
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1706
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1866
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1866
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4722
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4727
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4813
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4813
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4836
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4836
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      6178
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      7844
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      7844
+     ]
+    ],
+    "local": 2,
+    "global": 1,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "global closed",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1116
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1579
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1579
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1706
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1866
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1866
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4722
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4727
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4813
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4813
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4836
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4836
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      6178
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      7844
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      7844
+     ]
+    ],
+    "local": 2,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "reduced motion",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1116
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1579
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1579
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1706
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1866
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1866
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4722
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4727
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4813
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4813
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4836
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4836
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      6178
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      7844
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      7844
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "normal motion",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      1116
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1579
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1579
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1706
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1866
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1866
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      4722
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      4727
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      4813
+     ],
+     [
+      "appended",
+      3,
+      null,
+      null,
+      4813
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      4836
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      4836
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      6178
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      7844
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      7844
+     ],
+     [
+      "begin",
+      6,
+      6,
+      "render",
+      10724
+     ],
+     [
+      "ready",
+      6,
+      6,
+      null,
+      10829
+     ],
+     [
+      "appended",
+      6,
+      null,
+      null,
+      10829
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   }
+  ],
+  "brave-4288": [
+   {
+    "label": "visit 0",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      926
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1060
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1060
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 1",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      833
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      858
+     ],
+     [
+      "ready",
+      1,
+      2,
+      null,
+      1147
+     ],
+     [
+      "disposedObsolete",
+      1,
+      null,
+      null,
+      1151
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1151
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1151
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 2",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      975
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      1356
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      1356
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      1449
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1588
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1588
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "visit 3",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      738
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      892
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      892
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      993
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1120
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1120
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "two same-task document renders",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      738
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      892
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      892
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      993
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1120
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1120
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3735
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3742
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3891
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3897
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3897
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3897
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "global open",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      738
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      892
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      892
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      993
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1120
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1120
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3735
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3742
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3891
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3897
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3897
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3897
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      5609
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      5837
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      5837
+     ]
+    ],
+    "local": 1,
+    "global": 1,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "global closed",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      738
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      892
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      892
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      993
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1120
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1120
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3735
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3742
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3891
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3897
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3897
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3897
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      5609
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      5837
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      5837
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "reduced motion",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      738
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      892
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      892
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      993
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1120
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1120
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3735
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3742
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3891
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3897
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3897
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3897
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      5609
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      5837
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      5837
+     ]
+    ],
+    "local": 0,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   },
+   {
+    "label": "normal motion",
+    "trace": [
+     [
+      "begin",
+      1,
+      1,
+      "bootstrap",
+      738
+     ],
+     [
+      "ready",
+      1,
+      1,
+      null,
+      892
+     ],
+     [
+      "appended",
+      1,
+      null,
+      null,
+      892
+     ],
+     [
+      "begin",
+      2,
+      2,
+      "nav",
+      993
+     ],
+     [
+      "ready",
+      2,
+      2,
+      null,
+      1120
+     ],
+     [
+      "appended",
+      2,
+      null,
+      null,
+      1120
+     ],
+     [
+      "begin",
+      3,
+      3,
+      "render",
+      3735
+     ],
+     [
+      "begin",
+      4,
+      4,
+      "render",
+      3742
+     ],
+     [
+      "ready",
+      3,
+      4,
+      null,
+      3891
+     ],
+     [
+      "disposedObsolete",
+      3,
+      null,
+      null,
+      3897
+     ],
+     [
+      "ready",
+      4,
+      4,
+      null,
+      3897
+     ],
+     [
+      "appended",
+      4,
+      null,
+      null,
+      3897
+     ],
+     [
+      "begin",
+      "global",
+      4,
+      "render",
+      5609
+     ],
+     [
+      "ready",
+      "global",
+      4,
+      null,
+      5837
+     ],
+     [
+      "appended",
+      "global",
+      null,
+      null,
+      5837
+     ],
+     [
+      "begin",
+      6,
+      6,
+      "render",
+      9489
+     ],
+     [
+      "ready",
+      6,
+      6,
+      null,
+      9564
+     ],
+     [
+      "appended",
+      6,
+      null,
+      null,
+      9564
+     ]
+    ],
+    "local": 1,
+    "global": 0,
+    "tables": [
+     [
+      3,
+      "table-container",
+      128
+     ]
+    ]
+   }
+  ]
+ }
+}

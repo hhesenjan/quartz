@@ -1,5 +1,27 @@
 # Design decisions
 
+## Extended review of the accepted visual system
+
+| Decision | Reason |
+| --- | --- |
+| Preserve article and listing typography after separate trials. | Balancing the long phone title split a product name without reducing height. A 6% increase in listing type put six more phone titles on multiple lines. SN Pro remains the UI face, Source Serif 4 the article face and TX-02 the code face. [Type trials](design-evidence/extended-review/type.json) |
+| Reject animated theme backgrounds and uniform breadcrumb or link treatments. | A 180ms transition briefly reduced the title’s contrast to about 1:1. The metadata and hover trials removed hierarchy or emphasized already distinct links. The graph accent trial reduced dark visited-to-background contrast without separating all three node roles. [Theme trials](design-evidence/extended-review/states.json) |
+| Invert ordinary code selection inside fences and wrap the unrendered Mermaid source. | The original selection fill nearly matched the marked line. Source wrapping makes the entire raw graph definition readable on phone when the diagram library fails. [Selection](design-evidence/extended-review/B5-selection.webp) · [Raw source](design-evidence/extended-review/D5.webp) |
+| Back the single transparent framework diagram with ivory in dark mode. | Its five black connectors disappeared in WebKit. The remaining external SVG assets were separately checked. [Captures](design-evidence/extended-review/C5.webp) |
+| Reject changing image visibility only while the footer holds keyboard focus. | When the user reversed direction, WebKit recalculated the article height and left the focused backlink offscreen. Keeping normal intrinsic layout for unsized images gives the same geometry before and after focus transfer. [Focus comparison](design-evidence/extended-review/focus.webp) |
+| Give Contents and Backlinks an equal preferred share, capped at each list’s content height. | A zero basis collapsed both lists in WebKit. An automatic basis restored two similar lists but let 16 Contents entries take all the space from a single backlink at heights of 513px and 600px. A 50% basis preserved the sole backlink and allowed the long list to scroll. [Two lists](design-evidence/extended-review/rail.webp) · [Asymmetric lists](design-evidence/extended-review/rail-asymmetric.webp) |
+
+Enforcing a footer scroll anchor while a footer link has keyboard focus also failed the reading-position test. It kept the footer visible when delayed images arrived. When a reader scrolled back to the article with focus still on the footer link, the same rule moved the paragraph by 359px in Chromium and WebKit. The baseline moved it by less than 1px. The underlying correction is to emit each image’s actual width and height. [Scroll-anchor trials](design-evidence/extended-review/validation.json)
+
+## Explorer, dark navigation and code controls
+
+| Decision | Evidence and rationale |
+| --- | --- |
+| Keep the existing Explorer type weights and row spacing. | All 56 Blog labels fit in the published layout with a 4px sibling gap. Widening active file glyphs from weight 450 to 500 added a line in four tablet titles. Weight 550 added a line in five. An underline restores the forced-color selection cue without changing line breaks. [Tablet current item](design-evidence/navigation-review/current-900.webp) |
+| Keep solid ink on the black reading surface. | The published secondary ink has 9.14:1 contrast. At 80% and 65% opacity the same navigation fell to 6.00:1 and 4.18:1. Reviewers also compared solid, darker and brighter grays in Contents. The existing ink preserves a distinction between navigation and prose. [Dark Explorer](design-evidence/navigation-review/dark-explorer.webp) · [Dark Contents](design-evidence/navigation-review/dark-contents.webp) |
+| Preserve the original Copy when initialization runs twice. | Keeping only the newly inserted button discarded keyboard focus on the original. Hiding the prepended buttons with visibility preserves both focus and the width that Quartz uses to place Expand. Removing them from layout would lose that measurement. Clipboard initialization still needs an upstream fix. |
+| Reject the first Copy transition change in isolation. | At 40ms during text enlargement the previous style had 6.22px clearance. The first revision allowed the two targets to overlap by 20.58px because Expand still animated its width and right offset. Restrict Expand to paint transitions too. [Three builds at 40ms](design-evidence/navigation-review/control-resize.webp) |
+
 ## Publication audit and cross-browser font sizing
 
 | Decision | Reason |

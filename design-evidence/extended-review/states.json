@@ -1,0 +1,6008 @@
+{
+ "acceptedCSS": "index-0731cabb.css",
+ "engine": "Google Chrome for Testing 156.0.8078.4 via Playwright",
+ "cases": [
+  {
+   "w": 390,
+   "t": "dark",
+   "B1": [
+    {
+     "mode": "base",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       222,
+       222,
+       222
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 15.61,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       245,
+       245,
+       245
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 19.26,
+      "underline": "none"
+     }
+    },
+    {
+     "mode": "uniform",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     }
+    }
+   ],
+   "B2": [
+    {
+     "k": "callout",
+     "widths": {
+      "w": 324.875,
+      "font": "16.175px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "16.175px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        12,
+        10
+       ],
+       "contrast": 11.69,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "16.175px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        12,
+        10
+       ],
+       "contrast": 11.69,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "table",
+     "widths": {
+      "w": 48.921875,
+      "font": "14px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 12.36,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 12.36,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "backlink",
+     "widths": {
+      "w": 354.90625,
+      "font": "15px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        222,
+        222,
+        222
+       ],
+       "surface": [
+        22,
+        22,
+        22
+       ],
+       "contrast": 13.45,
+       "underline": "none",
+       "hover": true,
+       "decoration": "auto"
+      },
+      {
+       "mode": "thick",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        222,
+        222,
+        222
+       ],
+       "surface": [
+        22,
+        22,
+        22
+       ],
+       "contrast": 13.45,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    }
+   ],
+   "B4": [
+    {
+     "mode": "base",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "transition",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 1.14,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        63,
+        62,
+        61
+       ],
+       "contrast": 1.73,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        125,
+        125,
+        123
+       ],
+       "contrast": 4.47,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        188,
+        187,
+        184
+       ],
+       "contrast": 9.6,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "reduce",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": true
+    }
+   ],
+   "B5": [
+    {
+     "mode": "base",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       47,
+       47,
+       47
+      ],
+      "contrast": 10.51,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        66,
+        59,
+        52
+       ],
+       "fg": [
+        242,
+        242,
+        242
+       ],
+       "textContrast": 9.84,
+       "areaContrast": 1.22
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       16,
+       16,
+       16
+      ],
+      "contrast": 14.92,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        66,
+        59,
+        52
+       ],
+       "fg": [
+        242,
+        242,
+        242
+       ],
+       "textContrast": 9.84,
+       "areaContrast": 1.73
+      }
+     }
+    },
+    {
+     "mode": "neutral",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       47,
+       47,
+       47
+      ],
+      "contrast": 10.51,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        168,
+        168,
+        168
+       ],
+       "fg": [
+        0,
+        0,
+        0
+       ],
+       "textContrast": 8.83,
+       "areaContrast": 5.64
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       16,
+       16,
+       16
+      ],
+      "contrast": 14.92,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        168,
+        168,
+        168
+       ],
+       "fg": [
+        0,
+        0,
+        0
+       ],
+       "textContrast": 8.83,
+       "areaContrast": 8
+      }
+     }
+    }
+   ],
+   "B3": {
+    "w": 390,
+    "start": "dark",
+    "states": [],
+    "mobile": {
+     "canvas": 0,
+     "trigger": 0
+    }
+   }
+  },
+  {
+   "w": 390,
+   "t": "light",
+   "B1": [
+    {
+     "mode": "base",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       48,
+       45,
+       41
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 13,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       20,
+       20,
+       19
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 17.5,
+      "underline": "none"
+     }
+    },
+    {
+     "mode": "uniform",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     }
+    }
+   ],
+   "B2": [
+    {
+     "k": "callout",
+     "widths": {
+      "w": 324.875,
+      "font": "16.175px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "16.175px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        234,
+        245,
+        240
+       ],
+       "contrast": 5.97,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "16.175px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        234,
+        245,
+        240
+       ],
+       "contrast": 5.97,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "table",
+     "widths": {
+      "w": 48.921875,
+      "font": "14px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 6.31,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 6.31,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "backlink",
+     "widths": {
+      "w": 354.90625,
+      "font": "15px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        48,
+        45,
+        41
+       ],
+       "surface": [
+        241,
+        239,
+        230
+       ],
+       "contrast": 11.89,
+       "underline": "none",
+       "hover": true,
+       "decoration": "auto"
+      },
+      {
+       "mode": "thick",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        48,
+        45,
+        41
+       ],
+       "surface": [
+        241,
+        239,
+        230
+       ],
+       "contrast": 11.89,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    }
+   ],
+   "B4": [
+    {
+     "mode": "base",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "transition",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 1.03,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        188,
+        187,
+        184
+       ],
+       "contrast": 1.76,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        125,
+        125,
+        123
+       ],
+       "contrast": 3.78,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        63,
+        62,
+        61
+       ],
+       "contrast": 9.79,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "reduce",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "30.1963px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": true
+    }
+   ],
+   "B5": [
+    {
+     "mode": "base",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       238,
+       227,
+       216
+      ],
+      "contrast": 12.52,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        241,
+        215,
+        200
+       ],
+       "fg": [
+        105,
+        63,
+        48
+       ],
+       "textContrast": 6.5,
+       "areaContrast": 1.09
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       241,
+       239,
+       230
+      ],
+      "contrast": 13.74,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        241,
+        215,
+        200
+       ],
+       "fg": [
+        105,
+        63,
+        48
+       ],
+       "textContrast": 6.5,
+       "areaContrast": 1.19
+      }
+     }
+    },
+    {
+     "mode": "neutral",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       238,
+       227,
+       216
+      ],
+      "contrast": 12.52,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        94,
+        93,
+        89
+       ],
+       "fg": [
+        250,
+        249,
+        245
+       ],
+       "textContrast": 6.26,
+       "areaContrast": 5.22
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       241,
+       239,
+       230
+      ],
+      "contrast": 13.74,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        94,
+        93,
+        89
+       ],
+       "fg": [
+        250,
+        249,
+        245
+       ],
+       "textContrast": 6.26,
+       "areaContrast": 5.72
+      }
+     }
+    }
+   ],
+   "B3": {
+    "w": 390,
+    "start": "light",
+    "states": [],
+    "mobile": {
+     "canvas": 0,
+     "trigger": 0
+    }
+   }
+  },
+  {
+   "w": 900,
+   "t": "dark",
+   "B1": [
+    {
+     "mode": "base",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       222,
+       222,
+       222
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 15.61,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       245,
+       245,
+       245
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 19.26,
+      "underline": "none"
+     }
+    },
+    {
+     "mode": "uniform",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     }
+    }
+   ],
+   "B2": [
+    {
+     "k": "callout",
+     "widths": {
+      "w": 598.375,
+      "font": "17.45px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "17.45px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        12,
+        10
+       ],
+       "contrast": 11.69,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "17.45px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        12,
+        10
+       ],
+       "contrast": 11.69,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "table",
+     "widths": {
+      "w": 48.921875,
+      "font": "14px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 12.36,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 12.36,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "backlink",
+     "widths": {
+      "w": 656.5,
+      "font": "15px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        222,
+        222,
+        222
+       ],
+       "surface": [
+        22,
+        22,
+        22
+       ],
+       "contrast": 13.45,
+       "underline": "none",
+       "hover": true,
+       "decoration": "auto"
+      },
+      {
+       "mode": "thick",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        222,
+        222,
+        222
+       ],
+       "surface": [
+        22,
+        22,
+        22
+       ],
+       "contrast": 13.45,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    }
+   ],
+   "B4": [
+    {
+     "mode": "base",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "transition",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 1.14,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        63,
+        62,
+        61
+       ],
+       "contrast": 1.73,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        125,
+        125,
+        123
+       ],
+       "contrast": 4.47,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        188,
+        187,
+        184
+       ],
+       "contrast": 9.6,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "reduce",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": true
+    }
+   ],
+   "B5": [
+    {
+     "mode": "base",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       47,
+       47,
+       47
+      ],
+      "contrast": 10.51,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        66,
+        59,
+        52
+       ],
+       "fg": [
+        242,
+        242,
+        242
+       ],
+       "textContrast": 9.84,
+       "areaContrast": 1.22
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       16,
+       16,
+       16
+      ],
+      "contrast": 14.92,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        66,
+        59,
+        52
+       ],
+       "fg": [
+        242,
+        242,
+        242
+       ],
+       "textContrast": 9.84,
+       "areaContrast": 1.73
+      }
+     }
+    },
+    {
+     "mode": "neutral",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       47,
+       47,
+       47
+      ],
+      "contrast": 10.51,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        168,
+        168,
+        168
+       ],
+       "fg": [
+        0,
+        0,
+        0
+       ],
+       "textContrast": 8.83,
+       "areaContrast": 5.64
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       16,
+       16,
+       16
+      ],
+      "contrast": 14.92,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        168,
+        168,
+        168
+       ],
+       "fg": [
+        0,
+        0,
+        0
+       ],
+       "textContrast": 8.83,
+       "areaContrast": 8
+      }
+     }
+    }
+   ],
+   "B3": {
+    "w": 900,
+    "start": "dark",
+    "states": [
+     {
+      "mode": "base",
+      "dest": "light",
+      "local": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#904832",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#904832",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#5e5d59",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(241, 239, 230)",
+       "rootFill": "#904832"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#904832",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#904832",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#5e5d59",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(250, 249, 245)",
+       "rootFill": "#904832"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "base",
+      "dest": "dark",
+      "local": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#d9c3ad",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#d9c3ad",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#ababab",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#d9c3ad"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#d9c3ad",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#d9c3ad",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#ababab",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#d9c3ad"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "warm",
+      "dest": "light",
+      "local": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#a1583f",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#a1583f",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#5e5d59",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(241, 239, 230)",
+       "rootFill": "#a1583f"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#a1583f",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#a1583f",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#5e5d59",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(250, 249, 245)",
+       "rootFill": "#a1583f"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "warm",
+      "dest": "dark",
+      "local": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#b48e6c",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#b48e6c",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#ababab",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#b48e6c"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#b48e6c",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#b48e6c",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#ababab",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#b48e6c"
+      },
+      "returnFocus": true
+     }
+    ],
+    "reduced": {
+     "canvas": 0
+    }
+   }
+  },
+  {
+   "w": 900,
+   "t": "light",
+   "B1": [
+    {
+     "mode": "base",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       48,
+       45,
+       41
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 13,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       20,
+       20,
+       19
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 17.5,
+      "underline": "none"
+     }
+    },
+    {
+     "mode": "uniform",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     }
+    }
+   ],
+   "B2": [
+    {
+     "k": "callout",
+     "widths": {
+      "w": 598.375,
+      "font": "17.45px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "17.45px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        234,
+        245,
+        240
+       ],
+       "contrast": 5.97,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "17.45px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        234,
+        245,
+        240
+       ],
+       "contrast": 5.97,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "table",
+     "widths": {
+      "w": 48.921875,
+      "font": "14px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 6.31,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 6.31,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "backlink",
+     "widths": {
+      "w": 656.5,
+      "font": "15px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        48,
+        45,
+        41
+       ],
+       "surface": [
+        241,
+        239,
+        230
+       ],
+       "contrast": 11.89,
+       "underline": "none",
+       "hover": true,
+       "decoration": "auto"
+      },
+      {
+       "mode": "thick",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        48,
+        45,
+        41
+       ],
+       "surface": [
+        241,
+        239,
+        230
+       ],
+       "contrast": 11.89,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    }
+   ],
+   "B4": [
+    {
+     "mode": "base",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "transition",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 1.03,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        188,
+        187,
+        184
+       ],
+       "contrast": 1.76,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        125,
+        125,
+        123
+       ],
+       "contrast": 3.78,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        63,
+        62,
+        61
+       ],
+       "contrast": 9.79,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "reduce",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "42.26px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": true
+    }
+   ],
+   "B5": [
+    {
+     "mode": "base",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       238,
+       227,
+       216
+      ],
+      "contrast": 12.52,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        241,
+        215,
+        200
+       ],
+       "fg": [
+        105,
+        63,
+        48
+       ],
+       "textContrast": 6.5,
+       "areaContrast": 1.09
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       241,
+       239,
+       230
+      ],
+      "contrast": 13.74,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        241,
+        215,
+        200
+       ],
+       "fg": [
+        105,
+        63,
+        48
+       ],
+       "textContrast": 6.5,
+       "areaContrast": 1.19
+      }
+     }
+    },
+    {
+     "mode": "neutral",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       238,
+       227,
+       216
+      ],
+      "contrast": 12.52,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        94,
+        93,
+        89
+       ],
+       "fg": [
+        250,
+        249,
+        245
+       ],
+       "textContrast": 6.26,
+       "areaContrast": 5.22
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       241,
+       239,
+       230
+      ],
+      "contrast": 13.74,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        94,
+        93,
+        89
+       ],
+       "fg": [
+        250,
+        249,
+        245
+       ],
+       "textContrast": 6.26,
+       "areaContrast": 5.72
+      }
+     }
+    }
+   ],
+   "B3": {
+    "w": 900,
+    "start": "light",
+    "states": [
+     {
+      "mode": "base",
+      "dest": "dark",
+      "local": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#d9c3ad",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#d9c3ad",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#ababab",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#d9c3ad"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#d9c3ad",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#d9c3ad",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#ababab",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#d9c3ad"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "base",
+      "dest": "light",
+      "local": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#904832",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#904832",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#5e5d59",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(241, 239, 230)",
+       "rootFill": "#904832"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#904832",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#904832",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#5e5d59",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(250, 249, 245)",
+       "rootFill": "#904832"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "warm",
+      "dest": "dark",
+      "local": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#b48e6c",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#b48e6c",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#ababab",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#b48e6c"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#b48e6c",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#b48e6c",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#ababab",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#b48e6c"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "warm",
+      "dest": "light",
+      "local": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#a1583f",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#a1583f",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#5e5d59",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(241, 239, 230)",
+       "rootFill": "#a1583f"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#a1583f",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#a1583f",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#5e5d59",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(250, 249, 245)",
+       "rootFill": "#a1583f"
+      },
+      "returnFocus": true
+     }
+    ],
+    "reduced": {
+     "canvas": 0
+    }
+   }
+  },
+  {
+   "w": 1440,
+   "t": "light",
+   "B1": [
+    {
+     "mode": "base",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       48,
+       45,
+       41
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 13,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       20,
+       20,
+       19
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 17.5,
+      "underline": "none"
+     }
+    },
+    {
+     "mode": "uniform",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       94,
+       93,
+       89
+      ],
+      "surface": [
+       250,
+       249,
+       245
+      ],
+      "contrast": 6.26,
+      "underline": "none"
+     }
+    }
+   ],
+   "B2": [
+    {
+     "k": "callout",
+     "widths": {
+      "w": 617.6875,
+      "font": "18px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "18px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        234,
+        245,
+        240
+       ],
+       "contrast": 5.97,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "18px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        234,
+        245,
+        240
+       ],
+       "contrast": 5.97,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "table",
+     "widths": {
+      "w": 48.921875,
+      "font": "14px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 6.31,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        144,
+        72,
+        50
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 6.31,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "backlink",
+     "widths": {
+      "w": 248,
+      "font": "15px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        48,
+        45,
+        41
+       ],
+       "surface": [
+        241,
+        239,
+        230
+       ],
+       "contrast": 11.89,
+       "underline": "none",
+       "hover": true,
+       "decoration": "auto"
+      },
+      {
+       "mode": "thick",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        48,
+        45,
+        41
+       ],
+       "surface": [
+        241,
+        239,
+        230
+       ],
+       "contrast": 11.89,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    }
+   ],
+   "B4": [
+    {
+     "mode": "base",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "transition",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 1.03,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        188,
+        187,
+        184
+       ],
+       "contrast": 1.76,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        125,
+        125,
+        123
+       ],
+       "contrast": 3.78,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        63,
+        62,
+        61
+       ],
+       "contrast": 9.79,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 2,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "reduce",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        245,
+        245,
+        245
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 19.26,
+       "underline": "none"
+      }
+     ],
+     "reduced": true
+    }
+   ],
+   "B5": [
+    {
+     "mode": "base",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       238,
+       227,
+       216
+      ],
+      "contrast": 12.52,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        241,
+        215,
+        200
+       ],
+       "fg": [
+        105,
+        63,
+        48
+       ],
+       "textContrast": 6.5,
+       "areaContrast": 1.09
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       241,
+       239,
+       230
+      ],
+      "contrast": 13.74,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        241,
+        215,
+        200
+       ],
+       "fg": [
+        105,
+        63,
+        48
+       ],
+       "textContrast": 6.5,
+       "areaContrast": 1.19
+      }
+     }
+    },
+    {
+     "mode": "neutral",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       238,
+       227,
+       216
+      ],
+      "contrast": 12.52,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        94,
+        93,
+        89
+       ],
+       "fg": [
+        250,
+        249,
+        245
+       ],
+       "textContrast": 6.26,
+       "areaContrast": 5.22
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       31,
+       35,
+       38
+      ],
+      "surface": [
+       241,
+       239,
+       230
+      ],
+      "contrast": 13.74,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        94,
+        93,
+        89
+       ],
+       "fg": [
+        250,
+        249,
+        245
+       ],
+       "textContrast": 6.26,
+       "areaContrast": 5.72
+      }
+     }
+    }
+   ],
+   "B3": {
+    "w": 1440,
+    "start": "light",
+    "states": [
+     {
+      "mode": "base",
+      "dest": "dark",
+      "local": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 3,
+       "edges": 2,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#dedede",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#d9c3ad"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#d9c3ad",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#d9c3ad",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#dedede",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#d9c3ad"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "base",
+      "dest": "light",
+      "local": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 3,
+       "edges": 2,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#302d29",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(241, 239, 230)",
+       "rootFill": "#904832"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#904832",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#904832",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#302d29",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(250, 249, 245)",
+       "rootFill": "#904832"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "warm",
+      "dest": "dark",
+      "local": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 3,
+       "edges": 2,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#dedede",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#b48e6c"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#b48e6c",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#b48e6c",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#dedede",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#b48e6c"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "warm",
+      "dest": "light",
+      "local": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 3,
+       "edges": 2,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#302d29",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(241, 239, 230)",
+       "rootFill": "#a1583f"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#a1583f",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#a1583f",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#302d29",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(250, 249, 245)",
+       "rootFill": "#a1583f"
+      },
+      "returnFocus": true
+     }
+    ],
+    "reduced": {
+     "canvas": 1
+    }
+   }
+  },
+  {
+   "w": 1440,
+   "t": "dark",
+   "B1": [
+    {
+     "mode": "base",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       222,
+       222,
+       222
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 15.61,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       245,
+       245,
+       245
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 19.26,
+      "underline": "none"
+     }
+    },
+    {
+     "mode": "uniform",
+     "crumb": {
+      "text": "Home",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "date": {
+      "text": "Oct 09, 2026",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "metadata": {
+      "text": "Oct 09, 20267 min read",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     },
+     "current": {
+      "text": "Blog",
+      "size": "14px",
+      "opacity": "1",
+      "fg": [
+       171,
+       171,
+       171
+      ],
+      "surface": [
+       0,
+       0,
+       0
+      ],
+      "contrast": 9.14,
+      "underline": "none"
+     }
+    }
+   ],
+   "B2": [
+    {
+     "k": "callout",
+     "widths": {
+      "w": 617.6875,
+      "font": "18px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "18px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        12,
+        10
+       ],
+       "contrast": 11.69,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "How to add a shared mailbox in Outlook",
+       "size": "18px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        12,
+        10
+       ],
+       "contrast": 11.69,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "table",
+     "widths": {
+      "w": 48.921875,
+      "font": "14px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 12.36,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "1px"
+      },
+      {
+       "mode": "thick",
+       "text": "OSCP",
+       "size": "14px",
+       "opacity": "1",
+       "fg": [
+        217,
+        195,
+        173
+       ],
+       "surface": [
+        0,
+        0,
+        0
+       ],
+       "contrast": 12.36,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    },
+    {
+     "k": "backlink",
+     "widths": {
+      "w": 248,
+      "font": "15px"
+     },
+     "modes": [
+      {
+       "mode": "theme",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        222,
+        222,
+        222
+       ],
+       "surface": [
+        22,
+        22,
+        22
+       ],
+       "contrast": 13.45,
+       "underline": "none",
+       "hover": true,
+       "decoration": "auto"
+      },
+      {
+       "mode": "thick",
+       "text": "Troubleshooting Microsoft Defender for Identity Sensor v3.x RPC A",
+       "size": "15px",
+       "opacity": "1",
+       "fg": [
+        222,
+        222,
+        222
+       ],
+       "surface": [
+        22,
+        22,
+        22
+       ],
+       "contrast": 13.45,
+       "underline": "underline",
+       "hover": true,
+       "decoration": "2px"
+      }
+     ]
+    }
+   ],
+   "B4": [
+    {
+     "mode": "base",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "transition",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": false
+    },
+    {
+     "mode": "reduce",
+     "frames": [
+      {
+       "ms": 0,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 45,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 90,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 135,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      },
+      {
+       "ms": 180,
+       "anim": 0,
+       "text": "Setting Up Azure Machine Configuration",
+       "size": "43.52px",
+       "opacity": "1",
+       "fg": [
+        20,
+        20,
+        19
+       ],
+       "surface": [
+        250,
+        249,
+        245
+       ],
+       "contrast": 17.5,
+       "underline": "none"
+      }
+     ],
+     "reduced": true
+    }
+   ],
+   "B5": [
+    {
+     "mode": "base",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       47,
+       47,
+       47
+      ],
+      "contrast": 10.51,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        66,
+        59,
+        52
+       ],
+       "fg": [
+        242,
+        242,
+        242
+       ],
+       "textContrast": 9.84,
+       "areaContrast": 1.22
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       16,
+       16,
+       16
+      ],
+      "contrast": 14.92,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        66,
+        59,
+        52
+       ],
+       "fg": [
+        242,
+        242,
+        242
+       ],
+       "textContrast": 9.84,
+       "areaContrast": 1.73
+      }
+     }
+    },
+    {
+     "mode": "neutral",
+     "length": 32,
+     "token": {
+      "text": "AzureAdJoined : YES",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       47,
+       47,
+       47
+      ],
+      "contrast": 10.51,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        168,
+        168,
+        168
+       ],
+       "fg": [
+        0,
+        0,
+        0
+       ],
+       "textContrast": 8.83,
+       "areaContrast": 5.64
+      }
+     },
+     "normal": {
+      "text": "C:\\Users\\husenjan",
+      "size": "14.5px",
+      "opacity": "1",
+      "fg": [
+       225,
+       228,
+       232
+      ],
+      "surface": [
+       16,
+       16,
+       16
+      ],
+      "contrast": 14.92,
+      "underline": "none",
+      "selection": {
+       "bg": [
+        168,
+        168,
+        168
+       ],
+       "fg": [
+        0,
+        0,
+        0
+       ],
+       "textContrast": 8.83,
+       "areaContrast": 8
+      }
+     }
+    }
+   ],
+   "B3": {
+    "w": 1440,
+    "start": "dark",
+    "states": [
+     {
+      "mode": "base",
+      "dest": "light",
+      "local": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 3,
+       "edges": 2,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#302d29",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(241, 239, 230)",
+       "rootFill": "#904832"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#904832",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#904832",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#302d29",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(250, 249, 245)",
+       "rootFill": "#904832"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "base",
+      "dest": "dark",
+      "local": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 3,
+       "edges": 2,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#dedede",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#d9c3ad"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#d9c3ad",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#d9c3ad",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#dedede",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#d9c3ad"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "warm",
+      "dest": "light",
+      "local": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 3,
+       "edges": 2,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#302d29",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(241, 239, 230)",
+       "rootFill": "#a1583f"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "light",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#817d72",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#5e5d59",
+        "#a1583f",
+        "#302d29",
+        "#faf9f5"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#a1583f",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#302d29",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(20, 20, 19)",
+       "graphBg": "rgb(250, 249, 245)",
+       "rootFill": "#a1583f"
+      },
+      "returnFocus": true
+     },
+     {
+      "mode": "warm",
+      "dest": "dark",
+      "local": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 3,
+       "edges": 2,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#dedede",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#b48e6c"
+      },
+      "global": {
+       "canvas": true,
+       "palette": "dark",
+       "nodes": 160,
+       "edges": 194,
+       "edgeInk": [
+        {
+         "action": "stroke",
+         "color": "#707070",
+         "alpha": 1
+        }
+       ],
+       "ink": [
+        "#ababab",
+        "#b48e6c",
+        "#dedede",
+        "#000000"
+       ],
+       "tracked": [
+        {
+         "slug": "blog/0056-increasing-disk-space-on-linux-servers",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#b48e6c",
+           "alpha": 1
+          }
+         ]
+        },
+        {
+         "slug": "blog/0057-setting-up-azure-machine-configuration",
+         "style": [
+          {
+           "action": "fill",
+           "color": "#dedede",
+           "alpha": 1
+          }
+         ]
+        }
+       ],
+       "label": "rgb(245, 245, 245)",
+       "graphBg": "rgb(0, 0, 0)",
+       "rootFill": "#b48e6c"
+      },
+      "returnFocus": true
+     }
+    ],
+    "reduced": {
+     "canvas": 1
+    }
+   }
+  }
+ ],
+ "motionToggleRepeatEvents": [
+  {
+   "w": 390,
+   "states": [
+    {
+     "pref": "no-preference",
+     "before": "light",
+     "after": "dark",
+     "events": [
+      [
+       "themechange",
+       "dark"
+      ]
+     ]
+    },
+    {
+     "pref": "reduce",
+     "before": "dark",
+     "after": "light",
+     "events": [
+      [
+       "themechange",
+       "light"
+      ]
+     ]
+    },
+    {
+     "pref": "no-preference",
+     "before": "light",
+     "after": "dark",
+     "events": [
+      [
+       "themechange",
+       "dark"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "w": 900,
+   "states": [
+    {
+     "pref": "no-preference",
+     "before": "light",
+     "after": "dark",
+     "events": [
+      [
+       "themechange",
+       "dark"
+      ]
+     ]
+    },
+    {
+     "pref": "reduce",
+     "before": "dark",
+     "after": "dark",
+     "events": [
+      [
+       "themechange",
+       "light"
+      ],
+      [
+       "themechange",
+       "dark"
+      ]
+     ]
+    },
+    {
+     "pref": "no-preference",
+     "before": "dark",
+     "after": "light",
+     "events": [
+      [
+       "themechange",
+       "light"
+      ],
+      [
+       "themechange",
+       "dark"
+      ],
+      [
+       "themechange",
+       "light"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "w": 1440,
+   "states": [
+    {
+     "pref": "no-preference",
+     "before": "light",
+     "after": "dark",
+     "events": [
+      [
+       "themechange",
+       "dark"
+      ]
+     ]
+    },
+    {
+     "pref": "reduce",
+     "before": "dark",
+     "after": "dark",
+     "events": [
+      [
+       "themechange",
+       "light"
+      ],
+      [
+       "themechange",
+       "dark"
+      ]
+     ]
+    },
+    {
+     "pref": "no-preference",
+     "before": "dark",
+     "after": "light",
+     "events": [
+      [
+       "themechange",
+       "light"
+      ],
+      [
+       "themechange",
+       "dark"
+      ],
+      [
+       "themechange",
+       "light"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

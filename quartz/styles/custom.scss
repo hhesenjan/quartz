@@ -542,9 +542,9 @@ body[data-slug="index"] .page-header {
       padding-block-start: clamp(0.5rem, 1.5dvh, 0.875rem);
     }
     @media (height > 32rem) {
-      // Share the remaining height. A short list leaves its unused space to the other.
+      // Split the rail evenly before capping each list at its content height.
       &:has(> .toc > .toc-header:not(.collapsed)):has(> .backlinks) > :is(.toc, .backlinks) {
-        flex: 1 1 0;
+        flex: 1 1 50%;
         max-block-size: max-content;
       }
     }
@@ -1047,6 +1047,13 @@ footer,
   padding-inline-start: calc(var(--tree-toggle-size) + var(--tree-label-gap));
 }
 
+@media (forced-colors: active) {
+  .explorer :is(.nav-file-title, .folder-button)[aria-current="page"] {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+}
+
 // Both navigation lists use the same hover, current and keyboard states.
 .toc .toc-content > li > a,
 .explorer :is(.nav-file-title, .folder-container) {
@@ -1365,6 +1372,11 @@ body[data-slug="index"] .center > article > .markdown-rendered > p:first-child {
   border-radius: 15px;
 }
 
+// Skipping an unsized image can leave keyboard focus below the viewport.
+.markdown-rendered img:is(:not([width][height]), [width="auto"], [height="auto"]) {
+  content-visibility: visible;
+}
+
 article .markdown-rendered :is(figure img, img[src*="/images/"]):not([src$=".svg" i]) {
   outline: 1px solid color-mix(in srgb, var(--lightgray) 80%, var(--light));
   outline-offset: 0;
@@ -1392,6 +1404,11 @@ article .markdown-rendered :is(figure img, img[src*="/images/"]):not([src$=".svg
   display: block;
   max-inline-size: 100%;
   block-size: auto;
+
+  // The exported drawing has black connectors on a transparent canvas.
+  :root[saved-theme="dark"] &[data$="9999-penetration-testing-framework.svg"] {
+    background-color: #faf9f5;
+  }
 }
 
 .markdown-rendered :is(h1, h2, h3, h4, h5, h6) {
@@ -1646,6 +1663,10 @@ pre code[data-theme] span[data-token-type="comment"] {
       // Both diagram controls sit above the drawing, including its topmost labels.
       padding-block-start: calc(var(--code-copy-size) + 0.5rem);
     }
+    > code.mermaid:not(:has(svg)) {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
     > .clipboard-button,
     > .expand-button {
       top: calc(0.25rem + 1px);
@@ -1675,12 +1696,23 @@ pre code[data-theme] span[data-token-type="comment"] {
         outline-offset: -2px;
       }
     }
-    > .clipboard-button {
+    > button.clipboard-button {
       opacity: 1;
+      transition-property: color, background-color;
+
+      // Quartz prepends Copy again on render. Keep the original focus target
+      // and leave the newer button measurable for the adjacent diagram control.
+      &:has(~ .clipboard-button) {
+        visibility: hidden;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        transition: none;
+      }
     }
     &:has(> code.mermaid) > .expand-button {
       // Quartz writes a pixel offset once. Keep the gap when the reader resizes text.
       right: calc(var(--code-copy-size) + 0.675rem) !important;
+      transition-property: opacity, color, background-color;
       // The plugin sets its right offset when it binds the Expand action.
       &:not([style*="right:"]) {
         visibility: hidden;
@@ -1706,6 +1738,14 @@ pre code[data-theme] span[data-token-type="comment"] {
       font-size: var(--code-size);
       font-weight: 400;
       line-height: var(--code-leading);
+
+      @media (forced-colors: none) {
+        &::selection,
+        ::selection {
+          color: var(--light);
+          background-color: var(--gray);
+        }
+      }
 
       &:has(> [data-line]) {
         padding-inline: 0;

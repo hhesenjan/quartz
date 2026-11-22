@@ -1,0 +1,5030 @@
+{
+  "chromium-D1-1440-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "chromium-D1-1440-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "chromium-D1-390-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "chromium-D1-390-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "chromium-D1-900-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "chromium-D1-900-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "chromium-D2-1440-dark": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "chromium-D2-1440-light": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "chromium-D2-390-dark": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "chromium-D2-390-light": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "chromium-D2-900-dark": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "chromium-D2-900-light": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "chromium-D3-1440-dark": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 622.8125,
+        "right": 805.1875,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "chromium-D3-1440-light": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 622.8125,
+        "right": 805.1875,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "chromium-D3-390-dark": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 2,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 103.8125,
+        "right": 286.1875,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 3,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "chromium-D3-390-light": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 2,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 103.8125,
+        "right": 286.1875,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 3,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "chromium-D3-900-dark": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 352.8125,
+        "right": 535.1875,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "chromium-D3-900-light": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 352.8125,
+        "right": 535.1875,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "chromium-D4-1440-dark": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#686761",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "thin",
+        "inner": 258,
+        "scroll": 1521,
+        "full": 3380,
+        "visible": 651,
+        "touch": false
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#ababab",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "auto",
+        "inner": 253,
+        "scroll": 1542,
+        "full": 3443,
+        "visible": 651,
+        "touch": false
+      }
+    }
+  ],
+  "chromium-D4-1440-light": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#87847a",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "thin",
+        "inner": 258,
+        "scroll": 1521,
+        "full": 3380,
+        "visible": 651,
+        "touch": false
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#5e5d59",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "auto",
+        "inner": 253,
+        "scroll": 1542,
+        "full": 3443,
+        "visible": 651,
+        "touch": false
+      }
+    }
+  ],
+  "chromium-D4-390-dark": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#686761",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "auto",
+        "inner": 358,
+        "scroll": 1608,
+        "full": 3573,
+        "visible": 765,
+        "touch": true
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#ababab",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "auto",
+        "inner": 358,
+        "scroll": 1608,
+        "full": 3573,
+        "visible": 765,
+        "touch": true
+      }
+    }
+  ],
+  "chromium-D4-390-light": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#87847a",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "auto",
+        "inner": 358,
+        "scroll": 1608,
+        "full": 3573,
+        "visible": 765,
+        "touch": true
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#5e5d59",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "auto",
+        "inner": 358,
+        "scroll": 1608,
+        "full": 3573,
+        "visible": 765,
+        "touch": true
+      }
+    }
+  ],
+  "chromium-D4-900-dark": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#686761",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "thin",
+        "inner": 167,
+        "scroll": 2334,
+        "full": 5186,
+        "visible": 655,
+        "touch": false
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#ababab",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "auto",
+        "inner": 162,
+        "scroll": 2397,
+        "full": 5354,
+        "visible": 655,
+        "touch": false
+      }
+    }
+  ],
+  "chromium-D4-900-light": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#87847a",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "thin",
+        "inner": 167,
+        "scroll": 2334,
+        "full": 5186,
+        "visible": 655,
+        "touch": false
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#5e5d59",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "auto",
+        "inner": 162,
+        "scroll": 2397,
+        "full": 5354,
+        "visible": 655,
+        "touch": false
+      }
+    }
+  ],
+  "chromium-D5-1440-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 289,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 352,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 289,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 352,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        }
+      ]
+    }
+  ],
+  "chromium-D5-1440-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 289,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 352,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 289,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 352,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        }
+      ]
+    }
+  ],
+  "chromium-D5-390-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 339,
+          "source": 339,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 568,
+          "h": 250,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 509,
+          "h": 304,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 348,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 390,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 339,
+          "source": 339,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 340,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 394,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 340,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 304,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        }
+      ]
+    }
+  ],
+  "chromium-D5-390-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 339,
+          "source": 339,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 568,
+          "h": 250,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 509,
+          "h": 304,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 348,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 390,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 339,
+          "source": 339,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 340,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 394,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 340,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 304,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.1531px"
+        }
+      ]
+    }
+  ],
+  "chromium-D5-900-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 276,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 336,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 276,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 336,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        }
+      ]
+    }
+  ],
+  "chromium-D5-900-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 276,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 336,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 276,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 336,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.2688px"
+        }
+      ]
+    }
+  ],
+  "webkit-D1-1440-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "webkit-D1-1440-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "webkit-D1-390-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "webkit-D1-390-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "webkit-D1-900-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "webkit-D1-900-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "static"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "focus": "AZ-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-900",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MS-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "MD-102",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "SC-200",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-104",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-305",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "AZ-500",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        },
+        {
+          "focus": "OSCP",
+          "inTable": true,
+          "hit": true,
+          "sticky": "sticky"
+        }
+      ]
+    }
+  ],
+  "webkit-D2-1440-dark": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "webkit-D2-1440-light": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "webkit-D2-390-dark": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0 0 0 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(245, 245, 245)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "webkit-D2-390-light": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "webkit-D2-900-light": [
+    {
+      "label": "base",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.75)",
+        "blur": "blur(2px)",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "overlay": "color(srgb 0.980392 0.976471 0.960784 / 0.88)",
+        "blur": "none",
+        "selected": "The Microsoft Azure Document",
+        "options": 8,
+        "resultsInk": "rgb(20, 20, 19)",
+        "resultsSurface": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "webkit-D3-1440-dark": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 623,
+        "right": 805.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "webkit-D3-1440-light": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 623,
+        "right": 805.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "webkit-D3-390-dark": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 2,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 104,
+        "right": 286.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 3,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "webkit-D3-390-light": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 2,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 104,
+        "right": 286.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 3,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "webkit-D3-900-dark": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 353,
+        "right": 535.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "webkit-D3-900-light": [
+    {
+      "label": "base",
+      "data": {
+        "left": 8,
+        "right": 190.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "left": 353,
+        "right": 535.375,
+        "width": 182.375,
+        "height": 44,
+        "focus": true,
+        "hit": true,
+        "overlappingTools": 0,
+        "outline": "solid"
+      }
+    },
+    {
+      "activated": "main-content"
+    }
+  ],
+  "webkit-D4-1440-dark": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#686761",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "thin",
+        "inner": 268,
+        "scroll": 1483,
+        "full": 3296,
+        "visible": 656,
+        "touch": false
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#ababab",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "auto",
+        "inner": 268,
+        "scroll": 1483,
+        "full": 3296,
+        "visible": 656,
+        "touch": false
+      }
+    }
+  ],
+  "webkit-D4-1440-light": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#87847a",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "thin",
+        "inner": 268,
+        "scroll": 1483,
+        "full": 3296,
+        "visible": 656,
+        "touch": false
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#5e5d59",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "auto",
+        "inner": 268,
+        "scroll": 1483,
+        "full": 3296,
+        "visible": 656,
+        "touch": false
+      }
+    }
+  ],
+  "webkit-D4-390-dark": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#686761",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "auto",
+        "inner": 358,
+        "scroll": 1607,
+        "full": 3573,
+        "visible": 765,
+        "touch": true
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#ababab",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "auto",
+        "inner": 358,
+        "scroll": 1607,
+        "full": 3573,
+        "visible": 765,
+        "touch": true
+      }
+    }
+  ],
+  "webkit-D4-390-light": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#87847a",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "auto",
+        "inner": 358,
+        "scroll": 1607,
+        "full": 3573,
+        "visible": 765,
+        "touch": true
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#5e5d59",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "auto",
+        "inner": 358,
+        "scroll": 1607,
+        "full": 3573,
+        "visible": 765,
+        "touch": true
+      }
+    }
+  ],
+  "webkit-D4-900-dark": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#686761",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "thin",
+        "inner": 177,
+        "scroll": 2305,
+        "full": 5123,
+        "visible": 660,
+        "touch": false
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#ababab",
+        "gray": "#ababab",
+        "page": "#000",
+        "bar": "auto",
+        "inner": 177,
+        "scroll": 2305,
+        "full": 5123,
+        "visible": 660,
+        "touch": false
+      }
+    }
+  ],
+  "webkit-D4-900-light": [
+    {
+      "label": "base",
+      "data": {
+        "thumb": "#87847a",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "thin",
+        "inner": 177,
+        "scroll": 2305,
+        "full": 5123,
+        "visible": 660,
+        "touch": false
+      }
+    },
+    {
+      "label": "trial",
+      "data": {
+        "thumb": "#5e5d59",
+        "gray": "#5e5d59",
+        "page": "#faf9f5",
+        "bar": "auto",
+        "inner": 177,
+        "scroll": 2305,
+        "full": 5123,
+        "visible": 660,
+        "touch": false
+      }
+    }
+  ],
+  "webkit-D5-1440-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 289,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 352,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 289,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 352,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        }
+      ]
+    }
+  ],
+  "webkit-D5-1440-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 289,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 352,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 289,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 352,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 373,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        },
+        {
+          "w": 672,
+          "source": 672,
+          "h": 310,
+          "pre": [
+            688,
+            688
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.75px"
+        }
+      ]
+    }
+  ],
+  "webkit-D5-390-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 339,
+          "source": 339,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 568,
+          "h": 250,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 509,
+          "h": 304,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 348,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 390,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 339,
+          "source": 339,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 340,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 394,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 340,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 304,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        }
+      ]
+    }
+  ],
+  "webkit-D5-390-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 339,
+          "source": 339,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 568,
+          "h": 250,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 509,
+          "h": 304,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 348,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 390,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 339,
+          "source": 339,
+          "h": 268,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 340,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 394,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 340,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 322,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        },
+        {
+          "w": 339,
+          "source": 339,
+          "h": 304,
+          "pre": [
+            355,
+            355
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "14.153124px"
+        }
+      ]
+    }
+  ],
+  "webkit-D5-900-dark": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 276,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 336,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 276,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 336,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        }
+      ]
+    }
+  ],
+  "webkit-D5-900-light": [
+    {
+      "label": "base",
+      "data": [
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 276,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 14,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 336,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 17,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        }
+      ]
+    },
+    {
+      "label": "trial",
+      "data": [
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 276,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 14,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 336,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 17,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 356,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 18,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        },
+        {
+          "w": 641,
+          "source": 641,
+          "h": 296,
+          "pre": [
+            657,
+            657
+          ],
+          "lines": 15,
+          "white": "pre-wrap",
+          "overflow": "auto",
+          "diagram": 0,
+          "copy": true,
+          "family": "TX-02, ui-monospace, Consolas, monospace",
+          "font": "15.268751px"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2357 @@
+{
+  "public": [
+    {
+      "w": 390,
+      "theme": "dark",
+      "actual": {
+        "style": "https://husenjan.com/index-530afd62.css",
+        "theme": "dark",
+        "background": "rgb(0, 0, 0)",
+        "viewport": 390,
+        "documentWidth": 390,
+        "role": {
+          "title": {
+            "size": "30.1963px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              17.546875,
+              114.96875,
+              354.90625,
+              67.625
+            ]
+          },
+          "body": {
+            "size": "16.175px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              17.546875,
+              329.3125,
+              354.90625,
+              338
+            ]
+          },
+          "meta": {
+            "size": "14px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              17.546875,
+              194.09375,
+              174.8125,
+              21
+            ]
+          },
+          "graph": {
+            "size": "14px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "toc": {
+            "size": "18px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "left",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "tocItem": {
+            "size": "15px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "files": {
+            "size": "15px",
+            "ink": "rgb(240, 232, 221)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              60.046875,
+              120.59375,
+              296.40625,
+              65
+            ]
+          },
+          "folder": {
+            "size": "15px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              77.546875,
+              76.59375,
+              278.90625,
+              44
+            ]
+          }
+        }
+      },
+      "actualBody": "rgb(245, 245, 245)",
+      "softerBody": "rgb(228, 228, 228)"
+    },
+    {
+      "w": 390,
+      "theme": "light",
+      "actual": {
+        "style": "https://husenjan.com/index-530afd62.css",
+        "theme": "light",
+        "background": "rgb(250, 249, 245)",
+        "viewport": 390,
+        "documentWidth": 390,
+        "role": {
+          "title": {
+            "size": "30.1963px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              17.546875,
+              114.96875,
+              354.90625,
+              67.625
+            ]
+          },
+          "body": {
+            "size": "16.175px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              17.546875,
+              329.3125,
+              354.90625,
+              338
+            ]
+          },
+          "meta": {
+            "size": "14px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              17.546875,
+              194.09375,
+              174.8125,
+              21
+            ]
+          },
+          "graph": {
+            "size": "14px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "toc": {
+            "size": "18px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "left",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "tocItem": {
+            "size": "15px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "files": {
+            "size": "15px",
+            "ink": "rgb(105, 63, 48)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              60.046875,
+              120.59375,
+              296.40625,
+              65
+            ]
+          },
+          "folder": {
+            "size": "15px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              77.546875,
+              76.59375,
+              278.90625,
+              44
+            ]
+          }
+        }
+      }
+    },
+    {
+      "w": 900,
+      "theme": "dark",
+      "actual": {
+        "style": "https://husenjan.com/index-530afd62.css",
+        "theme": "dark",
+        "background": "rgb(0, 0, 0)",
+        "viewport": 900,
+        "documentWidth": 888,
+        "role": {
+          "title": {
+            "size": "42.26px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              221.5,
+              92.59375,
+              656.5,
+              94.65625
+            ]
+          },
+          "body": {
+            "size": "17.45px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              221.5,
+              337.125,
+              656.5,
+              196
+            ]
+          },
+          "meta": {
+            "size": "14px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              221.5,
+              198.75,
+              174.8125,
+              21
+            ]
+          },
+          "graph": {
+            "size": "14px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              14,
+              12.796875,
+              178,
+              18
+            ]
+          },
+          "toc": {
+            "size": "18px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "left",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "tocItem": {
+            "size": "15px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "files": {
+            "size": "15px",
+            "ink": "rgb(240, 232, 221)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              28.5,
+              257.6875,
+              152,
+              75
+            ]
+          },
+          "folder": {
+            "size": "15px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              34,
+              224.6875,
+              146.5,
+              33
+            ]
+          }
+        }
+      },
+      "actualBody": "rgb(245, 245, 245)",
+      "softerBody": "rgb(228, 228, 228)"
+    },
+    {
+      "w": 900,
+      "theme": "light",
+      "actual": {
+        "style": "https://husenjan.com/index-530afd62.css",
+        "theme": "light",
+        "background": "rgb(250, 249, 245)",
+        "viewport": 900,
+        "documentWidth": 888,
+        "role": {
+          "title": {
+            "size": "42.26px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              221.5,
+              92.59375,
+              656.5,
+              94.65625
+            ]
+          },
+          "body": {
+            "size": "17.45px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              221.5,
+              337.125,
+              656.5,
+              196
+            ]
+          },
+          "meta": {
+            "size": "14px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              221.5,
+              198.75,
+              174.8125,
+              21
+            ]
+          },
+          "graph": {
+            "size": "14px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              14,
+              12.796875,
+              178,
+              18
+            ]
+          },
+          "toc": {
+            "size": "18px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "left",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "tocItem": {
+            "size": "15px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "files": {
+            "size": "15px",
+            "ink": "rgb(105, 63, 48)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              28.5,
+              257.6875,
+              152,
+              75
+            ]
+          },
+          "folder": {
+            "size": "15px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              34,
+              224.6875,
+              146.5,
+              33
+            ]
+          }
+        }
+      }
+    },
+    {
+      "w": 1440,
+      "theme": "dark",
+      "actual": {
+        "style": "https://husenjan.com/index-530afd62.css",
+        "theme": "dark",
+        "background": "rgb(0, 0, 0)",
+        "viewport": 1440,
+        "documentWidth": 1428,
+        "role": {
+          "title": {
+            "size": "43.52px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              382,
+              96.59375,
+              688,
+              97.46875
+            ]
+          },
+          "body": {
+            "size": "18px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              382,
+              317.40625,
+              688,
+              203
+            ]
+          },
+          "meta": {
+            "size": "14px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              382,
+              209.5625,
+              174.8125,
+              21
+            ]
+          },
+          "graph": {
+            "size": "14px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              1116.40625,
+              75.796875,
+              178,
+              18
+            ]
+          },
+          "toc": {
+            "size": "18px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "left",
+            "rect": [
+              1102.40625,
+              327,
+              139.078125,
+              22.5
+            ]
+          },
+          "tocItem": {
+            "size": "15px",
+            "ink": "rgb(171, 171, 171)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              1094.40625,
+              359.5,
+              256,
+              29
+            ]
+          },
+          "files": {
+            "size": "15px",
+            "ink": "rgb(240, 232, 221)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              92.09375,
+              262.09375,
+              243.5,
+              54
+            ]
+          },
+          "folder": {
+            "size": "15px",
+            "ink": "rgb(245, 245, 245)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              97.59375,
+              229.09375,
+              238,
+              33
+            ]
+          }
+        }
+      },
+      "actualBody": "rgb(245, 245, 245)",
+      "softerBody": "rgb(228, 228, 228)"
+    },
+    {
+      "w": 1440,
+      "theme": "light",
+      "actual": {
+        "style": "https://husenjan.com/index-530afd62.css",
+        "theme": "light",
+        "background": "rgb(250, 249, 245)",
+        "viewport": 1440,
+        "documentWidth": 1428,
+        "role": {
+          "title": {
+            "size": "43.52px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              382,
+              96.59375,
+              688,
+              97.46875
+            ]
+          },
+          "body": {
+            "size": "18px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              382,
+              317.40625,
+              688,
+              203
+            ]
+          },
+          "meta": {
+            "size": "14px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              382,
+              209.5625,
+              174.8125,
+              21
+            ]
+          },
+          "graph": {
+            "size": "14px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              1116.40625,
+              75.796875,
+              178,
+              18
+            ]
+          },
+          "toc": {
+            "size": "18px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "left",
+            "rect": [
+              1102.40625,
+              327,
+              139.078125,
+              22.5
+            ]
+          },
+          "tocItem": {
+            "size": "15px",
+            "ink": "rgb(94, 93, 89)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              1094.40625,
+              359.5,
+              256,
+              29
+            ]
+          },
+          "files": {
+            "size": "15px",
+            "ink": "rgb(105, 63, 48)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              92.09375,
+              262.09375,
+              243.5,
+              54
+            ]
+          },
+          "folder": {
+            "size": "15px",
+            "ink": "rgb(20, 20, 19)",
+            "opacity": "1",
+            "align": "start",
+            "rect": [
+              97.59375,
+              229.09375,
+              238,
+              33
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "explorerDarkTrials": [
+    {
+      "width": 390,
+      "current": {
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 900
+        },
+        "background": "rgb(0, 0, 0)",
+        "folder": {
+          "text": "Blog",
+          "font": "15px",
+          "foreground": "rgb(245, 245, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "550",
+          "contrast": 19.261973035868383
+        },
+        "secondary": {
+          "text": "Increasing Disk Space on Linux Servers",
+          "font": "15px",
+          "foreground": "rgb(171, 171, 171)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 9.144804238034732
+        },
+        "active": {
+          "text": "Setting Up Azure Machine Configuration",
+          "font": "15px",
+          "foreground": "rgb(240, 232, 221)",
+          "background": "rgb(44, 41, 38)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 11.906831174964033
+        }
+      },
+      "muted": {
+        "rail": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 900
+        },
+        "background": "rgb(0, 0, 0)",
+        "folder": {
+          "text": "Blog",
+          "font": "15px",
+          "foreground": "rgb(245, 245, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "550",
+          "contrast": 19.261973035868383
+        },
+        "secondary": {
+          "text": "Increasing Disk Space on Linux Servers",
+          "font": "15px",
+          "foreground": "rgb(153, 153, 153)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 7.3709355625018365
+        },
+        "active": {
+          "text": "Setting Up Azure Machine Configuration",
+          "font": "15px",
+          "foreground": "rgb(240, 232, 221)",
+          "background": "rgb(44, 41, 38)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 11.906831174964033
+        }
+      }
+    },
+    {
+      "width": 900,
+      "current": {
+        "rail": {
+          "x": 14,
+          "y": 216.6875,
+          "w": 176.5,
+          "h": 655.3125
+        },
+        "background": "rgb(0, 0, 0)",
+        "folder": {
+          "text": "Blog",
+          "font": "15px",
+          "foreground": "rgb(245, 245, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "550",
+          "contrast": 19.261973035868383
+        },
+        "secondary": {
+          "text": "Increasing Disk Space on Linux Servers",
+          "font": "15px",
+          "foreground": "rgb(171, 171, 171)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 9.144804238034732
+        },
+        "active": {
+          "text": "Setting Up Azure Machine Configuration",
+          "font": "15px",
+          "foreground": "rgb(240, 232, 221)",
+          "background": "rgb(44, 41, 38)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 11.906831174964033
+        }
+      },
+      "muted": {
+        "rail": {
+          "x": 14,
+          "y": 216.6875,
+          "w": 176.5,
+          "h": 655.3125
+        },
+        "background": "rgb(0, 0, 0)",
+        "folder": {
+          "text": "Blog",
+          "font": "15px",
+          "foreground": "rgb(245, 245, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "550",
+          "contrast": 19.261973035868383
+        },
+        "secondary": {
+          "text": "Increasing Disk Space on Linux Servers",
+          "font": "15px",
+          "foreground": "rgb(153, 153, 153)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 7.3709355625018365
+        },
+        "active": {
+          "text": "Setting Up Azure Machine Configuration",
+          "font": "15px",
+          "foreground": "rgb(240, 232, 221)",
+          "background": "rgb(44, 41, 38)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 11.906831174964033
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "current": {
+        "rail": {
+          "x": 77.59375,
+          "y": 221.09375,
+          "w": 268,
+          "h": 650.90625
+        },
+        "background": "rgb(0, 0, 0)",
+        "folder": {
+          "text": "Blog",
+          "font": "15px",
+          "foreground": "rgb(245, 245, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "550",
+          "contrast": 19.261973035868383
+        },
+        "secondary": {
+          "text": "Increasing Disk Space on Linux Servers",
+          "font": "15px",
+          "foreground": "rgb(171, 171, 171)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 9.144804238034732
+        },
+        "active": {
+          "text": "Setting Up Azure Machine Configuration",
+          "font": "15px",
+          "foreground": "rgb(240, 232, 221)",
+          "background": "rgb(44, 41, 38)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 11.906831174964033
+        }
+      },
+      "muted": {
+        "rail": {
+          "x": 77.59375,
+          "y": 221.09375,
+          "w": 268,
+          "h": 650.90625
+        },
+        "background": "rgb(0, 0, 0)",
+        "folder": {
+          "text": "Blog",
+          "font": "15px",
+          "foreground": "rgb(245, 245, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "550",
+          "contrast": 19.261973035868383
+        },
+        "secondary": {
+          "text": "Increasing Disk Space on Linux Servers",
+          "font": "15px",
+          "foreground": "rgb(153, 153, 153)",
+          "background": "rgba(0, 0, 0, 0)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 7.3709355625018365
+        },
+        "active": {
+          "text": "Setting Up Azure Machine Configuration",
+          "font": "15px",
+          "foreground": "rgb(240, 232, 221)",
+          "background": "rgb(44, 41, 38)",
+          "opacity": "1",
+          "weight": "450",
+          "contrast": 11.906831174964033
+        }
+      }
+    }
+  ],
+  "rightSidebarDarkTrials": {
+    "accepted": {
+      "canvas": [
+        "rgb(245, 245, 245)",
+        "rgb(0, 0, 0)",
+        "14.4px",
+        "400",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "prose": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "18px",
+        "425",
+        "1",
+        "\"Source Serif 4\", Georgia, serif"
+      ],
+      "articleTitle": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "43.52px",
+        "450",
+        "1",
+        "\"Source Serif 4\", Georgia, serif"
+      ],
+      "tocTitle": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "18px",
+        "600",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "tocLink": [
+        "rgb(171, 171, 171)",
+        "rgba(0, 0, 0, 0)",
+        "15px",
+        "450",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "tocCurrent": [
+        "rgb(240, 232, 221)",
+        "rgb(44, 41, 38)",
+        "15px",
+        "550",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "graphTitle": [
+        "rgb(171, 171, 171)",
+        "rgba(0, 0, 0, 0)",
+        "14px",
+        "600",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ]
+    },
+    "quieter": {
+      "canvas": [
+        "rgb(245, 245, 245)",
+        "rgb(0, 0, 0)",
+        "14.4px",
+        "400",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "prose": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "18px",
+        "425",
+        "1",
+        "\"Source Serif 4\", Georgia, serif"
+      ],
+      "articleTitle": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "43.52px",
+        "450",
+        "1",
+        "\"Source Serif 4\", Georgia, serif"
+      ],
+      "tocTitle": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "18px",
+        "600",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "tocLink": [
+        "rgb(153, 153, 153)",
+        "rgba(0, 0, 0, 0)",
+        "15px",
+        "450",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "tocCurrent": [
+        "rgb(240, 232, 221)",
+        "rgb(44, 41, 38)",
+        "15px",
+        "550",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "graphTitle": [
+        "rgb(171, 171, 171)",
+        "rgba(0, 0, 0, 0)",
+        "14px",
+        "600",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ]
+    },
+    "brighter": {
+      "canvas": [
+        "rgb(245, 245, 245)",
+        "rgb(0, 0, 0)",
+        "14.4px",
+        "400",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "prose": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "18px",
+        "425",
+        "1",
+        "\"Source Serif 4\", Georgia, serif"
+      ],
+      "articleTitle": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "43.52px",
+        "450",
+        "1",
+        "\"Source Serif 4\", Georgia, serif"
+      ],
+      "tocTitle": [
+        "rgb(245, 245, 245)",
+        "rgba(0, 0, 0, 0)",
+        "18px",
+        "600",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "tocLink": [
+        "rgb(184, 184, 184)",
+        "rgba(0, 0, 0, 0)",
+        "15px",
+        "450",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "tocCurrent": [
+        "rgb(240, 232, 221)",
+        "rgb(44, 41, 38)",
+        "15px",
+        "550",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ],
+      "graphTitle": [
+        "rgb(171, 171, 171)",
+        "rgba(0, 0, 0, 0)",
+        "14px",
+        "600",
+        "1",
+        "\"SN Pro\", system-ui, sans-serif"
+      ]
+    }
+  },
+  "allPages": {
+    "320": {
+      "pages": 161,
+      "priorDocOverflow": [],
+      "newDocOverflow": [],
+      "changedTitleOrMainBounds": []
+    },
+    "801": {
+      "pages": 161,
+      "priorDocOverflow": [],
+      "newDocOverflow": [],
+      "changedTitleOrMainBounds": []
+    },
+    "1200": {
+      "pages": 161,
+      "priorDocOverflow": [],
+      "newDocOverflow": [],
+      "changedTitleOrMainBounds": []
+    }
+  },
+  "states": {
+    "390-dark.json": {
+      "4242": {
+        "file": {
+          "x": 42.5,
+          "y": 440.59375,
+          "width": 331.5,
+          "height": 65,
+          "decoration": "none",
+          "weight": "450",
+          "gap": "auto",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 60,
+          "y": 76.59375,
+          "width": 314,
+          "height": 44,
+          "decoration": "none",
+          "weight": "550",
+          "gap": "auto",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 390
+          },
+          {
+            "buttons": 2,
+            "visible": 2,
+            "width": 900
+          },
+          {
+            "buttons": 3,
+            "visible": 3,
+            "width": 390
+          }
+        ]
+      },
+      "4244": {
+        "file": {
+          "x": 42.5,
+          "y": 440.59375,
+          "width": 331.5,
+          "height": 65,
+          "decoration": "underline",
+          "weight": "450",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 60,
+          "y": 76.59375,
+          "width": 314,
+          "height": 44,
+          "decoration": "underline",
+          "weight": "550",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 390
+          },
+          {
+            "buttons": 2,
+            "visible": 1,
+            "width": 900
+          },
+          {
+            "buttons": 3,
+            "visible": 1,
+            "width": 390
+          }
+        ]
+      }
+    },
+    "390-light.json": {
+      "4242": {
+        "file": {
+          "x": 42.5,
+          "y": 440.59375,
+          "width": 331.5,
+          "height": 65,
+          "decoration": "none",
+          "weight": "450",
+          "gap": "auto",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 60,
+          "y": 76.59375,
+          "width": 314,
+          "height": 44,
+          "decoration": "none",
+          "weight": "550",
+          "gap": "auto",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 390
+          },
+          {
+            "buttons": 2,
+            "visible": 2,
+            "width": 900
+          },
+          {
+            "buttons": 3,
+            "visible": 3,
+            "width": 390
+          }
+        ]
+      },
+      "4244": {
+        "file": {
+          "x": 42.5,
+          "y": 440.59375,
+          "width": 331.5,
+          "height": 65,
+          "decoration": "underline",
+          "weight": "450",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 60,
+          "y": 76.59375,
+          "width": 314,
+          "height": 44,
+          "decoration": "underline",
+          "weight": "550",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 390
+          },
+          {
+            "buttons": 2,
+            "visible": 1,
+            "width": 900
+          },
+          {
+            "buttons": 3,
+            "visible": 1,
+            "width": 390
+          }
+        ]
+      }
+    },
+    "900-dark.json": {
+      "4242": {
+        "file": {
+          "x": 28.5,
+          "y": 475.6875,
+          "width": 147,
+          "height": 138,
+          "decoration": "none",
+          "weight": "450",
+          "gap": "auto",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 34,
+          "y": 224.6875,
+          "width": 141.5,
+          "height": 33,
+          "decoration": "none",
+          "weight": "550",
+          "gap": "auto",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 888
+          },
+          {
+            "buttons": 2,
+            "visible": 2,
+            "width": 378
+          },
+          {
+            "buttons": 3,
+            "visible": 3,
+            "width": 888
+          }
+        ]
+      },
+      "4244": {
+        "file": {
+          "x": 28.5,
+          "y": 475.6875,
+          "width": 147,
+          "height": 138,
+          "decoration": "underline",
+          "weight": "450",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 34,
+          "y": 224.6875,
+          "width": 141.5,
+          "height": 33,
+          "decoration": "underline",
+          "weight": "550",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 888
+          },
+          {
+            "buttons": 2,
+            "visible": 1,
+            "width": 378
+          },
+          {
+            "buttons": 3,
+            "visible": 1,
+            "width": 888
+          }
+        ]
+      }
+    },
+    "900-light.json": {
+      "4242": {
+        "file": {
+          "x": 28.5,
+          "y": 475.6875,
+          "width": 147,
+          "height": 138,
+          "decoration": "none",
+          "weight": "450",
+          "gap": "auto",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 34,
+          "y": 224.6875,
+          "width": 141.5,
+          "height": 33,
+          "decoration": "none",
+          "weight": "550",
+          "gap": "auto",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 888
+          },
+          {
+            "buttons": 2,
+            "visible": 2,
+            "width": 378
+          },
+          {
+            "buttons": 3,
+            "visible": 3,
+            "width": 888
+          }
+        ]
+      },
+      "4244": {
+        "file": {
+          "x": 28.5,
+          "y": 475.6875,
+          "width": 147,
+          "height": 138,
+          "decoration": "underline",
+          "weight": "450",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 34,
+          "y": 224.6875,
+          "width": 141.5,
+          "height": 33,
+          "decoration": "underline",
+          "weight": "550",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 888
+          },
+          {
+            "buttons": 2,
+            "visible": 1,
+            "width": 378
+          },
+          {
+            "buttons": 3,
+            "visible": 1,
+            "width": 888
+          }
+        ]
+      }
+    },
+    "1440-dark.json": {
+      "4242": {
+        "file": {
+          "x": 90.65625,
+          "y": 509.09375,
+          "width": 238.5,
+          "height": 75,
+          "decoration": "none",
+          "weight": "450",
+          "gap": "auto",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 96.15625,
+          "y": 229.09375,
+          "width": 233,
+          "height": 33,
+          "decoration": "none",
+          "weight": "550",
+          "gap": "auto",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 1428
+          },
+          {
+            "buttons": 2,
+            "visible": 2,
+            "width": 378
+          },
+          {
+            "buttons": 3,
+            "visible": 3,
+            "width": 1428
+          }
+        ]
+      },
+      "4244": {
+        "file": {
+          "x": 90.65625,
+          "y": 509.09375,
+          "width": 238.5,
+          "height": 75,
+          "decoration": "underline",
+          "weight": "450",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 96.15625,
+          "y": 229.09375,
+          "width": 233,
+          "height": 33,
+          "decoration": "underline",
+          "weight": "550",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 1428
+          },
+          {
+            "buttons": 2,
+            "visible": 1,
+            "width": 378
+          },
+          {
+            "buttons": 3,
+            "visible": 1,
+            "width": 1428
+          }
+        ]
+      }
+    },
+    "1440-light.json": {
+      "4242": {
+        "file": {
+          "x": 90.65625,
+          "y": 509.09375,
+          "width": 238.5,
+          "height": 75,
+          "decoration": "none",
+          "weight": "450",
+          "gap": "auto",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 96.15625,
+          "y": 229.09375,
+          "width": 233,
+          "height": 33,
+          "decoration": "none",
+          "weight": "550",
+          "gap": "auto",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 1428
+          },
+          {
+            "buttons": 2,
+            "visible": 2,
+            "width": 378
+          },
+          {
+            "buttons": 3,
+            "visible": 3,
+            "width": 1428
+          }
+        ]
+      },
+      "4244": {
+        "file": {
+          "x": 90.65625,
+          "y": 509.09375,
+          "width": 238.5,
+          "height": 75,
+          "decoration": "underline",
+          "weight": "450",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Microsoft Defender XDR: Implementing Monitoring Highly Privileged Accounts"
+        },
+        "folder": {
+          "x": 96.15625,
+          "y": 229.09375,
+          "width": 233,
+          "height": 33,
+          "decoration": "underline",
+          "weight": "550",
+          "gap": "2.25px",
+          "current": "page",
+          "text": "Blog"
+        },
+        "copy": [
+          {
+            "buttons": 1,
+            "visible": 1,
+            "width": 1428
+          },
+          {
+            "buttons": 2,
+            "visible": 1,
+            "width": 378
+          },
+          {
+            "buttons": 3,
+            "visible": 1,
+            "width": 1428
+          }
+        ]
+      }
+    }
+  },
+  "styles": {
+    "4242": "index-530afd62.css",
+    "4243": "index-a3308b2a.css",
+    "4244": "index-0731cabb.css"
+  },
+  "fontChange40ms": {
+    "4242": {
+      "gap": 6.21875,
+      "opacity": "1",
+      "types": [
+        "height",
+        "right",
+        "top",
+        "width",
+        "height",
+        "right",
+        "top",
+        "width"
+      ]
+    },
+    "4243": {
+      "gap": -20.578125,
+      "opacity": "1",
+      "types": [
+        "height",
+        "right",
+        "top",
+        "width"
+      ]
+    },
+    "4244": {
+      "gap": 9.59375,
+      "opacity": "1",
+      "types": []
+    }
+  },
+  "liveBrowserFont": {
+    "1440-dark": [
+      {
+        "m": "no-preference",
+        "n": 32,
+        "frames": 28,
+        "gap": 4.8,
+        "end": [
+          502.1,
+          32,
+          9.59,
+          64,
+          64
+        ],
+        "scale": true
+      },
+      {
+        "m": "no-preference",
+        "n": 16,
+        "frames": 31,
+        "gap": 4.8,
+        "end": [
+          511.5,
+          16,
+          4.8,
+          32,
+          32
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 32,
+        "frames": 29,
+        "gap": 4.8,
+        "end": [
+          505.5,
+          32,
+          9.59,
+          64,
+          64
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 16,
+        "frames": 32,
+        "gap": 4.8,
+        "end": [
+          516.9,
+          16,
+          4.8,
+          32,
+          32
+        ],
+        "scale": true
+      }
+    ],
+    "1440-light": [
+      {
+        "m": "no-preference",
+        "n": 32,
+        "frames": 28,
+        "gap": 4.8,
+        "end": [
+          506.6,
+          32,
+          9.59,
+          64,
+          64
+        ],
+        "scale": true
+      },
+      {
+        "m": "no-preference",
+        "n": 16,
+        "frames": 27,
+        "gap": 4.8,
+        "end": [
+          501.6,
+          16,
+          4.8,
+          32,
+          32
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 32,
+        "frames": 32,
+        "gap": 4.8,
+        "end": [
+          502.5,
+          32,
+          9.59,
+          64,
+          64
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 16,
+        "frames": 31,
+        "gap": 4.8,
+        "end": [
+          505.7,
+          16,
+          4.8,
+          32,
+          32
+        ],
+        "scale": true
+      }
+    ],
+    "390-dark": [
+      {
+        "m": "no-preference",
+        "n": 32,
+        "frames": 24,
+        "gap": 4.8,
+        "end": [
+          503.7,
+          32,
+          9.59,
+          48,
+          48
+        ],
+        "scale": true
+      },
+      {
+        "m": "no-preference",
+        "n": 16,
+        "frames": 31,
+        "gap": 4.8,
+        "end": [
+          515.4,
+          16,
+          4.8,
+          44,
+          44
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 32,
+        "frames": 28,
+        "gap": 4.8,
+        "end": [
+          510.6,
+          32,
+          9.59,
+          48,
+          48
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 16,
+        "frames": 27,
+        "gap": 4.8,
+        "end": [
+          511.5,
+          16,
+          4.8,
+          44,
+          44
+        ],
+        "scale": true
+      }
+    ],
+    "390-light": [
+      {
+        "m": "no-preference",
+        "n": 32,
+        "frames": 28,
+        "gap": 4.8,
+        "end": [
+          509.6,
+          32,
+          9.59,
+          48,
+          48
+        ],
+        "scale": true
+      },
+      {
+        "m": "no-preference",
+        "n": 16,
+        "frames": 31,
+        "gap": 4.8,
+        "end": [
+          509.3,
+          16,
+          4.8,
+          44,
+          44
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 32,
+        "frames": 28,
+        "gap": 4.8,
+        "end": [
+          511.8,
+          32,
+          9.59,
+          48,
+          48
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 16,
+        "frames": 28,
+        "gap": 4.8,
+        "end": [
+          500.7,
+          16,
+          4.8,
+          44,
+          44
+        ],
+        "scale": true
+      }
+    ],
+    "900-dark": [
+      {
+        "m": "no-preference",
+        "n": 32,
+        "frames": 31,
+        "gap": 4.8,
+        "end": [
+          507.2,
+          32,
+          9.59,
+          64,
+          64
+        ],
+        "scale": true
+      },
+      {
+        "m": "no-preference",
+        "n": 16,
+        "frames": 31,
+        "gap": 4.8,
+        "end": [
+          504.6,
+          16,
+          4.8,
+          32,
+          32
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 32,
+        "frames": 33,
+        "gap": 4.8,
+        "end": [
+          512.6,
+          32,
+          9.59,
+          64,
+          64
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 16,
+        "frames": 32,
+        "gap": 4.8,
+        "end": [
+          505,
+          16,
+          4.8,
+          32,
+          32
+        ],
+        "scale": true
+      }
+    ],
+    "900-light": [
+      {
+        "m": "no-preference",
+        "n": 32,
+        "frames": 30,
+        "gap": 4.8,
+        "end": [
+          516.9,
+          32,
+          9.59,
+          64,
+          64
+        ],
+        "scale": true
+      },
+      {
+        "m": "no-preference",
+        "n": 16,
+        "frames": 31,
+        "gap": 4.8,
+        "end": [
+          513.2,
+          16,
+          4.8,
+          32,
+          32
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 32,
+        "frames": 30,
+        "gap": 4.8,
+        "end": [
+          499.9,
+          32,
+          9.59,
+          64,
+          64
+        ],
+        "scale": true
+      },
+      {
+        "m": "reduce",
+        "n": 16,
+        "frames": 32,
+        "gap": 4.8,
+        "end": [
+          500.4,
+          16,
+          4.8,
+          32,
+          32
+        ],
+        "scale": true
+      }
+    ]
+  },
+  "explorerHistory": {
+    "chromium": [
+      {
+        "en": "chromium",
+        "w": 390,
+        "t": "light",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "chromium",
+        "w": 390,
+        "t": "dark",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "chromium",
+        "w": 900,
+        "t": "light",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "chromium",
+        "w": 900,
+        "t": "dark",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "chromium",
+        "w": 1440,
+        "t": "light",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "chromium",
+        "w": 1440,
+        "t": "dark",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "en": "webkit",
+        "w": 390,
+        "t": "light",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "webkit",
+        "w": 390,
+        "t": "dark",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "webkit",
+        "w": 900,
+        "t": "light",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "webkit",
+        "w": 900,
+        "t": "dark",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "webkit",
+        "w": 1440,
+        "t": "light",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      },
+      {
+        "en": "webkit",
+        "w": 1440,
+        "t": "dark",
+        "rows": [
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          },
+          {
+            "path": "/blog/",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "folder"
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "d": "underline",
+            "size": "15px",
+            "force": true,
+            "one": true,
+            "role": "file"
+          }
+        ]
+      }
+    ]
+  }
+}

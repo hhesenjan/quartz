@@ -1,0 +1,3337 @@
+{
+  "routeReflow": {
+    "320": {
+      "routes": 161,
+      "documentOverflow": 0,
+      "changedHorizontalBounds": 0
+    },
+    "801": {
+      "routes": 161,
+      "documentOverflow": 0,
+      "changedHorizontalBounds": 0
+    },
+    "1200": {
+      "routes": 161,
+      "documentOverflow": 0,
+      "changedHorizontalBounds": 0
+    }
+  },
+  "diagramCensus": {
+    "loaded": [
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre",
+            "exposedCopy": 1
+          },
+          {
+            "svg": true,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre",
+            "exposedCopy": 1
+          }
+        ]
+      }
+    ],
+    "blocked": [
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "dark",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 390,
+        "t": "light",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "dark",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 900,
+        "t": "light",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/certifications/0004-md-102-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 245,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/certifications/0003-az-305-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 328,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/certifications/0002-az-500-certification-review",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 279,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/blog/0008-building-a-kubernetes-cluster",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 336,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "dark",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      },
+      {
+        "w": 1440,
+        "t": "light",
+        "path": "/blog/0006-the-microsoft-azure-documentation",
+        "s": [
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 154,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 272,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 361,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 184,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 177,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          },
+          {
+            "svg": false,
+            "error": false,
+            "overflow": 0,
+            "rawSourceBytes": 201,
+            "wrap": "pre-wrap",
+            "exposedCopy": 1
+          }
+        ]
+      }
+    ]
+  },
+  "rawMatchedComponentMetrics": {
+    "4251-chromium": [
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(242, 242, 242)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            672,
+            289
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            672,
+            289
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(242, 242, 242)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            355,
+            123
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 229,
+          "box": [
+            339,
+            250
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            355,
+            123
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 229,
+          "box": [
+            339,
+            250
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(242, 242, 242)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            641,
+            276
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            641,
+            276
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ]
+    ],
+    "4256-chromium": [
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(168, 168, 168)",
+          "ink": "rgb(0, 0, 0)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgb(250, 249, 245)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            672,
+            289
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(94, 93, 89)",
+          "ink": "rgb(250, 249, 245)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            672,
+            289
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(168, 168, 168)",
+          "ink": "rgb(0, 0, 0)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgb(250, 249, 245)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            355,
+            123
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            339,
+            340
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(94, 93, 89)",
+          "ink": "rgb(250, 249, 245)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            355,
+            123
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            339,
+            340
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(168, 168, 168)",
+          "ink": "rgb(0, 0, 0)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgb(250, 249, 245)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            641,
+            276
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(94, 93, 89)",
+          "ink": "rgb(250, 249, 245)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            641,
+            276
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ]
+    ],
+    "4251-webkit": [
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(242, 242, 242)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            672,
+            289
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            672,
+            289
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(242, 242, 242)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            355,
+            123
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 229,
+          "box": [
+            339,
+            250
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            355,
+            123
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 229,
+          "box": [
+            339,
+            250
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(242, 242, 242)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            641,
+            276
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-0731cabb.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            641,
+            276
+          ],
+          "white": "pre",
+          "selected": 0
+        }
+      ]
+    ],
+    "4256-webkit": [
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(168, 168, 168)",
+          "ink": "rgb(0, 0, 0)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgb(250, 249, 245)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            672,
+            289
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(94, 93, 89)",
+          "ink": "rgb(250, 249, 245)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            672,
+            289
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(168, 168, 168)",
+          "ink": "rgb(0, 0, 0)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgb(250, 249, 245)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            355,
+            123
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            339,
+            340
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(94, 93, 89)",
+          "ink": "rgb(250, 249, 245)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            355,
+            123
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            339,
+            340
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(168, 168, 168)",
+          "ink": "rgb(0, 0, 0)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgb(250, 249, 245)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(66, 59, 52)",
+          "ink": "rgb(240, 232, 221)",
+          "sourceOverflow": 0,
+          "box": [
+            641,
+            276
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ],
+      [
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(94, 93, 89)",
+          "ink": "rgb(250, 249, 245)",
+          "sourceOverflow": 0,
+          "box": [
+            0,
+            0
+          ],
+          "white": "pre",
+          "selected": 32
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            611,
+            211
+          ],
+          "white": "normal",
+          "selected": 0,
+          "objectPaths": 12
+        },
+        {
+          "style": "index-28d2150b.css",
+          "bg": "rgba(0, 0, 0, 0)",
+          "selection": "rgb(241, 215, 200)",
+          "ink": "rgb(105, 63, 48)",
+          "sourceOverflow": 0,
+          "box": [
+            641,
+            276
+          ],
+          "white": "pre-wrap",
+          "selected": 0
+        }
+      ]
+    ]
+  },
+  "keyboardAndReadingAnchorTrials": {
+    "chromium": {
+      "delayedAtFooter": [
+        {
+          "anchor": true,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 847.953125,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 848.140625,
+            "documentHeight": 9147,
+            "hit": true
+          }
+        },
+        {
+          "anchor": false,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 847.953125,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 1497.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": false,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 847.953125,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 1497.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": true,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 847.953125,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 848.140625,
+            "documentHeight": 9147,
+            "hit": true
+          }
+        },
+        {
+          "anchor": true,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 847.953125,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 848.140625,
+            "documentHeight": 9147,
+            "hit": true
+          }
+        },
+        {
+          "anchor": false,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 847.953125,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 1497.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        }
+      ],
+      "afterScrollingBackToArticle": [
+        {
+          "anchor": true,
+          "reading": {
+            "y": 409.859375,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "none",
+            "above": true
+          },
+          "readingBefore": 409.859375,
+          "readingAfter": 769.234375,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.765625,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4407.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": false,
+          "reading": {
+            "y": 409.859375,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "auto",
+            "above": true
+          },
+          "readingBefore": 409.859375,
+          "readingAfter": 409.234375,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.765625,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": false,
+          "reading": {
+            "y": 409.859375,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "auto",
+            "above": true
+          },
+          "readingBefore": 409.859375,
+          "readingAfter": 409.234375,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.765625,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": true,
+          "reading": {
+            "y": 409.859375,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "none",
+            "above": true
+          },
+          "readingBefore": 409.859375,
+          "readingAfter": 769.234375,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.765625,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4407.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": true,
+          "reading": {
+            "y": 409.859375,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "none",
+            "above": true
+          },
+          "readingBefore": 409.859375,
+          "readingAfter": 769.234375,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.765625,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4407.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": false,
+          "reading": {
+            "y": 409.859375,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "auto",
+            "above": true
+          },
+          "readingBefore": 409.859375,
+          "readingAfter": 409.234375,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.765625,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4047.140625,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        }
+      ]
+    },
+    "webkit": {
+      "delayedAtFooter": [
+        {
+          "anchor": true,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 848.359375,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 848.546875,
+            "documentHeight": 9147,
+            "hit": true
+          }
+        },
+        {
+          "anchor": false,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 848.359375,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 1497.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": false,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 848.359375,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 1497.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": true,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 848.359375,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 848.546875,
+            "documentHeight": 9147,
+            "hit": true
+          }
+        },
+        {
+          "anchor": true,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 848.359375,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 848.546875,
+            "documentHeight": 9147,
+            "hit": true
+          }
+        },
+        {
+          "anchor": false,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png",
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-17.png": [
+              1118,
+              510
+            ],
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-18.png": [
+              1118,
+              510
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 848.359375,
+            "documentHeight": 8498,
+            "hit": true
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 1497.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        }
+      ],
+      "afterScrollingBackToArticle": [
+        {
+          "anchor": true,
+          "reading": {
+            "y": 409.796875,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "none",
+            "above": true
+          },
+          "readingBefore": 409.796875,
+          "readingAfter": 769.171875,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.171875,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4407.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": false,
+          "reading": {
+            "y": 409.796875,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "auto",
+            "above": true
+          },
+          "readingBefore": 409.796875,
+          "readingAfter": 410.171875,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.171875,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": false,
+          "reading": {
+            "y": 409.796875,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "auto",
+            "above": true
+          },
+          "readingBefore": 409.796875,
+          "readingAfter": 410.171875,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.171875,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": true,
+          "reading": {
+            "y": 409.796875,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "none",
+            "above": true
+          },
+          "readingBefore": 409.796875,
+          "readingAfter": 769.171875,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.171875,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4407.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": true,
+          "reading": {
+            "y": 409.796875,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "none",
+            "above": true
+          },
+          "readingBefore": 409.796875,
+          "readingAfter": 769.171875,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.171875,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4407.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        },
+        {
+          "anchor": false,
+          "reading": {
+            "y": 409.796875,
+            "tag": "P",
+            "txt": "In Defender Section use the fo",
+            "scroll": 4688,
+            "active": "Quartz v5.0.0",
+            "matched": true,
+            "excluded": "auto",
+            "above": true
+          },
+          "readingBefore": 409.796875,
+          "readingAfter": 410.171875,
+          "targets": [
+            "/blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png"
+          ],
+          "dims": {
+            "../blog/images/0049-using-device-control-to-block-usb-devices-in-mde-01.png": [
+              1118,
+              570
+            ]
+          },
+          "before": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.171875,
+            "documentHeight": 8788,
+            "hit": false
+          },
+          "after": {
+            "link": "Quartz v5.0.0",
+            "y": 4048.546875,
+            "documentHeight": 9147,
+            "hit": false
+          }
+        }
+      ]
+    }
+  },
+  "rail": {
+    "513-dark-no-preference": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 60
+    },
+    "513-dark-reduce": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 101
+    },
+    "513-light-no-preference": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 60
+    },
+    "513-light-reduce": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 101
+    },
+    "600-dark-no-preference": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 97
+    },
+    "600-dark-reduce": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 101
+    },
+    "600-light-no-preference": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 97
+    },
+    "600-light-reduce": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 101
+    },
+    "900-dark-no-preference": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 101
+    },
+    "900-dark-reduce": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 101
+    },
+    "900-light-no-preference": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 101
+    },
+    "900-light-reduce": {
+      "pages": 18,
+      "listsCollapsedWhileOpen": [],
+      "failedBacklinkHit": [],
+      "minimumOpenBacklinkHeight": 29,
+      "minimumOpenContentsHeight": 101
+    }
+  },
+  "coldPerformanceMedians": {
+    "4251 /": {
+      "lcp": 144,
+      "cls": 0.058,
+      "cssBytes": 122252,
+      "fontBytes": 115156,
+      "localResourceBytes": 1106600,
+      "count": 50
+    },
+    "4251 /blog/0049-using-device-control-to-block-usb-devices-in-mde": {
+      "lcp": 132,
+      "cls": 0.0275,
+      "cssBytes": 122252,
+      "fontBytes": 146448,
+      "localResourceBytes": 2034464,
+      "count": 68
+    },
+    "4256 /": {
+      "lcp": 124,
+      "cls": 0.058,
+      "cssBytes": 122825,
+      "fontBytes": 115156,
+      "localResourceBytes": 1107173,
+      "count": 50
+    },
+    "4256 /blog/0049-using-device-control-to-block-usb-devices-in-mde": {
+      "lcp": 140,
+      "cls": 0.0275,
+      "cssBytes": 122825,
+      "fontBytes": 146448,
+      "localResourceBytes": 2035037,
+      "count": 68
+    }
+  }
+}

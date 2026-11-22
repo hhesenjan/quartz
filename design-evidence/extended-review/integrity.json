@@ -1,0 +1,103 @@
+{
+  "baselineCSS": "index-0731cabb.css",
+  "finalCSS": "index-28d2150b.css",
+  "htmlRoutes": 252,
+  "titlesMetadataCanonicalsMatch": true,
+  "searchIndexEntries": 160,
+  "unchangedJS": 22,
+  "unchangedFontResources": 13,
+  "stylesheets": {
+    "stylesheets": [
+      25,
+      25
+    ],
+    "rules": [
+      604,
+      609
+    ],
+    "conditions": [
+      {
+        "CSSLayerBlockRule": 1,
+        "CSSKeyframesRule": 1,
+        "CSSStyleRule": 590,
+        "CSSMediaRule": 57,
+        "CSSSupportsRule": 3,
+        "CSSContainerRule": 4
+      },
+      {
+        "CSSLayerBlockRule": 1,
+        "CSSKeyframesRule": 1,
+        "CSSStyleRule": 595,
+        "CSSMediaRule": 58,
+        "CSSSupportsRule": 3,
+        "CSSContainerRule": 4
+      }
+    ],
+    "removed": [
+      {
+        "key": "(min-width: 1200px) and (not (max-height: 32rem)) / .page > #quartz-body .sidebar.right:has(> .toc > .toc-header:not(.collapsed)):has(> .backlinks) > :is(.toc, .backlinks)",
+        "style": "flex: 1 1 0px; max-block-size: max-content;"
+      }
+    ],
+    "added": [
+      {
+        "key": "(min-width: 1200px) and (not (max-height: 32rem)) / .page > #quartz-body .sidebar.right:has(> .toc > .toc-header:not(.collapsed)):has(> .backlinks) > :is(.toc, .backlinks)",
+        "style": "flex: 1 1 50%; max-block-size: max-content;"
+      },
+      {
+        "key": ".markdown-rendered img:is(:not([width][height]), [width=\"auto\"], [height=\"auto\"])",
+        "style": "content-visibility: visible;"
+      },
+      {
+        "key": ":root[saved-theme=\"dark\"] .markdown-rendered object[type=\"image/svg+xml\"][data$=\"9999-penetration-testing-framework.svg\"]",
+        "style": "background-color: rgb(250, 249, 245);"
+      },
+      {
+        "key": ".markdown-rendered pre > code.mermaid:not(:has(svg))",
+        "style": "white-space: pre-wrap; overflow-wrap: anywhere;"
+      },
+      {
+        "key": "(forced-colors: none) / .markdown-rendered pre > code:not(.mermaid)::selection",
+        "style": "color: var(--light); background-color: var(--gray);"
+      },
+      {
+        "key": "(forced-colors: none) / .markdown-rendered pre > code:not(.mermaid) ::selection",
+        "style": "color: var(--light); background-color: var(--gray);"
+      }
+    ]
+  },
+  "assetBytes": {
+    "baseline": 83090,
+    "final": 83663
+  },
+  "productionBuildFiles": 913,
+  "unitTestsPassed": 164,
+  "formatter": "passed",
+  "typecheck": "two baseline dependency errors (micromorph, remark-parse/lib)",
+  "brandedBrowserRuns": [
+    {
+      "browser": "chrome",
+      "cases": 10,
+      "pages": 50,
+      "searchStates": 10,
+      "viewportOverflowCases": 0,
+      "codeSizesPx": [
+        14.5,
+        21.75,
+        29
+      ]
+    },
+    {
+      "browser": "brave",
+      "cases": 10,
+      "pages": 50,
+      "searchStates": 10,
+      "viewportOverflowCases": 0,
+      "codeSizesPx": [
+        14.5,
+        21.75,
+        29
+      ]
+    }
+  ]
+}
