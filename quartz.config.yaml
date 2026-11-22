@@ -12,13 +12,19 @@ configuration:
     - private
     - templates
     - .obsidian
+    # The V5 Static emitter also reads these paths relative to quartz/static.
+    # Only the selected web editions of these font families belong in the site build.
+    - "fonts/Anthropic/**"
+    - "fonts/TX-02/*.otf"
+    - "fonts/SNPro/*.ttf"
   theme:
     fontOrigin: local
     cdnCaching: true
     typography:
       header: SN Pro
       body: SN Pro
-      code: Google Sans Code
+      title: Source Serif 4
+      code: TX-02
     colors:
       lightMode:
         light: "#faf8f8"

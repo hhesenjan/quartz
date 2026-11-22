@@ -1,2 +1,2505 @@
-// Quartz imports this entry point when it builds index.css.
-@use "./custom.sass";
+@use "sass:map";
+@use "./variables.scss" as *;
+
+$landscape-phone: "(pointer: coarse) and (orientation: landscape) and (800px < width <= 1000px) and (height <= 500px)";
+$meta-gap: 0.375rem;
+// Paint past the sticky toolbar's edges so scrolling image outlines stay behind it.
+$toolbar-gutter-fill:
+  var(--page-gutter) 0 var(--light),
+  calc(-1 * var(--page-gutter)) 0 var(--light);
+
+// Typefaces. Asset paths resolve beside the emitted index stylesheet.
+@each $style, $serif, $sans in (normal Roman Regular, italic Italic Italic) {
+  @font-face {
+    font-family: "Source Serif 4";
+    src: url("./static/fonts/SourceSerif4/SourceSerif4-#{$serif}.woff2") format("woff2");
+    font-style: $style;
+    font-weight: 200 900;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "SN Pro";
+    src: url("./static/fonts/SNPro/SNPro-#{$sans}.woff2") format("woff2");
+    font-style: $style;
+    font-weight: 200 900;
+    font-display: swap;
+  }
+}
+
+@each $face, $weight,
+  $style
+    in (
+      Regular 400 normal,
+      Medium 500 normal,
+      Bold 700 normal,
+      Oblique 400 italic,
+      MediumOblique 500 italic,
+      BoldOblique 700 italic
+    )
+{
+  @font-face {
+    font-family: "TX-02";
+    src: url("./static/fonts/BerkeleyMono/BerkeleyMono-#{$face}.woff2") format("woff2");
+    font-style: $style;
+    font-weight: $weight;
+    font-display: swap;
+  }
+}
+
+@font-face {
+  font-family: "Mr De Haviland";
+  src: url("./static/fonts/MrDeHaviland/MrDeHaviland-Regular.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+// Theme and reading scale
+
+:root {
+  --bodyFont: "SN Pro", system-ui, sans-serif;
+  --headerFont: var(--bodyFont);
+  --titleFont: "Source Serif 4", Georgia, serif;
+  --codeFont: "TX-02", ui-monospace, Consolas, monospace;
+  --light: #faf9f5;
+  --graph-edge: #817d72;
+  --rule: #d4d1c6;
+  // The graph renderer samples --lightgray from the root. UI borders inherit it from body.
+  --lightgray: var(--graph-edge);
+  --gray: #5e5d59;
+  --darkgray: #141413;
+  --dark: #141413;
+  --secondary: #302d29;
+  --tertiary: #904832;
+  --highlight: #e8e6dc;
+  --textHighlight: #f1d7c8;
+  --panel: #f1efe6;
+  --nav-selection: #eee3d8;
+  --selection-ink: #693f30;
+  -webkit-tap-highlight-color: rgb(144 72 50 / 16%);
+  --scroll-thumb: #87847a;
+  --reading-width: 43rem;
+  --graph-preview-size: 240px;
+  --reading-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --reading-leading: 1.6;
+  --title-size: clamp(1.75rem, 1rem + 4cqi, 2.75rem);
+  --heading-1-size: clamp(1.625rem, 1.35rem + 0.8vw, 2rem);
+  --heading-2-size: clamp(1.375rem, 1.15rem + 0.65vw, 1.75rem);
+  --heading-3-size: clamp(1.125rem, 1.05rem + 0.3vw, 1.3125rem);
+  --archive-title-size: clamp(1.0625rem, 0.95rem + 0.5cqi, 1.1875rem);
+  --control-text-size: 1rem;
+  --code-size: 0.875rem;
+  --code-leading: 1.375rem;
+  --paragraph-space: 1.2em;
+  --page-gutter: 0.625rem;
+  --navigation-size: 0.9375rem;
+  --caption-size: 0.875rem;
+  --page-top: clamp(2.75rem, 7vh, 4.75rem);
+  color-scheme: light;
+  background: var(--light);
+}
+
+:root[saved-theme="dark"] {
+  --light: #000000;
+  --graph-edge: #707070;
+  --rule: #383838;
+  --gray: #ababab;
+  --darkgray: #f5f5f5;
+  --dark: #f5f5f5;
+  --secondary: #dedede;
+  --tertiary: #d9c3ad;
+  --highlight: #262626;
+  --textHighlight: #423b34;
+  --panel: #161616;
+  --nav-selection: #2c2926;
+  --selection-ink: #f0e8dd;
+  -webkit-tap-highlight-color: rgb(217 195 173 / 16%);
+  --scroll-thumb: #686761;
+  color-scheme: dark;
+}
+
+// Page frame and scroll behavior
+
+html {
+  width: 100%;
+  scrollbar-gutter: stable;
+}
+
+.explorer .explorer-ul {
+  scrollbar-gutter: stable;
+  mask-image: none;
+}
+
+// Leave touch and high-contrast scrollbars to the operating system.
+@media (pointer: fine) and (forced-colors: none) {
+  .sidebar :is(.explorer-ul, .toc-content, .backlinks > ul) {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-thumb) transparent;
+  }
+  @supports selector(::-webkit-scrollbar-thumb) {
+    ::-webkit-scrollbar {
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+    ::-webkit-scrollbar-track,
+    ::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      border: 3px solid transparent;
+      border-radius: 1rem;
+      background-color: var(--scroll-thumb);
+      background-clip: padding-box;
+
+      &:hover,
+      &:active {
+        background-color: var(--gray);
+      }
+    }
+  }
+  @supports not selector(::-webkit-scrollbar-thumb) {
+    :root {
+      scrollbar-color: var(--scroll-thumb) transparent;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  // Component styles live in quartz-base. The reader's preference applies across the site.
+  *,
+  *::before,
+  *::after {
+    animation: none;
+    transition: none;
+  }
+}
+
+body {
+  --lightgray: var(--rule);
+  isolation: isolate;
+  min-height: 100vh;
+  font-size: 0.9rem;
+}
+
+@media screen {
+  .page > #quartz-body {
+    position: relative;
+  }
+  .page[data-frame="default"] > #quartz-body {
+    padding-inline: max(var(--page-gutter), env(safe-area-inset-left))
+      max(var(--page-gutter), env(safe-area-inset-right));
+  }
+}
+
+// Page headers and metadata
+
+.page-header {
+  border-block-end: 1px solid var(--lightgray);
+  padding-block: 0 clamp(1rem, 1.4vw, 1.25rem);
+
+  &:where(:has(> .popover-hint > .flex-component:last-child .content-meta)) {
+    padding-block-end: 0.625rem;
+  }
+  > .popover-hint {
+    display: flex;
+    flex-direction: column;
+    container-type: inline-size;
+    gap: clamp(0.625rem, 1vw, 0.875rem);
+
+    > :is(.breadcrumb-container, .article-title, .note-properties) {
+      margin-block: 0;
+    }
+    > .flex-component {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      align-items: baseline;
+      column-gap: $meta-gap !important; // Quartz sets the group's gap inline.
+
+      > div {
+        display: contents;
+      }
+      &:not(:has(.content-meta, .tags)) {
+        display: none;
+      }
+      @container (min-width: 22rem) {
+        &:has(> div > .content-meta > *):has(> div > .tags > li) {
+          grid-template-columns: max-content minmax(0, 1fr);
+
+          > div > .content-meta > :last-child::after {
+            display: inline;
+          }
+        }
+      }
+      > div > .tags {
+        margin: 0;
+        gap: 0.25rem 0.75rem;
+        font: 500 var(--caption-size)/1.5 var(--bodyFont);
+
+        > li {
+          display: flex;
+          max-inline-size: 100%;
+          line-height: inherit;
+          white-space: normal;
+        }
+        > li > a.internal.tag-link {
+          display: inline-flex;
+          align-items: center;
+          box-sizing: border-box;
+          min-block-size: 1.5rem;
+          max-inline-size: 100%;
+          padding: 0;
+          margin: 0;
+          border-radius: 0;
+          color: var(--secondary);
+          background: transparent;
+          font: inherit;
+          overflow-wrap: anywhere;
+
+          &::before {
+            color: var(--gray);
+          }
+          &:is(:hover, :focus-visible) {
+            color: var(--tertiary);
+            text-decoration: underline;
+            text-underline-offset: 0.18em;
+          }
+        }
+      }
+    }
+    > .article-title {
+      font-size: var(--title-size);
+      line-height: 1.12;
+      text-wrap: pretty;
+    }
+  }
+}
+
+body[data-slug="index"] .page-header {
+  border-block: 0;
+  padding-block-end: 0;
+}
+
+.article-contents {
+  display: none;
+}
+
+@media (width < #{map.get($breakpoints, desktop)}) {
+  .page-header .article-contents {
+    display: block;
+    margin-block-start: 0.625rem;
+    border-block-start: 1px solid var(--lightgray);
+    color: var(--gray);
+    font: 500 var(--navigation-size)/1.4 var(--bodyFont);
+
+    summary {
+      padding-block: 0.65rem 0.125rem;
+      cursor: pointer;
+    }
+    nav {
+      max-block-size: min(44dvh, 20rem);
+      overflow-y: auto;
+      overscroll-behavior-y: contain;
+    }
+    ul {
+      margin: 0.5rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    @for $depth from 1 through 6 {
+      li[data-depth="#{$depth}"] {
+        padding-inline-start: min(#{$depth * 0.65rem}, 20%);
+      }
+    }
+    a {
+      display: block;
+      padding: 0.375rem 0.5rem;
+      border-radius: 3px;
+      color: var(--darkgray);
+      font-weight: 450;
+      line-height: 1.45;
+
+      &:is(:hover, :focus-visible, [aria-current="location"]) {
+        color: var(--selection-ink);
+        background: var(--nav-selection);
+      }
+    }
+  }
+}
+
+.article-title {
+  font-family: var(--titleFont);
+  font-size: 1.5rem;
+  font-weight: 450;
+  line-height: 1.13;
+  letter-spacing: -0.025em;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+  margin: 0;
+}
+
+@media screen and ($mobile), screen and #{$landscape-phone} {
+  .page-header {
+    &:has(> .article-contents) {
+      padding-block-end: 0;
+    }
+    .breadcrumb-element a,
+    .tags .tag-link,
+    .note-properties .tag-link {
+      display: inline-flex;
+      min-block-size: 1.5rem;
+      align-items: center;
+    }
+    .note-properties-header {
+      box-sizing: border-box;
+      min-block-size: 2.75rem;
+    }
+    .article-contents {
+      summary,
+      a {
+        box-sizing: border-box;
+        min-block-size: 2.75rem;
+        padding-block: 0.6875rem;
+      }
+    }
+  }
+}
+
+.content-meta {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.3rem $meta-gap;
+  color: var(--gray);
+  font-family: var(--bodyFont);
+  font-size: var(--caption-size);
+  font-weight: 450;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+  margin: 0;
+
+  > * {
+    white-space: nowrap;
+  }
+  > time {
+    color: var(--secondary);
+    font-weight: 500;
+  }
+  &[show-comma="true"] > * {
+    margin: 0;
+
+    &::after {
+      content: "·" / "";
+      color: var(--gray);
+      margin-inline-start: $meta-gap;
+    }
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
+
+// Responsive grid and sidebars
+
+@media all and ($tablet) {
+  .page[data-frame="default"] > #quartz-body {
+    grid-template-columns: clamp(11rem, 20.5vw, 14.5rem) minmax(0, var(--reading-width));
+    justify-content: center;
+    column-gap: clamp(1.25rem, 3vw, 2.5rem);
+  }
+}
+
+// Wide phones have room for the tablet sidebar, but very little height for its tree.
+@media screen and #{$landscape-phone} {
+  :root {
+    --page-top: 1rem;
+  }
+  .page[data-frame="default"] > #quartz-body {
+    grid-template-columns: clamp(12rem, 24vw, 15rem) minmax(0, var(--reading-width));
+  }
+}
+
+@media all and ($desktop) {
+  .page[data-frame="default"] {
+    max-inline-size: min(86rem, 96%);
+  }
+  .page[data-frame="default"] > #quartz-body {
+    // Quartz includes 1200px in both breakpoints. Use the complete desktop grid there.
+    grid-template-areas: #{map.get($desktopGrid, templateAreas)};
+    grid-template-rows: #{map.get($desktopGrid, templateRows)};
+    grid-template-columns:
+      clamp(12rem, 35vw - 14.25rem, 17.5rem) minmax(0, var(--reading-width))
+      clamp(
+        calc(var(--graph-preview-size) + 0.25rem + var(--rail-scrollbar-space, 0px)),
+        30vw - 11.25rem,
+        16rem
+      );
+    justify-content: center;
+    gap: 0.75rem clamp(1.25rem, 2.4%, 3rem);
+
+    > .sidebar.right:empty {
+      display: none;
+    }
+  }
+}
+
+@media all and not ($mobile) {
+  .page > #quartz-body .page-header {
+    margin-top: var(--page-top);
+  }
+  // Short headers meet the toolbar divider. Wrapped titles can extend below it.
+  :root:not([reader-mode="on"]) .page[data-frame="default"] > #quartz-body {
+    > .center > .page-header:not(:has(+ .popover-hint > .page-listing)) {
+      box-sizing: border-box;
+      min-block-size: var(--toolbar-header-height, auto);
+    }
+    > .sidebar.left > .explorer {
+      margin-block-start: 0.5rem;
+    }
+  }
+  .page > #quartz-body .sidebar.left {
+    align-self: start;
+    height: fit-content;
+    max-height: calc(100dvh - var(--page-top) - 1rem);
+    top: var(--page-top);
+    margin: var(--page-top) 0 0;
+    padding: 0 0.25rem 0.75rem;
+    gap: 1rem;
+
+    // Keep the site tools together as one row above the folder tree.
+    > .flex-component {
+      align-items: center;
+      column-gap: 0.25rem !important; // Quartz sets the toolbar gap inline.
+    }
+    :is(.search-button, button.darkmode, button.readermode) {
+      min-height: 2.125rem;
+    }
+    :is(button.darkmode, button.readermode) {
+      position: relative;
+      width: 2.125rem;
+      border-radius: 4px;
+
+      svg {
+        inset: 50% auto auto 50%;
+        transform: translate(-50%, -50%);
+      }
+      &:is(:hover, :focus-visible) {
+        background-color: var(--panel);
+      }
+    }
+  }
+  // Keep the full toggle visible when the desktop file tree is collapsed.
+  .explorer.collapsed {
+    flex: none;
+
+    > .explorer-content {
+      display: none;
+    }
+  }
+  .explorer .desktop-explorer {
+    width: 100%;
+    padding-block: 0.75rem 0.125rem;
+    border-block-start: 1px solid var(--lightgray);
+    justify-content: space-between;
+
+    > .fold {
+      margin-inline-end: 0.1875rem;
+    }
+  }
+  // Quartz saves the list's scroll position when navigating to another page.
+  .explorer .explorer-content {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr);
+    min-block-size: 0;
+    overflow: hidden;
+
+    > .explorer-ul {
+      min-block-size: 0;
+      max-block-size: none;
+      overflow: hidden auto;
+      overscroll-behavior-y: contain;
+    }
+  }
+}
+
+@media all and ($desktop) {
+  .page > #quartz-body .sidebar.right {
+    height: 100dvh;
+    padding: min(var(--page-top), 7dvh) 0.25rem min(1rem, 3dvh) 0;
+    gap: clamp(0.5rem, 2.7dvh, 1.5rem);
+
+    > .backlinks:not(:first-child) {
+      border-block-start: 1px solid var(--lightgray);
+      padding-block-start: clamp(0.5rem, 1.5dvh, 0.875rem);
+    }
+    @media (height > 32rem) {
+      // Share the remaining height. A short list leaves its unused space to the other.
+      &:has(> .toc > .toc-header:not(.collapsed)):has(> .backlinks) > :is(.toc, .backlinks) {
+        flex: 1 1 0;
+        max-block-size: max-content;
+      }
+    }
+    > .toc {
+      min-block-size: 0;
+      margin-inline-start: -0.5rem;
+
+      > .toc-header {
+        padding-inline-start: 0.5rem;
+      }
+      > .toc-content {
+        min-block-size: 0;
+        max-block-size: none;
+        overflow: hidden auto;
+        overscroll-behavior-y: contain;
+        mask-image: none;
+      }
+      &:has(> .toc-header.collapsed) {
+        flex: none;
+      }
+      > .toc-header.collapsed + .toc-content {
+        display: none;
+      }
+    }
+  }
+  @media (max-height: 32rem) {
+    .page[data-frame="default"] > #quartz-body {
+      --rail-scrollbar-space: 0.75rem;
+    }
+    // In a short desktop window scroll the whole rail so each list remains readable.
+    .page > #quartz-body .sidebar.right {
+      overflow-y: auto;
+      overscroll-behavior-y: contain;
+      scrollbar-width: thin;
+
+      > :is(.toc, .backlinks) {
+        flex: none;
+      }
+    }
+  }
+}
+
+@media all and not ($desktop) {
+  .page > #quartz-body .sidebar.right {
+    &:not(:has(> :not(.graph, .toc))) {
+      display: contents;
+    }
+    // Quartz measures the canvas once. Give it a desktop drawing width while hidden.
+    > .graph {
+      position: fixed;
+      inset: 0 auto auto 0;
+      visibility: hidden;
+      inline-size: var(--graph-preview-size);
+    }
+    > .backlinks {
+      margin-block-start: 1.125rem;
+      padding-block-start: 1rem;
+      border-block-start: 1px solid var(--lightgray);
+
+      > ul.overflow {
+        max-block-size: min(38dvh, 16rem);
+      }
+    }
+  }
+}
+
+.sidebar.right > .backlinks {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 0;
+  min-inline-size: 0;
+
+  > h3 {
+    flex: none;
+  }
+  > ul.overflow {
+    min-block-size: 0;
+    max-block-size: none;
+    overflow: hidden auto;
+    overscroll-behavior-y: contain;
+    mask-image: none;
+    margin-block: 0.5rem 0;
+
+    > .overflow-end {
+      height: 0;
+    }
+    a {
+      display: block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      color: var(--gray);
+      font-size: var(--navigation-size);
+      font-weight: 450;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+
+      &:is(:hover, :focus-visible) {
+        background: var(--panel);
+        color: var(--secondary);
+      }
+      &:focus-visible {
+        outline-offset: -2px;
+      }
+    }
+  }
+}
+
+.sidebar,
+footer,
+.section-ul,
+.note-properties {
+  font-family: var(--headerFont);
+}
+
+.breadcrumb-container {
+  font-family: var(--bodyFont);
+  font-size: var(--caption-size);
+  line-height: 1.4;
+  gap: 0.25rem 0.4rem;
+
+  .breadcrumb-element {
+    max-inline-size: 100%;
+    min-inline-size: 0;
+    column-gap: 0.4rem;
+
+    > p {
+      flex: none;
+      margin: 0;
+      color: var(--gray);
+      font: var(--caption-size)/1 var(--bodyFont);
+    }
+  }
+  a {
+    color: var(--gray);
+    font-weight: 450;
+    overflow-wrap: anywhere;
+
+    &:is(:hover, :focus-visible) {
+      color: var(--tertiary);
+      text-decoration: underline;
+      text-underline-offset: 0.17em;
+    }
+  }
+  .breadcrumb-element:last-child a {
+    color: var(--darkgray);
+  }
+}
+
+.page-title {
+  font-family: var(--headerFont);
+  font-size: clamp(1.65rem, 1.25rem + 0.7vw, 1.9rem);
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+  margin: 0;
+
+  a {
+    color: var(--dark);
+    font-weight: 630;
+  }
+}
+
+// Search
+
+.sidebar .search-button {
+  border-radius: 3px;
+  background: transparent;
+  font-size: var(--caption-size);
+
+  &:hover {
+    background: var(--panel);
+  }
+}
+
+.search > .search-container {
+  height: 100dvh;
+  overscroll-behavior: contain;
+  background-color: color-mix(in srgb, var(--light) 75%, transparent);
+  backdrop-filter: blur(2px);
+
+  > .search-space {
+    width: min(66rem, calc(100% - 2rem));
+    margin-block: clamp(1rem, 9dvh, 5.5rem) 1rem;
+
+    > :is(input.search-bar, .search-layout) {
+      margin-bottom: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 0 6px 24px rgb(0 0 0 / 8%);
+    }
+    > :is(input.search-bar, .ghost-text) {
+      padding: 0.875rem 1rem;
+      font-size: var(--control-text-size);
+      line-height: 1.4;
+    }
+    > input.search-bar:focus {
+      border-color: var(--gray);
+      outline: 1px solid var(--gray);
+      outline-offset: -1px;
+    }
+    > .tag-suggestions {
+      top: 3.5rem;
+    }
+    .search-layout > :is(.results-container, .preview-container) {
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+    }
+    .search-layout > .preview-container {
+      box-sizing: border-box;
+      min-inline-size: 0;
+      padding: 1.25rem clamp(1rem, 2.3vw, 2rem);
+    }
+    .search-layout > .results-container .result-card {
+      padding: 0.8rem 0.95rem;
+
+      &:focus-visible {
+        outline: 2px solid var(--selection-ink);
+        outline-offset: -2px;
+      }
+    }
+  }
+}
+
+.search .search-space > .ghost-text,
+.search input::placeholder {
+  color: var(--gray);
+  opacity: 1;
+}
+
+.search .result-card > h3 {
+  font-size: var(--control-text-size);
+  font-weight: 550;
+  line-height: 1.35;
+}
+
+.search :is(.result-card, .tag-suggestion-item):is(.focus, .active, :hover, :focus-visible) {
+  background-color: var(--nav-selection);
+}
+
+.search .search-layout .highlight,
+.search-scroll-target:not(.fade-out) {
+  color: var(--selection-ink);
+  background-color: var(--textHighlight);
+}
+
+@media screen and ($mobile), screen and #{$landscape-phone} {
+  html:has(.search-container.active) {
+    overflow: hidden;
+  }
+  .search > .search-container {
+    box-sizing: border-box;
+    inline-size: 100%;
+    block-size: var(--search-viewport-height, 100dvh);
+    padding: max(0.75rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right))
+      max(0.75rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
+    overflow: hidden;
+
+    > .search-space {
+      display: grid;
+      grid-template: auto minmax(0, 1fr) / minmax(0, 1fr) auto;
+      gap: 0.5rem;
+      width: min(100%, 36rem);
+      block-size: 100%;
+      margin: 0 auto;
+      pointer-events: none;
+
+      > :is(input, .search-close, .search-layout, .tag-suggestions) {
+        pointer-events: auto;
+      }
+      > :is(input.search-bar, .ghost-text) {
+        grid-area: 1 / 1;
+        padding: 0.625rem 0.75rem;
+      }
+      > input.search-bar {
+        min-inline-size: 0;
+        min-block-size: 2.75rem;
+        margin: 0;
+      }
+      > .search-close {
+        grid-area: 1 / 2;
+        min-block-size: 2.75rem;
+        margin: 0;
+        padding: 0.375rem 0.65rem;
+        border: 1px solid var(--lightgray);
+        border-radius: 5px;
+        color: var(--darkgray);
+        font: 500 var(--navigation-size)/1.25 var(--bodyFont);
+      }
+      > .tag-suggestions {
+        grid-area: 2 / 1 / 3 / -1;
+        top: 0;
+        max-block-size: min(
+          15rem,
+          calc(
+            var(--search-viewport-height, 100dvh) -
+              5rem - env(safe-area-inset-top) - env(safe-area-inset-bottom)
+          )
+        );
+        overscroll-behavior: contain;
+
+        > .tag-suggestion-item {
+          display: flex;
+          align-items: center;
+          box-sizing: border-box;
+          min-block-size: 2.75rem;
+          padding: 0.5rem 0.85rem;
+          font-size: var(--navigation-size);
+        }
+      }
+      > .search-layout {
+        grid-area: 2 / 1 / 3 / -1;
+        align-self: start;
+        flex-direction: column;
+        min-block-size: 0;
+        max-block-size: 100%;
+        margin: 0;
+
+        > .preview-container {
+          display: none;
+        }
+        > .results-container {
+          flex: 1 1 auto;
+          border: 0;
+          border-radius: inherit;
+          block-size: auto;
+          min-block-size: 0;
+          max-block-size: none;
+
+          &:has(.result-card:focus-visible) .result-card.focus:not(:focus-visible) {
+            background-color: transparent;
+          }
+          .result-card {
+            min-block-size: 2.75rem;
+            padding: 0.7rem 0.85rem;
+            overflow-wrap: anywhere;
+
+            > .card-description {
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              overflow: hidden;
+              margin-block-start: 0.3rem;
+              font-size: var(--caption-size);
+              line-height: 1.45;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Explorer, table of contents and current location
+
+.sidebar :is(.desktop-explorer h2, .graph h3, .backlinks h3) {
+  color: var(--gray);
+  font-family: var(--headerFont);
+  font-size: var(--caption-size);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.sidebar .desktop-explorer h2 {
+  color: var(--dark);
+  font-size: var(--control-text-size);
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+  text-transform: none;
+}
+
+.sidebar :is(.desktop-explorer, .toc-header) {
+  &:focus-visible {
+    outline-offset: -2px;
+  }
+  > .fold {
+    color: var(--gray);
+  }
+  &:is(:hover, :focus-visible) > .fold {
+    color: var(--dark);
+  }
+}
+
+.toc {
+  flex-shrink: 1;
+
+  .toc-header {
+    flex-shrink: 0;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    h3 {
+      margin: 0;
+      font-family: var(--headerFont);
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      line-height: 1.25;
+    }
+    .fold {
+      flex: none;
+      width: 1rem;
+      height: 1rem;
+      margin: 0;
+    }
+  }
+  .toc-content {
+    margin-block: 0.625rem 0;
+
+    > li + li:not(.overflow-end) {
+      margin-block-start: 0.2rem;
+    }
+    @for $depth from 1 through 6 {
+      .depth-#{$depth} {
+        padding-inline-start: min(#{$depth * 0.65rem}, 20%);
+      }
+    }
+    > li > a {
+      display: block;
+      padding: 0.25rem 0.375rem 0.25rem 0.5rem;
+      font-size: var(--navigation-size);
+      font-weight: 450;
+      line-height: 1.4;
+      color: var(--gray);
+      opacity: 1;
+
+      &:is([aria-current], .active) {
+        font-weight: 550;
+      }
+    }
+  }
+}
+
+.explorer {
+  --tree-toggle-size: 1.25rem;
+  --tree-label-gap: 0.25rem;
+  --tree-row-padding: 0.375rem;
+  --tree-line-height: 1.3125rem;
+}
+
+.explorer .folder-container {
+  display: grid;
+  grid-template-columns: var(--tree-toggle-size) minmax(0, 1fr);
+  align-items: start;
+  color: var(--darkgray);
+  font-size: var(--navigation-size);
+  font-weight: 550;
+  line-height: var(--tree-line-height);
+
+  > .folder-icon {
+    box-sizing: border-box;
+    inline-size: var(--tree-toggle-size);
+    block-size: var(--tree-toggle-size);
+    padding: calc((var(--tree-toggle-size) - 0.75rem) / 2);
+    margin: 0;
+    margin-block-start: calc(
+      var(--tree-row-padding) + (var(--tree-line-height) - var(--tree-toggle-size)) / 2
+    );
+    color: var(--gray);
+  }
+  .folder-button {
+    display: block;
+    box-sizing: border-box;
+    inline-size: 100%;
+    padding: var(--tree-row-padding) 0.5rem var(--tree-row-padding) var(--tree-label-gap);
+    color: inherit;
+    font: inherit;
+    text-align: start;
+    overflow-wrap: anywhere;
+
+    &:focus-visible {
+      outline-offset: -2px;
+    }
+    .folder-title {
+      color: inherit;
+      font: inherit;
+    }
+  }
+}
+
+.explorer-content .folder-outer > ul {
+  // Each branch guide runs through the center of its parent's chevron.
+  margin-inline-start: calc(var(--tree-toggle-size) / 2 - 0.5px);
+  padding-inline-start: 0.25rem;
+}
+
+.explorer-content .tree-item + .tree-item {
+  margin-block-start: 0.25rem;
+}
+
+.explorer .nav-file-title {
+  display: block;
+  font-size: var(--navigation-size);
+  font-weight: 450;
+  line-height: var(--tree-line-height);
+  overflow-wrap: anywhere;
+  color: var(--gray);
+  opacity: 1;
+  padding: var(--tree-row-padding) 0.5rem;
+  padding-inline-start: calc(var(--tree-toggle-size) + var(--tree-label-gap));
+}
+
+// Both navigation lists use the same hover, current and keyboard states.
+.toc .toc-content > li > a,
+.explorer :is(.nav-file-title, .folder-container) {
+  border-radius: 4px;
+
+  @media (hover: hover) {
+    &:hover {
+      color: var(--tertiary);
+      background-color: var(--panel);
+    }
+  }
+  &:is([aria-current], .active),
+  &:has(> div > .folder-button[aria-current]) {
+    background-color: var(--nav-selection);
+    color: var(--selection-ink);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--tertiary);
+    outline-offset: -2px;
+  }
+}
+
+// Graph preview and dialog
+
+.graph {
+  inline-size: min(100%, var(--graph-preview-size));
+  flex: none;
+  display: grid;
+  grid-template-areas: "preview";
+
+  > h3 {
+    grid-area: preview;
+    align-self: start;
+    z-index: 1;
+    margin: 0.8rem 3rem 0 0.875rem;
+    pointer-events: none;
+  }
+  :is(.graph-outer, .global-graph-container) {
+    border: 0;
+    outline: 1px solid var(--lightgray);
+    outline-offset: -1px;
+    border-radius: 3px;
+  }
+  > .global-graph-outer {
+    inset: 0;
+    width: auto;
+    height: auto;
+    padding: 10dvh 10vw;
+    grid: minmax(0, 1fr) / minmax(0, 1fr);
+    background: rgb(0 0 0 / 25%);
+
+    &.active {
+      display: grid;
+    }
+  }
+  // Quartz draws and hit-tests in canvas pixels. Center that surface inside the resized dialog.
+  .global-graph-container {
+    position: relative;
+    inset: auto;
+    transform: none;
+    width: auto;
+    height: auto;
+    min-width: 0;
+    min-height: 0;
+    grid-area: 1 / 1;
+    display: grid;
+    grid: minmax(0, 1fr) / minmax(0, 1fr);
+    place-items: center;
+    overflow: hidden;
+  }
+  .graph-dialog-close {
+    grid-area: 1 / 1;
+    z-index: 1;
+    place-self: start end;
+    min-block-size: 2.75rem;
+    margin: 0.5rem;
+    padding: 0.375rem 0.875rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 4px;
+    background: var(--light);
+    color: var(--dark);
+    font: 500 var(--caption-size)/1.4 var(--bodyFont);
+    cursor: pointer;
+
+    &:is(:hover, :focus-visible) {
+      background: var(--highlight);
+    }
+  }
+
+  .graph-outer {
+    grid-area: preview;
+    box-sizing: border-box;
+    inline-size: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    display: grid;
+    grid: minmax(0, 1fr) / minmax(0, 1fr);
+    place-items: center;
+    background: var(--panel);
+    margin: 0;
+    padding-block: 2.75rem 0.75rem;
+
+    // Keep local node hit targets in the renderer's own coordinate system.
+    > .graph-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      &:not(:empty):not(:has(canvas)) {
+        box-sizing: border-box;
+        max-inline-size: 100%;
+        padding-inline: 1rem;
+        text-align: center;
+      }
+
+      > canvas {
+        flex: none;
+      }
+    }
+  }
+  // Quartz attaches the canvas once the renderer and content index are ready.
+  > .graph-outer:not(:has(canvas)) > .global-graph-icon {
+    visibility: hidden;
+  }
+  > .graph-outer > .global-graph-icon {
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin: 0;
+    padding: 0;
+    color: var(--gray);
+    opacity: 1;
+
+    > svg {
+      width: 1rem;
+      height: 1rem;
+    }
+    &:is(:hover, :focus-visible) {
+      background: var(--highlight);
+      color: var(--dark);
+    }
+    &:focus-visible {
+      outline-offset: -3px;
+    }
+  }
+}
+
+html:has(.global-graph-outer.active[aria-modal="true"]) {
+  overflow: hidden;
+}
+
+@media (forced-colors: none) {
+  :root[saved-theme="dark"] .graph {
+    --panel: #000;
+
+    > .global-graph-outer {
+      background: rgb(0 0 0 / 65%);
+    }
+  }
+}
+
+body[data-slug="index"] .graph > .graph-outer {
+  // The overview always draws a 250px square and scales to fit the card.
+  > .graph-container {
+    width: 250px;
+    max-height: 250px;
+
+    > canvas {
+      width: auto !important;
+      height: auto !important;
+      max-width: 100%;
+      max-height: 100%;
+      touch-action: pan-y pinch-zoom !important; // Pixi sets touch-action inline.
+    }
+  }
+  // On touch screens the overview is one target. Swiping it still scrolls Home.
+  @media (pointer: coarse) {
+    > .global-graph-icon {
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      place-items: start end;
+      padding: 0.875rem;
+      touch-action: pan-y pinch-zoom;
+
+      &:is(:hover, :focus-visible) {
+        background: transparent;
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce), screen and ($mobile), screen and #{$landscape-phone} {
+  .graph,
+  .page > #quartz-body .sidebar.right:has(> .graph:only-child) {
+    display: none;
+  }
+}
+
+// The index places its graph below the article on tablets.
+@media screen and (#{map.get($breakpoints, mobile)} < width < #{map.get($breakpoints, desktop)}) and (not (#{$landscape-phone})) and (prefers-reduced-motion: no-preference) {
+  :root:not([reader-mode="on"]) body[data-slug="index"] .page > #quartz-body > .sidebar.right {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin-block-start: 1rem;
+
+    > .graph {
+      position: static;
+      visibility: visible;
+      align-self: center;
+      inline-size: min(100%, var(--graph-preview-size));
+      max-height: none;
+    }
+  }
+}
+
+// Editorial reading styles
+
+.center > .page-header + :is(article, .popover-hint) {
+  margin-block-start: clamp(1.25rem, 2vw, 1.75rem);
+}
+
+// Group the archive title and count above the first row's divider.
+.page-header:has(+ .popover-hint > .page-listing) {
+  border-block-end: 0;
+  padding-block-end: 0;
+
+  + .popover-hint {
+    margin-block-start: 0.75rem;
+  }
+}
+
+.markdown-rendered {
+  font-family: var(--titleFont);
+  font-size: var(--reading-size);
+  font-weight: 425;
+}
+
+.markdown-rendered :is(p, li) {
+  line-height: var(--reading-leading);
+  line-height: round(calc(var(--reading-leading) * 1em), 0.0625rem);
+}
+
+.markdown-rendered :is(p, li):not(:where(#signature, nav *, table *, .callout-title *)) {
+  text-wrap: wrap;
+  hyphens: auto;
+  // Keep everyday words intact while allowing long terms to fit a narrow column.
+  hyphenate-limit-chars: 10 4 4;
+
+  // Paths and identifiers can use the rest of the line without inserting hyphens.
+  code:not(:where(pre *, table *, nav *)) {
+    word-break: break-all;
+  }
+}
+
+.markdown-rendered
+  :is(a, code, kbd, samp, pre, table, nav, .callout-title, h1, h2, h3, h4, h5, h6) {
+  hyphens: manual;
+}
+
+.markdown-rendered > p {
+  margin-block: var(--paragraph-space);
+
+  // Standalone images get their surrounding space from the paragraph.
+  > img:only-child {
+    margin-block: 0;
+    vertical-align: middle;
+  }
+}
+
+// A callout fills its column, or the available space inside a list or another callout.
+.markdown-rendered .callout {
+  box-sizing: border-box;
+  inline-size: 100%;
+  margin-inline: 0;
+}
+
+@media screen and ($mobile) {
+  .markdown-rendered {
+    :is(ol, ul):not(nav *, .contains-task-list) {
+      padding-inline-start: 1.5em;
+    }
+    .callout {
+      padding-inline: clamp(0.625rem, 3vw, 0.875rem);
+    }
+    .callout-content {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .callout-title-inner {
+      min-inline-size: 0;
+
+      p {
+        overflow-wrap: anywhere;
+      }
+    }
+  }
+}
+
+.markdown-rendered > p + p {
+  margin-block-start: 1.375rem;
+}
+
+body[data-slug="index"] .center > article > .markdown-rendered > p:first-child {
+  font-size: 1.25em;
+  line-height: 1.35;
+  margin-block-end: 0.65em;
+  + p {
+    margin-block-start: 0;
+  }
+}
+
+article .markdown-rendered :is(figure img, img[src*="/images/"]):not([src$=".svg" i]) {
+  border-radius: 3px;
+  outline: 1px solid color-mix(in srgb, var(--lightgray) 80%, var(--light));
+  outline-offset: 0;
+}
+
+.markdown-rendered > .image-caption {
+  margin-block-start: 0;
+  text-align: center;
+  font-size: var(--caption-size);
+  color: var(--gray);
+}
+
+.markdown-rendered object[type="image/svg+xml"] {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.markdown-rendered :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--titleFont);
+  font-weight: 450;
+  letter-spacing: -0.025em;
+  line-height: 1.22;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  margin-block: 1.4em 0.45em;
+}
+
+.markdown-rendered :is(h4, h5, h6) {
+  font-family: var(--headerFont);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.markdown-rendered > :is(h1, h2, h3, h4, h5, h6):first-child {
+  margin-block-start: 0;
+}
+
+.markdown-rendered h1 {
+  font-size: var(--heading-1-size);
+}
+
+.markdown-rendered h2 {
+  font-size: var(--heading-2-size);
+  text-wrap: pretty;
+}
+
+.markdown-rendered h3 {
+  font-size: var(--heading-3-size);
+}
+
+.markdown-rendered h4 {
+  font-size: 1.05rem;
+}
+
+.markdown-rendered h5 {
+  font-size: var(--control-text-size);
+}
+
+.markdown-rendered h6 {
+  font-size: 0.975rem;
+}
+
+.markdown-rendered a:is(.internal, .external):not(:has(img)) {
+  color: inherit;
+  background: transparent;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 60%, transparent);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+
+  &:is(:hover, :focus-visible) {
+    color: var(--tertiary);
+    text-decoration-color: currentColor;
+  }
+}
+
+.markdown-rendered a.internal.broken {
+  color: var(--gray);
+  opacity: 1;
+  text-decoration-style: dotted;
+}
+
+.callout-title > .callout-title-inner > p {
+  color: color-mix(in srgb, var(--color) 55%, var(--dark));
+}
+
+.markdown-rendered blockquote:not(.callout) {
+  border-inline-start: 2px solid var(--gray);
+  padding-inline-start: 1.15rem;
+}
+
+::selection {
+  color: var(--selection-ink);
+  background-color: var(--textHighlight);
+}
+
+.skip-to-content {
+  position: fixed;
+  z-index: 100;
+  inset-block-start: max(0.5rem, env(safe-area-inset-top));
+  inset-inline-start: max(0.5rem, env(safe-area-inset-left));
+  padding: 0.625rem 1rem;
+  border-radius: 3px;
+  background: var(--light);
+  color: var(--dark);
+  font: 600 var(--control-text-size)/1.5 var(--bodyFont);
+  &:not(:focus) {
+    clip-path: inset(50%);
+    inline-size: 1px;
+    block-size: 1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 3px;
+}
+
+// Technical content and syntax highlighting
+
+// Keep block code on its own neutral palette, including captions and copy controls.
+:root[saved-theme="dark"]
+  :where(figure[data-rehype-pretty-code-figure], pre:has(> code:not(.mermaid))) {
+  --panel: #101010;
+  --light: #000;
+  --lightgray: #292929;
+  --gray: #a8a8a8;
+  --darkgray: #d0d0d0;
+  --dark: #f2f2f2;
+  --tertiary: #fff;
+  --highlight: #202020;
+  --nav-selection: rgb(255 255 255 / 13%);
+  --selection-ink: var(--dark);
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--codeFont);
+}
+
+pre {
+  background-color: var(--panel);
+  border-radius: 4px;
+}
+
+code {
+  font-size: 0.875em;
+}
+
+// Shiki's light palette assumes a white background. The code surface here is warm ivory.
+:where(:root:not([saved-theme="dark"])) pre code[data-theme] span[style*="--shiki-light"] {
+  color: color-mix(in srgb, var(--shiki-light) 70%, var(--dark));
+}
+
+pre code[data-theme] span[data-token-type="comment"] {
+  color: var(--gray);
+}
+
+.markdown-rendered {
+  --code-copy-size: 2rem;
+  --code-inset: clamp(0.75rem, 1.2vw, 1rem);
+
+  @media (hover: none), (pointer: coarse) {
+    --code-copy-size: 2.5rem;
+
+    @media all and ($mobile) {
+      --code-copy-size: clamp(44px, 2.75rem, 48px);
+    }
+  }
+  :not(pre) > code {
+    font-family: var(--codeFont);
+    font-size: 0.91em;
+    font-size: round(0.91em, 0.0625rem);
+    font-weight: 500;
+    line-height: inherit;
+    padding: 0.075em 0.28em;
+    border-radius: 0.23em;
+    background: var(--highlight);
+    box-decoration-break: clone;
+    overflow-wrap: anywhere;
+
+    @media screen and ($mobile) {
+      // Repeating the horizontal padding on every fragment clips long identifiers.
+      box-decoration-break: slice;
+    }
+  }
+  figure[data-rehype-pretty-code-figure] {
+    // Keep the sticky line numbers and copy button below the mobile navigation.
+    isolation: isolate;
+    min-inline-size: 0;
+    margin: 1.25rem 0;
+
+    --code-header-space: calc(var(--code-copy-size) + 0.5rem);
+
+    > pre {
+      margin: 0;
+      // Anchor the copy control to the figure while long lines scroll inside pre.
+      position: static;
+    }
+    &:not(:has(> [data-rehype-pretty-code-title]))
+      > pre[data-language]:has(> code:not(.mermaid) > [data-line]:nth-child(2))::before {
+      content: attr(data-language);
+      position: sticky;
+      inset-inline-start: 0;
+      display: block;
+      box-sizing: border-box;
+      min-block-size: var(--code-header-space);
+      align-content: center;
+      padding: 0.5rem calc(var(--code-header-space) + 0.5rem) 0.5rem var(--code-inset);
+      border-block-end: 1px solid var(--lightgray);
+      color: var(--gray);
+      background: var(--light);
+      font: 400 var(--caption-size)/1.4 var(--codeFont);
+    }
+    > [data-rehype-pretty-code-title] {
+      width: auto;
+      box-sizing: border-box;
+      min-block-size: var(--code-header-space);
+      align-content: center;
+      margin: 0;
+      padding: 0.5rem calc(var(--code-header-space) + 0.5rem) 0.5rem var(--code-inset);
+      border-radius: 4px 4px 0 0;
+      border-bottom: 0;
+      background: var(--light);
+      color: var(--darkgray);
+      font: 400 var(--caption-size)/1.4 var(--codeFont);
+      overflow-wrap: anywhere;
+
+      + pre {
+        border-radius: 0 0 4px 4px;
+      }
+    }
+  }
+  pre {
+    box-sizing: border-box;
+    max-inline-size: 100%;
+    overscroll-behavior-x: contain;
+
+    &:has(> code:not(.mermaid)):focus-visible {
+      outline: 2px solid var(--gray);
+      outline-offset: 2px;
+    }
+    > .clipboard-button {
+      top: calc(0.25rem + 1px);
+      right: 0.375rem;
+      margin: 0;
+      z-index: 1;
+      width: var(--code-copy-size);
+      height: var(--code-copy-size);
+      display: grid;
+      place-content: center;
+      padding: 0;
+      border: 0;
+      border-radius: 4px;
+      color: var(--gray);
+      background: var(--copy-background, var(--light));
+      opacity: 1;
+
+      > svg {
+        fill: currentColor;
+        filter: none;
+      }
+      &:hover {
+        color: var(--selection-ink);
+        background: var(--nav-selection);
+      }
+      &:focus-visible {
+        outline: 2px solid var(--tertiary);
+        outline-offset: -2px;
+      }
+    }
+    > code:not(.mermaid) {
+      --line-number-width: 2ch;
+      box-sizing: border-box;
+      inline-size: max-content;
+      min-inline-size: 100%;
+      overflow: visible;
+      padding: 0.875rem var(--code-inset);
+      font-family: var(--codeFont);
+      font-size: var(--code-size);
+      font-weight: 400;
+      line-height: var(--code-leading);
+
+      &:has(> [data-line]) {
+        padding-inline: 0;
+      }
+      // Most blocks have line numbers without a digit count from the highlighter.
+      @each $digits, $first-line in (3: 100, 4: 1000) {
+        &[data-line-numbers-max-digits="#{$digits}"],
+        &:has(> [data-line]:nth-child(#{$first-line})) {
+          --line-number-width: #{$digits}ch;
+        }
+      }
+      > [data-line] {
+        padding-inline: 0 var(--code-inset);
+
+        &[data-highlighted-line] {
+          background: var(--nav-selection);
+          border-inline-start-color: var(--tertiary);
+        }
+        &::before {
+          position: sticky;
+          inset-inline-start: 0;
+          z-index: 1;
+          inline-size: auto;
+          min-inline-size: var(--line-number-width);
+          margin-inline-end: 0.5rem;
+          padding-inline: 0.375rem;
+          border-inline-end: 1px solid var(--lightgray);
+          background-color: var(--panel);
+          color: var(--gray);
+          font-family: var(--codeFont);
+          font-size: var(--caption-size);
+          font-weight: 400;
+        }
+      }
+      &:not([data-line-numbers]) > [data-line]:only-child::before {
+        content: none;
+      }
+      [data-token-type="comment"] {
+        font-weight: 400;
+      }
+      :is([data-token-type="keyword"], [data-token-type="important"], strong, b) {
+        font-weight: 700;
+      }
+    }
+  }
+  // Give short commands a separate copy area even when the command scrolls.
+  figure:not(:has(> [data-rehype-pretty-code-title])):has(> pre > code > [data-line]:only-child) {
+    padding-inline-end: calc(var(--code-copy-size) + 0.5rem);
+    border: 1px solid var(--lightgray);
+    border-radius: 4px;
+    background: var(--panel);
+
+    > pre {
+      border: 0;
+
+      > code > [data-line] {
+        padding-inline: var(--code-inset);
+      }
+      > .clipboard-button {
+        --copy-background: var(--panel);
+        top: 50%;
+        transform: translateY(-50%);
+        :where(:root:not([saved-theme="dark"])) & {
+          background-color: var(--panel);
+        }
+      }
+    }
+  }
+  :is(strong, b) > code {
+    font-weight: 700;
+  }
+  // Let the heading set the gap to the content it introduces.
+  :is(h1, h2, h3, h4, h5, h6) {
+    + :is(p, ul, ol, dl, pre, figure, blockquote, .table-container) {
+      margin-block-start: 0;
+    }
+    + :is(h1, h2, h3, h4, h5, h6) {
+      margin-block-start: 0.65em;
+    }
+  }
+}
+
+#signature {
+  color: var(--secondary);
+  font-family: "Mr De Haviland", "Segoe Script", "Snell Roundhand", cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-block: 0.1em 0.35em;
+}
+
+// Archives, tag listings and previews
+
+.page-listing {
+  container: page-list / inline-size;
+
+  > p {
+    margin: 0 0 0.75rem;
+    font-family: var(--bodyFont);
+    font-size: var(--caption-size);
+    line-height: 1.5;
+    color: var(--gray);
+  }
+  .section-ul {
+    --archive-inset: clamp(0.5rem, 1.5cqi, 0.75rem);
+    --archive-gap: clamp(0.5rem, 1.8cqi, 1.125rem);
+    --archive-tags-width: clamp(5rem, 21cqi, 10.25rem);
+    --archive-date-width: 7rem;
+    border-block-start: 1px solid var(--lightgray);
+    // The row inset keeps its title on the same edge as the page heading.
+    margin: 0 calc(-1 * var(--archive-inset));
+    padding: 0;
+
+    &:not(:has(.tags > li)) {
+      --archive-tags-width: 0px;
+    }
+    &:not(:has(.meta time)) {
+      --archive-date-width: 0px;
+    }
+  }
+  .section-li {
+    min-inline-size: 0;
+    margin-block: 0;
+    border-block-end: 1px solid color-mix(in srgb, var(--lightgray) 65%, var(--light));
+  }
+  .section {
+    grid-template-columns: minmax(0, 1fr) var(--archive-tags-width) var(--archive-date-width);
+    align-items: first baseline;
+    gap: 0;
+    padding-block: clamp(0.8rem, 1.6cqi, 1.1rem);
+    padding-inline: var(--archive-inset);
+
+    &:focus-within {
+      background: var(--panel);
+    }
+    @media (hover: hover) {
+      &:hover {
+        background: var(--panel);
+      }
+    }
+  }
+  .desc {
+    grid-column: 1;
+    grid-row: 1;
+    min-inline-size: 0;
+  }
+  .desc h3 {
+    font-family: var(--titleFont);
+    font-size: var(--archive-title-size);
+    line-height: 1.28;
+    letter-spacing: -0.015em;
+    text-wrap: pretty;
+    margin: 0;
+
+    a {
+      display: block;
+      width: fit-content;
+      color: var(--dark);
+      font-weight: 500;
+      line-height: inherit;
+      padding: 0;
+      overflow-wrap: anywhere;
+      text-decoration: none;
+
+      &:is(:hover, :focus-visible) {
+        color: var(--tertiary);
+      }
+    }
+  }
+  .meta {
+    grid-column: 3;
+    grid-row: 1;
+    padding-inline-start: var(--archive-gap);
+    text-align: end;
+    white-space: nowrap;
+    font-family: var(--bodyFont);
+    font-size: var(--caption-size);
+    font-weight: 450;
+    line-height: 1.45;
+    color: var(--gray);
+    opacity: 1;
+    margin: 0;
+    font-variant-numeric: tabular-nums;
+
+    &:empty {
+      display: none;
+    }
+  }
+  .section > .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    grid-column: 2;
+    grid-row: 1;
+    gap: 0.125rem 0.5rem;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: var(--archive-gap);
+    list-style: none;
+    font-family: var(--bodyFont);
+    font-size: var(--caption-size);
+    line-height: 1.45;
+
+    &:empty {
+      display: none;
+    }
+    li {
+      max-width: 100%;
+      line-height: inherit;
+    }
+    .tag-link {
+      display: inline-block;
+      max-inline-size: 100%;
+      box-sizing: border-box;
+      font-weight: 450;
+      line-height: inherit;
+      color: var(--gray);
+      background: transparent;
+      padding: 0.1rem 0;
+      overflow-wrap: anywhere;
+
+      &:is(:hover, :focus-visible) {
+        color: var(--tertiary);
+        text-decoration: underline;
+        text-underline-offset: 0.18em;
+      }
+    }
+  }
+}
+
+@container page-list (max-width: 28rem) {
+  .page-listing .section-ul {
+    --archive-tags-width: min(29cqi, 5.5rem);
+    --archive-date-width: min(21cqi, 4rem);
+    --archive-gap: 0.25rem;
+  }
+  .page-listing .meta {
+    white-space: normal;
+  }
+  .page-listing .section > .tags {
+    column-gap: 0.375rem;
+  }
+}
+
+@media screen and ($mobile) {
+  @container page-list (13rem <= width <= 28rem) {
+    .page-listing .desc h3 {
+      font-size: var(--control-text-size);
+      line-height: 1.35;
+    }
+    .page-listing .section > .tags .tag-link {
+      padding-block: 0.17rem;
+      min-inline-size: 1.5rem;
+    }
+  }
+}
+
+@container page-list (max-width: 28rem) {
+  // Give each title its own line and let date and tags take the next line together.
+  .page-listing:not(.popover *) .section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 0.125rem 0.75rem;
+    padding-block: 0.75rem;
+
+    > .desc {
+      order: -1;
+      flex-basis: 100%;
+    }
+    > .meta,
+    > .tags {
+      padding-inline-start: 0;
+      text-align: start;
+    }
+    > .tags {
+      justify-content: flex-start;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .explorer :is(.nav-file-title, .folder-container),
+  .toc .toc-content a,
+  .page-listing .section {
+    transition:
+      background-color 0.15s ease-out,
+      border-color 0.15s ease-out,
+      color 0.15s ease-out;
+  }
+}
+
+.popover-hint h2:has(+ .page-listing) {
+  margin: 1.75rem 0 0.3rem;
+  font-size: 1.25rem;
+  line-height: 1.25;
+
+  > .tag-link {
+    color: var(--dark);
+    background: transparent;
+    padding: 0;
+  }
+}
+
+.popover .page-listing .section {
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: var(--archive-gap);
+
+  > .meta {
+    grid-column: 1;
+    grid-row: 1;
+    padding-inline-start: 0;
+    text-align: start;
+  }
+  > .desc {
+    grid-column: 2;
+  }
+  > .tags {
+    display: none;
+  }
+}
+
+// Quartz keys previews by the destination path. The outside padding bridges the
+// pointer from the tag link to the card; the inside padding belongs to the card.
+.popover[id*="/tags/"] {
+  padding: 0.5rem 0.75rem;
+
+  > .popover-inner {
+    box-sizing: border-box;
+    width: min(32rem, calc(100vw - 2rem));
+    // Leave room for the tag and pointer bridge even halfway down a short viewport.
+    max-height: min(22rem, calc(50dvh - 2.75rem));
+    padding: 1.125rem 1.25rem 0.625rem;
+    scroll-padding-block: 0.75rem;
+    scrollbar-width: thin;
+    box-shadow: 0 6px 22px rgb(0 0 0 / 14%);
+  }
+  .article-title {
+    margin: 0 0 0.3rem;
+  }
+  .page-listing {
+    .section-ul {
+      --archive-inset: 0.5rem;
+    }
+    .section {
+      column-gap: 1rem;
+      padding-block: 0.625rem;
+
+      &:not(:has(time)) > .desc {
+        grid-column: 1 / -1;
+      }
+    }
+    .section-li:last-child {
+      border-block-end: 0;
+    }
+  }
+}
+
+// Note properties and article tables
+
+.markdown-rendered .table-container,
+.note-properties {
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+
+.note-properties {
+  border: 0;
+  border-block: 1px solid var(--lightgray);
+  border-radius: 0;
+
+  &[open] > .note-properties-header {
+    border-bottom: 0;
+  }
+  .note-properties-header {
+    gap: 0.4rem;
+    padding: 0.45rem 0.25rem;
+    color: var(--dark);
+    font-size: var(--caption-size);
+    font-weight: 550;
+    line-height: 1.4;
+
+    &:is(:hover, :focus-visible) {
+      background: var(--panel);
+    }
+    &:focus-visible {
+      outline-offset: -2px;
+    }
+    &::before {
+      order: 1;
+      margin-inline: auto 0.35rem;
+      border-width: 0 1.5px 1.5px 0;
+    }
+  }
+  .note-properties-count {
+    margin: 0;
+    padding-inline: 0.35rem;
+    border-radius: 1rem;
+    background: var(--panel);
+    color: var(--gray);
+    font-size: var(--caption-size);
+    font-variant-numeric: tabular-nums;
+  }
+  :is(.note-properties-key, .note-properties-value) {
+    padding: 0.125rem 0.25rem 0.45rem;
+    line-height: 1.45;
+  }
+  .note-properties-key {
+    box-sizing: border-box;
+    width: 5rem;
+    font-size: var(--caption-size);
+  }
+  .note-properties-tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.2rem 0.4rem;
+    max-inline-size: 100%;
+
+    > .note-properties-separator {
+      display: none;
+    }
+    .tag-link {
+      max-inline-size: 100%;
+      box-sizing: border-box;
+      padding: 0.05rem 0.375rem;
+      background: var(--panel);
+      color: var(--secondary);
+      font-size: var(--caption-size);
+      font-weight: 500;
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+
+      &:is(:hover, :focus-visible) {
+        color: var(--tertiary);
+        background: var(--highlight);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.markdown-rendered .table-container {
+  margin-block: 1.25rem;
+  font-family: var(--bodyFont);
+
+  &[tabindex="0"]:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+  // The hint stays at the viewport edge even when the native scrollbar auto-hides.
+  @media screen {
+    &[data-scrollable]::before {
+      content: "↔  Scroll horizontally" / "";
+      display: block;
+      position: sticky;
+      inset-inline-start: 0;
+      inline-size: 100%;
+      padding-block-end: 0.375rem;
+      text-align: end;
+      font: 500 var(--caption-size)/1.4 var(--bodyFont);
+      color: var(--gray);
+      pointer-events: none;
+    }
+  }
+  @media screen and (pointer: fine) and (forced-colors: none) {
+    &[data-scrollable]::-webkit-scrollbar-track {
+      background-color: var(--panel);
+      border-radius: 1rem;
+    }
+    @supports not selector(::-webkit-scrollbar-track) {
+      &[data-scrollable] {
+        scrollbar-color: var(--scroll-thumb) var(--panel);
+      }
+    }
+  }
+  // Mask the table so the scrollbar, focus outline and pinned row labels stay legible.
+  @media screen and (forced-colors: none) {
+    &[data-scroll-right] > table:not(:has(:focus-visible)) {
+      $edge: calc(100% - var(--table-hidden-right));
+      $fade: min(1.75rem, var(--table-hidden-right));
+      mask-image: linear-gradient(to right, black calc($edge - $fade), transparent $edge);
+    }
+  }
+  > table {
+    inline-size: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  > table:not(.certs-table-quartz) {
+    font-size: var(--caption-size);
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+
+    // Let comparison columns keep short values on one line as the reader pans.
+    &:has(> :is(thead, tbody) > tr > :nth-child(3)) {
+      inline-size: max-content;
+      min-inline-size: 100%;
+      :is(th, td) {
+        max-inline-size: 36ch;
+      }
+    }
+    :is(th, td) {
+      box-sizing: border-box;
+      min-inline-size: 5.25rem;
+      padding: 0.625rem 0.75rem;
+      border: 1px solid var(--lightgray);
+      vertical-align: top;
+      line-height: 1.4;
+    }
+    th {
+      color: var(--dark);
+      font-weight: 600;
+    }
+    thead th {
+      border-block-end-color: color-mix(in srgb, var(--lightgray) 60%, var(--gray));
+    }
+    [align="right"] {
+      text-align: right;
+    }
+    [align="center"] {
+      text-align: center;
+    }
+    :not(pre) > code {
+      overflow-wrap: break-word;
+    }
+  }
+}
+
+.markdown-rendered thead {
+  font-family: inherit;
+}
+
+// The homepage supplies table styles inline in its Markdown.
+.markdown-rendered .certs-table-quartz {
+  isolation: isolate;
+  min-inline-size: 100%;
+  border-block-start: 1px solid var(--lightgray);
+  font-family: var(--bodyFont);
+  font-size: var(--caption-size);
+
+  :is(th, td) {
+    min-width: 0;
+    padding: 0.7rem 0.6rem;
+    vertical-align: top;
+    text-align: left;
+    line-height: 1.65;
+    border: 0;
+    border-block-end: 1px solid var(--lightgray);
+  }
+  @media screen {
+    td {
+      white-space: nowrap;
+    }
+  }
+  th {
+    position: sticky;
+    inset-inline-start: 0;
+    z-index: 1;
+    width: 7rem;
+    white-space: nowrap;
+    font-weight: 600;
+    color: var(--dark);
+    background: var(--light);
+    padding-inline-start: 0;
+  }
+  // Reverse tabbing can place a focused link behind a pinned label.
+  &:has(td a:focus-visible) th {
+    position: static;
+  }
+  a {
+    font-weight: 500;
+    white-space: nowrap;
+  }
+}
+
+// Footer, mobile navigation and reader mode
+
+.center > .page-footer:empty,
+.center > hr:has(+ .page-footer:empty) {
+  display: none;
+}
+
+.page > #quartz-body > footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.35rem 1rem;
+  margin-block: clamp(1rem, 2vw, 1.75rem) 0;
+  padding-block: 0.875rem clamp(1.25rem, 2.5vw, 2rem);
+  border-block-start: 1px solid var(--lightgray);
+  opacity: 1;
+  font-size: var(--caption-size);
+
+  > p,
+  > ul,
+  li {
+    margin: 0;
+    line-height: 1.5;
+    color: var(--gray);
+  }
+  > ul {
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+  }
+  a {
+    font-weight: 500;
+
+    &:is(:hover, :focus-visible) {
+      color: var(--tertiary);
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and ($mobile), screen and #{$landscape-phone} {
+  .sidebar.right > .backlinks > ul.overflow a {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    min-block-size: 2.75rem;
+  }
+  .page > #quartz-body > footer {
+    align-self: end;
+    align-items: center;
+    gap: 0 0.75rem;
+    padding-block: 0.375rem max(0.625rem, env(safe-area-inset-bottom));
+
+    a {
+      display: inline-block;
+      line-height: 1.5;
+      padding-block: max(0px, calc((44px - 1.5em) / 2));
+    }
+  }
+}
+
+@media all and ($mobile) {
+  // Let the footer use spare screen height on short pages and follow long articles in flow.
+  .page[data-frame="default"] > #quartz-body {
+    min-block-size: 100dvh;
+    grid-template-rows: auto auto auto auto 1fr;
+    grid-template-columns: minmax(0, var(--reading-width));
+    justify-content: center;
+  }
+  .page[data-frame="minimal"] > #quartz-body {
+    min-block-size: 100dvh;
+    grid-template-rows: auto 1fr;
+  }
+  :root {
+    --page-gutter: clamp(1rem, 4.5vw, 1.5rem);
+    --toolbar-control-size: clamp(44px, 2.75rem, 48px);
+    scroll-padding-block-start: calc(var(--mobile-toolbar-height, 4rem) + 0.5rem);
+  }
+  :root.mobile-no-scroll {
+    overflow-y: hidden;
+  }
+  .page > #quartz-body .sidebar.left {
+    top: 0;
+    flex-wrap: wrap;
+    margin: 0 0 0.4rem;
+    padding: 0.65rem 0 0.45rem;
+    gap: 0.3rem;
+    box-shadow: $toolbar-gutter-fill;
+
+    > .flex-component {
+      max-inline-size: 100%;
+      flex-wrap: wrap !important; // Quartz sets the toolbar's wrapping inline.
+    }
+  }
+  .explorer {
+    --tree-toggle-size: var(--toolbar-control-size);
+    --tree-label-gap: 0.3rem;
+    --tree-row-padding: calc((var(--tree-toggle-size) - var(--tree-line-height)) / 2);
+
+    .folder-icon:focus-visible {
+      outline-offset: -2px;
+    }
+    &:not(.collapsed):has(> .mobile-explorer:not(.hide-until-loaded)) {
+      overflow: visible;
+
+      .mobile-explorer {
+        position: relative;
+        border-radius: 4px;
+        background: var(--panel);
+
+        &::after {
+          content: attr(aria-label);
+          position: absolute;
+          inset-inline-start: calc(100% + 0.5rem);
+          color: var(--dark);
+          font: 600 1rem/1.25 var(--headerFont);
+        }
+        svg line {
+          transform-origin: 12px 12px;
+
+          &:first-child {
+            transform: rotate(45deg);
+          }
+          &:nth-child(2) {
+            transform: rotate(-45deg) translateY(6px);
+          }
+          &:last-child {
+            display: none;
+          }
+        }
+      }
+    }
+    .mobile-explorer:not(.hide-until-loaded) ~ .explorer-content {
+      display: flex;
+    }
+    .explorer-content {
+      inset-inline: 0;
+      width: auto;
+      max-width: none;
+      flex-direction: column;
+      margin-block-start: 0;
+      padding-block-start: calc(var(--toolbar-control-size) + 1.1rem);
+      padding-inline: max(1rem, env(safe-area-inset-left)) max(1rem, env(safe-area-inset-right));
+      padding-block-end: max(1rem, env(safe-area-inset-bottom));
+
+      > .explorer-ul {
+        box-sizing: border-box;
+        width: 100%;
+        min-block-size: 0;
+        max-inline-size: var(--reading-width);
+        margin-inline: auto;
+        padding-block-start: 0.375rem;
+        border-block-start: 1px solid var(--lightgray);
+        overflow: hidden auto;
+      }
+    }
+  }
+  .page > #quartz-body .page-header {
+    margin-block-start: 0.5rem;
+  }
+  .sidebar :is(.search-button, .darkmode, .readermode, .mobile-explorer) {
+    height: var(--toolbar-control-size);
+  }
+  .sidebar :is(.darkmode, .readermode, .mobile-explorer) {
+    width: var(--toolbar-control-size);
+    justify-content: center;
+  }
+  .sidebar :is(.darkmode, .readermode) svg {
+    inset-inline-start: calc(50% - 10px);
+  }
+  .sidebar :is(button.darkmode, button.readermode) {
+    display: block;
+  }
+  .sidebar .explorer {
+    flex-basis: var(--toolbar-control-size);
+  }
+  .page-title {
+    font-size: clamp(1.5rem, 1.2rem + 1.5vw, 1.75rem);
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      min-block-size: var(--toolbar-control-size);
+    }
+  }
+}
+
+@media (max-width: 32rem) {
+  .explorer {
+    --tree-label-gap: 0.15rem;
+  }
+  .page > #quartz-body .sidebar.left {
+    gap: 0.15rem;
+  }
+  .sidebar.left > .flex-component {
+    column-gap: 0.125rem !important; // The Quartz layout sets this gap inline.
+  }
+  .sidebar .search-button {
+    justify-content: center;
+    width: var(--toolbar-control-size);
+    padding: 0;
+
+    p {
+      display: none;
+    }
+  }
+  .markdown-rendered .certs-table-quartz :is(th, td) {
+    padding: 0.55rem 0.35rem;
+  }
+  .markdown-rendered .certs-table-quartz th {
+    width: 1%;
+    padding-inline-start: 0;
+  }
+}
+
+@media (max-width: 22rem) {
+  .page[data-frame="default"] > #quartz-body > .sidebar.left {
+    // Keep a row of touch controls while preserving the article's larger gutters.
+    margin-inline: max(-0.375rem, env(safe-area-inset-left) - var(--page-gutter))
+      max(-0.375rem, env(safe-area-inset-right) - var(--page-gutter));
+  }
+  .page-title {
+    font-size: 1.45rem;
+  }
+}
+
+// Reader mode uses a single measure with a visible way back to the three columns.
+@media screen {
+  :root[reader-mode="on"]:has(button.readermode) {
+    scroll-padding-block-start: calc(var(--mobile-toolbar-height, 4.25rem) + 0.5rem);
+  }
+  :root[reader-mode="on"] .page[data-frame="default"]:has(button.readermode) > #quartz-body {
+    grid-template-columns: minmax(0, var(--reading-width));
+    grid-template-areas: "grid-sidebar-left" "grid-center" "grid-footer";
+    grid-template-rows: auto 1fr auto;
+    gap: 0;
+    justify-content: center;
+    min-height: 100dvh;
+
+    > .sidebar.right {
+      display: none;
+    }
+    > .sidebar.left {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      height: auto;
+      max-height: none;
+      min-width: 0;
+      width: auto;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: clamp(0.4rem, 1.25vh, 0.75rem) 0;
+      border-block-end: 1px solid var(--lightgray);
+      background-color: var(--light);
+      opacity: 1;
+      box-shadow: $toolbar-gutter-fill;
+
+      > .explorer,
+      > .mobile-only {
+        display: none;
+      }
+      > .flex-component {
+        width: auto;
+      }
+      .readermode {
+        background-color: var(--nav-selection);
+        border-radius: 3px;
+      }
+    }
+    > .center {
+      grid-area: grid-center;
+
+      .page-header {
+        margin-block-start: clamp(1.25rem, 4vh, 2.5rem);
+      }
+    }
+  }
+  :root[reader-mode="on"] .page:not(:has(button.readermode)) .sidebar {
+    opacity: 1;
+  }
+}

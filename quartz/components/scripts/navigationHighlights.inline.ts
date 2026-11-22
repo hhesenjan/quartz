@@ -1,3 +1,5 @@
+import { mobileLayoutQuery } from "../mediaQueries"
+
 function revealInList(list: HTMLElement, row: HTMLElement, minimumVisible = row.offsetHeight) {
   if (!list.clientHeight || list.scrollHeight <= list.clientHeight) return
   const bounds = list.getBoundingClientRect()
@@ -9,6 +11,9 @@ function revealInList(list: HTMLElement, row: HTMLElement, minimumVisible = row.
 }
 
 function watchReadingPosition(list: HTMLElement, signal: AbortSignal) {
+  // Each plugin numbers its overflow lists separately. Restore the TOC's unique target ID.
+  const tocId = list.closest(".toc")?.querySelector(".toc-header")?.getAttribute("aria-controls")
+  if (tocId && list.matches(".toc-content")) list.id = tocId
   const sections = [...list.querySelectorAll<HTMLAnchorElement>("a[data-for]")].flatMap((link) => {
     const heading = document.getElementById(link.dataset.for ?? "")
     return heading ? [{ link, heading }] : []
@@ -91,19 +96,24 @@ function watchExplorerDrawer(
     ...sidebar.parentElement.querySelectorAll<HTMLElement>(":scope > :not(.sidebar.left)"),
   ]
   const suspended = new Set<HTMLElement>()
-  const drawerOpen = () => mobile.matches && explorer.getAttribute("aria-expanded") === "true"
+  const isExpanded = () =>
+    !explorer.classList.contains("collapsed") &&
+    (!mobile.matches || !toggle.classList.contains("hide-until-loaded"))
   function releaseBackground() {
     for (const element of suspended) element.inert = false
     suspended.clear()
   }
   function syncDrawer() {
-    const expanded = !explorer.classList.contains("collapsed")
+    const expanded = isExpanded()
+    // The plugin also writes this state on its generic wrapper. Only the disclosure owns it.
+    explorer.removeAttribute("aria-expanded")
     for (const button of explorer.querySelectorAll(".explorer-toggle")) {
       button.setAttribute("aria-expanded", String(expanded))
+      if (content?.id) button.setAttribute("aria-controls", content.id)
     }
     content!.inert = !expanded
-    if (mobile.matches) root.classList.toggle("mobile-no-scroll", drawerOpen())
-    if (drawerOpen()) {
+    if (mobile.matches) root.classList.toggle("mobile-no-scroll", expanded)
+    if (mobile.matches && expanded) {
       for (const element of background) {
         if (element.inert) continue
         element.inert = true
@@ -116,7 +126,7 @@ function watchExplorerDrawer(
   document.addEventListener(
     "keydown",
     (event) => {
-      if (!drawerOpen()) return
+      if (!mobile.matches || !isExpanded()) return
       const searchShortcut = (event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k"
       if (event.key === "Escape" || searchShortcut) {
         toggle.click()
@@ -140,7 +150,7 @@ function watchExplorerDrawer(
     { capture: true, signal },
   )
   const observer = new MutationObserver(syncDrawer)
-  observer.observe(explorer, { attributeFilter: ["aria-expanded"] })
+  observer.observe(explorer, { attributeFilter: ["class", "aria-expanded"] })
   content.removeAttribute("aria-expanded")
   syncDrawer()
   signal.addEventListener("abort", () => {
@@ -182,7 +192,6 @@ function watchExplorer(list: HTMLElement, signal: AbortSignal) {
     "change",
     () => {
       explorer.classList.toggle("collapsed", mobile.matches)
-      explorer.setAttribute("aria-expanded", String(!mobile.matches))
       document.documentElement.classList.remove("mobile-no-scroll")
     },
     { signal },
@@ -229,12 +238,12 @@ function watchExplorer(list: HTMLElement, signal: AbortSignal) {
       current &&
       (treeChanged || drawerChanged) &&
       mobile.matches &&
-      explorer?.getAttribute("aria-expanded") === "true"
+      !explorer.classList.contains("collapsed")
     )
       revealInList(list, current)
   })
   observer.observe(list, { childList: true, subtree: true, attributeFilter: ["class"] })
-  observer.observe(explorer, { attributeFilter: ["aria-expanded"] })
+  observer.observe(explorer, { attributeFilter: ["class"] })
   syncFolderButtons(list)
   update()
   signal.addEventListener("abort", () => {
@@ -243,10 +252,75 @@ function watchExplorer(list: HTMLElement, signal: AbortSignal) {
   })
 }
 
-function prepareMobileSearch(container: HTMLElement, signal: AbortSignal) {
+function watchSearchChoices(
+  container: HTMLElement,
+  input: HTMLInputElement,
+  id: string,
+  signal: AbortSignal,
+) {
+  input.setAttribute("role", "combobox")
+  input.setAttribute("aria-autocomplete", "list")
+
+  function updateOptions(list: HTMLElement | null, suffix: string, activeClass: string) {
+    if (!list) return
+    list.id ||= id + suffix
+    let selection: string | undefined
+    for (const [index, item] of Array.from(list.children).entries()) {
+      // Search uses the result link's original slug ID for previewing and opening the page.
+      item.id ||= list.id + "-" + index
+      item.setAttribute("role", "option")
+      const selected = item.classList.contains(activeClass)
+      item.setAttribute("aria-selected", String(selected))
+      if (item.classList.contains("no-match")) item.setAttribute("aria-disabled", "true")
+      if (selected) selection = item.id
+    }
+    return selection
+  }
+
+  function sync() {
+    // The plugin can display tag suggestions and page results simultaneously.
+    const results = container.querySelector<HTMLElement>(".results-container")
+    const tags = container.querySelector<HTMLElement>(".tag-suggestions")
+    const resultId = updateOptions(results, "-results", "focus")
+    const tagId = updateOptions(tags, "-tags", "active")
+    const tagging = tags?.style.display === "block"
+    const list = tagging ? tags : results
+    const selection = tagging ? tagId : resultId
+    const open = container.classList.contains("active") && !!list?.childElementCount
+    input.setAttribute("aria-expanded", String(open))
+    if (list) input.setAttribute("aria-controls", list.id)
+    else input.removeAttribute("aria-controls")
+    if (open && selection) input.setAttribute("aria-activedescendant", selection)
+    else input.removeAttribute("aria-activedescendant")
+  }
+
+  const observer = new MutationObserver((changes) => {
+    // Full article previews are also inserted under the overlay. Only choices affect the input.
+    if (
+      changes.some(
+        ({ target }) =>
+          target instanceof Element &&
+          (target === container ||
+            target.matches(".search-space, .search-layout") ||
+            target.closest(".results-container, .tag-suggestions")),
+      )
+    )
+      sync()
+  })
+  observer.observe(container, {
+    childList: true,
+    subtree: true,
+    attributeFilter: ["class", "style"],
+  })
+  sync()
+  signal.addEventListener("abort", () => observer.disconnect())
+}
+
+function prepareSearch(container: HTMLElement, id: string, signal: AbortSignal) {
   const space = container.querySelector<HTMLElement>(".search-space")
   const input = space?.querySelector<HTMLInputElement>(".search-bar")
   if (!input) return
+  watchSearchChoices(container, input, id, signal)
   const close = document.createElement("button")
   close.type = "button"
   close.className = "search-close"
@@ -255,9 +329,7 @@ function prepareMobileSearch(container: HTMLElement, signal: AbortSignal) {
   // Use the plugin's backdrop handler to clear the query and return focus to its trigger.
   close.addEventListener("click", () => container.click(), { signal })
 
-  const mobile = window.matchMedia(
-    "screen and (max-width: 800px), screen and (pointer: coarse) and (orientation: landscape) and (800px < width <= 1000px) and (height <= 500px)",
-  )
+  const mobile = window.matchMedia(mobileLayoutQuery)
   const viewport = window.visualViewport
   const sizeToKeyboard = () => {
     if (mobile.matches && viewport?.scale === 1) {
@@ -365,10 +437,23 @@ function refreshHighlights() {
   navigationHighlights?.abort()
   navigationHighlights = new AbortController()
   const { signal } = navigationHighlights
+  // Native hash navigation fires popstate in the SPA. Move focus without rerendering the page.
+  document.querySelector<HTMLAnchorElement>(".skip-to-content")?.addEventListener(
+    "click",
+    (event) => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return
+      const main = document.getElementById("main-content")
+      if (main) {
+        event.preventDefault()
+        main.focus()
+      }
+    },
+    { signal },
+  )
   alignHeaderDividers(signal)
-  for (const container of document.querySelectorAll<HTMLElement>(".search-container")) {
-    prepareMobileSearch(container, signal)
-  }
+  document.querySelectorAll<HTMLElement>(".search-container").forEach((container, index) => {
+    prepareSearch(container, `quartz-search-${index}`, signal)
+  })
   for (const list of document.querySelectorAll<HTMLElement>(
     ".sidebar .toc-content, .article-contents nav",
   )) {

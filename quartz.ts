@@ -4,6 +4,7 @@ import type { GraphOptions } from "@quartz-community/graph/components"
 import type { QuartzEmitterPluginInstance } from "./quartz/plugins/types"
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import type { ExplorerOptions } from "./.quartz/plugins"
+import { hiddenGraphQuery } from "./quartz/components/mediaQueries"
 import { componentRegistry } from "./quartz/components/registry"
 import type { QuartzComponent, QuartzComponentConstructor } from "./quartz/components/types"
 
@@ -33,35 +34,56 @@ componentRegistry.setOptionOverrides("explorer", {
   },
 } satisfies Partial<ExplorerOptions>)
 
-// The layout uses the package name; the enabled plugin supplies the "Graph" constructor.
-componentRegistry.register(
-  "@quartz-community/graph",
-  (options: GraphOptions = {}) => {
-    const plugin = componentRegistry.get("Graph")
-    if (!plugin) return () => null
-
-    const Graph = plugin.component as QuartzComponentConstructor<GraphOptions>
-    const article = Graph(options)
-    const home = Graph({
-      ...options,
-      localGraph: {
-        ...options.localGraph,
-        depth: -1,
-        drag: false,
-        zoom: false,
-        enableRadial: true,
-        repelForce: 0.025,
-        linkDistance: 14,
-      },
-    })
-    const render: QuartzComponent = (props) =>
-      props.fileData.slug === "index" ? home(props) : article(props)
-    return Object.assign(render, article)
-  },
-  "site",
-)
-
+let upstreamGraph: QuartzComponentConstructor<GraphOptions> | undefined
+const siteGraph: QuartzComponentConstructor<GraphOptions> = (options: GraphOptions = {}) => {
+  upstreamGraph ??= componentRegistry.get("Graph")?.component as
+    QuartzComponentConstructor<GraphOptions> | undefined
+  if (!upstreamGraph) return () => null
+  const Graph = upstreamGraph
+  const article = Graph(options)
+  const home = Graph({
+    ...options,
+    localGraph: {
+      ...options.localGraph,
+      depth: -1,
+      drag: false,
+      zoom: false,
+      enableRadial: true,
+      repelForce: 0.025,
+      linkDistance: 14,
+    },
+  })
+  const render: QuartzComponent = (props) =>
+    props.fileData.slug === "index" ? home(props) : article(props)
+  const component = Object.assign(render, article)
+  // The graph plugin loads D3/Pixi and starts a simulation as soon as its
+  // browser resource runs. Start it only when the graph can be shown.
+  const graphScript = [article.afterDOMLoaded ?? ""].flat().join("\n")
+  component.afterDOMLoaded = `
+      {
+        const hidden = matchMedia(${JSON.stringify(hiddenGraphQuery)})
+        function startGraph() {
+          if (hidden.matches) return
+          hidden.removeEventListener("change", startGraph);
+          ${graphScript}
+        }
+        if (hidden.matches) hidden.addEventListener("change", startGraph)
+        else startGraph()
+      }
+    `
+  return component
+}
+// loadQuartzConfig builds its page dispatcher with the layout as it loads.
+componentRegistry.register("@quartz-community/graph", siteGraph, "site")
 const config = await loadQuartzConfig()
+// V5 also gathers resources from every registered alias, including the original
+// plugin constructor. Share the site constructor so its script is emitted once.
+for (const [name, entry] of componentRegistry.getAll()) {
+  if (entry.component === upstreamGraph) {
+    componentRegistry.register(name, siteGraph, entry.source, entry.manifest)
+  }
+}
+
 // Keep the standard content index, RSS, and sitemap, and expose creation dates
 // to browser components such as Explorer. Wrap both full and preview builds.
 const contentIndex = config.plugins.emitters.find((plugin) => plugin.name === "ContentIndex")

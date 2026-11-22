@@ -24,12 +24,15 @@ export const DefaultFrame: PageFrame = {
   }: PageFrameProps) {
     return (
       <>
-        <div class="left sidebar">
+        <a href="#main-content" class="skip-to-content" data-router-ignore>
+          Skip to main content
+        </a>
+        <aside class="left sidebar" aria-label="Site navigation">
           {left.map((BodyComponent) => (
             <BodyComponent {...componentData} />
           ))}
-        </div>
-        <div class="center">
+        </aside>
+        <main class="center" id="main-content" tabIndex={-1}>
           <div class="page-header">
             <Header {...componentData}>
               {header.map((HeaderComponent) => (
@@ -50,12 +53,12 @@ export const DefaultFrame: PageFrame = {
               <BodyComponent {...componentData} />
             ))}
           </div>
-        </div>
-        <div class="right sidebar">
+        </main>
+        <aside class="right sidebar" aria-label="Page navigation">
           {right.map((BodyComponent) => (
             <BodyComponent {...componentData} />
           ))}
-        </div>
+        </aside>
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
         ))}

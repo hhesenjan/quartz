@@ -1,0 +1,1817 @@
+{
+  "review": "Quartz V5 editorial design, 2026-11-22",
+  "artifact": {
+    "stylesheet": "index-4d869024.css",
+    "stylesheetSHA256": "4d8690247beb61087655ea04e75adfe46e61f44329a711cda9577389da1552fa",
+    "postscript": "postscript-5d9af1a5.js",
+    "baselineStylesheet": "index-660bede9.css",
+    "migrationParitySHA256": "a7078c7a99c03c590538d02491760afcc75089460881272832ee3a3fc4fe8ee2"
+  },
+  "routes": {
+    "htmlFiles": 252,
+    "missing": [],
+    "added": [],
+    "headDifferences": [],
+    "contentIndexUnchanged": true,
+    "feeds": {
+      "index.xml": {
+        "sameStructure": true,
+        "differingTags": [
+          "pubDate"
+        ],
+        "elements": 66
+      },
+      "sitemap.xml": {
+        "sameStructure": true,
+        "differingTags": [
+          "lastmod"
+        ],
+        "elements": 481
+      }
+    }
+  },
+  "layout": {
+    "browser": "Chromium headless, with mobile touch emulated on designated phone runs",
+    "nonRedirectRoutes": 161,
+    "widths": [
+      320,
+      1440
+    ],
+    "actualThemeCounts": {
+      "dark": 153,
+      "light": 169
+    },
+    "pageChecks": 322,
+    "httpStatuses": {
+      "200": 322
+    },
+    "documentOverflows": 0,
+    "geometricViolations": 0,
+    "boundarySamples": 60,
+    "boundaryWidths": [
+      320,
+      390,
+      800,
+      801,
+      1199,
+      1200,
+      1440
+    ],
+    "rootTextPercentages": [
+      100,
+      200
+    ],
+    "boundaryDocumentOverflows": 0,
+    "boundaryBoxWarnings": 9,
+    "inspectedParagraphRanges": [
+      {
+        "width": 801,
+        "doc": 789,
+        "scale": "100%",
+        "reader": "off",
+        "paras": [
+          {
+            "overhang": 3,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 2.89
+          },
+          {
+            "overhang": 3,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 2.89
+          },
+          {
+            "overhang": 4,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 3.95
+          }
+        ]
+      },
+      {
+        "width": 801,
+        "doc": 777,
+        "scale": "200%",
+        "reader": "off",
+        "paras": [
+          {
+            "overhang": 6,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 5.78
+          },
+          {
+            "overhang": 7,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 6.78
+          }
+        ]
+      },
+      {
+        "width": 1200,
+        "doc": 1176,
+        "scale": "200%",
+        "reader": "off",
+        "paras": [
+          {
+            "overhang": 4,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 3.83
+          },
+          {
+            "overhang": 4,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 3.83
+          },
+          {
+            "overhang": 4,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 3.61
+          },
+          {
+            "overhang": 5,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 4.83
+          },
+          {
+            "overhang": 8,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 7.83
+          },
+          {
+            "overhang": 5,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 4.61
+          },
+          {
+            "overhang": 4,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 3.61
+          },
+          {
+            "overhang": 4,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 3.83
+          },
+          {
+            "overhang": 7,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 6.83
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "doc": 1416,
+        "scale": "200%",
+        "reader": "on",
+        "paras": [
+          {
+            "overhang": 9,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 8.2
+          },
+          {
+            "overhang": 5,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 4.98
+          },
+          {
+            "overhang": 4,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 3.2
+          },
+          {
+            "overhang": 4,
+            "maxTextOverhang": 0,
+            "maxCodeBox": 3.2
+          }
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "axeVersion": "4.14.1",
+    "matrix": [
+      {
+        "variant": "390-light",
+        "state": "home",
+        "wcagViolations": [],
+        "bestPractice": [
+          "heading-order"
+        ],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "390-light",
+        "state": "graph",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [],
+        "canvas": true
+      },
+      {
+        "variant": "390-light",
+        "state": "connections",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [],
+        "choices": 160
+      },
+      {
+        "variant": "390-light",
+        "state": "article",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "390-light",
+        "state": "search",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "390-light",
+        "state": "archive",
+        "wcagViolations": [],
+        "bestPractice": [
+          "heading-order"
+        ],
+        "incomplete": []
+      },
+      {
+        "variant": "390-light",
+        "state": "explorer",
+        "wcagViolations": [],
+        "bestPractice": [
+          "landmark-one-main",
+          "page-has-heading-one"
+        ],
+        "incomplete": []
+      },
+      {
+        "variant": "390-dark",
+        "state": "home",
+        "wcagViolations": [],
+        "bestPractice": [
+          "heading-order"
+        ],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "390-dark",
+        "state": "graph",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [],
+        "canvas": true
+      },
+      {
+        "variant": "390-dark",
+        "state": "connections",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [],
+        "choices": 160
+      },
+      {
+        "variant": "390-dark",
+        "state": "article",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "390-dark",
+        "state": "search",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "390-dark",
+        "state": "archive",
+        "wcagViolations": [],
+        "bestPractice": [
+          "heading-order"
+        ],
+        "incomplete": []
+      },
+      {
+        "variant": "390-dark",
+        "state": "explorer",
+        "wcagViolations": [],
+        "bestPractice": [
+          "landmark-one-main",
+          "page-has-heading-one"
+        ],
+        "incomplete": []
+      },
+      {
+        "variant": "1440-light",
+        "state": "home",
+        "wcagViolations": [],
+        "bestPractice": [
+          "heading-order"
+        ],
+        "incomplete": []
+      },
+      {
+        "variant": "1440-light",
+        "state": "graph",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [],
+        "canvas": true
+      },
+      {
+        "variant": "1440-light",
+        "state": "connections",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [],
+        "choices": 160
+      },
+      {
+        "variant": "1440-light",
+        "state": "article",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "1440-light",
+        "state": "search",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "1440-light",
+        "state": "archive",
+        "wcagViolations": [],
+        "bestPractice": [
+          "heading-order"
+        ],
+        "incomplete": []
+      },
+      {
+        "variant": "1440-dark",
+        "state": "home",
+        "wcagViolations": [],
+        "bestPractice": [
+          "heading-order"
+        ],
+        "incomplete": []
+      },
+      {
+        "variant": "1440-dark",
+        "state": "graph",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [],
+        "canvas": true
+      },
+      {
+        "variant": "1440-dark",
+        "state": "connections",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [],
+        "choices": 160
+      },
+      {
+        "variant": "1440-dark",
+        "state": "article",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "1440-dark",
+        "state": "search",
+        "wcagViolations": [],
+        "bestPractice": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      },
+      {
+        "variant": "1440-dark",
+        "state": "archive",
+        "wcagViolations": [],
+        "bestPractice": [
+          "heading-order"
+        ],
+        "incomplete": []
+      }
+    ],
+    "additionalSearchCases": [
+      {
+        "w": 390,
+        "query": "#az",
+        "violations": [],
+        "choices": "quartz-search-0-tags",
+        "resultCount": 1,
+        "tagCount": 1
+      },
+      {
+        "w": 390,
+        "query": "doesnotmatchxyz",
+        "violations": [],
+        "choices": "quartz-search-0-results",
+        "resultCount": 1,
+        "tagCount": 1
+      },
+      {
+        "w": 1440,
+        "query": "#az",
+        "violations": [],
+        "choices": "quartz-search-0-tags",
+        "resultCount": 1,
+        "tagCount": 1
+      },
+      {
+        "w": 1440,
+        "query": "doesnotmatchxyz",
+        "violations": [],
+        "choices": "quartz-search-0-results",
+        "resultCount": 1,
+        "tagCount": 1
+      }
+    ],
+    "keyboard": [
+      {
+        "width": 390,
+        "title": "Setting Up Azure Machine Configuration",
+        "skipFocusedAndReachedMain": true,
+        "skipPreservedURLAndHistory": true,
+        "duplicateNavigationEvents": 0,
+        "skipVisibility": {
+          "bounds": {
+            "x": 8,
+            "y": 8,
+            "width": 182,
+            "height": 44,
+            "top": 8,
+            "right": 190,
+            "bottom": 52,
+            "left": 8
+          },
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        "explorerReturned": "false",
+        "controls": true,
+        "first": {
+          "id": "tags/azure",
+          "text": "azure",
+          "selected": "true",
+          "role": "option",
+          "expanded": "true",
+          "dialog": "dialog",
+          "roleOfInput": "combobox",
+          "controls": "listbox"
+        },
+        "second": {
+          "id": "blog/0006-the-microsoft-azure-documentation",
+          "text": "The Microsoft Azure Documentation...180 days Microsoft ",
+          "selected": "true",
+          "role": "option",
+          "expanded": "true",
+          "dialog": "dialog",
+          "roleOfInput": "combobox",
+          "controls": "listbox"
+        },
+        "target": "/blog/0006-the-microsoft-azure-documentation",
+        "tag": {
+          "id": "quartz-search-0-tags-0",
+          "text": "#azure",
+          "selected": "true",
+          "role": "option",
+          "expanded": "true",
+          "dialog": "dialog",
+          "roleOfInput": "combobox",
+          "controls": "listbox"
+        },
+        "empty": {
+          "id": null,
+          "expanded": "true",
+          "dialog": "dialog",
+          "roleOfInput": "combobox",
+          "controls": "listbox"
+        },
+        "escapeFocus": "search-button"
+      },
+      {
+        "width": 1440,
+        "title": "Setting Up Azure Machine Configuration",
+        "skipFocusedAndReachedMain": true,
+        "skipPreservedURLAndHistory": true,
+        "duplicateNavigationEvents": 0,
+        "skipVisibility": {
+          "bounds": {
+            "x": 8,
+            "y": 8,
+            "width": 182,
+            "height": 44,
+            "top": 8,
+            "right": 190,
+            "bottom": 52,
+            "left": 8
+          },
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        "explorerReturned": "true",
+        "controls": true,
+        "first": {
+          "id": "tags/azure",
+          "text": "azure",
+          "selected": "true",
+          "role": "option",
+          "expanded": "true",
+          "dialog": null,
+          "roleOfInput": "combobox",
+          "controls": "listbox"
+        },
+        "second": {
+          "id": "blog/0006-the-microsoft-azure-documentation",
+          "text": "The Microsoft Azure Documentation...180 days Microsoft ",
+          "selected": "true",
+          "role": "option",
+          "expanded": "true",
+          "dialog": null,
+          "roleOfInput": "combobox",
+          "controls": "listbox"
+        },
+        "target": "/blog/0006-the-microsoft-azure-documentation",
+        "tag": {
+          "id": "quartz-search-0-tags-0",
+          "text": "#azure",
+          "selected": "true",
+          "role": "option",
+          "expanded": "true",
+          "dialog": null,
+          "roleOfInput": "combobox",
+          "controls": "listbox"
+        },
+        "empty": {
+          "id": null,
+          "expanded": "true",
+          "dialog": null,
+          "roleOfInput": "combobox",
+          "controls": "listbox"
+        },
+        "escapeFocus": "search-button"
+      }
+    ],
+    "reducedMotion": [
+      {
+        "width": 1440,
+        "theme": "dark",
+        "view": "connections",
+        "graphCanvases": 0,
+        "choices": 160,
+        "focus": "graph-dialog-close",
+        "scroll": "auto",
+        "hoverDuration": "0s",
+        "animations": [],
+        "returnFocus": "global-graph-icon"
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "view": "connections",
+        "graphCanvases": 0,
+        "choices": 160,
+        "focus": "graph-dialog-close",
+        "scroll": "auto",
+        "hoverDuration": "0s",
+        "animations": [],
+        "returnFocus": "global-graph-icon"
+      }
+    ],
+    "readingJourneys": [
+      {
+        "width": 390,
+        "theme": "light",
+        "searchDuringReader": true,
+        "drawerFocusReturned": true,
+        "backlink": "/blog/0052-microsoft-defender-for-identity-sensor-v3.x-rpc-audit-misconfigured",
+        "historyAndTheme": true
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "searchDuringReader": true,
+        "drawerFocusReturned": true,
+        "backlink": "/blog/0052-microsoft-defender-for-identity-sensor-v3.x-rpc-audit-misconfigured",
+        "historyAndTheme": true
+      },
+      {
+        "width": 900,
+        "theme": "light",
+        "searchDuringReader": true,
+        "previewCharacters": 2204,
+        "backlink": "/blog/0052-microsoft-defender-for-identity-sensor-v3.x-rpc-audit-misconfigured",
+        "historyAndTheme": true
+      },
+      {
+        "width": 900,
+        "theme": "dark",
+        "searchDuringReader": true,
+        "previewCharacters": 2204,
+        "backlink": "/blog/0052-microsoft-defender-for-identity-sensor-v3.x-rpc-audit-misconfigured",
+        "historyAndTheme": true
+      },
+      {
+        "width": 1440,
+        "theme": "light",
+        "searchDuringReader": true,
+        "previewCharacters": 2204,
+        "backlink": "/blog/0052-microsoft-defender-for-identity-sensor-v3.x-rpc-audit-misconfigured",
+        "historyAndTheme": true
+      },
+      {
+        "width": 1440,
+        "theme": "dark",
+        "searchDuringReader": true,
+        "previewCharacters": 2204,
+        "backlink": "/blog/0052-microsoft-defender-for-identity-sensor-v3.x-rpc-audit-misconfigured",
+        "historyAndTheme": true
+      }
+    ],
+    "mobileExplorerPendingIndex": [
+      {
+        "width": 320,
+        "theme": "light",
+        "duringLoad": {
+          "drawerAtCenter": false,
+          "reading": true,
+          "mainInert": false,
+          "scrollLocked": false,
+          "toggleReady": false,
+          "expanded": "false",
+          "collapsed": false,
+          "treeItems": 1
+        },
+        "skipTarget": "main-content",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "duringLoad": {
+          "drawerAtCenter": false,
+          "reading": true,
+          "mainInert": false,
+          "scrollLocked": false,
+          "toggleReady": false,
+          "expanded": "false",
+          "collapsed": false,
+          "treeItems": 1
+        },
+        "skipTarget": "main-content",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "duringLoad": {
+          "drawerAtCenter": false,
+          "reading": true,
+          "mainInert": false,
+          "scrollLocked": false,
+          "toggleReady": false,
+          "expanded": "false",
+          "collapsed": false,
+          "treeItems": 1
+        },
+        "skipTarget": "main-content",
+        "passed": true
+      },
+      {
+        "width": 800,
+        "theme": "dark",
+        "duringLoad": {
+          "drawerAtCenter": false,
+          "reading": true,
+          "mainInert": false,
+          "scrollLocked": false,
+          "toggleReady": false,
+          "expanded": "false",
+          "collapsed": false,
+          "treeItems": 1
+        },
+        "skipTarget": "main-content",
+        "passed": true
+      },
+      {
+        "width": 900,
+        "theme": "light",
+        "duringLoad": {
+          "drawerAtCenter": false,
+          "reading": true,
+          "mainInert": false,
+          "scrollLocked": false,
+          "toggleReady": false,
+          "expanded": "true",
+          "collapsed": false,
+          "treeItems": 1
+        },
+        "skipTarget": "main-content",
+        "passed": true
+      }
+    ],
+    "failedIndex": [
+      {
+        "width": 390,
+        "failed": {
+          "drawerAtCenter": false,
+          "reading": true,
+          "mainInert": false,
+          "scrollLocked": false,
+          "toggleVisible": true,
+          "state": "false"
+        },
+        "skip": "main-content",
+        "pass": true,
+        "arrived": "certifications/0006-sc-200-certification-review"
+      },
+      {
+        "width": 800,
+        "failed": {
+          "drawerAtCenter": false,
+          "reading": true,
+          "mainInert": false,
+          "scrollLocked": false,
+          "toggleVisible": true,
+          "state": "false"
+        },
+        "skip": "main-content",
+        "pass": true,
+        "arrived": "certifications/0006-sc-200-certification-review"
+      },
+      {
+        "width": 900,
+        "failed": {
+          "drawerAtCenter": false,
+          "reading": true,
+          "mainInert": false,
+          "scrollLocked": false,
+          "toggleVisible": false,
+          "state": "true"
+        },
+        "skip": "main-content",
+        "pass": true,
+        "arrived": "certifications/0006-sc-200-certification-review"
+      }
+    ],
+    "copy": {
+      "clipboardLength": 125,
+      "containsExpected": true
+    },
+    "limitations": [
+      "Sampled Chromium states and palettes",
+      "Incomplete color-contrast cases",
+      "Article image alternatives require editorial context",
+      "No physical screen-reader or cross-browser certification"
+    ]
+  },
+  "type": {
+    "widths": [
+      390,
+      900,
+      1440
+    ],
+    "bodyTrialConfigurations": 144,
+    "discoveryConfigurations": 36,
+    "medianFullLineCharactersAtCurrentFluidScale": {
+      "former": [
+        41,
+        73,
+        75
+      ],
+      "SN Pro only": [
+        45,
+        80,
+        80
+      ],
+      "system serif and SN Pro": [
+        50,
+        87,
+        90
+      ],
+      "Source Serif 4 and SN Pro": [
+        42,
+        75,
+        75
+      ]
+    },
+    "actualRendering": {
+      "body": [
+        [
+          "Source Serif 4",
+          "SourceSerif4-Regular",
+          true,
+          521
+        ]
+      ],
+      "title": [
+        [
+          "Source Serif 4",
+          "SourceSerif4-Regular",
+          true,
+          37
+        ]
+      ],
+      "ui": [
+        [
+          "SN Pro ExtraLight",
+          "SNPro-ExtraLight",
+          true,
+          17
+        ]
+      ],
+      "link": [
+        [
+          "SN Pro ExtraLight",
+          "SNPro-ExtraLight",
+          true,
+          12
+        ]
+      ],
+      "code": [
+        [
+          "Berkeley Mono",
+          "BerkeleyMono-Regular",
+          true,
+          14
+        ]
+      ],
+      "inline": [
+        [
+          "Berkeley Mono Medium",
+          "BerkeleyMono-Medium",
+          true,
+          18
+        ]
+      ],
+      "strong": [
+        [
+          "Source Serif 4",
+          "SourceSerif4-Regular",
+          true,
+          11
+        ]
+      ],
+      "regular": [
+        [
+          "Berkeley Mono",
+          "BerkeleyMono-Regular",
+          true,
+          18
+        ]
+      ],
+      "bold": [
+        [
+          "Berkeley Mono",
+          "BerkeleyMono-Bold",
+          true,
+          18
+        ]
+      ],
+      "medium": [
+        [
+          "Berkeley Mono Medium",
+          "BerkeleyMono-Medium",
+          true,
+          18
+        ]
+      ],
+      "oblique": [
+        [
+          "Berkeley Mono",
+          "BerkeleyMono-Oblique",
+          true,
+          17
+        ]
+      ],
+      "mediumOblique": [
+        [
+          "Berkeley Mono Medium",
+          "BerkeleyMono-MediumOblique",
+          true,
+          18
+        ]
+      ],
+      "boldOblique": [
+        [
+          "Berkeley Mono",
+          "BerkeleyMono-BoldOblique",
+          true,
+          18
+        ]
+      ],
+      "italics": [
+        [
+          "Source Serif 4",
+          "SourceSerif4-Italic",
+          true,
+          7
+        ]
+      ]
+    },
+    "counter": {
+      "font": "TX-02, ui-monospace, Consolas, monospace",
+      "content": "counter(line)"
+    },
+    "glyphFallbacks": {
+      "ascii": [
+        "Berkeley Mono Medium"
+      ],
+      "marks": [
+        "Berkeley Mono Medium"
+      ],
+      "box": [
+        "Berkeley Mono Medium"
+      ],
+      "arrow": [
+        "Berkeley Mono Medium"
+      ],
+      "emoji": [
+        "Noto Color Emoji"
+      ],
+      "cjk": [
+        "Noto Sans CJK JP"
+      ],
+      "arabic": [
+        "DejaVu Sans Mono"
+      ]
+    },
+    "vendorWebfontsUnmodifiedSHA256": {
+      "BerkeleyMono-Bold.woff2": "a4cab0d27fe64bb42b7873e76d9341df03fecd468c4c89d05537ba1ba0ba7108",
+      "BerkeleyMono-BoldOblique.woff2": "b38de0dedd802894ff6c4b5dc80e84cce20d9fa8c493b37b090b830bf5372efb",
+      "BerkeleyMono-Medium.woff2": "b68a248ac61223aaa70e64578d16fa99045eef923d082c17320262875e7f3a67",
+      "BerkeleyMono-MediumOblique.woff2": "1022d7c6fefdd51e470081396265747ab973df86c34f3c855ebd0d1e3376ee1a",
+      "BerkeleyMono-Oblique.woff2": "be7d45adef4a8811a9ab9af7ddb600f7faf76a1bf91fc2d0de497e77d670e191",
+      "BerkeleyMono-Regular.woff2": "6aba4b6eb8bf330e5a668f2b8563049c5a2dd3ed3585d1d05033c873fae7cd9a"
+    }
+  },
+  "graph": {
+    "actualPalettes": {
+      "light": {
+        "edge": "#817d72",
+        "current": "#302d29",
+        "visited": "#904832",
+        "hover": "#5e5d59",
+        "filter": "none",
+        "background": "rgb(241, 239, 230)"
+      },
+      "dark": {
+        "edge": "#707070",
+        "current": "#dedede",
+        "visited": "#d9c3ad",
+        "hover": "#ababab",
+        "filter": "none",
+        "background": "rgb(0, 0, 0)"
+      }
+    },
+    "contrast": {
+      "lightLocalEdgeOnPanel": 3.57,
+      "lightGlobalEdgeOnPage": 3.9,
+      "darkEdgeOnBlack": 4.24,
+      "lightBeforeLocalEdgeOnPanel": 1.33
+    },
+    "webglScreenshotPixelsMatchingEdge": {
+      "light": 3249,
+      "dark": 3269
+    },
+    "motionLifecycle": {
+      "cold": {
+        "canvases": 0,
+        "requests": [],
+        "frames": {}
+      },
+      "openAfterNormal": {
+        "canvases": 1,
+        "graphToggle": true,
+        "textList": true,
+        "errors": [],
+        "requests": [
+          "https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js",
+          "https://cdn.jsdelivr.net/npm/pixi.js@8/dist/pixi.js"
+        ]
+      },
+      "openAfterReduced": {
+        "canvases": 0,
+        "textList": true,
+        "frames": {}
+      },
+      "article": {
+        "slug": "certifications/0001-az-104-certification-review",
+        "canvases": 0
+      },
+      "articleRestored": 1,
+      "errors": []
+    },
+    "connectionJourneys": [
+      {
+        "scenario": "desktop",
+        "localCanvas": 1,
+        "nodes": 160,
+        "navigated": "certifications/0001-az-104-certification-review",
+        "liveSwitchDisposed": true
+      },
+      {
+        "scenario": "phone-reduced",
+        "localCanvas": 0,
+        "nodes": 160,
+        "navigated": "certifications/0001-az-104-certification-review",
+        "initialLibraries": 0,
+        "liveSwitchDisposed": false
+      },
+      {
+        "scenario": "offline-phone",
+        "localCanvas": 0,
+        "nodes": 160,
+        "navigated": "certifications/0001-az-104-certification-review",
+        "liveSwitchDisposed": false
+      },
+      {
+        "scenario": "reduced-desktop",
+        "localCanvas": 0,
+        "nodes": 160,
+        "navigated": "certifications/0001-az-104-certification-review",
+        "initialLibraries": 0,
+        "liveSwitchDisposed": false
+      }
+    ],
+    "delayedVendorScripts": [
+      {
+        "width": 390,
+        "colorScheme": "dark",
+        "reduced": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": true,
+          "canvas": 0,
+          "scripts": [
+            "undefined",
+            "undefined"
+          ],
+          "options": 160
+        },
+        "loading": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": true,
+          "canvas": 0,
+          "scripts": [
+            "undefined",
+            "undefined"
+          ],
+          "options": 160
+        },
+        "restored": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": false,
+          "canvas": 1,
+          "scripts": [
+            "object",
+            "object"
+          ],
+          "options": 160
+        },
+        "normal": {
+          "mode": "graph",
+          "button": "Connections",
+          "hidden": false,
+          "canvas": 1,
+          "scripts": [
+            "object",
+            "object"
+          ],
+          "options": 160
+        },
+        "returnFocus": "global-graph-icon",
+        "errors": []
+      },
+      {
+        "width": 900,
+        "colorScheme": "light",
+        "reduced": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": true,
+          "canvas": 0,
+          "scripts": [
+            "undefined",
+            "undefined"
+          ],
+          "options": 160
+        },
+        "loading": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": true,
+          "canvas": 0,
+          "scripts": [
+            "undefined",
+            "undefined"
+          ],
+          "options": 160
+        },
+        "restored": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": false,
+          "canvas": 1,
+          "scripts": [
+            "object",
+            "object"
+          ],
+          "options": 160
+        },
+        "normal": {
+          "mode": "graph",
+          "button": "Connections",
+          "hidden": false,
+          "canvas": 1,
+          "scripts": [
+            "object",
+            "object"
+          ],
+          "options": 160
+        },
+        "returnFocus": "global-graph-icon",
+        "errors": []
+      },
+      {
+        "width": 1440,
+        "colorScheme": "dark",
+        "reduced": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": true,
+          "canvas": 0,
+          "scripts": [
+            "undefined",
+            "undefined"
+          ],
+          "options": 160
+        },
+        "loading": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": true,
+          "canvas": 0,
+          "scripts": [
+            "undefined",
+            "undefined"
+          ],
+          "options": 160
+        },
+        "restored": {
+          "mode": "connections",
+          "button": "Show graph",
+          "hidden": false,
+          "canvas": 1,
+          "scripts": [
+            "object",
+            "object"
+          ],
+          "options": 160
+        },
+        "normal": {
+          "mode": "graph",
+          "button": "Connections",
+          "hidden": false,
+          "canvas": 1,
+          "scripts": [
+            "object",
+            "object"
+          ],
+          "options": 160
+        },
+        "returnFocus": "global-graph-icon",
+        "errors": []
+      }
+    ]
+  },
+  "motionExperiment": [
+    {
+      "width": 1440,
+      "theme": "light",
+      "mode": "animated",
+      "nonzeroPixelDifference": 2694,
+      "differenceLeft64": 1052,
+      "differenceRight64": 1642,
+      "differenceCenter": 0,
+      "maxDeltaLuma": 39
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "mode": "reduced",
+      "nonzeroPixelDifference": 0,
+      "differenceLeft64": 0,
+      "differenceRight64": 0,
+      "differenceCenter": 0,
+      "maxDeltaLuma": 0
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "mode": "animated",
+      "nonzeroPixelDifference": 2522,
+      "differenceLeft64": 1024,
+      "differenceRight64": 1498,
+      "differenceCenter": 0,
+      "maxDeltaLuma": 26
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "mode": "reduced",
+      "nonzeroPixelDifference": 0,
+      "differenceLeft64": 0,
+      "differenceRight64": 0,
+      "differenceCenter": 0,
+      "maxDeltaLuma": 0
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "mode": "animated",
+      "nonzeroPixelDifference": 0,
+      "differenceLeft64": 0,
+      "differenceRight64": 0,
+      "differenceCenter": 0,
+      "maxDeltaLuma": 0
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "mode": "reduced",
+      "nonzeroPixelDifference": 5,
+      "differenceLeft64": 0,
+      "differenceRight64": 0,
+      "differenceCenter": 5,
+      "maxDeltaLuma": 1
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "mode": "animated",
+      "nonzeroPixelDifference": 0,
+      "differenceLeft64": 0,
+      "differenceRight64": 0,
+      "differenceCenter": 0,
+      "maxDeltaLuma": 0
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "mode": "reduced",
+      "nonzeroPixelDifference": 0,
+      "differenceLeft64": 0,
+      "differenceRight64": 0,
+      "differenceCenter": 0,
+      "maxDeltaLuma": 0
+    }
+  ],
+  "performance": {
+    "viewport": [
+      900,
+      850
+    ],
+    "method": "Alternated fresh browser contexts, seven per build and route, serving local site with external requests blocked. Byte measurements are same-origin encoded subresource response bodies. Paint in milliseconds.",
+    "builds": {
+      "baseline": {
+        "/": {
+          "median": {
+            "count": 49,
+            "fontBytes": 310724,
+            "cssBytes": 126462,
+            "localResourceBytes": 1299578,
+            "lcp": 48,
+            "cls": 0.05109
+          },
+          "lcpSamplesMs": [
+            196,
+            44,
+            52,
+            48,
+            52,
+            48,
+            44
+          ],
+          "clsSamples": [
+            0.05109,
+            0.05109,
+            0.05109,
+            0.05109,
+            0.05109,
+            0.05109,
+            0.05109
+          ]
+        },
+        "/blog/0057-setting-up-azure-machine-configuration": {
+          "median": {
+            "count": 55,
+            "fontBytes": 526024,
+            "cssBytes": 126462,
+            "localResourceBytes": 1654620,
+            "lcp": 68,
+            "cls": 0.03449
+          },
+          "lcpSamplesMs": [
+            112,
+            68,
+            72,
+            68,
+            72,
+            68,
+            64
+          ],
+          "clsSamples": [
+            0.03449,
+            0.03449,
+            0.03449,
+            0.03449,
+            0.03449,
+            0.03449,
+            0.03449
+          ]
+        }
+      },
+      "accepted": {
+        "/": {
+          "median": {
+            "count": 49,
+            "fontBytes": 115156,
+            "cssBytes": 127620,
+            "localResourceBytes": 1112185,
+            "lcp": 48,
+            "cls": 0.05394
+          },
+          "lcpSamplesMs": [
+            72,
+            56,
+            48,
+            48,
+            44,
+            48,
+            48
+          ],
+          "clsSamples": [
+            0.05394,
+            0.05394,
+            0.05394,
+            0.05394,
+            0.05394,
+            0.05394,
+            0.05394
+          ]
+        },
+        "/blog/0057-setting-up-azure-machine-configuration": {
+          "median": {
+            "count": 54,
+            "fontBytes": 243172,
+            "cssBytes": 127620,
+            "localResourceBytes": 1379943,
+            "lcp": 64,
+            "cls": 0.02533
+          },
+          "lcpSamplesMs": [
+            76,
+            64,
+            72,
+            72,
+            60,
+            64,
+            64
+          ],
+          "clsSamples": [
+            0.02533,
+            0.02533,
+            0.02533,
+            0.02533,
+            0.02533,
+            0.02533,
+            0.02533
+          ]
+        }
+      }
+    }
+  },
+  "build": {
+    "filesEmitted": 913,
+    "unitTestsPassed": 164,
+    "formatCheck": "passed",
+    "existingTypeDiagnostics": [
+      "TS7016 for micromorph declaration export",
+      "TS2307 for remark-parse/lib"
+    ]
+  },
+  "independentFinalAudit": {
+    "outcome": "ACCEPTED",
+    "scoreOutOf100": 89,
+    "consecutiveUnchangedCycles": [
+      7,
+      8,
+      9
+    ],
+    "directorWalkthrough": [
+      {
+        "width": 390,
+        "height": 844,
+        "theme": "light",
+        "graph": "connections",
+        "routes": [
+          {
+            "path": "/",
+            "metrics": {
+              "title": "Home",
+              "css": "/index-4d869024.css",
+              "documentWidth": 390,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/certifications/",
+            "metrics": {
+              "title": "Certifications",
+              "css": "/index-4d869024.css",
+              "documentWidth": 390,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "metrics": {
+              "title": "Setting Up Azure Machine Configuration",
+              "css": "/index-4d869024.css",
+              "documentWidth": 390,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          }
+        ],
+        "errors": [],
+        "nodes": 160,
+        "archiveCount": 7,
+        "faces": {
+          "body": [
+            "SourceSerif4-Regular"
+          ],
+          "block": [
+            "BerkeleyMono-Regular"
+          ],
+          "inline": [
+            "BerkeleyMono-Medium"
+          ]
+        }
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "theme": "dark",
+        "graph": "connections",
+        "routes": [
+          {
+            "path": "/",
+            "metrics": {
+              "title": "Home",
+              "css": "/index-4d869024.css",
+              "documentWidth": 390,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/certifications/",
+            "metrics": {
+              "title": "Certifications",
+              "css": "/index-4d869024.css",
+              "documentWidth": 390,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "metrics": {
+              "title": "Setting Up Azure Machine Configuration",
+              "css": "/index-4d869024.css",
+              "documentWidth": 390,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          }
+        ],
+        "errors": [],
+        "nodes": 160,
+        "archiveCount": 7,
+        "faces": {
+          "body": [
+            "SourceSerif4-Regular"
+          ],
+          "block": [
+            "BerkeleyMono-Regular"
+          ],
+          "inline": [
+            "BerkeleyMono-Medium"
+          ]
+        }
+      },
+      {
+        "width": 900,
+        "height": 900,
+        "theme": "light",
+        "graph": "connections",
+        "routes": [
+          {
+            "path": "/",
+            "metrics": {
+              "title": "Home",
+              "css": "/index-4d869024.css",
+              "documentWidth": 888,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/certifications/",
+            "metrics": {
+              "title": "Certifications",
+              "css": "/index-4d869024.css",
+              "documentWidth": 888,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "metrics": {
+              "title": "Setting Up Azure Machine Configuration",
+              "css": "/index-4d869024.css",
+              "documentWidth": 888,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          }
+        ],
+        "errors": [],
+        "nodes": 160,
+        "archiveCount": 7,
+        "faces": {
+          "body": [
+            "SourceSerif4-Regular"
+          ],
+          "block": [
+            "BerkeleyMono-Regular"
+          ],
+          "inline": [
+            "BerkeleyMono-Medium"
+          ]
+        }
+      },
+      {
+        "width": 900,
+        "height": 900,
+        "theme": "dark",
+        "graph": "connections",
+        "routes": [
+          {
+            "path": "/",
+            "metrics": {
+              "title": "Home",
+              "css": "/index-4d869024.css",
+              "documentWidth": 888,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/certifications/",
+            "metrics": {
+              "title": "Certifications",
+              "css": "/index-4d869024.css",
+              "documentWidth": 888,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "metrics": {
+              "title": "Setting Up Azure Machine Configuration",
+              "css": "/index-4d869024.css",
+              "documentWidth": 888,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          }
+        ],
+        "errors": [],
+        "nodes": 160,
+        "archiveCount": 7,
+        "faces": {
+          "body": [
+            "SourceSerif4-Regular"
+          ],
+          "block": [
+            "BerkeleyMono-Regular"
+          ],
+          "inline": [
+            "BerkeleyMono-Medium"
+          ]
+        }
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "theme": "light",
+        "graph": "canvas",
+        "routes": [
+          {
+            "path": "/",
+            "metrics": {
+              "title": "Home",
+              "css": "/index-4d869024.css",
+              "documentWidth": 1428,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/certifications/",
+            "metrics": {
+              "title": "Certifications",
+              "css": "/index-4d869024.css",
+              "documentWidth": 1428,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "metrics": {
+              "title": "Setting Up Azure Machine Configuration",
+              "css": "/index-4d869024.css",
+              "documentWidth": 1428,
+              "theme": "light",
+              "surface": "#faf9f5",
+              "text": "#141413",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          }
+        ],
+        "errors": [],
+        "canvas": 1140,
+        "nodes": 160,
+        "archiveCount": 7,
+        "faces": {
+          "body": [
+            "SourceSerif4-Regular"
+          ],
+          "block": [
+            "BerkeleyMono-Regular"
+          ],
+          "inline": [
+            "BerkeleyMono-Medium"
+          ]
+        }
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "theme": "dark",
+        "graph": "canvas",
+        "routes": [
+          {
+            "path": "/",
+            "metrics": {
+              "title": "Home",
+              "css": "/index-4d869024.css",
+              "documentWidth": 1428,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/certifications/",
+            "metrics": {
+              "title": "Certifications",
+              "css": "/index-4d869024.css",
+              "documentWidth": 1428,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          },
+          {
+            "path": "/blog/0057-setting-up-azure-machine-configuration",
+            "metrics": {
+              "title": "Setting Up Azure Machine Configuration",
+              "css": "/index-4d869024.css",
+              "documentWidth": 1428,
+              "theme": "dark",
+              "surface": "#000",
+              "text": "#f5f5f5",
+              "bodyType": "\"SN Pro\", system-ui, sans-serif",
+              "mainCount": 1
+            }
+          }
+        ],
+        "errors": [],
+        "canvas": 1140,
+        "nodes": 160,
+        "archiveCount": 7,
+        "faces": {
+          "body": [
+            "SourceSerif4-Regular"
+          ],
+          "block": [
+            "BerkeleyMono-Regular"
+          ],
+          "inline": [
+            "BerkeleyMono-Medium"
+          ]
+        }
+      }
+    ]
+  }
+}
