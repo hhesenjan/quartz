@@ -1,0 +1,380 @@
+[
+  {
+    "color": "#d4d1c6",
+    "theme": "light",
+    "l": 285,
+    "r": 959,
+    "ys": [
+      361.75,
+      408.25,
+      454.75,
+      501.25
+    ],
+    "x": 0,
+    "hint": false,
+    "windowSize": 1280,
+    "dpr": 1,
+    "file": "ff-48446-1280-light-static-first.png",
+    "rules": [
+      {
+        "y": 361,
+        "sampled": 672,
+        "exact": 671,
+        "paper": 0,
+        "otherColors": [
+          [
+            222,
+            219,
+            210
+          ]
+        ]
+      },
+      {
+        "y": 407,
+        "sampled": 672,
+        "exact": 671,
+        "paper": 0,
+        "otherColors": [
+          [
+            222,
+            219,
+            210
+          ]
+        ]
+      },
+      {
+        "y": 454,
+        "sampled": 672,
+        "exact": 671,
+        "paper": 0,
+        "otherColors": [
+          [
+            222,
+            219,
+            210
+          ]
+        ]
+      },
+      {
+        "y": 499,
+        "sampled": 672,
+        "exact": 671,
+        "paper": 0,
+        "otherColors": [
+          [
+            222,
+            219,
+            210
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "color": "#383838",
+    "theme": "dark",
+    "l": 285,
+    "r": 959,
+    "ys": [
+      361.75,
+      408.25,
+      454.75,
+      501.25
+    ],
+    "x": 0,
+    "hint": false,
+    "windowSize": 1280,
+    "dpr": 1,
+    "file": "ff-48446-1280-dark-static-first.png",
+    "rules": [
+      {
+        "y": 361,
+        "sampled": 672,
+        "exact": 671,
+        "paper": 0,
+        "otherColors": [
+          [
+            42,
+            42,
+            42
+          ]
+        ]
+      },
+      {
+        "y": 407,
+        "sampled": 672,
+        "exact": 671,
+        "paper": 0,
+        "otherColors": [
+          [
+            42,
+            42,
+            42
+          ]
+        ]
+      },
+      {
+        "y": 454,
+        "sampled": 672,
+        "exact": 671,
+        "paper": 0,
+        "otherColors": [
+          [
+            42,
+            42,
+            42
+          ]
+        ]
+      },
+      {
+        "y": 499,
+        "sampled": 672,
+        "exact": 671,
+        "paper": 0,
+        "otherColors": [
+          [
+            42,
+            42,
+            42
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "color": "#d4d1c6",
+    "theme": "light",
+    "l": 222,
+    "r": 878,
+    "ys": [
+      367.1333312988281,
+      413.6333312988281,
+      460.1333312988281,
+      506.6333312988281
+    ],
+    "x": 0,
+    "hint": false,
+    "windowSize": 900,
+    "dpr": 1,
+    "file": "ff-48446-900-light-static-first.png",
+    "rules": [
+      {
+        "y": 366,
+        "sampled": 654,
+        "exact": 653,
+        "paper": 0,
+        "otherColors": [
+          [
+            222,
+            219,
+            210
+          ]
+        ]
+      },
+      {
+        "y": 413,
+        "sampled": 654,
+        "exact": 653,
+        "paper": 0,
+        "otherColors": [
+          [
+            222,
+            219,
+            210
+          ]
+        ]
+      },
+      {
+        "y": 459,
+        "sampled": 654,
+        "exact": 653,
+        "paper": 0,
+        "otherColors": [
+          [
+            222,
+            219,
+            210
+          ]
+        ]
+      },
+      {
+        "y": 505,
+        "sampled": 654,
+        "exact": 653,
+        "paper": 0,
+        "otherColors": [
+          [
+            222,
+            219,
+            210
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "color": "#383838",
+    "theme": "dark",
+    "l": 222,
+    "r": 878,
+    "ys": [
+      367.1333312988281,
+      413.6333312988281,
+      460.1333312988281,
+      506.6333312988281
+    ],
+    "x": 0,
+    "hint": false,
+    "windowSize": 900,
+    "dpr": 1,
+    "file": "ff-48446-900-dark-static-first.png",
+    "rules": [
+      {
+        "y": 366,
+        "sampled": 654,
+        "exact": 653,
+        "paper": 0,
+        "otherColors": [
+          [
+            42,
+            42,
+            42
+          ]
+        ]
+      },
+      {
+        "y": 413,
+        "sampled": 654,
+        "exact": 653,
+        "paper": 0,
+        "otherColors": [
+          [
+            42,
+            42,
+            42
+          ]
+        ]
+      },
+      {
+        "y": 459,
+        "sampled": 654,
+        "exact": 653,
+        "paper": 0,
+        "otherColors": [
+          [
+            42,
+            42,
+            42
+          ]
+        ]
+      },
+      {
+        "y": 505,
+        "sampled": 654,
+        "exact": 653,
+        "paper": 0,
+        "otherColors": [
+          [
+            42,
+            42,
+            42
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "color": "#d4d1c6",
+    "theme": "light",
+    "l": 23,
+    "r": 465,
+    "ys": [
+      404.95001220703125,
+      446.65000915527344,
+      488.3500061035156,
+      530.0500030517578
+    ],
+    "x": 0,
+    "hint": false,
+    "windowSize": 500,
+    "dpr": 1,
+    "file": "ff-48446-390-light-static-first.png",
+    "rules": [
+      {
+        "y": 405,
+        "sampled": 440,
+        "exact": 440,
+        "paper": 0,
+        "otherColors": []
+      },
+      {
+        "y": 447,
+        "sampled": 440,
+        "exact": 440,
+        "paper": 0,
+        "otherColors": []
+      },
+      {
+        "y": 488,
+        "sampled": 440,
+        "exact": 440,
+        "paper": 0,
+        "otherColors": []
+      },
+      {
+        "y": 529,
+        "sampled": 440,
+        "exact": 440,
+        "paper": 0,
+        "otherColors": []
+      }
+    ]
+  },
+  {
+    "color": "#383838",
+    "theme": "dark",
+    "l": 23,
+    "r": 465,
+    "ys": [
+      404.95001220703125,
+      446.65000915527344,
+      488.3500061035156,
+      530.0500030517578
+    ],
+    "x": 0,
+    "hint": false,
+    "windowSize": 500,
+    "dpr": 1,
+    "file": "ff-48446-390-dark-static-first.png",
+    "rules": [
+      {
+        "y": 405,
+        "sampled": 440,
+        "exact": 440,
+        "paper": 0,
+        "otherColors": []
+      },
+      {
+        "y": 447,
+        "sampled": 440,
+        "exact": 440,
+        "paper": 0,
+        "otherColors": []
+      },
+      {
+        "y": 488,
+        "sampled": 440,
+        "exact": 440,
+        "paper": 0,
+        "otherColors": []
+      },
+      {
+        "y": 529,
+        "sampled": 440,
+        "exact": 440,
+        "paper": 0,
+        "otherColors": []
+      }
+    ]
+  }
+]

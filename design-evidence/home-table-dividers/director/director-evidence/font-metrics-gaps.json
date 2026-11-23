@@ -1,0 +1,128 @@
+[
+  {
+    "theme": "light",
+    "font": "loading",
+    "hint": false,
+    "x": 0,
+    "l": 18,
+    "r": 360,
+    "ys": [
+      423.921875,
+      465.609375,
+      507.296875,
+      548.984375
+    ],
+    "file": "font-390-light-fallback.png",
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "theme": "light",
+    "font": "loaded",
+    "hint": true,
+    "x": 0,
+    "l": 18,
+    "r": 360,
+    "ys": [
+      422.515625,
+      464.203125,
+      505.890625,
+      547.578125
+    ],
+    "file": "font-390-light-loaded.png",
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "theme": "dark",
+    "font": "loading",
+    "hint": false,
+    "x": 0,
+    "l": 222,
+    "r": 878,
+    "ys": [
+      381.046875,
+      427.515625,
+      473.984375,
+      520.453125
+    ],
+    "file": "font-900-dark-fallback.png",
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "theme": "dark",
+    "font": "loaded",
+    "hint": true,
+    "x": 0,
+    "l": 222,
+    "r": 878,
+    "ys": [
+      380.640625,
+      427.109375,
+      473.578125,
+      520.046875
+    ],
+    "file": "font-900-dark-loaded.png",
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "theme": "light",
+    "font": "loading",
+    "hint": false,
+    "x": 0,
+    "l": 382,
+    "r": 1070,
+    "ys": [
+      399.328125,
+      445.796875,
+      492.265625,
+      538.734375
+    ],
+    "file": "font-1440-light-fallback.png",
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "theme": "light",
+    "font": "loaded",
+    "hint": true,
+    "x": 0,
+    "l": 382,
+    "r": 1070,
+    "ys": [
+      380.921875,
+      427.390625,
+      473.859375,
+      520.328125
+    ],
+    "file": "font-1440-light-loaded.png",
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

@@ -1,0 +1,1667 @@
+{
+  "acceptedBaseline": "0133895",
+  "acceptedStylesheet": "index-71d56737.css",
+  "reviewedStylesheet": "index-3892194e.css",
+  "route": "/",
+  "viewports": [
+    390,
+    900,
+    1440
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "browsers": {
+    "chrome": "158.0.8127.36",
+    "braveChromium": "158.0.8127.42"
+  },
+  "measurement": "At the expected top and three lower row edges, compare the solid theme divider color over a single physical raster line, excluding the outermost two pixels at each side for viewport clipping. Counts are missing pixels, in order from top to bottom. Static includes JavaScript disabled. JS first is first settled render before panning.",
+  "pixelComparisons": {
+    "before-chrome": {
+      "screenshots": 36,
+      "allFourContinuous": 12,
+      "missingPixelsByBoundary": {
+        "390-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-first.png": [
+          0,
+          76,
+          0,
+          76
+        ],
+        "390-dark-js-first.png": [
+          0,
+          76,
+          0,
+          76
+        ],
+        "390-light-js-middle.png": [
+          0,
+          76,
+          0,
+          76
+        ],
+        "390-dark-js-middle.png": [
+          0,
+          76,
+          0,
+          76
+        ],
+        "390-light-js-end.png": [
+          0,
+          76,
+          0,
+          76
+        ],
+        "390-dark-js-end.png": [
+          0,
+          76,
+          0,
+          76
+        ],
+        "390-light-js-double.png": [
+          0,
+          76,
+          0,
+          76
+        ],
+        "390-dark-js-double.png": [
+          0,
+          76,
+          0,
+          76
+        ],
+        "900-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-first.png": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-first.png": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-middle.png": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-middle.png": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-end.png": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-end.png": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-double.png": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-double.png": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-first.png": [
+          79,
+          0,
+          79,
+          0
+        ],
+        "1440-dark-js-first.png": [
+          79,
+          0,
+          79,
+          0
+        ],
+        "1440-light-js-middle.png": [
+          79,
+          0,
+          79,
+          0
+        ],
+        "1440-dark-js-middle.png": [
+          79,
+          0,
+          79,
+          0
+        ],
+        "1440-light-js-end.png": [
+          79,
+          0,
+          79,
+          0
+        ],
+        "1440-dark-js-end.png": [
+          79,
+          0,
+          79,
+          0
+        ],
+        "1440-light-js-double.png": [
+          79,
+          0,
+          79,
+          0
+        ],
+        "1440-dark-js-double.png": [
+          79,
+          0,
+          79,
+          0
+        ]
+      }
+    },
+    "corrected-chrome": {
+      "screenshots": 36,
+      "allFourContinuous": 36,
+      "missingPixelsByBoundary": {
+        "390-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "corrected-brave": {
+      "screenshots": 36,
+      "allFourContinuous": 36,
+      "missingPixelsByBoundary": {
+        "390-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "final-chrome": {
+      "screenshots": 36,
+      "allFourContinuous": 36,
+      "missingPixelsByBoundary": {
+        "390-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "final-brave": {
+      "screenshots": 36,
+      "allFourContinuous": 36,
+      "missingPixelsByBoundary": {
+        "390-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "accepted-chrome": {
+      "screenshots": 36,
+      "allFourContinuous": 36,
+      "missingPixelsByBoundary": {
+        "390-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "accepted-brave": {
+      "screenshots": 36,
+      "allFourContinuous": 36,
+      "missingPixelsByBoundary": {
+        "390-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "390-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "900-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-static-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-first.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-middle.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-end.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-light-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "1440-dark-js-double.png": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "build": {
+    "emittedFiles": 913,
+    "unitTestsPassed": 167,
+    "stylesheetCheck": "pass",
+    "compiledCSSSizeChangeBytes": 625,
+    "changedSiteCode": [
+      "quartz/styles/custom.scss"
+    ],
+    "tableScriptByteParity": true,
+    "repositoryCheck": "Existing TS7016 micromorph and TS2307 remark-parse/lib declaration errors.",
+    "matchedHTMLContentLinksAndIDs": 252,
+    "unchangedShippedJavaScriptAndWOFF2": true
+  },
+  "scope": "Screen presentation of the Home certification table; print, native document scrolling, and the table controller use their previously accepted implementations.",
+  "publishedPageWithCandidateStylesheet": {
+    "method": "Actual husenjan.com Home in Chrome and Brave; the browser substituted only the candidate stylesheet for the currently published stylesheet.",
+    "firstLoadMissingPixels": {
+      "public-chrome-390-light.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-chrome-390-dark.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-chrome-900-light.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-chrome-900-dark.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-chrome-1440-light.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-chrome-1440-dark.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-brave-390-light.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-brave-390-dark.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-brave-900-dark.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-brave-900-light.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-brave-1440-dark.png": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "public-brave-1440-light.png": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

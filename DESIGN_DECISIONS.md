@@ -1,5 +1,15 @@
 # Design decisions
 
+## Home table dividers on first load
+
+Cycle 52 used separate cell borders with zero spacing. At 900px and 1440px the pinned labels still lost parts of their dividers or painted them one pixel above the adjoining cell. The color fade also applied to part of the first row's border. Drawing a single rule per row restored continuity through the pinned column and the faded links. [Rejected tablet rendering](design-evidence/home-table-dividers/cycle-52-900-light.webp) · [First-load comparisons](design-evidence/home-table-dividers/first-load-light.webp)
+
+The same experiment adjusted document scrolling after reload. With a delayed Quartz script, that adjustment reversed a reader's earlier Home-key or wheel input. It was removed from the row-divider fix.
+
+Cycle 53 gave the three lower dividers to the rows, leaving the outer top border on the table. Firefox at 1280px and normal zoom still lost the label-width section above “Obtained.” The first row also needs to paint that top edge. [Firefox comparison](design-evidence/home-table-dividers/firefox-top-edge.webp)
+
+Cycle 54 placed the last stroke directly on the scroll container's clip edge. At 503px and 505px in Firefox its native scrollbar covered that stroke. Moving the stroke 1px inward fixed the two first-load reproductions while preserving the table's geometry. [Cycle record](DESIGN_PROGRESS.md#cycles-5255--home-table-dividers)
+
 ## Print and high-contrast Search
 
 | Cycle | Rejected implementation and reason |

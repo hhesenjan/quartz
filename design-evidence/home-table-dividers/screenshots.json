@@ -1,0 +1,38 @@
+{
+  "52": [
+    "cycle-52-390-light.webp",
+    "cycle-52-390-dark.webp",
+    "cycle-52-900-light.webp",
+    "cycle-52-900-dark.webp",
+    "cycle-52-1440-light.webp",
+    "cycle-52-1440-dark.webp"
+  ],
+  "53": [
+    "cycle-53-390-light.webp",
+    "cycle-53-390-dark.webp",
+    "cycle-53-900-light.webp",
+    "cycle-53-900-dark.webp",
+    "cycle-53-1440-light.webp",
+    "cycle-53-1440-dark.webp"
+  ],
+  "54": [
+    "cycle-54-390-light.webp",
+    "cycle-54-390-dark.webp",
+    "cycle-54-900-light.webp",
+    "cycle-54-900-dark.webp",
+    "cycle-54-1440-light.webp",
+    "cycle-54-1440-dark.webp"
+  ],
+  "55": [
+    "cycle-55-390-light.webp",
+    "cycle-55-390-dark.webp",
+    "cycle-55-900-light.webp",
+    "cycle-55-900-dark.webp",
+    "cycle-55-1440-light.webp",
+    "cycle-55-1440-dark.webp"
+  ],
+  "firstLoad": [
+    "first-load-light.webp",
+    "first-load-dark.webp"
+  ]
+}

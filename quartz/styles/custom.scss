@@ -2378,6 +2378,34 @@ pre code[data-theme] span[data-token-type="comment"] {
     border-block-end: 1px solid var(--lightgray);
   }
   @media screen {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-block-start-color: transparent;
+
+    // One divider per row stays aligned across the pinned label and the faded links.
+    :is(th, td) {
+      border-block-end-color: transparent;
+    }
+    tr {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        inset: auto 0 0;
+        border-block-end: 1px solid var(--lightgray);
+        z-index: 2;
+        pointer-events: none;
+      }
+      &:first-child::after {
+        inset-block-start: -1px;
+        border-block-start: 1px solid var(--lightgray);
+      }
+      &:last-child::after {
+        // Keep the last stroke inside Firefox's clip edge above its native scrollbar.
+        inset-block-end: 1px;
+      }
+    }
     td {
       white-space: nowrap;
     }

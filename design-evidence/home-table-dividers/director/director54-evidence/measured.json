@@ -1,0 +1,1250 @@
+[
+  {
+    "file": "chrome-48445-390-light-static-first.png",
+    "state": "first",
+    "width": 390,
+    "js": false,
+    "x": 0,
+    "max": 418,
+    "y": 421,
+    "root": 390,
+    "theme": null,
+    "fade": "none",
+    "ys": [
+      1,
+      42.6875,
+      84.375,
+      126.0625
+    ],
+    "th": 17.546875,
+    "short": 108.546875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-390-dark-static-first.png",
+    "state": "first",
+    "width": 390,
+    "js": false,
+    "x": 0,
+    "max": 418,
+    "y": 421,
+    "root": 390,
+    "theme": "dark",
+    "fade": "none",
+    "ys": [
+      1,
+      42.6875,
+      84.375,
+      126.0625
+    ],
+    "th": 17.546875,
+    "short": 108.546875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-390-light-js-first.png",
+    "state": "first",
+    "width": 390,
+    "js": true,
+    "x": 0,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446px), rgba(0, 0, 0, 0) calc(100% - 418px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.515625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-390-dark-js-first.png",
+    "state": "first",
+    "width": 390,
+    "js": true,
+    "x": 0,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446px), rgba(0, 0, 0, 0) calc(100% - 418px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.515625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-390-dark-js-pan.png",
+    "state": "pan",
+    "width": 390,
+    "js": true,
+    "x": 80,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 366px), rgba(0, 0, 0, 0) calc(100% - 338px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.140625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-390-light-js-pan.png",
+    "state": "pan",
+    "width": 390,
+    "js": true,
+    "x": 80,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 366px), rgba(0, 0, 0, 0) calc(100% - 338px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.140625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-390-dark-js-refresh.png",
+    "state": "refresh",
+    "width": 390,
+    "js": true,
+    "x": 80,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 366px), rgba(0, 0, 0, 0) calc(100% - 338px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.140625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-390-light-js-refresh.png",
+    "state": "refresh",
+    "width": 390,
+    "js": true,
+    "x": 80,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 366px), rgba(0, 0, 0, 0) calc(100% - 338px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.140625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-900-light-static-first.png",
+    "state": "first",
+    "width": 900,
+    "js": false,
+    "x": 0,
+    "max": 128,
+    "y": 282,
+    "root": 888,
+    "theme": null,
+    "fade": "none",
+    "ys": [
+      1,
+      47.46875,
+      93.9375,
+      140.40625
+    ],
+    "th": 221.5,
+    "short": 312.5,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-900-dark-static-first.png",
+    "state": "first",
+    "width": 900,
+    "js": false,
+    "x": 0,
+    "max": 128,
+    "y": 282,
+    "root": 888,
+    "theme": "dark",
+    "fade": "none",
+    "ys": [
+      1,
+      47.46875,
+      93.9375,
+      140.40625
+    ],
+    "th": 221.5,
+    "short": 312.5,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-900-light-js-first.png",
+    "state": "first",
+    "width": 900,
+    "js": true,
+    "x": 0,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.46875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-900-dark-js-first.png",
+    "state": "first",
+    "width": 900,
+    "js": true,
+    "x": 0,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.46875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-900-light-js-pan.png",
+    "state": "pan",
+    "width": 900,
+    "js": true,
+    "x": 52,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 104px), rgba(0, 0, 0, 0) calc(100% - 76px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.09375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-900-dark-js-pan.png",
+    "state": "pan",
+    "width": 900,
+    "js": true,
+    "x": 52,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 104px), rgba(0, 0, 0, 0) calc(100% - 76px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.09375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-900-light-js-refresh.png",
+    "state": "refresh",
+    "width": 900,
+    "js": true,
+    "x": 52,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 104px), rgba(0, 0, 0, 0) calc(100% - 76px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.09375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-900-dark-js-refresh.png",
+    "state": "refresh",
+    "width": 900,
+    "js": true,
+    "x": 52,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 104px), rgba(0, 0, 0, 0) calc(100% - 76px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.09375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-1440-light-static-first.png",
+    "state": "first",
+    "width": 1440,
+    "js": false,
+    "x": 0,
+    "max": 97,
+    "y": 276,
+    "root": 1428,
+    "theme": null,
+    "fade": "none",
+    "ys": [
+      1,
+      47.46875,
+      93.9375,
+      140.40625
+    ],
+    "th": 382,
+    "short": 473,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-1440-dark-static-first.png",
+    "state": "first",
+    "width": 1440,
+    "js": false,
+    "x": 0,
+    "max": 97,
+    "y": 276,
+    "root": 1428,
+    "theme": "dark",
+    "fade": "none",
+    "ys": [
+      1,
+      47.46875,
+      93.9375,
+      140.40625
+    ],
+    "th": 382,
+    "short": 473,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-1440-dark-js-first.png",
+    "state": "first",
+    "width": 1440,
+    "js": true,
+    "x": 0,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125px), rgba(0, 0, 0, 0) calc(100% - 97px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.96875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-1440-light-js-first.png",
+    "state": "first",
+    "width": 1440,
+    "js": true,
+    "x": 0,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125px), rgba(0, 0, 0, 0) calc(100% - 97px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.96875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-1440-dark-js-pan.png",
+    "state": "pan",
+    "width": 1440,
+    "js": true,
+    "x": 37,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 88px), rgba(0, 0, 0, 0) calc(100% - 60px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.59375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-1440-light-js-pan.png",
+    "state": "pan",
+    "width": 1440,
+    "js": true,
+    "x": 37,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 88px), rgba(0, 0, 0, 0) calc(100% - 60px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.59375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-1440-dark-js-refresh.png",
+    "state": "refresh",
+    "width": 1440,
+    "js": true,
+    "x": 37,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 88px), rgba(0, 0, 0, 0) calc(100% - 60px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.59375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "chrome-48445-1440-light-js-refresh.png",
+    "state": "refresh",
+    "width": 1440,
+    "js": true,
+    "x": 37,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 88px), rgba(0, 0, 0, 0) calc(100% - 60px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.59375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-390-dark-static-first.png",
+    "state": "first",
+    "width": 390,
+    "js": false,
+    "x": 0,
+    "max": 418,
+    "y": 421,
+    "root": 390,
+    "theme": "dark",
+    "fade": "none",
+    "ys": [
+      1,
+      42.6875,
+      84.375,
+      126.0625
+    ],
+    "th": 17.546875,
+    "short": 108.546875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-390-light-static-first.png",
+    "state": "first",
+    "width": 390,
+    "js": false,
+    "x": 0,
+    "max": 418,
+    "y": 421,
+    "root": 390,
+    "theme": null,
+    "fade": "none",
+    "ys": [
+      1,
+      42.6875,
+      84.375,
+      126.0625
+    ],
+    "th": 17.546875,
+    "short": 108.546875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-390-dark-js-first.png",
+    "state": "first",
+    "width": 390,
+    "js": true,
+    "x": 0,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446px), rgba(0, 0, 0, 0) calc(100% - 418px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.515625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-390-light-js-first.png",
+    "state": "first",
+    "width": 390,
+    "js": true,
+    "x": 0,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 446px), rgba(0, 0, 0, 0) calc(100% - 418px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.515625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-390-light-js-pan.png",
+    "state": "pan",
+    "width": 390,
+    "js": true,
+    "x": 80,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 366px), rgba(0, 0, 0, 0) calc(100% - 338px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.140625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-390-dark-js-pan.png",
+    "state": "pan",
+    "width": 390,
+    "js": true,
+    "x": 80,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 366px), rgba(0, 0, 0, 0) calc(100% - 338px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.140625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-390-light-js-refresh.png",
+    "state": "refresh",
+    "width": 390,
+    "js": true,
+    "x": 80,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 366px), rgba(0, 0, 0, 0) calc(100% - 338px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.140625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-390-dark-js-refresh.png",
+    "state": "refresh",
+    "width": 390,
+    "js": true,
+    "x": 80,
+    "max": 418,
+    "y": 435,
+    "root": 390,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 366px), rgba(0, 0, 0, 0) calc(100% - 338px))",
+    "ys": [
+      26.59375,
+      68.28125,
+      109.96875,
+      151.65625
+    ],
+    "th": 17.546875,
+    "short": 100.140625,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-900-light-static-first.png",
+    "state": "first",
+    "width": 900,
+    "js": false,
+    "x": 0,
+    "max": 128,
+    "y": 282,
+    "root": 888,
+    "theme": null,
+    "fade": "none",
+    "ys": [
+      1,
+      47.46875,
+      93.9375,
+      140.40625
+    ],
+    "th": 221.5,
+    "short": 312.5,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-900-dark-static-first.png",
+    "state": "first",
+    "width": 900,
+    "js": false,
+    "x": 0,
+    "max": 128,
+    "y": 282,
+    "root": 888,
+    "theme": "dark",
+    "fade": "none",
+    "ys": [
+      1,
+      47.46875,
+      93.9375,
+      140.40625
+    ],
+    "th": 221.5,
+    "short": 312.5,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-900-dark-js-first.png",
+    "state": "first",
+    "width": 900,
+    "js": true,
+    "x": 0,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.46875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-900-light-js-first.png",
+    "state": "first",
+    "width": 900,
+    "js": true,
+    "x": 0,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 156px), rgba(0, 0, 0, 0) calc(100% - 128px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.46875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-900-dark-js-pan.png",
+    "state": "pan",
+    "width": 900,
+    "js": true,
+    "x": 52,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 104px), rgba(0, 0, 0, 0) calc(100% - 76px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.09375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-900-light-js-pan.png",
+    "state": "pan",
+    "width": 900,
+    "js": true,
+    "x": 52,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 104px), rgba(0, 0, 0, 0) calc(100% - 76px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.09375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-900-dark-js-refresh.png",
+    "state": "refresh",
+    "width": 900,
+    "js": true,
+    "x": 52,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 104px), rgba(0, 0, 0, 0) calc(100% - 76px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.09375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-900-light-js-refresh.png",
+    "state": "refresh",
+    "width": 900,
+    "js": true,
+    "x": 52,
+    "max": 128,
+    "y": 295,
+    "root": 888,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 104px), rgba(0, 0, 0, 0) calc(100% - 76px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 221.5,
+    "short": 312.09375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-1440-light-static-first.png",
+    "state": "first",
+    "width": 1440,
+    "js": false,
+    "x": 0,
+    "max": 97,
+    "y": 276,
+    "root": 1428,
+    "theme": null,
+    "fade": "none",
+    "ys": [
+      1,
+      47.46875,
+      93.9375,
+      140.40625
+    ],
+    "th": 382,
+    "short": 473,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-1440-dark-static-first.png",
+    "state": "first",
+    "width": 1440,
+    "js": false,
+    "x": 0,
+    "max": 97,
+    "y": 276,
+    "root": 1428,
+    "theme": "dark",
+    "fade": "none",
+    "ys": [
+      1,
+      47.46875,
+      93.9375,
+      140.40625
+    ],
+    "th": 382,
+    "short": 473,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-1440-light-js-first.png",
+    "state": "first",
+    "width": 1440,
+    "js": true,
+    "x": 0,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125px), rgba(0, 0, 0, 0) calc(100% - 97px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.96875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-1440-dark-js-first.png",
+    "state": "first",
+    "width": 1440,
+    "js": true,
+    "x": 0,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 125px), rgba(0, 0, 0, 0) calc(100% - 97px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.96875,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-1440-dark-js-pan.png",
+    "state": "pan",
+    "width": 1440,
+    "js": true,
+    "x": 37,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 88px), rgba(0, 0, 0, 0) calc(100% - 60px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.59375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-1440-light-js-pan.png",
+    "state": "pan",
+    "width": 1440,
+    "js": true,
+    "x": 37,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 88px), rgba(0, 0, 0, 0) calc(100% - 60px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.59375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-1440-dark-js-refresh.png",
+    "state": "refresh",
+    "width": 1440,
+    "js": true,
+    "x": 37,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "dark",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 88px), rgba(0, 0, 0, 0) calc(100% - 60px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.59375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "file": "brave-48445-1440-light-js-refresh.png",
+    "state": "refresh",
+    "width": 1440,
+    "js": true,
+    "x": 37,
+    "max": 97,
+    "y": 288,
+    "root": 1428,
+    "theme": "light",
+    "fade": "linear-gradient(to right, rgb(0, 0, 0) calc(100% - 88px), rgba(0, 0, 0, 0) calc(100% - 60px))",
+    "ys": [
+      26.59375,
+      73.0625,
+      119.53125,
+      166
+    ],
+    "th": 382,
+    "short": 472.59375,
+    "missingPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]
