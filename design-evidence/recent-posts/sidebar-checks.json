@@ -1,0 +1,253 @@
+{
+  "cycles": [
+    58,
+    59
+  ],
+  "releaseRoutes": {
+    "html": 252,
+    "withExplorerAndRecents": 160,
+    "resolvedPostLinks": 480,
+    "minimal": 1,
+    "redirects": 91
+  },
+  "expandedBlogDrawer": [
+    {
+      "cycle": 58,
+      "viewportAndTheme": "320-568-light",
+      "recentPostsVisibleHeight": 35,
+      "recentContentHeight": 227,
+      "fullyVisiblePostTitles": 0
+    },
+    {
+      "cycle": 58,
+      "viewportAndTheme": "390-844-light",
+      "recentPostsVisibleHeight": 54,
+      "recentContentHeight": 227,
+      "fullyVisiblePostTitles": 0
+    },
+    {
+      "cycle": 58,
+      "viewportAndTheme": "390-844-dark",
+      "recentPostsVisibleHeight": 54,
+      "recentContentHeight": 227,
+      "fullyVisiblePostTitles": 0
+    },
+    {
+      "cycle": 59,
+      "viewportAndTheme": "320-568-light",
+      "recentPostsVisibleHeight": 227,
+      "recentContentHeight": 227,
+      "fullyVisiblePostTitles": 3
+    },
+    {
+      "cycle": 59,
+      "viewportAndTheme": "390-844-light",
+      "recentPostsVisibleHeight": 227,
+      "recentContentHeight": 227,
+      "fullyVisiblePostTitles": 3
+    },
+    {
+      "cycle": 59,
+      "viewportAndTheme": "390-844-dark",
+      "recentPostsVisibleHeight": 227,
+      "recentContentHeight": 227,
+      "fullyVisiblePostTitles": 3
+    }
+  ],
+  "touchNavigation": {
+    "Chrome": {
+      "testedViewportsAndThemes": 5,
+      "postLinkVisitsAndReturns": 15,
+      "scrollHeld": true,
+      "focusRestored": true,
+      "resizing": true,
+      "doubleRefresh": true
+    },
+    "Brave": {
+      "testedViewportsAndThemes": 5,
+      "postLinkVisitsAndReturns": 15,
+      "scrollHeld": true,
+      "focusRestored": true,
+      "resizing": true,
+      "doubleRefresh": true
+    },
+    "WebKit": {
+      "testedViewportsAndThemes": 5,
+      "postLinkVisitsAndReturns": 15,
+      "scrollHeld": true,
+      "focusRestored": true,
+      "resizing": true,
+      "doubleRefresh": true
+    }
+  },
+  "watchRebuildStates": [
+    "full",
+    "add with explicit release",
+    "rename/reorder",
+    "regular-file mtime unchanged by unrelated edits before and after release, and by a Blog body-only edit",
+    "draft",
+    "republish",
+    "delete",
+    "two releases",
+    "one release",
+    "empty"
+  ],
+  "unitTestsPassed": 169,
+  "productionFiles": 914,
+  "typeCheckBaselineAndFinal": [
+    "TS7016 micromorph",
+    "TS2307 remark-parse/lib"
+  ],
+  "firefoxAt400Percent": [
+    {
+      "theme": "light",
+      "zoom": 4,
+      "inner": 320,
+      "height": 204,
+      "doc": 317,
+      "tree": 44,
+      "list": 68,
+      "content": 248,
+      "first": 42,
+      "last": 42,
+      "visible": [
+        false,
+        false,
+        false
+      ],
+      "eachScroll": [
+        {
+          "fullyVisible": true,
+          "scroll": 43
+        },
+        {
+          "fullyVisible": true,
+          "scroll": 120.5999984741211
+        },
+        {
+          "fullyVisible": true,
+          "scroll": 177.1999969482422
+        }
+      ],
+      "linksOnFocus": [
+        {
+          "index": 0,
+          "height": 42,
+          "listHeight": 69.23333740234375,
+          "scroll": 32.88333511352539,
+          "fullyVisible": true,
+          "visiblePixels": 42
+        },
+        {
+          "index": 1,
+          "height": 21,
+          "listHeight": 69.23333740234375,
+          "scroll": 99.98332977294922,
+          "fullyVisible": true,
+          "visiblePixels": 21
+        },
+        {
+          "index": 2,
+          "height": 42,
+          "listHeight": 69.23333740234375,
+          "scroll": 167.0833282470703,
+          "fullyVisible": true,
+          "visiblePixels": 42
+        }
+      ],
+      "bottomReached": true
+    },
+    {
+      "theme": "dark",
+      "zoom": 4,
+      "inner": 320,
+      "height": 204,
+      "doc": 317,
+      "tree": 44,
+      "list": 68,
+      "content": 248,
+      "first": 42,
+      "last": 42,
+      "visible": [
+        false,
+        false,
+        false
+      ],
+      "eachScroll": [
+        {
+          "fullyVisible": true,
+          "scroll": 43
+        },
+        {
+          "fullyVisible": true,
+          "scroll": 120.5999984741211
+        },
+        {
+          "fullyVisible": true,
+          "scroll": 177.1999969482422
+        }
+      ],
+      "linksOnFocus": [
+        {
+          "index": 0,
+          "height": 42,
+          "listHeight": 69.23333740234375,
+          "scroll": 32.88333511352539,
+          "fullyVisible": true,
+          "visiblePixels": 42
+        },
+        {
+          "index": 1,
+          "height": 21,
+          "listHeight": 69.23333740234375,
+          "scroll": 99.98332977294922,
+          "fullyVisible": true,
+          "visiblePixels": 21
+        },
+        {
+          "index": 2,
+          "height": 42,
+          "listHeight": 69.23333740234375,
+          "scroll": 167.0833282470703,
+          "fullyVisible": true,
+          "visiblePixels": 42
+        }
+      ],
+      "bottomReached": true
+    }
+  ],
+  "directorPreviewChecks": [
+    {
+      "width": 900,
+      "theme": "light",
+      "motion": "no-preference",
+      "stalePreviews": 0,
+      "ordinaryHover": 1,
+      "remainingAfterEscape": 0
+    },
+    {
+      "width": 900,
+      "theme": "light",
+      "motion": "reduce",
+      "stalePreviews": 0,
+      "ordinaryHover": 1,
+      "remainingAfterEscape": 0
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "motion": "no-preference",
+      "stalePreviews": 0,
+      "ordinaryHover": 1,
+      "remainingAfterEscape": 0
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "motion": "reduce",
+      "stalePreviews": 0,
+      "ordinaryHover": 1,
+      "remainingAfterEscape": 0
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # Design decisions
 
+## Location of Recent Notes
+
+The author requested the three most recent Blog releases below Explorer. The cycle 57 layout placed them beneath the Home signature. Cycle 58 moved the native component into the left navigation on every page that has Explorer. Its first mobile layout let an expanded tree compress the posts into a 36–55px strip on portrait phones. Cycle 59 reserves the list’s natural height up to 55% of the drawer’s content area. In a short viewport, the tree and the links can each scroll. [Light drawer comparison](design-evidence/recent-posts/drawer-light.webp) · [Pure-black drawer comparison](design-evidence/recent-posts/drawer-dark.webp)
+
+## A Home link preview surviving navigation
+
+In cycle 56, quickly opening a recent post could leave a 546 × 370px preview over the article. Quartz fetched the preview and the article separately. When the preview finished last, it used a Home link that had already left the document. The Design Director reproduced this four times with a delayed response, including with reduced motion enabled. The Blog archive could trigger the same race. Cycle 57 clears the active preview before navigation and discards a late response from a disconnected link. Hovering a link on the new article still opens its own preview and Escape dismisses it. [Before and after](design-evidence/recent-posts/preview-navigation.webp)
+
 ## Home table dividers on first load
 
 Cycle 52 used separate cell borders with zero spacing. At 900px and 1440px the pinned labels still lost parts of their dividers or painted them one pixel above the adjoining cell. The color fade also applied to part of the first row's border. Drawing a single rule per row restored continuity through the pinned column and the faded links. [Rejected tablet rendering](design-evidence/home-table-dividers/cycle-52-900-light.webp) · [First-load comparisons](design-evidence/home-table-dividers/first-load-light.webp)

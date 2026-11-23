@@ -110,7 +110,8 @@ async function mouseEnterHandler(
       elts.forEach((elt) => popoverInner.appendChild(elt))
   }
 
-  if (!!document.getElementById(popoverId)) {
+  // Navigation can remove the originating link while its preview is still loading.
+  if (!link.isConnected || document.getElementById(popoverId)) {
     return
   }
 
@@ -164,5 +165,6 @@ function setupPopovers() {
   }
 }
 
+document.addEventListener("prenav", clearActivePopover)
 document.addEventListener("nav", setupPopovers)
 document.addEventListener("render", setupPopovers)

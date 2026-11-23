@@ -1,0 +1,125 @@
+{
+  "baselineCommit": "aaedf66",
+  "viewports": [
+    390,
+    900,
+    1440
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "buildFiles": {
+    "baseline": 913,
+    "cycle56": 914,
+    "cycle57": 914
+  },
+  "testSuite": {
+    "cycle56": {
+      "passed": 169,
+      "failed": 0
+    },
+    "cycle57": {
+      "passed": 169,
+      "failed": 0
+    }
+  },
+  "typeCheck": {
+    "baseline": [
+      "TS7016 micromorph",
+      "TS2307 remark-parse/lib"
+    ],
+    "cycle57": [
+      "TS7016 micromorph",
+      "TS2307 remark-parse/lib"
+    ]
+  },
+  "linksAndRefresh": [
+    {
+      "browser": "Chrome",
+      "version": "158.0.8127.36",
+      "themeViewportPairsPassed": 6,
+      "linksOpenedAndBack": 18,
+      "refreshes": 12
+    },
+    {
+      "browser": "Brave",
+      "version": "158.0.8127.42",
+      "themeViewportPairsPassed": 6,
+      "linksOpenedAndBack": 18,
+      "refreshes": 12
+    },
+    {
+      "browser": "WebKit",
+      "version": "27.2",
+      "themeViewportPairsPassed": 6,
+      "linksOpenedAndBack": 18,
+      "refreshes": 12
+    }
+  ],
+  "delayedHoverResponse": [
+    {
+      "cycle": 56,
+      "browser": "chrome",
+      "version": "158.0.8127.36",
+      "stalePreviewsAfterNavigation": 1,
+      "intentionalPreviewsOpened": 1,
+      "remainingAfterEscape": 0
+    },
+    {
+      "cycle": 57,
+      "browser": "chrome",
+      "version": "158.0.8127.36",
+      "stalePreviewsAfterNavigation": 0,
+      "intentionalPreviewsOpened": 1,
+      "remainingAfterEscape": 0
+    },
+    {
+      "cycle": 56,
+      "browser": "brave",
+      "version": "158.0.8127.42",
+      "stalePreviewsAfterNavigation": 1,
+      "intentionalPreviewsOpened": 1,
+      "remainingAfterEscape": 0
+    },
+    {
+      "cycle": 57,
+      "browser": "brave",
+      "version": "158.0.8127.42",
+      "stalePreviewsAfterNavigation": 0,
+      "intentionalPreviewsOpened": 1,
+      "remainingAfterEscape": 0
+    }
+  ],
+  "incrementalBuildChecks": [
+    "unrelated edit keeps Home unchanged",
+    "new post appears",
+    "new release date reorders posts",
+    "marking post as draft removes it",
+    "republishing post restores it",
+    "deleting the post promotes the next eligible release"
+  ],
+  "htmlRoutes": {
+    "baseline": 252,
+    "cycle57": 252,
+    "containingHomeRecentPosts": [
+      "index.html"
+    ]
+  },
+  "designDirector": {
+    "56": {
+      "delayedResponsesTested": 4,
+      "producedStalePreview": 4,
+      "normalHoverOpened": 4,
+      "escapeDismissed": 4,
+      "decision": "REVISE"
+    },
+    "57": {
+      "delayedResponsesTested": 4,
+      "producedStalePreview": 0,
+      "normalHoverOpened": 4,
+      "escapeDismissed": 4,
+      "decision": "APPROVE"
+    }
+  }
+}

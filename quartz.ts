@@ -1,13 +1,18 @@
 import fs from "node:fs/promises"
 import path from "node:path"
 import type { GraphOptions } from "@quartz-community/graph/components"
+import { byDateAndAlphabetical, getDate } from "@quartz-community/utils"
 import type { QuartzEmitterPluginInstance } from "./quartz/plugins/types"
+import type { ProcessedContent } from "./quartz/plugins/vfile"
 import { calloutDisclosures } from "./quartz/plugins/transformers/calloutDisclosures"
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 import type { ExplorerOptions } from "./.quartz/plugins"
 import graphScript from "./quartz/components/scripts/graph.inline"
 import { componentRegistry } from "./quartz/components/registry"
+import { RecentBlogPosts, releasedBlogPosts } from "./quartz/components/RecentBlogPosts"
 import type { QuartzComponent, QuartzComponentConstructor } from "./quartz/components/types"
+
+componentRegistry.register("@quartz-community/recent-notes", RecentBlogPosts, "site")
 
 componentRegistry.setOptionOverrides("explorer", {
   sortFn: (a, b) => {
@@ -69,6 +74,39 @@ config.plugins.transformers.push(calloutDisclosures)
 for (const [name, entry] of componentRegistry.getAll()) {
   if (entry.component === upstreamGraph) {
     componentRegistry.register(name, siteGraph, entry.source, entry.manifest)
+  }
+}
+
+// Every page with Explorer displays the same releases. Compare only the inputs
+// shown by Recent Notes so ordinary content edits keep Quartz's incremental path.
+function releaseMetadata(content: ProcessedContent[]) {
+  const posts = releasedBlogPosts(content.map(([, file]) => file.data))
+  return JSON.stringify(
+    posts
+      .sort(byDateAndAlphabetical())
+      .map((page) => [page.slug, page.frontmatter?.title, getDate(page)]),
+  )
+}
+
+const pageDispatcher = config.plugins.emitters.find(
+  (plugin) => plugin.name === "PageTypeDispatcher",
+)
+if (pageDispatcher?.partialEmit) {
+  const emit = pageDispatcher.emit.bind(pageDispatcher)
+  const partialEmit = pageDispatcher.partialEmit.bind(pageDispatcher)
+  let previousReleases: string
+  pageDispatcher.emit = async function* (ctx, content, resources) {
+    const releases = releaseMetadata(content)
+    yield* await emit(ctx, content, resources)
+    previousReleases = releases
+  }
+  pageDispatcher.partialEmit = (ctx, content, resources, changes) => {
+    if (releaseMetadata(content) !== previousReleases) {
+      // A full dispatch rebuilds its folder tree when the cached trie is absent.
+      ctx.trie = undefined
+      return pageDispatcher.emit(ctx, content, resources)
+    }
+    return partialEmit(ctx, content, resources, changes)
   }
 }
 

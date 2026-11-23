@@ -80,6 +80,7 @@ function watchExplorerDrawer(
   const content = list.parentElement
   if (!sidebar?.parentElement || !toggle || !content) return
   const root = document.documentElement
+  const recentNotes = sidebar.querySelector<HTMLElement>(":scope > .recent-notes")
   const measureToolbar = () => {
     if (mobile.matches) {
       root.style.setProperty("--mobile-toolbar-height", `${sidebar.offsetHeight}px`)
@@ -92,7 +93,7 @@ function watchExplorerDrawer(
   measureToolbar()
   mobile.addEventListener("change", measureToolbar, { signal })
   const background = [
-    ...sidebar.querySelectorAll<HTMLElement>(":scope > :not(.explorer)"),
+    ...sidebar.querySelectorAll<HTMLElement>(":scope > :not(.explorer, .recent-notes)"),
     ...sidebar.parentElement.querySelectorAll<HTMLElement>(":scope > :not(.sidebar.left)"),
   ]
   const suspended = new Set<HTMLElement>()
@@ -134,7 +135,7 @@ function watchExplorerDrawer(
         toggle.focus({ preventScroll: true })
         if (!searchShortcut) event.preventDefault()
       } else if (event.key === "Tab") {
-        const stops = [...list.querySelectorAll<HTMLElement>("a[href], button, [tabindex='0']")]
+        const stops = [...content.querySelectorAll<HTMLElement>("a[href], button, [tabindex='0']")]
         const last =
           stops.reverse().find((el) => !el.closest("[inert]") && el.getClientRects().length) ??
           toggle
@@ -152,10 +153,18 @@ function watchExplorerDrawer(
   const observer = new MutationObserver(syncDrawer)
   observer.observe(explorer, { attributeFilter: ["class", "aria-expanded"] })
   content.removeAttribute("aria-expanded")
-  syncDrawer()
+  function syncLayout() {
+    // The desktop rail and mobile drawer share the server-rendered Quartz component.
+    if (recentNotes && mobile.matches) list.after(recentNotes)
+    else if (recentNotes?.parentElement === content) explorer.after(recentNotes)
+    syncDrawer()
+  }
+  mobile.addEventListener("change", syncLayout, { signal })
+  syncLayout()
   signal.addEventListener("abort", () => {
     observer.disconnect()
     toolbarResize.disconnect()
+    if (recentNotes?.parentElement === content) explorer.after(recentNotes)
     root.style.removeProperty("--mobile-toolbar-height")
     if (suspended.size) root.classList.remove("mobile-no-scroll")
     releaseBackground()

@@ -1,0 +1,54 @@
+{
+  "previousRadiusPx": 15,
+  "currentRadiusPx": 6,
+  "widths": [
+    390,
+    900,
+    1440
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "articleMedia": {
+    "images": 383,
+    "embeddedSvgObjects": 2
+  },
+  "fullArticleSweep": [
+    {
+      "width": 390,
+      "theme": "light",
+      "pages": 58,
+      "articleMedia": 385
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "pages": 58,
+      "articleMedia": 385
+    }
+  ],
+  "geometryMismatches": [],
+  "matchedFigurePairs": 24,
+  "pairsWithDifferencesOutsideCorners": 0,
+  "browsers": [
+    "Chrome",
+    "Brave",
+    "Firefox",
+    "Linux WebKit"
+  ],
+  "firefoxZoomPercent": [
+    100,
+    200,
+    400
+  ],
+  "productionBuildFiles": 914,
+  "unitTestsPassed": 169,
+  "unchangedTypeCheckErrors": [
+    "TS7016 micromorph",
+    "TS2307 remark-parse/lib"
+  ],
+  "unchangedAccessibilityFindings": {
+    "iacsImagesMissingAlt": 5
+  }
+}

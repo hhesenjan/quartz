@@ -477,6 +477,19 @@ body[data-slug="index"] .page-header {
     padding: 0 0.25rem 0.75rem;
     gap: 1rem;
 
+    // Keep both sections reachable when text grows or the window is short.
+    &:has(> .recent-notes) {
+      overflow-y: auto;
+      overscroll-behavior-y: contain;
+
+      > .explorer:not(.collapsed) {
+        min-block-size: 7.5rem;
+      }
+      > .recent-notes {
+        flex: none;
+      }
+    }
+
     // Keep the site tools together as one row above the folder tree.
     > .flex-component {
       align-items: center;
@@ -918,7 +931,7 @@ footer,
   text-transform: uppercase;
 }
 
-.sidebar .desktop-explorer h2 {
+.sidebar :is(.desktop-explorer h2, .recent-notes > h3) {
   color: var(--dark);
   font-size: var(--control-text-size);
   letter-spacing: -0.015em;
@@ -985,6 +998,65 @@ footer,
         font-weight: 550;
       }
     }
+  }
+}
+
+.sidebar .recent-notes {
+  min-inline-size: 0;
+  box-sizing: border-box;
+  border-block-start: 1px solid var(--lightgray);
+  padding-block-start: 0.75rem;
+
+  > h3 {
+    margin: 0 0 0.5rem;
+    font-family: var(--headerFont);
+    font-weight: 600;
+  }
+  .recent-ul {
+    margin: 0;
+    padding: 0;
+  }
+  .recent-li {
+    position: relative;
+    margin: 0;
+    padding: 0.375rem;
+    border-radius: 4px;
+    font-family: var(--bodyFont);
+
+    &:focus-within {
+      background: var(--panel);
+    }
+    @media (hover: hover) {
+      &:hover {
+        background: var(--panel);
+      }
+    }
+  }
+  .desc h3 {
+    margin: 0;
+    font: 500 var(--navigation-size)/1.4 var(--bodyFont);
+  }
+  .internal {
+    display: block;
+    color: var(--darkgray);
+    font: inherit;
+    overflow-wrap: anywhere;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+    }
+    &:is(:hover, :focus-visible) {
+      color: var(--tertiary);
+    }
+  }
+  .meta {
+    margin: 0;
+    opacity: 1;
+    color: var(--gray);
+    font: 450 var(--caption-size)/1.4 var(--bodyFont);
+    font-variant-numeric: tabular-nums;
   }
 }
 
@@ -1415,7 +1487,7 @@ body[data-slug="index"] .center > article > .markdown-rendered > p:first-child {
 }
 
 .markdown-rendered :is(img, object[type="image/svg+xml"]) {
-  border-radius: 15px;
+  border-radius: 7px;
 }
 
 // Skipping an unsized image can leave keyboard focus below the viewport.
@@ -2526,6 +2598,9 @@ pre code[data-theme] span[data-token-type="comment"] {
     gap: 0.3rem;
     box-shadow: $toolbar-gutter-fill;
 
+    > .recent-notes {
+      display: none;
+    }
     > .flex-component {
       max-inline-size: 100%;
       flex-wrap: wrap !important; // Quartz sets the toolbar's wrapping inline.
@@ -2583,6 +2658,16 @@ pre code[data-theme] span[data-token-type="comment"] {
       padding-inline: max(1rem, env(safe-area-inset-left)) max(1rem, env(safe-area-inset-right));
       padding-block-end: max(1rem, env(safe-area-inset-bottom));
 
+      > .recent-notes {
+        flex: none;
+        min-block-size: 0;
+        max-block-size: 55%;
+        inline-size: 100%;
+        max-inline-size: var(--reading-width);
+        margin: 0.75rem auto 0;
+        overflow-y: auto;
+        overscroll-behavior-y: contain;
+      }
       > .explorer-ul {
         box-sizing: border-box;
         width: 100%;
@@ -2699,6 +2784,7 @@ pre code[data-theme] span[data-token-type="comment"] {
       box-shadow: $toolbar-gutter-fill;
 
       > .explorer,
+      > .recent-notes,
       > .mobile-only {
         display: none;
       }
