@@ -1,0 +1,905 @@
+{
+  "acceptedBaseline": "f7e6c19",
+  "publishedAssetParity": {
+    "mainCSS": "index-5abd7b84.css",
+    "routes": [
+      "/",
+      "/blog/",
+      "/tags/azure",
+      "/blog/0057-setting-up-azure-machine-configuration",
+      "/certifications/",
+      "/404.html"
+    ],
+    "linkedAssetsChecked": 34
+  },
+  "baselines": {
+    "layout": {
+      "pages": 161,
+      "states": 2576,
+      "widths": [
+        320,
+        390,
+        800,
+        801,
+        900,
+        1199,
+        1200,
+        1440
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "routeErrors": [],
+      "layoutProblems": 0,
+      "incorrectCodeSizesOrFonts": 0,
+      "incorrectImageCorners": 0
+    },
+    "axe": {
+      "states": 44,
+      "criteria": "axe-core WCAG 2/2.1/2.2 A/AA tags",
+      "automatedViolations": [],
+      "scanErrors": [],
+      "pagesAndStates": [
+        "404",
+        "Azure",
+        "Blog",
+        "Home",
+        "active Search",
+        "disclosures",
+        "open Explorer",
+        "table"
+      ],
+      "viewports": [
+        390,
+        900,
+        1440
+      ],
+      "themes": [
+        "light",
+        "dark"
+      ]
+    }
+  },
+  "finalCandidate": {
+    "layout": {
+      "pages": 161,
+      "states": 2576,
+      "widths": [
+        320,
+        390,
+        800,
+        801,
+        900,
+        1199,
+        1200,
+        1440
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "routeErrors": [],
+      "layoutProblems": 0,
+      "incorrectCodeSizesOrFonts": 0,
+      "incorrectImageCorners": 0
+    },
+    "axe": {
+      "states": 44,
+      "criteria": "axe-core WCAG 2/2.1/2.2 A/AA tags",
+      "automatedViolations": [],
+      "scanErrors": [],
+      "pagesAndStates": [
+        "404",
+        "Azure",
+        "Blog",
+        "Home",
+        "active Search",
+        "disclosures",
+        "open Explorer",
+        "table"
+      ],
+      "viewports": [
+        390,
+        900,
+        1440
+      ],
+      "themes": [
+        "light",
+        "dark"
+      ]
+    },
+    "mobileExplorer": {
+      "Chrome": {
+        "browser": "Google Chrome 158.0.8127.36",
+        "pagesWithExplorer": 160,
+        "absentOn": [
+          "404.html"
+        ],
+        "comparisons": 320,
+        "failed": [],
+        "underlayPixelChanges": 0
+      },
+      "Brave": {
+        "browser": "Brave 158.0.8127.42",
+        "pagesWithExplorer": 160,
+        "absentOn": [
+          "404.html"
+        ],
+        "comparisons": 320,
+        "failed": [],
+        "underlayPixelChanges": null
+      }
+    },
+    "homeReload": {
+      "chrome": [
+        {
+          "width": 1440,
+          "theme": "light",
+          "browserVersionReported": "158.0.8127.36",
+          "reloadStates": 5,
+          "observedLocalCanvasCounts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "expectedTablePositions": [
+            0,
+            97,
+            49,
+            97,
+            97
+          ],
+          "restoredTablePositions": [
+            0,
+            97,
+            49,
+            97,
+            97
+          ],
+          "problems": [],
+          "dialogCanvases": [
+            1,
+            1
+          ],
+          "reducedMotionCanvases": 0
+        },
+        {
+          "width": 390,
+          "theme": "dark",
+          "browserVersionReported": "158.0.8127.36",
+          "reloadStates": 5,
+          "observedLocalCanvasCounts": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "expectedTablePositions": [
+            0,
+            433,
+            217,
+            433,
+            433
+          ],
+          "restoredTablePositions": [
+            0,
+            433,
+            217,
+            433,
+            433
+          ],
+          "problems": [],
+          "dialogCanvases": null,
+          "reducedMotionCanvases": null
+        },
+        {
+          "width": 900,
+          "theme": "dark",
+          "browserVersionReported": "158.0.8127.36",
+          "reloadStates": 5,
+          "observedLocalCanvasCounts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "expectedTablePositions": [
+            0,
+            128,
+            64,
+            128,
+            128
+          ],
+          "restoredTablePositions": [
+            0,
+            128,
+            64,
+            128,
+            128
+          ],
+          "problems": [],
+          "dialogCanvases": [
+            1,
+            1
+          ],
+          "reducedMotionCanvases": 0
+        }
+      ],
+      "brave": [
+        {
+          "width": 1440,
+          "theme": "light",
+          "browserVersionReported": "158.0.8127.42",
+          "reloadStates": 5,
+          "observedLocalCanvasCounts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "expectedTablePositions": [
+            0,
+            97,
+            49,
+            97,
+            97
+          ],
+          "restoredTablePositions": [
+            0,
+            97,
+            49,
+            97,
+            97
+          ],
+          "problems": [],
+          "dialogCanvases": [
+            1,
+            1
+          ],
+          "reducedMotionCanvases": 0
+        },
+        {
+          "width": 390,
+          "theme": "dark",
+          "browserVersionReported": "158.0.8127.42",
+          "reloadStates": 5,
+          "observedLocalCanvasCounts": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "expectedTablePositions": [
+            0,
+            433,
+            217,
+            433,
+            433
+          ],
+          "restoredTablePositions": [
+            0,
+            433,
+            217,
+            433,
+            433
+          ],
+          "problems": [],
+          "dialogCanvases": null,
+          "reducedMotionCanvases": null
+        },
+        {
+          "width": 900,
+          "theme": "dark",
+          "browserVersionReported": "158.0.8127.42",
+          "reloadStates": 5,
+          "observedLocalCanvasCounts": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "expectedTablePositions": [
+            0,
+            128,
+            64,
+            128,
+            128
+          ],
+          "restoredTablePositions": [
+            0,
+            128,
+            64,
+            128,
+            128
+          ],
+          "problems": [],
+          "dialogCanvases": [
+            1,
+            1
+          ],
+          "reducedMotionCanvases": 0
+        }
+      ]
+    },
+    "allPagesPrint": {
+      "paperWidthsInCSSPixels": [
+        718,
+        740
+      ],
+      "pages": 161,
+      "widthAndThemeStates": 644,
+      "findings": [],
+      "checks": "Visible navigation controls, overflow in code and tables, identical printed syntax colors from light and dark preferences. Run on cycle 50. Cycle 51 CSS is byte-identical outside the forced-colors autocomplete rule."
+    }
+  },
+  "pdfExports": {
+    "baseline": {
+      "pdfs": [
+        {
+          "file": "archive-dark.pdf",
+          "pages": 4,
+          "toolbarText": true,
+          "paperStock": "A4"
+        },
+        {
+          "file": "archive-light.pdf",
+          "pages": 4,
+          "toolbarText": true,
+          "paperStock": "A4"
+        },
+        {
+          "file": "azure-dark-background.pdf",
+          "pages": 10,
+          "toolbarText": true,
+          "paperStock": "Letter",
+          "azureEndingOccurrences": 0,
+          "wholeAssignmentInPDF": false
+        },
+        {
+          "file": "azure-dark.pdf",
+          "pages": 10,
+          "toolbarText": true,
+          "paperStock": "A4",
+          "azureEndingOccurrences": 0,
+          "wholeAssignmentInPDF": false
+        },
+        {
+          "file": "azure-light-background.pdf",
+          "pages": 10,
+          "toolbarText": true,
+          "paperStock": "Letter",
+          "azureEndingOccurrences": 0,
+          "wholeAssignmentInPDF": false
+        },
+        {
+          "file": "azure-light.pdf",
+          "pages": 10,
+          "toolbarText": true,
+          "paperStock": "A4",
+          "azureEndingOccurrences": 0,
+          "wholeAssignmentInPDF": false
+        },
+        {
+          "file": "home-dark.pdf",
+          "pages": 2,
+          "toolbarText": true,
+          "paperStock": "A4",
+          "shortStatusVisible": true
+        },
+        {
+          "file": "home-light.pdf",
+          "pages": 2,
+          "toolbarText": true,
+          "paperStock": "A4",
+          "shortStatusVisible": true
+        },
+        {
+          "file": "macos-dark.pdf",
+          "pages": 7,
+          "toolbarText": true,
+          "paperStock": "A4",
+          "descriptions": {
+            "Connects the endpoint": false,
+            "Collects diagnosis data": false
+          }
+        },
+        {
+          "file": "macos-light.pdf",
+          "pages": 7,
+          "toolbarText": true,
+          "paperStock": "A4",
+          "descriptions": {
+            "Connects the endpoint": false,
+            "Collects diagnosis data": false
+          }
+        },
+        {
+          "file": "table-dark.pdf",
+          "pages": 3,
+          "toolbarText": true,
+          "paperStock": "A4"
+        },
+        {
+          "file": "table-light.pdf",
+          "pages": 3,
+          "toolbarText": true,
+          "paperStock": "A4"
+        }
+      ],
+      "codeBoxesWithOverflow": 8,
+      "tableWrappersWithOverflow": 2
+    },
+    "cycle49": {
+      "pdfs": [
+        {
+          "file": "archive-dark.pdf",
+          "pages": 4,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "archive-light.pdf",
+          "pages": 4,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "azure-dark-background.pdf",
+          "pages": 10,
+          "toolbarText": false,
+          "paperStock": "Letter",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-dark.pdf",
+          "pages": 9,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-light-background.pdf",
+          "pages": 10,
+          "toolbarText": false,
+          "paperStock": "Letter",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-light.pdf",
+          "pages": 9,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "home-dark.pdf",
+          "pages": 2,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "shortStatusVisible": true
+        },
+        {
+          "file": "home-light.pdf",
+          "pages": 2,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "shortStatusVisible": true
+        },
+        {
+          "file": "macos-dark.pdf",
+          "pages": 7,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "descriptions": {
+            "Connects the endpoint": true,
+            "Collects diagnosis data": true
+          }
+        },
+        {
+          "file": "macos-light.pdf",
+          "pages": 7,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "descriptions": {
+            "Connects the endpoint": true,
+            "Collects diagnosis data": true
+          }
+        },
+        {
+          "file": "table-dark.pdf",
+          "pages": 2,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "table-light.pdf",
+          "pages": 2,
+          "toolbarText": false,
+          "paperStock": "A4"
+        }
+      ],
+      "codeBoxesWithOverflow": 0,
+      "tableWrappersWithOverflow": 0
+    },
+    "cycle50": {
+      "pdfs": [
+        {
+          "file": "archive-dark.pdf",
+          "pages": 4,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "archive-light.pdf",
+          "pages": 4,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "azure-dark-background.pdf",
+          "pages": 10,
+          "toolbarText": false,
+          "paperStock": "Letter",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-dark.pdf",
+          "pages": 9,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-light-background.pdf",
+          "pages": 10,
+          "toolbarText": false,
+          "paperStock": "Letter",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-light.pdf",
+          "pages": 9,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "home-dark.pdf",
+          "pages": 1,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "shortStatusVisible": true
+        },
+        {
+          "file": "home-light.pdf",
+          "pages": 1,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "shortStatusVisible": true
+        },
+        {
+          "file": "macos-dark.pdf",
+          "pages": 6,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "descriptions": {
+            "Connects the endpoint": true,
+            "Collects diagnosis data": true
+          }
+        },
+        {
+          "file": "macos-light.pdf",
+          "pages": 6,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "descriptions": {
+            "Connects the endpoint": true,
+            "Collects diagnosis data": true
+          }
+        },
+        {
+          "file": "table-dark.pdf",
+          "pages": 2,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "table-light.pdf",
+          "pages": 2,
+          "toolbarText": false,
+          "paperStock": "A4"
+        }
+      ],
+      "codeBoxesWithOverflow": 0,
+      "tableWrappersWithOverflow": 0
+    },
+    "cycle51": {
+      "pdfs": [
+        {
+          "file": "archive-dark.pdf",
+          "pages": 4,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "archive-light.pdf",
+          "pages": 4,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "azure-dark-background.pdf",
+          "pages": 10,
+          "toolbarText": false,
+          "paperStock": "Letter",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-dark.pdf",
+          "pages": 9,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-light-background.pdf",
+          "pages": 10,
+          "toolbarText": false,
+          "paperStock": "Letter",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "azure-light.pdf",
+          "pages": 9,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "azureEndingOccurrences": 2,
+          "wholeAssignmentInPDF": true
+        },
+        {
+          "file": "home-dark.pdf",
+          "pages": 1,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "shortStatusVisible": true
+        },
+        {
+          "file": "home-light.pdf",
+          "pages": 1,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "shortStatusVisible": true
+        },
+        {
+          "file": "macos-dark.pdf",
+          "pages": 6,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "descriptions": {
+            "Connects the endpoint": true,
+            "Collects diagnosis data": true
+          }
+        },
+        {
+          "file": "macos-light.pdf",
+          "pages": 6,
+          "toolbarText": false,
+          "paperStock": "A4",
+          "descriptions": {
+            "Connects the endpoint": true,
+            "Collects diagnosis data": true
+          }
+        },
+        {
+          "file": "table-dark.pdf",
+          "pages": 2,
+          "toolbarText": false,
+          "paperStock": "A4"
+        },
+        {
+          "file": "table-light.pdf",
+          "pages": 2,
+          "toolbarText": false,
+          "paperStock": "A4"
+        }
+      ],
+      "codeBoxesWithOverflow": 0,
+      "tableWrappersWithOverflow": 0
+    }
+  },
+  "build": {
+    "productionFiles": 913,
+    "unitTests": 167,
+    "scssFormatting": "pass",
+    "diffWhitespace": "pass",
+    "htmlContentLinksAndIDsChecked": 252,
+    "scriptAndFontParity": "all shipped JavaScript and WOFF2 byte-identical to baseline local build",
+    "repositoryCheck": "same two TypeScript dependency diagnostics on baseline and final",
+    "diagnostics": [
+      "TS7016 micromorph",
+      "TS2307 remark-parse/lib"
+    ]
+  },
+  "limits": "Linux browsers, emulated touch and forced colors, browser print-to-PDF. No physical phone or printer run.",
+  "publicMobileSpotChecks": [
+    {
+      "browser": "Chrome",
+      "theme": "light",
+      "url": "/blog/",
+      "status": 200,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "bottom": 844,
+      "scrollBefore": 520,
+      "color": "rgb(250, 249, 245)",
+      "css": "index-5abd7b84.css",
+      "scrollAtTap": 520,
+      "pixelsEqual": true,
+      "close": [
+        "false",
+        true,
+        520
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "theme": "light",
+      "url": "/blog/0057-setting-up-azure-machine-configuration",
+      "status": 200,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "bottom": 844,
+      "scrollBefore": 520,
+      "color": "rgb(250, 249, 245)",
+      "css": "index-5abd7b84.css",
+      "scrollAtTap": 520,
+      "pixelsEqual": true,
+      "close": [
+        "false",
+        true,
+        520
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "theme": "dark",
+      "url": "/blog/",
+      "status": 200,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "bottom": 844,
+      "scrollBefore": 520,
+      "color": "rgb(0, 0, 0)",
+      "css": "index-5abd7b84.css",
+      "scrollAtTap": 520,
+      "pixelsEqual": true,
+      "close": [
+        "false",
+        true,
+        520
+      ]
+    },
+    {
+      "browser": "Chrome",
+      "theme": "dark",
+      "url": "/blog/0057-setting-up-azure-machine-configuration",
+      "status": 200,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "bottom": 844,
+      "scrollBefore": 520,
+      "color": "rgb(0, 0, 0)",
+      "css": "index-5abd7b84.css",
+      "scrollAtTap": 520,
+      "pixelsEqual": true,
+      "close": [
+        "false",
+        true,
+        520
+      ]
+    },
+    {
+      "browser": "Brave",
+      "theme": "light",
+      "url": "/blog/",
+      "status": 200,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "bottom": 844,
+      "scrollBefore": 520,
+      "color": "rgb(250, 249, 245)",
+      "css": "index-5abd7b84.css",
+      "scrollAtTap": 520,
+      "pixelsEqual": true,
+      "close": [
+        "false",
+        true,
+        520
+      ]
+    },
+    {
+      "browser": "Brave",
+      "theme": "light",
+      "url": "/blog/0057-setting-up-azure-machine-configuration",
+      "status": 200,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "bottom": 844,
+      "scrollBefore": 520,
+      "color": "rgb(250, 249, 245)",
+      "css": "index-5abd7b84.css",
+      "scrollAtTap": 520,
+      "pixelsEqual": true,
+      "close": [
+        "false",
+        true,
+        520
+      ]
+    },
+    {
+      "browser": "Brave",
+      "theme": "dark",
+      "url": "/blog/",
+      "status": 200,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "bottom": 844,
+      "scrollBefore": 520,
+      "color": "rgb(0, 0, 0)",
+      "css": "index-5abd7b84.css",
+      "scrollAtTap": 520,
+      "pixelsEqual": true,
+      "close": [
+        "false",
+        true,
+        520
+      ]
+    },
+    {
+      "browser": "Brave",
+      "theme": "dark",
+      "url": "/blog/0057-setting-up-azure-machine-configuration",
+      "status": 200,
+      "left": 0,
+      "right": 390,
+      "top": 0,
+      "bottom": 844,
+      "scrollBefore": 520,
+      "color": "rgb(0, 0, 0)",
+      "css": "index-5abd7b84.css",
+      "scrollAtTap": 520,
+      "pixelsEqual": true,
+      "close": [
+        "false",
+        true,
+        520
+      ]
+    }
+  ]
+}

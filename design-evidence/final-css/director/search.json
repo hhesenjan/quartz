@@ -1,0 +1,90 @@
+[
+  {
+    "theme": "light",
+    "port": 48261,
+    "input": "#az",
+    "suggestion": "#azure",
+    "ink": "rgb(0, 0, 0)",
+    "adjust": "auto",
+    "active": "quartz-search-0-tags-0",
+    "completed": "#azure ",
+    "focus": "search-button"
+  },
+  {
+    "theme": "light",
+    "port": 48262,
+    "input": "#az",
+    "suggestion": "#azure",
+    "ink": "rgb(0, 0, 0)",
+    "adjust": "auto",
+    "active": "quartz-search-0-tags-0",
+    "completed": "#azure ",
+    "focus": "search-button"
+  },
+  {
+    "theme": "light",
+    "port": 48263,
+    "input": "#az",
+    "suggestion": "#azure",
+    "ink": "rgb(0, 0, 0)",
+    "adjust": "auto",
+    "active": "quartz-search-0-tags-0",
+    "completed": "#azure ",
+    "focus": "search-button"
+  },
+  {
+    "theme": "light",
+    "port": 48264,
+    "input": "#az",
+    "suggestion": "#azure",
+    "ink": "rgb(96, 0, 0)",
+    "adjust": "none",
+    "active": "quartz-search-0-tags-0",
+    "completed": "#azure ",
+    "focus": "search-button"
+  },
+  {
+    "theme": "dark",
+    "port": 48261,
+    "input": "#az",
+    "suggestion": "#azure",
+    "ink": "rgb(255, 255, 255)",
+    "adjust": "auto",
+    "active": "quartz-search-0-tags-0",
+    "completed": "#azure ",
+    "focus": "search-button"
+  },
+  {
+    "theme": "dark",
+    "port": 48262,
+    "input": "#az",
+    "suggestion": "#azure",
+    "ink": "rgb(255, 255, 255)",
+    "adjust": "auto",
+    "active": "quartz-search-0-tags-0",
+    "completed": "#azure ",
+    "focus": "search-button"
+  },
+  {
+    "theme": "dark",
+    "port": 48263,
+    "input": "#az",
+    "suggestion": "#azure",
+    "ink": "rgb(255, 255, 255)",
+    "adjust": "auto",
+    "active": "quartz-search-0-tags-0",
+    "completed": "#azure ",
+    "focus": "search-button"
+  },
+  {
+    "theme": "dark",
+    "port": 48264,
+    "input": "#az",
+    "suggestion": "#azure",
+    "ink": "rgb(63, 242, 63)",
+    "adjust": "none",
+    "active": "quartz-search-0-tags-0",
+    "completed": "#azure ",
+    "focus": "search-button"
+  }
+]

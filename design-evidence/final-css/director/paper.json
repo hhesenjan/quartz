@@ -1,0 +1,82 @@
+[
+  {
+    "port": 48261,
+    "slug": "/",
+    "ink": "rgb(245, 245, 245)",
+    "body": "rgb(0, 0, 0)",
+    "contents": null,
+    "overflow": 0
+  },
+  {
+    "port": 48261,
+    "slug": "/blog/0057-setting-up-azure-machine-configuration",
+    "ink": "rgb(245, 245, 245)",
+    "body": "rgb(0, 0, 0)",
+    "contents": "block",
+    "red": [
+      "#D73A49",
+      "rgb(249, 117, 131)"
+    ],
+    "overflow": 4
+  },
+  {
+    "port": 48262,
+    "slug": "/",
+    "ink": "rgb(20, 20, 19)",
+    "body": "rgb(255, 255, 255)",
+    "contents": null,
+    "overflow": 0
+  },
+  {
+    "port": 48262,
+    "slug": "/blog/0057-setting-up-azure-machine-configuration",
+    "ink": "rgb(20, 20, 19)",
+    "body": "rgb(255, 255, 255)",
+    "contents": "block",
+    "red": [
+      "#D73A49",
+      "rgb(215, 58, 73)"
+    ],
+    "overflow": 0
+  },
+  {
+    "port": 48263,
+    "slug": "/",
+    "ink": "rgb(20, 20, 19)",
+    "body": "rgb(255, 255, 255)",
+    "contents": null,
+    "overflow": 0
+  },
+  {
+    "port": 48263,
+    "slug": "/blog/0057-setting-up-azure-machine-configuration",
+    "ink": "rgb(20, 20, 19)",
+    "body": "rgb(255, 255, 255)",
+    "contents": "none",
+    "red": [
+      "#D73A49",
+      "color(srgb 0.613725 0.182745 0.222745)"
+    ],
+    "overflow": 0
+  },
+  {
+    "port": 48264,
+    "slug": "/",
+    "ink": "rgb(20, 20, 19)",
+    "body": "rgb(255, 255, 255)",
+    "contents": null,
+    "overflow": 0
+  },
+  {
+    "port": 48264,
+    "slug": "/blog/0057-setting-up-azure-machine-configuration",
+    "ink": "rgb(20, 20, 19)",
+    "body": "rgb(255, 255, 255)",
+    "contents": "none",
+    "red": [
+      "#D73A49",
+      "color(srgb 0.613725 0.182745 0.222745)"
+    ],
+    "overflow": 0
+  }
+]

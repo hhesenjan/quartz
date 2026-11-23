@@ -1,5 +1,12 @@
 # Design decisions
 
+## Print and high-contrast Search
+
+| Cycle | Rejected implementation and reason |
+| --- | --- |
+| 49 | Switching dark pages to paper colors left Shiki keywords at 3.97:1 when printing backgrounds. The compact Contents control still printed and Home added a blank sheet. The corrected print layout uses the light syntax ink from either theme, limits compact navigation to the screen and releases viewport minimum heights on paper. [Printed dark article and Home](design-evidence/final-css/cycle-49-print-dark.webp) |
+| 50 | Clipping one pixel from the autocomplete overlay removed the line across the search field. With a tag selected in forced colors, the browser still painted over the typed prefix. After typing `#az`, the user saw only `ure`. Preserve the suggestion's transparency and use the system GrayText color for its suffix. [Intermediate result](design-evidence/final-css/forced-search-dark.webp) · [Corrected query](design-evidence/final-css/final-forced-search-dark.webp) |
+
 ## Graph startup and Home certification table
 
 | Cycle | Rejected implementation and reason |

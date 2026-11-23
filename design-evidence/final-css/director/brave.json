@@ -1,0 +1,227 @@
+[
+  {
+    "browser": "brave",
+    "version": "158.0.8127.42",
+    "width": 390,
+    "theme": "dark",
+    "cold": {
+      "pos": 0,
+      "max": 418,
+      "c": [],
+      "ink": "rgb(245, 245, 245)",
+      "background": "rgb(0, 0, 0)",
+      "doc": 390,
+      "w": 390
+    },
+    "set": {
+      "pos": 418,
+      "max": 418,
+      "c": [],
+      "ink": "rgb(245, 245, 245)",
+      "background": "rgb(0, 0, 0)",
+      "doc": 390,
+      "w": 390
+    },
+    "once": {
+      "pos": 418,
+      "max": 418,
+      "c": [],
+      "ink": "rgb(245, 245, 245)",
+      "background": "rgb(0, 0, 0)",
+      "doc": 390,
+      "w": 390
+    },
+    "rapid": {
+      "pos": 418,
+      "max": 418,
+      "c": [],
+      "ink": "rgb(245, 245, 245)",
+      "background": "rgb(0, 0, 0)",
+      "doc": 390,
+      "w": 390
+    },
+    "interaction": {
+      "/blog/": {
+        "pos": 500,
+        "open": {
+          "rect": [
+            0,
+            0,
+            390,
+            844
+          ],
+          "edges": true,
+          "ink": "rgb(0, 0, 0)",
+          "doc": 75,
+          "tree": 2808
+        },
+        "focus": true,
+        "restored": 75
+      },
+      "/blog/0057-setting-up-azure-machine-configuration": {
+        "pos": 500,
+        "open": {
+          "rect": [
+            0,
+            0,
+            390,
+            844
+          ],
+          "edges": true,
+          "ink": "rgb(0, 0, 0)",
+          "doc": 75,
+          "tree": 2808
+        },
+        "focus": true,
+        "restored": 75
+      },
+      "/certifications/": {
+        "pos": 0,
+        "open": {
+          "rect": [
+            0,
+            0,
+            390,
+            844
+          ],
+          "edges": true,
+          "ink": "rgb(0, 0, 0)",
+          "doc": 0,
+          "tree": 0
+        },
+        "focus": true,
+        "restored": 0
+      }
+    }
+  },
+  {
+    "browser": "brave",
+    "version": "158.0.8127.42",
+    "width": 900,
+    "theme": "light",
+    "cold": {
+      "pos": 0,
+      "max": 128,
+      "c": [
+        [
+          250,
+          250
+        ]
+      ],
+      "ink": "rgb(20, 20, 19)",
+      "background": "rgb(250, 249, 245)",
+      "doc": 888,
+      "w": 900
+    },
+    "set": {
+      "pos": 128,
+      "max": 128,
+      "c": [
+        [
+          250,
+          250
+        ]
+      ],
+      "ink": "rgb(20, 20, 19)",
+      "background": "rgb(250, 249, 245)",
+      "doc": 888,
+      "w": 900
+    },
+    "once": {
+      "pos": 128,
+      "max": 128,
+      "c": [
+        [
+          250,
+          250
+        ]
+      ],
+      "ink": "rgb(20, 20, 19)",
+      "background": "rgb(250, 249, 245)",
+      "doc": 888,
+      "w": 900
+    },
+    "rapid": {
+      "pos": 128,
+      "max": 128,
+      "c": [
+        [
+          250,
+          250
+        ]
+      ],
+      "ink": "rgb(20, 20, 19)",
+      "background": "rgb(250, 249, 245)",
+      "doc": 888,
+      "w": 900
+    },
+    "interaction": {
+      "graphFocus": true
+    }
+  },
+  {
+    "browser": "brave",
+    "version": "158.0.8127.42",
+    "width": 1440,
+    "theme": "dark",
+    "cold": {
+      "pos": 0,
+      "max": 97,
+      "c": [
+        [
+          250,
+          250
+        ]
+      ],
+      "ink": "rgb(245, 245, 245)",
+      "background": "rgb(0, 0, 0)",
+      "doc": 1428,
+      "w": 1440
+    },
+    "set": {
+      "pos": 97,
+      "max": 97,
+      "c": [
+        [
+          250,
+          250
+        ]
+      ],
+      "ink": "rgb(245, 245, 245)",
+      "background": "rgb(0, 0, 0)",
+      "doc": 1428,
+      "w": 1440
+    },
+    "once": {
+      "pos": 97,
+      "max": 97,
+      "c": [
+        [
+          250,
+          250
+        ]
+      ],
+      "ink": "rgb(245, 245, 245)",
+      "background": "rgb(0, 0, 0)",
+      "doc": 1428,
+      "w": 1440
+    },
+    "rapid": {
+      "pos": 97,
+      "max": 97,
+      "c": [
+        [
+          250,
+          250
+        ]
+      ],
+      "ink": "rgb(245, 245, 245)",
+      "background": "rgb(0, 0, 0)",
+      "doc": 1428,
+      "w": 1440
+    },
+    "interaction": {
+      "graphFocus": true
+    }
+  }
+]

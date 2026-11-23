@@ -1,0 +1,146 @@
+[
+  {
+    "port": 48261,
+    "slug": "/blog/",
+    "before": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "false",
+      "focus": false
+    },
+    "open": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "true",
+      "focus": true
+    },
+    "tree": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "true",
+      "focus": true
+    },
+    "after": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "false",
+      "focus": true
+    }
+  },
+  {
+    "port": 48261,
+    "slug": "/blog/0057-setting-up-azure-machine-configuration",
+    "before": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "false",
+      "focus": false
+    },
+    "open": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "true",
+      "focus": true
+    },
+    "tree": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "true",
+      "focus": true
+    },
+    "after": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "false",
+      "focus": true
+    }
+  },
+  {
+    "port": 48264,
+    "slug": "/blog/",
+    "before": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "false",
+      "focus": false
+    },
+    "open": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "true",
+      "focus": true
+    },
+    "tree": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "true",
+      "focus": true
+    },
+    "after": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "false",
+      "focus": true
+    }
+  },
+  {
+    "port": 48264,
+    "slug": "/blog/0057-setting-up-azure-machine-configuration",
+    "before": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "false",
+      "focus": false
+    },
+    "open": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "true",
+      "focus": true
+    },
+    "tree": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "true",
+      "focus": true
+    },
+    "after": {
+      "scroll": 500,
+      "x": 39.546875,
+      "y": 32.390625,
+      "hit": true,
+      "open": "false",
+      "focus": true
+    }
+  }
+]

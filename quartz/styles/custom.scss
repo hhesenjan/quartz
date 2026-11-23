@@ -99,23 +99,25 @@ $toolbar-gutter-fill:
   background: var(--light);
 }
 
-:root[saved-theme="dark"] {
-  --light: #000000;
-  --graph-edge: #707070;
-  --rule: #383838;
-  --gray: #ababab;
-  --darkgray: #f5f5f5;
-  --dark: #f5f5f5;
-  --secondary: #dedede;
-  --tertiary: #d9c3ad;
-  --highlight: #262626;
-  --textHighlight: #423b34;
-  --panel: #161616;
-  --nav-selection: #2c2926;
-  --selection-ink: #f0e8dd;
-  -webkit-tap-highlight-color: rgb(217 195 173 / 16%);
-  --scroll-thumb: #686761;
-  color-scheme: dark;
+@media screen {
+  :root[saved-theme="dark"] {
+    --light: #000000;
+    --graph-edge: #707070;
+    --rule: #383838;
+    --gray: #ababab;
+    --darkgray: #f5f5f5;
+    --dark: #f5f5f5;
+    --secondary: #dedede;
+    --tertiary: #d9c3ad;
+    --highlight: #262626;
+    --textHighlight: #423b34;
+    --panel: #161616;
+    --nav-selection: #2c2926;
+    --selection-ink: #f0e8dd;
+    -webkit-tap-highlight-color: rgb(217 195 173 / 16%);
+    --scroll-thumb: #686761;
+    color-scheme: dark;
+  }
 }
 
 // Page frame and scroll behavior
@@ -293,7 +295,7 @@ body[data-slug="index"] .page-header {
   display: none;
 }
 
-@media (width < #{map.get($breakpoints, desktop)}) {
+@media screen and (width < #{map.get($breakpoints, desktop)}) {
   .page-header .article-contents {
     display: block;
     margin-block-start: 0.625rem;
@@ -587,7 +589,7 @@ body[data-slug="index"] .page-header {
   }
 }
 
-@media all and not ($desktop) {
+@media screen and not ($desktop) {
   .page > #quartz-body .sidebar.right {
     &:not(:has(> :not(.graph, .toc))) {
       display: contents;
@@ -772,6 +774,14 @@ footer,
 .search input::placeholder {
   color: var(--gray);
   opacity: 1;
+}
+
+@media (forced-colors: active) {
+  // Keep the suggestion transparent over the typed prefix and use the reader's system ink.
+  .search .search-space > .ghost-text {
+    forced-color-adjust: none;
+    color: GrayText;
+  }
 }
 
 .search .result-card > h3 {
@@ -1599,18 +1609,20 @@ article .markdown-rendered :is(figure img, img[src*="/images/"]):not([src$=".svg
 // Technical content and syntax highlighting
 
 // Keep block code on its own neutral palette, including captions and copy controls.
-:root[saved-theme="dark"]
-  :where(figure[data-rehype-pretty-code-figure], pre:has(> code:not(.mermaid))) {
-  --panel: #101010;
-  --light: #000;
-  --lightgray: #292929;
-  --gray: #a8a8a8;
-  --darkgray: #d0d0d0;
-  --dark: #f2f2f2;
-  --tertiary: #fff;
-  --highlight: #202020;
-  --nav-selection: rgb(255 255 255 / 13%);
-  --selection-ink: var(--dark);
+@media screen {
+  :root[saved-theme="dark"]
+    :where(figure[data-rehype-pretty-code-figure], pre:has(> code:not(.mermaid))) {
+    --panel: #101010;
+    --light: #000;
+    --lightgray: #292929;
+    --gray: #a8a8a8;
+    --darkgray: #d0d0d0;
+    --dark: #f2f2f2;
+    --tertiary: #fff;
+    --highlight: #202020;
+    --nav-selection: rgb(255 255 255 / 13%);
+    --selection-ink: var(--dark);
+  }
 }
 
 pre,
@@ -1627,11 +1639,6 @@ pre {
 
 code {
   font-size: 0.875em;
-}
-
-// Shiki's light palette assumes a white background. The code surface here is warm ivory.
-:where(:root:not([saved-theme="dark"])) pre code[data-theme] span[style*="--shiki-light"] {
-  color: color-mix(in srgb, var(--shiki-light) 70%, var(--dark));
 }
 
 pre code[data-theme] span[data-token-type="comment"] {
@@ -2313,11 +2320,13 @@ pre code[data-theme] span[data-token-type="comment"] {
     font-variant-numeric: tabular-nums;
 
     // Let comparison columns keep short values on one line as the reader pans.
-    &:has(> :is(thead, tbody) > tr > :nth-child(3)) {
-      inline-size: max-content;
-      min-inline-size: 100%;
-      :is(th, td) {
-        max-inline-size: 36ch;
+    @media screen {
+      &:has(> :is(thead, tbody) > tr > :nth-child(3)) {
+        inline-size: max-content;
+        min-inline-size: 100%;
+        :is(th, td) {
+          max-inline-size: 36ch;
+        }
       }
     }
     :is(th, td) {
@@ -2683,5 +2692,45 @@ pre code[data-theme] span[data-token-type="comment"] {
   }
   :root[reader-mode="on"] .page:not(:has(button.readermode)) .sidebar {
     opacity: 1;
+  }
+}
+
+// Paper has no scrollport for navigation rails, wide commands or comparison tables.
+@media print {
+  :root {
+    --light: white;
+  }
+
+  body,
+  .page[data-frame] > #quartz-body {
+    min-block-size: 0;
+  }
+
+  .page > #quartz-body {
+    display: block;
+  }
+
+  .page > #quartz-body > .sidebar,
+  .skip-to-content,
+  .markdown-rendered pre > :is(button.clipboard-button, button.expand-button) {
+    display: none;
+  }
+
+  .markdown-rendered {
+    pre,
+    .table-container {
+      overflow: visible;
+    }
+
+    pre > code:not(.mermaid) {
+      inline-size: auto;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .table-container :is(th, td) {
+      overflow-wrap: anywhere;
+    }
   }
 }

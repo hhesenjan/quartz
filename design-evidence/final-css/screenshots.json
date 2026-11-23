@@ -1,0 +1,52 @@
+{
+  "49": {
+    "previousAccepted": "f7e6c19",
+    "pairedScreenshotsCaptured": 50,
+    "contactSheets": [
+      "cycle-49-390-light.webp",
+      "cycle-49-390-dark.webp",
+      "cycle-49-900-light.webp",
+      "cycle-49-900-dark.webp",
+      "cycle-49-1440-light.webp",
+      "cycle-49-1440-dark.webp",
+      "cycle-49-print-light.webp",
+      "cycle-49-print-dark.webp"
+    ]
+  },
+  "50": {
+    "previousAccepted": "f7e6c19",
+    "pairedScreenshotsCaptured": 50,
+    "contactSheets": [
+      "cycle-50-390-light.webp",
+      "cycle-50-390-dark.webp",
+      "cycle-50-900-light.webp",
+      "cycle-50-900-dark.webp",
+      "cycle-50-1440-light.webp",
+      "cycle-50-1440-dark.webp",
+      "cycle-50-print-light.webp",
+      "cycle-50-print-dark.webp"
+    ],
+    "forcedColorsPairs": [
+      "forced-search-light.webp",
+      "forced-search-dark.webp"
+    ]
+  },
+  "51": {
+    "previousAccepted": "f7e6c19",
+    "pairedScreenshotsCaptured": 50,
+    "contactSheets": [
+      "cycle-51-390-light.webp",
+      "cycle-51-390-dark.webp",
+      "cycle-51-900-light.webp",
+      "cycle-51-900-dark.webp",
+      "cycle-51-1440-light.webp",
+      "cycle-51-1440-dark.webp",
+      "cycle-51-print-light.webp",
+      "cycle-51-print-dark.webp"
+    ],
+    "forcedColorsPairs": [
+      "final-forced-search-light.webp",
+      "final-forced-search-dark.webp"
+    ]
+  }
+}
