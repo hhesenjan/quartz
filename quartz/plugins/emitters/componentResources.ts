@@ -413,10 +413,10 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         include: Features.MediaQueries,
       }).code.toString()
 
-      const cssStringToFilename = new Map<string, string>()
+      // Every page links the same component styles in registration order.
+      // Keep their layer boundaries and deduplicate identical minified output.
+      const componentStyles = new Set<string>()
       for (const cssString of componentResources.componentCssStrings) {
-        if (cssStringToFilename.has(cssString)) continue
-
         const wrapped = `@layer quartz-base {\n${cssString}\n}`
         const minified = transform({
           filename: "component.css",
@@ -426,20 +426,23 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
           include: Features.MediaQueries,
         }).code.toString()
 
-        const hash = hashContent(minified)
-        const slug = `component-${hash}`
-        const filename = `${slug}.css`
-        cssStringToFilename.set(cssString, filename)
+        componentStyles.add(minified)
+      }
 
+      ctx.componentCssMap = new Map()
+      if (componentStyles.size > 0) {
+        const content = [...componentStyles].join("\n")
+        const slug = `components-${hashContent(content)}`
+        for (const cssString of componentResources.componentCssStrings) {
+          ctx.componentCssMap.set(cssString, `${slug}.css`)
+        }
         yield write({
           ctx,
           slug: slug as FullSlug,
           ext: ".css",
-          content: minified,
+          content,
         })
       }
-
-      ctx.componentCssMap = cssStringToFilename
 
       // Extract inline CSS/JS from plugin externalResources() into external files.
       // This prevents large inline payloads (e.g. theme CSS) from being duplicated
