@@ -218,7 +218,7 @@ plugins:
     enabled: true
     options:
       links:
-        LinkedIn: https://linkedin.com/u/hhesenjan
+        LinkedIn: https://www.linkedin.com/in/hhesenjan/
     layout:
       position: footer
       priority: 50
